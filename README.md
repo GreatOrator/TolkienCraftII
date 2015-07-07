@@ -1,4 +1,4 @@
-# TolkienCraftII
+# TolkienCraft 2.6.4
 Config and mod update tracking
 -----------------------------------------------------------------------------------------------------------
 One ring to build them all….
