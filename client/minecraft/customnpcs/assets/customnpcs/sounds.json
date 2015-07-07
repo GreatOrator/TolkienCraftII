@@ -1,0 +1,34 @@
+{
+  "songs.concerning_hobbits": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/Concerning Hobbits", "stream": true}]
+  },
+    "human.female.evil.witch_laugh": {
+    "category": "player",
+    "sounds": [{"name": "customsounds/Evil Witch Laugh", "stream": true}]
+  },
+    "human.male.evil.demon_laugh": {
+    "category": "player",
+    "sounds": [{"name": "customsounds/Demonic Laughter", "stream": true}]
+  },
+    "misc.ambient.medieval.city.market": {
+    "category": "player",
+    "sounds": [{"name": "customsounds/Medieval city market", "stream": true}]
+  },
+    "misc.ambient.medieval.city.daytime": {
+    "category": "player",
+    "sounds": [{"name": "customsounds/Medieval city - Daytime", "stream": true}]
+  },
+    "misc.ambient.medieval.city.tavern": {
+    "category": "player",
+    "sounds": [{"name": "customsounds/Medieval Tavern", "stream": true}]
+  },  
+    "misc.ambient.medieval.seaport": {
+    "category": "player",
+    "sounds": [{"name": "customsounds/Seaport", "stream": true}]
+  },  
+	"misc.lament": {
+    "category": "player",
+    "sounds": [{"name": "customsounds/Ghostly Lament", "stream": true}]
+  }
+}

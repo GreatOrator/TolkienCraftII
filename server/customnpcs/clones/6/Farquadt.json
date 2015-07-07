@@ -1,0 +1,408 @@
+{
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    DisablePitch: 0b,
+    MoveState: 0,
+    CustomName: "",
+    ScriptsContainers: [
+    ],
+    UsingSkinUrl: 0b,
+    stopAndInteract: 0b,
+    AimWhileShooting: 0b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    hasUnlockedAugmented: 1b,
+    PotionImmune: 0b,
+    maxDelay: 40,
+    AttackStrenght: 5,
+    GlowTexture: "",
+    Texture: "customnpcs:textures/CustomSkins/Guy/skin20120919071632935941-banker.png",
+    KnockBack: 0,
+    ReactsToFire: 0b,
+    pSpin: 0b,
+    npcInteracting: 0b,
+    Fire: -1s,
+    isShrunk: 0b,
+    PotionAmp: 0,
+    pStick: 0b,
+    NoFallDamage: 0b,
+    RangeAndMelee: 0,
+    pImpact: 0,
+    NpcLines: {
+        Lines: [
+        ]
+    },
+    Invulnerable: 0b,
+    DeathTime: 0s,
+    ModRev: 16,
+    FactionID: 6,
+    BurstCount: 1,
+    DropChance: [
+        {
+            Slot: 0,
+            Integer: 100
+        },
+        {
+            Slot: 1,
+            Integer: 100
+        },
+        {
+            Slot: 2,
+            Integer: 100
+        },
+        {
+            Slot: 3,
+            Integer: 100
+        },
+        {
+            Slot: 4,
+            Integer: 100
+        },
+        {
+            Slot: 5,
+            Integer: 100
+        },
+        {
+            Slot: 6,
+            Integer: 100
+        },
+        {
+            Slot: 7,
+            Integer: 100
+        },
+        {
+            Slot: 8,
+            Integer: 100
+        }
+    ],
+    NpcJob: 4,
+    NpcInv: [
+    ],
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    TotalTicksAlive: 53445L,
+    HurtTime: 0s,
+    OnGround: 1b,
+    StandingState: 3,
+    pRender3D: 0b,
+    FireRate: 5,
+    SkinUrl: "",
+    TransformHasAdvanced: 0b,
+    ImmuneToFire: 0b,
+    Air: 300s,
+    CanPickUpLoot: 0b,
+    PortalCooldown: 0,
+    CanLeap: 0b,
+    AvoidsSun: 0b,
+    Rotation: [
+        -245.74034f,
+        0.0f
+    ],
+    ShotCount: 1,
+    pDamage: 4,
+    igLines: [
+        {
+            Line: "You look like you could use this {player}"
+        }
+    ],
+    NpcInteractLines: {
+        Lines: [
+            {
+                Song: "",
+                Slot: 0,
+                Line: "Good day @p! Hopefully you can help our kingdom."
+            }
+        ]
+    },
+    UUIDLeast: -4787256790930666933L,
+    TransformHasDisplay: 0b,
+    MovingPos: 0,
+    CloakTexture: "",
+    BurnInSun: 0b,
+    NpcIdleSound: "",
+    MaxExp: 0,
+    TransformHasAI: 0b,
+    NpcStepSound: "",
+    TransformHasInv: 0b,
+    CustomNameVisible: 0b,
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        DecreaseFaction2Points: 0b,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        OptionFaction2Points: 100
+    },
+    igCooldownType: 0,
+    igJobInventory: {
+        NpcMiscInv: [
+            {
+                id: 4185s,
+                Damage: 0s,
+                Count: 1b,
+                Slot: 0b
+            }
+        ]
+    },
+    ScriptLanguage: "ECMAScript",
+    Resistances: {
+        Melee: 1.0f,
+        Arrow: 1.0f,
+        Explosion: 0.0f,
+        Knockback: 1.0f
+    },
+    pEffAmp: 0,
+    MinExp: 0,
+    CanSprint: 0b,
+    ReturnToStart: 1b,
+    pXlr8: 0b,
+    ScriptEnabled: 0b,
+    igGivingMethod: 0,
+    Orientation: 180,
+    AbsorptionAmount: 0.0f,
+    RespawnTime: 20,
+    WalkingRange: 2,
+    AvoidsWater: 0b,
+    ItemGiverId: 0,
+    NpcHurtSound: "minecraft:game.player.hurt",
+    Title: "Banker",
+    MaxFiringRange: 15,
+    MoveSpeed: 6,
+    pSpeed: 10,
+    Role: 3,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    curMana: 500.0f,
+    MovingPatern: 0,
+    pSize: 5,
+    DistanceToMelee: 4,
+    Attributes: [
+        {
+            Name: "am2.maxManaBonus",
+            Base: 0.0d
+        },
+        {
+            Name: "am2.maxBurnoutBonus",
+            Base: 0.0d
+        },
+        {
+            Name: "am2.xpMultiplier",
+            Base: 1.0d
+        },
+        {
+            Name: "am2.burnoutReduction",
+            Base: 1.0d
+        },
+        {
+            Name: "am2.manaRegenModifier",
+            Base: 1.0d
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 50.0d
+        },
+        {
+            Name: "generic.knockbackResistance",
+            Base: 0.0d
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: 0.30000001192092896d
+        },
+        {
+            Name: "generic.followRange",
+            Base: 64.0d
+        },
+        {
+            Name: "generic.attackDamage",
+            Base: 5.0d
+        }
+    ],
+    pEffect: 0,
+    HealthRegen: 5,
+    igAvailability: {
+        AvailabilityQuest4: 0,
+        AvailabilityQuest3: 0,
+        AvailabilityFactionId: -1,
+        AvailabilityMinPlayerLevel: 0,
+        AvailabilityQuest3Id: -1,
+        AvailabilityQuest2: 0,
+        AvailabilityQuest2Id: -1,
+        AvailabilityQuestId: -1,
+        AvailabilityQuest: 0,
+        AvailabilityFactionStance: 0,
+        AvailabilityDayTime: 0,
+        AvailabilityFaction2: 0,
+        ModRev: 16,
+        AvailabilityDialog: 0,
+        AvailabilityDialog2: 0,
+        AvailabilityFaction2Stance: 0,
+        AvailabilityQuest4Id: -1,
+        AvailabilityFaction: 0,
+        AvailabilityDialog2Id: -1,
+        AvailabilityDialog4: 0,
+        AvailabilityDialog3: 0,
+        AvailabilityDialogId: -1,
+        AvailabilityFaction2Id: -1,
+        AvailabilityDialog4Id: -1,
+        AvailabilityDialog3Id: -1
+    },
+    CanDrown: 1b,
+    PotionEffect: 0,
+    PotionDuration: 5,
+    AttackInvisible: 0b,
+    HealF: 50.0f,
+    FindShelter: 2,
+    NpcModelData: {
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.0f,
+            ScaleY: 1.0f,
+            TransZ: 0.0f
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.0f,
+            ScaleY: 1.0f,
+            TransZ: 0.0f
+        },
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.0f,
+            ScaleY: 1.0f,
+            TransZ: 0.0f
+        },
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.0f,
+            ScaleY: 1.0f,
+            TransZ: 0.0f
+        },
+        Breasts: 0b,
+        ExtraData: {
+        },
+        Headwear: 2b
+    },
+    DefendFaction: 0b,
+    AttackTime: 0s,
+    DirectLOS: 1b,
+    IgnoreCobweb: 0b,
+    magicLevel: 0s,
+    NpcDeathSound: "minecraft:game.player.hurt",
+    curFatigue: 0.0f,
+    Size: 5,
+    CreatureType: 0,
+    AggroRange: 16,
+    ForgeData: {
+        WITCInitialWidth: 0.6f,
+        WITCInitialHeight: 1.9f
+    },
+    FiringSound: "random.bow",
+    isCritical: 0b,
+    UUIDMost: -2655011130250803652L,
+    RoleBankID: 0,
+    CombatRegen: 0,
+    MovingPause: 1b,
+    CanSwim: 1b,
+    pArea: 0,
+    MovingState: 0,
+    igCooldown: 3600,
+    HideBodyWhenKilled: 0b,
+    MaxHealth: 50,
+    magicXP: 0.0f,
+    TacticalVariant: 0,
+    TransformHasStats: 0b,
+    minDelay: 20,
+    PersistenceRequired: 0b,
+    LinkedNpcName: "",
+    DoorInteract: 2,
+    TransformHasJob: 0b,
+    TransformEditingModus: 0b,
+    TransformHasRole: 0b,
+    pPhysics: 1b,
+    BossBar: 0b,
+    NpcKillLines: {
+        Lines: [
+        ]
+    },
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CanDespawn: 0b,
+    TransformIsActive: 0b,
+    Accuracy: 60,
+    Health: 50s,
+    SpawnCycle: 0,
+    NPCDialogOptions: [
+    ],
+    id: "CustomNpc",
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    KilledTime: 0L,
+    PositionOffsetZ: 5.0f,
+    pTrail: 0,
+    NoLivingAnimation: 0b,
+    pGlows: 0b,
+    pDur: 5,
+    NpcVisible: 0,
+    OnAttack: 3,
+    AttackSpeed: 20,
+    Dimension: 0,
+    AttackOtherFactions: 0b,
+    Name: "Farquadt",
+    Weapons: [
+        {
+            id: 4185s,
+            Damage: 0s,
+            Count: 1b,
+            Slot: 2b
+        }
+    ],
+    Armor: [
+    ],
+    Leashed: 0b,
+    armorCooldowns: [0,0,0,0],
+    TacticalRadius: 8,
+    NpcAngrySound: "",
+    FallDistance: 0.0f,
+    AttackRange: 2,
+    FireIndirect: 0,
+    pExplode: 0b,
+    ShowName: 0
+}

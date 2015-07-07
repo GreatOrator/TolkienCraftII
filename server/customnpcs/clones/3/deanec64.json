@@ -1,0 +1,397 @@
+{
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    DisablePitch: 0b,
+    MoveState: 0,
+    CustomName: "",
+    ScriptsContainers: [
+    ],
+    UsingSkinUrl: 1b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    hasUnlockedAugmented: 1b,
+    maxDelay: 40,
+    AttackStrenght: 15,
+    Texture: "customnpcs:textures/entity/humanmale/Steve.png",
+    GlowTexture: "",
+    KnockBack: 4,
+    ReactsToFire: 0b,
+    pSpin: 0b,
+    Fire: -1s,
+    isShrunk: 0b,
+    PotionAmp: 0,
+    pStick: 0b,
+    NoFallDamage: 0b,
+    RangeAndMelee: 0,
+    pImpact: 3,
+    NpcLines: {
+        Lines: [
+        ]
+    },
+    Invulnerable: 0b,
+    DeathTime: 0s,
+    ModRev: 15,
+    FactionID: 12,
+    BurstCount: 1,
+    DropChance: [
+        {
+            Slot: 0,
+            Integer: 100
+        },
+        {
+            Slot: 1,
+            Integer: 100
+        },
+        {
+            Slot: 2,
+            Integer: 100
+        },
+        {
+            Slot: 3,
+            Integer: 100
+        },
+        {
+            Slot: 4,
+            Integer: 100
+        },
+        {
+            Slot: 5,
+            Integer: 100
+        },
+        {
+            Slot: 6,
+            Integer: 100
+        },
+        {
+            Slot: 7,
+            Integer: 100
+        },
+        {
+            Slot: 8,
+            Integer: 100
+        }
+    ],
+    NpcJob: 4,
+    NpcInv: [
+    ],
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    HurtTime: 0s,
+    OnGround: 1b,
+    StandingState: 0,
+    pRender3D: 0b,
+    FireRate: 5,
+    TransformHasAdvanced: 0b,
+    ImmuneToFire: 1b,
+    Air: 300s,
+    CanPickUpLoot: 0b,
+    PortalCooldown: 0,
+    AvoidsSun: 0b,
+    CanLeap: 0b,
+    pDamage: 10,
+    ShotCount: 1,
+    Rotation: [
+        137.98804f,
+        0.0f
+    ],
+    igLines: [
+        {
+            Line: "Have these items {player}"
+        }
+    ],
+    NpcInteractLines: {
+        Lines: [
+            {
+                Song: "",
+                Slot: 0,
+                Line: "Hello @p"
+            }
+        ]
+    },
+    UUIDLeast: -5506240029218881697L,
+    TransformHasDisplay: 0b,
+    MovingPos: 0,
+    CloakTexture: "",
+    BurnInSun: 0b,
+    NpcIdleSound: "",
+    MaxExp: 0,
+    TransformHasAI: 0b,
+    NpcStepSound: "",
+    TransformHasInv: 0b,
+    CustomNameVisible: 0b,
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        DecreaseFaction2Points: 0b,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        OptionFaction2Points: 100
+    },
+    igCooldownType: 0,
+    igJobInventory: {
+        NpcMiscInv: [
+        ]
+    },
+    ScriptLanguage: "ECMAScript",
+    Resistances: {
+        Melee: 2.0f,
+        Arrow: 2.0f,
+        Knockback: 2.0f
+    },
+    pEffAmp: 0,
+    MinExp: 0,
+    CanSprint: 1b,
+    ReturnToStart: 1b,
+    pXlr8: 0b,
+    ScriptEnabled: 0b,
+    igGivingMethod: 0,
+    Orientation: 0,
+    AbsorptionAmount: 0.0f,
+    RespawnTime: 20,
+    TransporterId: -1,
+    WalkingRange: 5,
+    AvoidsWater: 0b,
+    ItemGiverId: 0,
+    NpcHurtSound: "minecraft:game.player.hurt",
+    Title: "Hero of Draconis",
+    MaxFiringRange: 15,
+    MoveSpeed: 6,
+    pSpeed: 10,
+    Role: 0,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    curMana: 500.0f,
+    MovingPatern: 0,
+    pSize: 5,
+    DistanceToMelee: 4,
+    Attributes: [
+        {
+            Name: "am2.maxManaBonus",
+            Base: 0.0d
+        },
+        {
+            Name: "am2.maxBurnoutBonus",
+            Base: 0.0d
+        },
+        {
+            Name: "am2.xpMultiplier",
+            Base: 1.0d
+        },
+        {
+            Name: "am2.burnoutReduction",
+            Base: 1.0d
+        },
+        {
+            Name: "am2.manaRegenModifier",
+            Base: 1.0d
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 200.0d
+        },
+        {
+            Name: "generic.knockbackResistance",
+            Base: 0.0d
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: 0.30000001192092896d
+        },
+        {
+            Name: "generic.followRange",
+            Base: 64.0d
+        },
+        {
+            Name: "generic.attackDamage",
+            Base: 15.0d
+        }
+    ],
+    igAvailability: {
+        AvailabilityQuest4: 0,
+        AvailabilityQuest3: 0,
+        AvailabilityFactionId: -1,
+        AvailabilityMinPlayerLevel: 0,
+        AvailabilityQuest3Id: -1,
+        AvailabilityQuest2: 0,
+        AvailabilityQuest2Id: -1,
+        AvailabilityQuestId: -1,
+        AvailabilityQuest: 0,
+        AvailabilityFactionStance: 0,
+        AvailabilityDayTime: 0,
+        AvailabilityFaction2: 0,
+        ModRev: 15,
+        AvailabilityDialog: 0,
+        AvailabilityDialog2: 0,
+        AvailabilityFaction2Stance: 0,
+        AvailabilityQuest4Id: -1,
+        AvailabilityFaction: 0,
+        AvailabilityDialog2Id: -1,
+        AvailabilityDialog4: 0,
+        AvailabilityDialog3: 0,
+        AvailabilityDialogId: -1,
+        AvailabilityFaction2Id: -1,
+        AvailabilityDialog4Id: -1,
+        AvailabilityDialog3Id: -1
+    },
+    HealthRegen: 15,
+    pEffect: 0,
+    CanDrown: 0b,
+    PotionEffect: 2,
+    PotionDuration: 5,
+    HealF: 200.0f,
+    FindShelter: 2,
+    NpcModelData: {
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.0f,
+            ScaleY: 1.0f,
+            TransZ: 0.0f
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.0f,
+            ScaleY: 1.0f,
+            TransZ: 0.0f
+        },
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.0f,
+            ScaleY: 1.0f,
+            TransZ: 0.0f
+        },
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.0f,
+            ScaleY: 1.0f,
+            TransZ: 0.0f
+        },
+        Breasts: 0b,
+        ExtraData: {
+        },
+        Headwear: 2b
+    },
+    DefendFaction: 1b,
+    AttackTime: 0s,
+    DirectLOS: 0b,
+    IgnoreCobweb: 1b,
+    magicLevel: 0s,
+    NpcDeathSound: "minecraft:game.player.hurt",
+    curFatigue: 0.0f,
+    Size: 5,
+    CreatureType: 0,
+    AggroRange: 16,
+    ForgeData: {
+    },
+    FiringSound: "thaumcraft:egattack",
+    isCritical: 0b,
+    UUIDMost: 333320274989171375L,
+    CombatRegen: 20,
+    MovingPause: 1b,
+    CanSwim: 1b,
+    pArea: 0,
+    MovingState: 1,
+    igCooldown: 10,
+    HideBodyWhenKilled: 0b,
+    MaxHealth: 200,
+    magicXP: 0.0f,
+    TacticalVariant: 0,
+    TransformHasStats: 0b,
+    minDelay: 20,
+    PersistenceRequired: 0b,
+    DoorInteract: 1,
+    TransformHasJob: 0b,
+    TransformEditingModus: 0b,
+    TransformHasRole: 0b,
+    pPhysics: 0b,
+    BossBar: 0b,
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CanDespawn: 0b,
+    TransformIsActive: 0b,
+    Accuracy: 100,
+    Health: 200s,
+    SkinUsername: "deanec64",
+    SpawnCycle: 0,
+    NPCDialogOptions: [
+    ],
+    id: "CustomNpc",
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    KilledTime: 0L,
+    PositionOffsetZ: 5.0f,
+    pTrail: 1,
+    NoLivingAnimation: 0b,
+    pGlows: 1b,
+    pDur: 5,
+    NpcVisible: 0,
+    OnAttack: 0,
+    AttackSpeed: 20,
+    Dimension: 0,
+    AttackOtherFactions: 1b,
+    Name: "deanec64",
+    Weapons: [
+        {
+            id: 5355s,
+            Damage: 0s,
+            Count: 1b,
+            tag: {
+                Energy: 10000000
+            },
+            Slot: 0b
+        },
+        {
+            id: 5076s,
+            Damage: 0s,
+            Count: 1b,
+            Slot: 1b
+        }
+    ],
+    Armor: [
+    ],
+    Leashed: 0b,
+    armorCooldowns: [0,0,0,0],
+    TacticalRadius: 8,
+    NpcAngrySound: "",
+    FallDistance: 0.0f,
+    AttackRange: 2,
+    FireIndirect: 0,
+    pExplode: 0b,
+    ShowName: 0
+}

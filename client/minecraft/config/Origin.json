@@ -1,0 +1,34 @@
+{
+	"client": {
+		"weather volume": 100.0,
+		// Collapses the vanilla multiple rows of hearts into a colour coded single layer
+		"Coloured Hearts": true,
+		// The colors of the hearts. The quantity of colors here represents the tiers of hearts.(quantity * 20 + 20 = total max health accounted for)
+		"Heart Colours": [
+			"#ff1313",
+			"#f26c00",
+			"#eabd00",
+			"#00ce00",
+			"#0097ed",
+			"#aa7eff",
+			"#ea77fb",
+			"#fb77a0",
+			"#fbd177",
+			"#fbd177",
+			"#fbd177",
+			"#fbd177"
+		],
+		"block volume": 100.0,
+		"neutral volume": 100.0,
+		"player volume": 100.0,
+		"master volume": 22.516555786132812,
+		"record volume": 100.0,
+		"hostile volume": 100.0,
+		"music volume": 25.35211181640625,
+		"ambient volume": 100.0
+	},
+	"general": {
+		// Shhhhh!
+		"Secret Pumpkin": true
+	}
+}

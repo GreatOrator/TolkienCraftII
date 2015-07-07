@@ -1,0 +1,478 @@
+{
+    DisablePitch: 0b,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 0,
+    ScriptsContainers: [
+    ],
+    CustomName: "",
+    UsingSkinUrl: 0b,
+    stopAndInteract: 0b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    AimWhileShooting: 0b,
+    hasUnlockedAugmented: 1b,
+    maxDelay: 40,
+    PotionImmune: 1b,
+    AttackStrenght: 8,
+    GlowTexture: "",
+    Texture: "customnpcs:textures/CustomSkins/Creature/Jotun2.png",
+    Bukkit.updateLevel: 2,
+    KnockBack: 4,
+    ReactsToFire: 0b,
+    pSpin: 0b,
+    npcInteracting: 0b,
+    Fire: -1s,
+    isShrunk: 0b,
+    PotionAmp: 0,
+    NoFallDamage: 0b,
+    pStick: 0b,
+    RangeAndMelee: 0,
+    pImpact: 0,
+    NpcLines: {
+        Lines: [
+        ]
+    },
+    Invulnerable: 0b,
+    ModRev: 16,
+    DeathTime: 0s,
+    FactionID: 11,
+    DropChance: [
+        {
+            Slot: 0,
+            Integer: 100
+        },
+        {
+            Slot: 1,
+            Integer: 50
+        },
+        {
+            Slot: 2,
+            Integer: 75
+        },
+        {
+            Slot: 3,
+            Integer: 25
+        },
+        {
+            Slot: 4,
+            Integer: 25
+        },
+        {
+            Slot: 5,
+            Integer: 100
+        },
+        {
+            Slot: 6,
+            Integer: 100
+        },
+        {
+            Slot: 7,
+            Integer: 100
+        },
+        {
+            Slot: 8,
+            Integer: 100
+        }
+    ],
+    BurstCount: 1,
+    NpcInv: [
+        {
+            id: 5183s,
+            Damage: 0s,
+            Count: 1b,
+            tag: {
+                RepairCost: 2,
+                ench: [
+                    {
+                        id: 20s,
+                        lvl: 2s
+                    },
+                    {
+                        id: 19s,
+                        lvl: 2s
+                    },
+                    {
+                        id: 101s,
+                        lvl: 2s
+                    }
+                ],
+                display: {
+                    Name: "Tyltran's Destroyer"
+                }
+            },
+            Slot: 0b
+        },
+        {
+            id: 4185s,
+            Damage: 0s,
+            Count: 64b,
+            Slot: 1b
+        },
+        {
+            id: 5715s,
+            Damage: 0s,
+            Count: 16b,
+            Slot: 2b
+        },
+        {
+            id: 264s,
+            Damage: 0s,
+            Count: 6b,
+            Slot: 3b
+        },
+        {
+            id: 41s,
+            Damage: 0s,
+            Count: 2b,
+            Slot: 4b
+        },
+        {
+            id: 5375s,
+            Damage: 18s,
+            Count: 1b,
+            tag: {
+                RepairCost: 2,
+                IsSet: 1b,
+                display: {
+                    Name: "Shiney Bauble"
+                },
+                Dimension: 0,
+                Yaw: -262.66504f,
+                Y: 74.0d,
+                X: -158.13239842565898d,
+                Pitch: -27.749983f,
+                Z: 1130.1412425766653d
+            },
+            Slot: 5b
+        }
+    ],
+    NpcJob: 0,
+    TotalTicksAlive: 234580L,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    StandingState: 0,
+    HurtTime: 0s,
+    OnGround: 1b,
+    FireRate: 5,
+    pRender3D: 0b,
+    SkinUrl: "",
+    TransformHasAdvanced: 0b,
+    WorldUUIDLeast: -9163648752477400131L,
+    Air: 300s,
+    ImmuneToFire: 1b,
+    CanPickUpLoot: 0b,
+    PortalCooldown: 0,
+    CanLeap: 0b,
+    AvoidsSun: 0b,
+    Rotation: [
+        -305.1528f,
+        25.475365f
+    ],
+    ShotCount: 1,
+    pDamage: 4,
+    Spigot.ticksLived: 550131,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Song: "",
+                Slot: 0,
+                Line: "Good day @p! Hopefully you can help our kingdom."
+            }
+        ]
+    },
+    UUIDLeast: -6663059767599457544L,
+    TransformHasDisplay: 0b,
+    MovingPos: 0,
+    BurnInSun: 0b,
+    CloakTexture: "",
+    NpcIdleSound: "",
+    MaxExp: 300,
+    TransformHasAI: 0b,
+    NpcStepSound: "",
+    TransformHasInv: 0b,
+    CustomNameVisible: 0b,
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        DecreaseFaction2Points: 0b,
+        OptionFactions1: 11,
+        OptionFactions2: -1,
+        OptionFaction2Points: 100,
+        OptionFaction1Points: 1000
+    },
+    ScriptLanguage: "ECMAScript",
+    Resistances: {
+        Melee: 1.0f,
+        Arrow: 2.0f,
+        Explosion: 2.0f,
+        Knockback: 2.0f
+    },
+    pEffAmp: 0,
+    MinExp: 120,
+    CanSprint: 1b,
+    ReturnToStart: 1b,
+    pXlr8: 0b,
+    ScriptEnabled: 0b,
+    Orientation: 0,
+    AbsorptionAmount: 0.0f,
+    RespawnTime: 300,
+    WalkingRange: 5,
+    AvoidsWater: 0b,
+    NpcHurtSound: "minecraft:game.player.hurt",
+    Title: "Troll Chieftan",
+    MaxFiringRange: 15,
+    MoveSpeed: 6,
+    pSpeed: 10,
+    Role: 0,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    WorldUUIDMost: -4382826268870817550L,
+    curMana: 500.0f,
+    MovingPatern: 0,
+    pSize: 5,
+    DistanceToMelee: 4,
+    Attributes: [
+        {
+            Name: "am2.maxManaBonus",
+            Base: 0.0d
+        },
+        {
+            Name: "am2.maxBurnoutBonus",
+            Base: 0.0d
+        },
+        {
+            Name: "am2.xpMultiplier",
+            Base: 1.0d
+        },
+        {
+            Name: "am2.burnoutReduction",
+            Base: 1.0d
+        },
+        {
+            Name: "am2.manaRegenModifier",
+            Base: 1.0d
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 300.0d
+        },
+        {
+            Name: "generic.knockbackResistance",
+            Base: 0.0d
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: 0.30000001192092896d
+        },
+        {
+            Name: "generic.followRange",
+            Base: 64.0d
+        },
+        {
+            Name: "generic.attackDamage",
+            Base: 8.0d
+        }
+    ],
+    HealthRegen: 10,
+    pEffect: 0,
+    CanDrown: 0b,
+    PotionEffect: 5,
+    PotionDuration: 5,
+    AttackInvisible: 0b,
+    HealF: 300.0f,
+    NpcModelData: {
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+            {
+                Type: 1b,
+                PartName: "mohawk",
+                PlayerTexture: 0b,
+                Texture: "moreplayermodels:textures/hair/mohawk1.png",
+                Color: 268370175
+            },
+            {
+                Type: 2b,
+                PartName: "hair",
+                PlayerTexture: 0b,
+                Texture: "moreplayermodels:textures/hair/hair2.png",
+                Color: 257700631
+            }
+        ],
+        BodyConfig: {
+            ScaleZ: 1.5f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.5f,
+            TransZ: 0.0f,
+            ScaleY: 1.5f
+        },
+        HeadConfig: {
+            ScaleZ: 1.5f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.5f,
+            TransZ: 0.0f,
+            ScaleY: 1.5f
+        },
+        ArmsConfig: {
+            ScaleZ: 1.5f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.5f,
+            TransZ: 0.0f,
+            ScaleY: 1.5f
+        },
+        Breasts: 0b,
+        LegsConfig: {
+            ScaleZ: 1.5f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleX: 1.5f,
+            TransZ: 0.0f,
+            ScaleY: 1.5f
+        },
+        ExtraData: {
+        },
+        Headwear: 2b
+    },
+    FindShelter: 2,
+    DefendFaction: 0b,
+    DirectLOS: 0b,
+    AttackTime: 0s,
+    IgnoreCobweb: 1b,
+    magicLevel: 0s,
+    NpcDeathSound: "minecraft:game.player.hurt",
+    curFatigue: 0.0f,
+    Size: 9,
+    ForgeData: {
+        WITCInitialWidth: 1.08f,
+        WITCInitialHeight: 5.2200003f
+    },
+    AggroRange: 16,
+    CreatureType: 0,
+    FiringSound: "random.bow",
+    isCritical: 0b,
+    UUIDMost: 7355175511525114961L,
+    CombatRegen: 8,
+    MovingPause: 1b,
+    CanSwim: 1b,
+    pArea: 0,
+    MovingState: 0,
+    HideBodyWhenKilled: 0b,
+    TransformHasStats: 0b,
+    TacticalVariant: 0,
+    magicXP: 0.0f,
+    MaxHealth: 300,
+    PersistenceRequired: 0b,
+    minDelay: 20,
+    LinkedNpcName: "",
+    TransformHasJob: 0b,
+    DoorInteract: 2,
+    TransformEditingModus: 0b,
+    TransformHasRole: 0b,
+    pPhysics: 1b,
+    BossBar: 2b,
+    NpcKillLines: {
+        Lines: [
+        ]
+    },
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    TransformIsActive: 0b,
+    CanDespawn: 0b,
+    Accuracy: 60,
+    Health: 300s,
+    NPCDialogOptions: [
+        {
+            DialogSlot: 0,
+            NPCDialog: {
+                DialogColor: 14737632,
+                DialogCommand: "",
+                Dialog: 133,
+                OptionType: 2,
+                Title: "Tyltran I"
+            }
+        }
+    ],
+    SpawnCycle: 0,
+    id: "CustomNpc",
+    PositionOffsetY: 5.0f,
+    KilledTime: 0L,
+    PositionOffsetX: 5.0f,
+    PositionOffsetZ: 5.0f,
+    NoLivingAnimation: 0b,
+    pTrail: 0,
+    pGlows: 0b,
+    OnAttack: 0,
+    NpcVisible: 0,
+    pDur: 5,
+    AttackSpeed: 20,
+    Dimension: 0,
+    AttackOtherFactions: 0b,
+    Name: "Tyltran",
+    Weapons: [
+        {
+            id: 5183s,
+            Damage: 0s,
+            Count: 1b,
+            tag: {
+                RepairCost: 2,
+                ench: [
+                    {
+                        id: 20s,
+                        lvl: 2s
+                    },
+                    {
+                        id: 19s,
+                        lvl: 2s
+                    },
+                    {
+                        id: 101s,
+                        lvl: 2s
+                    }
+                ],
+                display: {
+                    Name: "Tyltran's Destroyer"
+                }
+            },
+            Slot: 0b
+        }
+    ],
+    Armor: [
+    ],
+    Leashed: 0b,
+    armorCooldowns: [0,0,0,0],
+    NpcAngrySound: "",
+    TacticalRadius: 8,
+    FallDistance: 0.0f,
+    AttackRange: 2,
+    FireIndirect: 0,
+    ShowName: 0,
+    pExplode: 0b
+}
