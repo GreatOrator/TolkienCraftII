@@ -2,15 +2,26 @@
 
 client/minecraft/logs
 client/minecraft/icon.png
-client/minecraft/usercache.json
 client/minecraft/saves
 client/minecraft/asm
 client/instance.cfg
 client/minecraft/journeymap
 client/minecraft/reports
 client/patches
+
+# Config
+
 client/minecraft/config/YAMPST.nbt
+client/minecraft/config/splash.properties
+client/minecraft/config/IChunUtil_Stats.cfg
+client/minecraft/config/InvTweaks.cfg
+client/minecraft/config/fastcraft.ini
+
+#Caches
+
+client/minecraft/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
 client/minecraft/customnpcs/assets/customnpcs/textures/cache
+client/minecraft/usercache.json
 
 # Created by https://www.gitignore.io
 
