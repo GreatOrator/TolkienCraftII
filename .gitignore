@@ -1,11 +1,9 @@
 ### Project Specific ###
-*
 
-!client/
-!server/
-!LICENSE.md
-!README.md
-!.gitignore
+client/minecraft/logs
+client/minecraft/icon.png
+client/minecraft/usercache.json
+client/minecraft/saves
 
 # Created by https://www.gitignore.io
 
