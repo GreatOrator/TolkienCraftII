@@ -4,6 +4,13 @@ client/minecraft/logs
 client/minecraft/icon.png
 client/minecraft/usercache.json
 client/minecraft/saves
+client/minecraft/asm
+client/instance.cfg
+client/minecraft/journeymap
+client/minecraft/reports
+client/patches
+client/minecraft/config/YAMPST.nbt
+client/minecraft/customnpcs/assets/customnpcs/textures/cache
 
 # Created by https://www.gitignore.io
 
