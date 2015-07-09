@@ -7,6 +7,10 @@
 **/journeymap
 **/reports
 **/mods/ruins_log.txt
+**/natives
+**/stats/player.uid
+**/backups
+client/minecraft/usernamecache.json
 
 # Server Only
 server/world
