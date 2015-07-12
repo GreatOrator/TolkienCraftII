@@ -10,6 +10,7 @@
 **/natives
 **/stats/player.uid
 **/backups
+**/template
 client/minecraft/usernamecache.json
 
 # Server Only
