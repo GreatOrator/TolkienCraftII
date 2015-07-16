@@ -39,7 +39,7 @@ client/minecraft/icon.png
 **/config/IChunUtil.cfg
 **/config/InvTweaks.cfg
 **/config/fastcraft.ini
-**/config/hqm/editmode.cfg
+client/minecraft/config/hqm/editmode.cfg
 
 # Caches
 
