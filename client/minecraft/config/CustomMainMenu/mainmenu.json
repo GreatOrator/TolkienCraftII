@@ -184,6 +184,7 @@
     {
         "splash-text":
         {
+			"file" : "textures:tolkiencraft/document/splash/ModpackSplash.txt",
             "posX" : 155,
             "posY" : 50,
             "color" : 13055,
