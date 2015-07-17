@@ -1,4 +1,4 @@
-# TolkienCraft 2.6.4
+# TolkienCraft 2.6.5
 Config and mod update tracking
 -----------------------------------------------------------------------------------------------------------
 Mod Permissions: https://goo.gl/wPPboL

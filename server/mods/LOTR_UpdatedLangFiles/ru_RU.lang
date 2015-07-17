@@ -464,6 +464,7 @@ tile.lotr:brick3.8.name=Резные кирпичи Ближнего Харад�
 tile.lotr:brick3.9.name=Кирпичи Дол Амрота
 tile.lotr:brick3.10.name=Кирпичи Морэдайн
 tile.lotr:brick3.11.name=Потресканные кирпичи Ближнего Харада
+tile.lotr:brick3.12.name=
 tile.lotr:wallStone3.0.name=Ограда из кирпичей лесных эльфов
 tile.lotr:wallStone3.1.name=Ограда из замшелых кирпичей лесных эльфов
 tile.lotr:wallStone3.2.name=Ограда из потресканных кирпичей лесных эльфов
@@ -495,6 +496,34 @@ tile.lotr:slabSingle7.0.name=Плита из кирпичей Морэдайн
 tile.lotr:slabSingle7.1.name=Плита из потресканных кирпичей Ближнего Харада
 tile.lotr:stairsMoredainBrick.name=Ступеньки из кирпичей Морэдайн
 tile.lotr:stairsNearHaradBrickCracked.name=Ступеньки из потресканных кирпичей Ближнего Харада
+tile.lotr:unsmeltery.name=
+tile.lotr:bronzeBars.name=
+tile.lotr:goldBars.name=
+tile.lotr:silverBars.name=
+tile.lotr:mithrilBars.name=
+tile.lotr:urukBars.name=
+tile.lotr:highElfBars.name=
+tile.lotr:galadhrimBars.name=
+tile.lotr:woodElfBars.name=
+tile.lotr:dwarfBars.name=
+tile.lotr:blueDwarfBars.name=
+tile.lotr:highElfWoodBars.name=
+tile.lotr:galadhrimWoodBars.name=
+tile.lotr:woodElfWoodBars.name=
+tile.lotr:corruptMallorn.name=
+
+tile.lotr.fenceVanilla.0.name=
+tile.lotr.fenceVanilla.1.name=
+tile.lotr.fenceVanilla.2.name=
+tile.lotr.fenceVanilla.3.name=
+tile.lotr.fenceVanilla.4.name=
+tile.lotr.fenceVanilla.5.name=
+
+tile.lotr.orcBomb.fire=
+tile.lotr.orcBomb.doubleStrength=
+tile.lotr.orcBomb.tripleStrength=
+
+tile.lotr.fallenLeaves=
 
 item.lotr:goldRing.name=Золотое кольцо
 item.lotr:pouch.0.name=Крохотный мешочек
@@ -1023,12 +1052,21 @@ item.lotr:helmetMoredainLion.name=Шлем вождя Морэдайн
 item.lotr:bodyMoredainLion.name=Нагрудник вождя Морэдайн
 item.lotr:legsMoredainLion.name=Поножи вождя Морэдайн
 item.lotr:bootsMoredainLion.name=Ботинки вождя Морэдайн
-
-item.lotr.orcBomb.fire=Зажигательная
-item.lotr.orcBomb.doubleStrength=Двойная сила
-item.lotr.orcBomb.tripleStrength=Тройная сила
-
-item.lotr.fallenLeaves=Опавшие %s
+item.lotr:helmetHaradRobes.name=
+item.lotr:bodyHaradRobes.name=
+item.lotr:legsHaradRobes.name=
+item.lotr:bootsHaradRobes.name=
+item.lotr:helmetBone.name=
+item.lotr:bodyBone.name=
+item.lotr:legsBone.name=
+item.lotr:bootsBone.name=
+item.lotr:cram.name=
+item.lotr:throwingAxeBronze.name=
+item.lotr:throwingAxeIron.name=
+item.lotr:bossTrophy.mtc.name=
+item.lotr:bossTrophy.mallornEnt.name=
+item.lotr:swordGondolin.name=
+item.lotr:maceMallornCharred.name=
 
 item.lotr.drink.weak=Слабый
 item.lotr.drink.light=Легкий
@@ -1047,6 +1085,9 @@ item.lotr.hat.feathered=С пером
 item.lotr.pouch.slots=%d из %d используется
 
 item.lotr.redBook.activeQuests=%d активных квестов
+
+item.lotr.haradRobes.dyed=
+item.lotr.haradRobes.ornament=
 
 item.lotr.generic.owner=Владелец: %s
 item.lotr.generic.squadron=Эскадрон: %s
@@ -1092,10 +1133,12 @@ container.lotr.armorStand=Стойка для брони
 container.lotr.dwarvenForge=Гномья кузница
 container.lotr.orcForge=Орочья кузница
 container.lotr.elvenForge=Эльфийская кузница
+container.lotr.unsmeltery=
 
 container.lotr.trade.buy=Покупка
 container.lotr.trade.sell=Продажа
 container.lotr.trade.sellPrice=x %d
+container.lotr.trade.locked=
 container.lotr.unitTrade.requiresAlignment=Требуется +%d репутации
 container.lotr.unitTrade.squadronBox=Назначить эскадрон?
 container.lotr.coinExchange=Размен монет
@@ -1166,20 +1209,22 @@ lotr.gui.map.fastTravel.2=(Время до следующего быстрого
 lotr.gui.map.fastTravelTimeRemaining=Быстрое путешествие будет доступно через %s
 lotr.gui.map.tp=Нажмите '%s' чтобы телепортироваться
 
+lotr.gui.map.widget.addCWP=
+lotr.gui.map.widget.delCWP=
+lotr.gui.map.widget.toggleWPs=
+lotr.gui.map.widget.zoomIn=
+lotr.gui.map.widget.zoomOut=
+lotr.gui.map.widget.fullScreen=
+
 lotr.gui.map.customWaypoint.allUsed.1=Вы использовали все из %d доступных путевых точек
 lotr.gui.map.customWaypoint.allUsed.2=Удалите существующие точки
-lotr.gui.map.customWaypoint.allUsed.3= если хотите добавить новые
 lotr.gui.map.customWaypoint.canCreate.1=Вы использовали %d из %d доступных путевых точек
 lotr.gui.map.customWaypoint.canCreate.2=Вам доступно %d путевых точек
-lotr.gui.map.customWaypoint.canCreate.3=Нажмите %s чтобы создать путевую точку
-lotr.gui.map.customWaypoint.canCreate.4=в том месте, где вы находитесь
 lotr.gui.map.customWaypoint.unlockMore.1=Дополнительные путевые точки могут быть
-lotr.gui.map.customWaypoint.unlockMore.2=разблокированы получением достижений в Средиземье
 lotr.gui.map.customWaypoint.create.1=Название путевой точки:
 lotr.gui.map.customWaypoint.create.2=Нажмите %s чтобы создать путевую точку
 lotr.gui.map.customWaypoint.delete.1=Вы уверены что хотите удалить путевую точку
 lotr.gui.map.customWaypoint.delete.2=%s?
-lotr.gui.map.customWaypoint.delete.3=Нажмите %s чтобы удалить путевую точку
 lotr.gui.map.customWaypoint.protected.1=%s
 lotr.gui.map.customWaypoint.protected.2=Вы не можете создать здесь путевую точку
 
@@ -1219,37 +1264,128 @@ lotr.title.minstrel=Менестрель
 lotr.title.bard=Бард
 lotr.title.artisan=Ремесленник
 lotr.title.warrior=Воитель
-lotr.title.ranger=Следопыт
 lotr.title.scourge=Бич
+lotr.title.wanderer=
+lotr.title.peacekeeper=
+lotr.title.warmongerer=
+lotr.title.hunter=
+lotr.title.raider=
+lotr.title.explorer=
+lotr.title.mercenary=
+lotr.title.shipwright=
+lotr.title.marksman=
 
 lotr.title.creator=Эру Илуватар
 lotr.title.creator2=Манвэ Сулимо
 lotr.title.moderator=Вала
 lotr.title.gruk=Польская знать
+lotr.title.loremaster=
 
-lotr.title.HOBBIT_100=Хоббит
-lotr.title.RANGER_100=Дунедайн
-lotr.title.BLUE_MOUNTAINS_100=Синий гном
-lotr.title.HIGH_ELF_100=Высший эльф
-lotr.title.GUNDABAD_100=Гундабад
-lotr.title.ANGMAR_100=Ангмар
-lotr.title.WOOD_ELF_100=Лесной эльф
-lotr.title.DOL_GULDUR_100=Дол Гулдур
-lotr.title.DURIN_100=Народ Дарина
-lotr.title.LOTHLORIEN_100=Лотлориэн
-lotr.title.DUNLAND_100=Дунландец
-lotr.title.URUK_100=Урук-хай
-lotr.title.FANGORN_100=Энт
-lotr.title.ROHAN_100=Рохан
-lotr.title.GONDOR_100=Гондор
-lotr.title.GONDOR_100_DOL_AMROTH=Рыцарь-лебедь
-lotr.title.MORDOR_100=Мордор
-lotr.title.NEAR_HARAD_100=Ближний Харад
-lotr.title.MOREDAIN_100=Морэдайн
-lotr.title.TAUREDAIN_100=Тауредайн
-lotr.title.HALF_TROLL_100=Полутролль
+lotr.title.HOBBIT_hobbit=
+lotr.title.HOBBIT_halfling=
+lotr.title.HOBBIT_shire=
+lotr.title.HOBBIT_shirriff=
+lotr.title.HOBBIT_hobbiton=
+lotr.title.HOBBIT_buckland=
+
+lotr.title.RANGER_ranger=
+lotr.title.RANGER_northDunedain=
+lotr.title.RANGER_arnor=
+lotr.title.RANGER_annuminas=
+
+lotr.title.BLUE_MOUNTAINS_blueDwarf=
+lotr.title.BLUE_MOUNTAINS_blueMountains=
+lotr.title.BLUE_MOUNTAINS_firebeard=
+lotr.title.BLUE_MOUNTAINS_broadbeam=
+lotr.title.BLUE_MOUNTAINS_belegost=
+lotr.title.BLUE_MOUNTAINS_nogrod=
+
+lotr.title.HIGH_ELF_highElf=
+lotr.title.HIGH_ELF_lindon=
+lotr.title.HIGH_ELF_mithlond=
+lotr.title.HIGH_ELF_rivendell=
+lotr.title.HIGH_ELF_eregion=
+
+lotr.title.GUNDABAD_gundabad=
+lotr.title.GUNDABAD_gundabadOrc=
+lotr.title.GUNDABAD_moriaOrc=
+
+lotr.title.ANGMAR_angmar=
+lotr.title.ANGMAR_angmarOrc=
+lotr.title.ANGMAR_troll=
+lotr.title.ANGMAR_carnDum=
+lotr.title.ANGMAR_hillman=
+
+lotr.title.WOOD_ELF_woodElf=
+lotr.title.WOOD_ELF_woodlandRealm=
+
+lotr.title.DOL_GULDUR_dolGuldur=
+lotr.title.DOL_GULDUR_dolGuldurOrc=
+lotr.title.DOL_GULDUR_necromancer=
+
+lotr.title.DWARF_durin=
+lotr.title.DWARF_greyDwarf=
+lotr.title.DWARF_ironHills=
+lotr.title.DWARF_erebor=
+lotr.title.DWARF_khazadDum=
+
+lotr.title.GALADHRIM_galadhrim=
+lotr.title.GALADHRIM_lothlorien=
+lotr.title.GALADHRIM_carasGaladhon=
+
+lotr.title.DUNLAND_dunland=
+lotr.title.DUNLAND_dunlending=
+lotr.title.DUNLAND_wildman=
+
+lotr.title.URUK_uruk=
+lotr.title.URUK_isengard=
+
+lotr.title.FANGORN_fangorn=
+lotr.title.FANGORN_ent=
+
+lotr.title.ROHAN_rohan=
+lotr.title.ROHAN_rohirrim=
+lotr.title.ROHAN_eorlingas=
+lotr.title.ROHAN_strawhead=
+lotr.title.ROHAN_edoras=
+lotr.title.ROHAN_helmsDeep=
+
+lotr.title.GONDOR_gondor=
+lotr.title.GONDOR_gondorian=
+lotr.title.GONDOR_southDunedain=
+lotr.title.GONDOR_dolAmroth=
+lotr.title.GONDOR_swanKnight=
+lotr.title.GONDOR_ithilien=
+lotr.title.GONDOR_ithilienRanger=
+lotr.title.GONDOR_minasTirith=
+lotr.title.GONDOR_towerGuard=
+lotr.title.GONDOR_osgiliath=
+lotr.title.GONDOR_lebennin=
+
+lotr.title.MORDOR_mordor=
+lotr.title.MORDOR_mordorOrc=
+lotr.title.MORDOR_blackUruk=
+lotr.title.MORDOR_nurn=
+lotr.title.MORDOR_baradDur=
+lotr.title.MORDOR_morannon=
+lotr.title.MORDOR_minasMorgul=
+lotr.title.MORDOR_cirithUngol=
+
+lotr.title.NEAR_HARAD_nearHarad=
+lotr.title.NEAR_HARAD_nearHaradrim=
+lotr.title.NEAR_HARAD_southron=
+
+lotr.title.MOREDAIN_moredain=
+lotr.title.MOREDAIN_lion=
+
+lotr.title.TAUREDAIN_tauredain=
+
+lotr.title.HALF_TROLL_halfTroll=
+lotr.title.HALF_TROLL_pertorogwaith=
 
 lotr.title.trollSlayer=Сокрушитель троллей
+lotr.title.entSlayer=
+
 lotr.title.alcoholic=Алкоголик
 lotr.title.earnCoins=Сказочный богач
 lotr.title.explore50Biomes=Скороход
@@ -1257,6 +1393,8 @@ lotr.title.fourLeafClover=Везунчик
 lotr.title.enterUtumno=Пламя Удуна
 lotr.title.visitOcean=Моряк
 lotr.title.killBalrog=Погибель Барлога
+lotr.title.enterMeneltarma=
+lotr.title.rideBarrel=
 
 lotr.shields.category.ALIGNMENT=Репутационные щиты
 lotr.shields.category.ACHIEVABLE=Разблокируемые щиты
@@ -1307,10 +1445,12 @@ lotr.shields.ACHIEVEMENT_GOLD.name=Золотой щит авантюриста
 lotr.shields.ACHIEVEMENT_GOLD.desc=Награда за совершение 100 достижений Средиземья
 lotr.shields.ACHIEVEMENT_MITHRIL.name=Мифриловый щит авантюриста
 lotr.shields.ACHIEVEMENT_MITHRIL.desc=Награда за совершение 200 достижений Средиземья
-lotr.shields.DEFEAT_MTC.name=Щит убийцы троллей
-lotr.shields.DEFEAT_MTC.desc=Награда за победу над вожаком горных троллей
 lotr.shields.ALCOHOLIC.name=Щит алкоголика
 lotr.shields.ALCOHOLIC.desc=Награда за употребление огромного количества спиртных напитков
+lotr.shields.DEFEAT_MTC.name=Щит убийцы троллей
+lotr.shields.DEFEAT_MTC.desc=Награда за победу над вожаком горных троллей
+lotr.shields.DEFEAT_MALLORN_ENT.name=
+lotr.shields.DEFEAT_MALLORN_ENT.desc=
 
 lotr.shields.ELVEN_CONTEST.name=Щит эльфийского конкурса
 lotr.shields.ELVEN_CONTEST.desc=Награда за победу в строительном конкурсе #1 (Эльфы)
@@ -1499,7 +1639,6 @@ entity.lotr.RohanMeadhost.name=Роханский трактирщик
 entity.lotr.Butterfly.name=Бабочка
 entity.lotr.Midges.name=Комары
 entity.lotr.AngmarOrcMercenaryCaptain.name=Военачальник ангмарских орков
-entity.lotr.AngmarOrcWarrior.name=Ангмарский орк-воин
 entity.lotr.NurnSlave.name=Нурнский раб
 entity.lotr.Rabbit.name=Кролик
 entity.lotr.Boar.name=Дикий кабан
@@ -1601,6 +1740,15 @@ entity.lotr.MoredainBannerBearer.name=Знаменосец Морэдайн
 entity.lotr.MoredainChieftain.name=Вождь Морэдайн
 entity.lotr.MoredainHuntsman.name=Охотник Морэдайн
 entity.lotr.MoredainHutmaker.name=Торговец стройматериалами Морэдайн
+entity.lotr.DunlendingBerserker.name=
+entity.lotr.AngmarHillman.name=
+entity.lotr.AngmarHillmanWarrior.name=
+entity.lotr.AngmarHillmanChieftain.name=
+entity.lotr.AngmarHillmanBannerBearer.name=
+entity.lotr.AngmarHillmanAxeThrower.name=
+entity.lotr.DunlendingAxeThrower.name=
+entity.lotr.IronHillsMerchant.name=
+entity.lotr.MallornEnt.name=
 
 entity.lotr.UtumnoOrc.name=Орк Утумно
 entity.lotr.UtumnoOrcArcher.name=Орк-лучник Утумно
@@ -1646,7 +1794,6 @@ lotr.unit.WoodElfWarrior_Elk=Лесной всадник на лосе
 
 lotr.unit.AngmarOrc_Warg=Наездник на варге
 lotr.unit.AngmarOrcArcher_Warg=Лучник на варге
-lotr.unit.AngmarOrcWarrior_Warg=Воин на варге
 
 lotr.unit.MordorOrc_Spider=Наездник на пауке
 lotr.unit.MordorOrcArcher_Spider=Лучник на пауке
@@ -1670,6 +1817,10 @@ lotr.unit.HalfTrollWarrior_Rhino=Всадник на носороге
 lotr.unit.SwanKnight_Horse=Всадник Дол Амрота
 
 lotr.unit.MoredainWarrior_Zebra=Всадник на зебре Морэдайн
+
+lotr.unit.AngmarHillman_Warg=
+lotr.unit.AngmarHillmanWarrior_Warg=
+lotr.unit.AngmarHillmanAxeThrower_Warg=
 
 lotr.faction.HOBBIT.name=Хоббиты
 lotr.faction.HOBBIT.entity=Хоббиты
@@ -1755,6 +1906,12 @@ lotr.faction.UTUMNO.name=Утумно
 lotr.faction.UTUMNO.entity=Отродья Утумно
 lotr.faction.UTUMNO.subtitle=Древнейшие и грязнейшие существа
 
+lotr.invasion.ANGMAR_hillmen=
+lotr.invasion.GONDOR_ithilien=
+lotr.invasion.GONDOR_dolAmroth=
+lotr.invasion.MORDOR_blackUruk=
+lotr.invasion.MORDOR_nanUngol=
+
 lotr.dimension.MiddleEarth=Средиземье
 lotr.dimension.MiddleEarth.west=Запад
 lotr.dimension.MiddleEarth.south=Харад
@@ -1776,7 +1933,7 @@ lotr.biome.lothlorien.name=Лотлориэн
 lotr.biome.ironHills.name=Железные холмы
 lotr.biome.deadMarshes.name=Мертвые болота
 lotr.biome.trollshaws.name=Троллистая пуща
-lotr.biome.mirkwood.name=Лихолесье
+lotr.biome.woodlandRealm.name=
 lotr.biome.mirkwoodCorrupted.name=Оскверненное Лихолесье
 lotr.biome.rohanUrukHighlands.name=Роханское нагорье уруков
 lotr.biome.emynMuil.name=Эмин Муил
@@ -1799,6 +1956,7 @@ lotr.biome.midgewater.name=Комариные топи
 lotr.biome.brownLands.name=Бурые равнины
 lotr.biome.ocean.name=Океан
 lotr.biome.anduinHills.name=Холмы Андуина
+lotr.biome.meneltarma.name=
 lotr.biome.gladdenFields.name=Ирисные низины
 lotr.biome.lothlorienEdge.name=Окраина Лотлориэна
 lotr.biome.forodwaith.name=Фородвайт
@@ -1834,6 +1992,8 @@ lotr.biome.shireOrchard.name=Ширские сады
 lotr.biome.swanfleet.name=Лебедянь
 lotr.biome.minhiriath.name=Минхириат
 lotr.biome.erebor.name=Эребор
+lotr.biome.mirkwoodNorth.name=
+lotr.biome.woodlandRealmHills.name=
 lotr.biome.nanUngol.name=Нан Унгол
 lotr.biome.gondorHills.name=Гондорские холмы
 lotr.biome.island.name=Остров
@@ -1917,6 +2077,9 @@ lotr.structure.AngmarShrine.name=Ангмарская святыня
 lotr.structure.AngmarWargPit.name=Ангмарская яма с варгами
 lotr.structure.AngmarTent.name=Ангмарская палатка
 lotr.structure.AngmarForgeTent.name=Ангмарский кузнечный шатер
+
+lotr.structure.AngmarHillmanHouse.name=
+lotr.structure.AngmarHillmanChieftainHouse.name=
 
 lotr.structure.WoodElfLookoutPlatform.name=Смотровая площадка лесных эльфов
 lotr.structure.WoodElfHouse.name=Дом лесных эльфов
@@ -2006,7 +2169,6 @@ chat.lotr.spawnStructure.disabled=На этом сервере запрещен�
 chat.lotr.spawnStructure.banned=Вы не имеете права призывать постройки
 chat.lotr.spawnStructure.wait=Вы должны подождать еще %d секунд, прежде чем призвать новую постройку 
 chat.lotr.mountOwnedByNPC=Это животное имеет хозяина НИПа - вы не можете взаимодействовать с ним
-chat.lotr.alignmentRewardItem=Поздравляем с достижением %d репутации с фракцией %s! Посетите торговца, чтобы получить свою награду
 chat.lotr.protectedLand=Эта земля под защитой %s!
 chat.lotr.protectedLandBanner=Вы не можете разместить знамя защиты так близко к земле защищенной другим знаменем
 chat.lotr.banditSteal=Разбойник украл вещи из вашего инвентаря!
@@ -2075,6 +2237,7 @@ lotr.achievement.category.FAR_HARAD_JUNGLE=Джунгли Дальнего Ха�
 lotr.achievement.category.PERTOROGWAITH=Перторогвайт
 lotr.achievement.category.RHUN=Рун
 lotr.achievement.category.OROCARNI=Орокарни
+lotr.achievement.category.OCEAN=
 
 lotr.achievement.category.UTUMNO=Утумно
 
@@ -2130,8 +2293,6 @@ lotr.achievement.craftAppleCrumble.title=Традиционное кушанье
 lotr.achievement.craftAppleCrumble.desc=Приготовьте шарлотку
 lotr.achievement.killButterfly.title=Безжалостный
 lotr.achievement.killButterfly.desc=Убейте бабочку
-lotr.achievement.enterOcean.title=К морю!
-lotr.achievement.enterOcean.desc=Дойдите до побережья океана в Средиземье
 lotr.achievement.useCrossbow.title=Огонь!
 lotr.achievement.useCrossbow.desc=Убейте врага стрелой выпущенной из арбалета
 lotr.achievement.collectCrossbowBolts.title=Запасливый
@@ -2334,6 +2495,10 @@ lotr.achievement.doMiniquestAngmar.title=Слуга зла
 lotr.achievement.doMiniquestAngmar.desc=Выполните Ангмарский мини-квест
 lotr.achievement.tradeAngmarTrader.title=Темные изделия
 lotr.achievement.tradeAngmarTrader.desc=Поторгуйте с Ангмарским орком-торговцем
+lotr.achievement.killAngmarHillman.title=
+lotr.achievement.killAngmarHillman.desc=
+lotr.achievement.tradeAngmarHillmanChieftain.title=
+lotr.achievement.tradeAngmarHillmanChieftain.desc=
 
 lotr.achievement.enterEregion.title=Увядшее великолепие
 lotr.achievement.enterEregion.desc=Посетите земли Эрегиона
@@ -2345,6 +2510,8 @@ lotr.achievement.climbMistyMountains.title=Альпинист
 lotr.achievement.climbMistyMountains.desc=Заберитесь выше облаков в Мглистых горах
 lotr.achievement.enterMistyMountains.title=Холод гор
 lotr.achievement.enterMistyMountains.desc=Посетите Мглистые горы
+lotr.achievement.tameGollum.title=
+lotr.achievement.tameGollum.desc=
 
 lotr.achievement.enterForodwaith.title=Бескрайний холод
 lotr.achievement.enterForodwaith.desc=Посетите Фородвайт
@@ -2380,14 +2547,12 @@ lotr.achievement.tradeWoodElfCaptain.title=Защитник Лихолесья
 lotr.achievement.tradeWoodElfCaptain.desc=Наймите солдата у военачальника лесных эльфов
 lotr.achievement.rideBarrelMirkwood.title=Из плена
 lotr.achievement.rideBarrelMirkwood.desc=Прокатитесь на бочке по реке оскверненного Лихолесья
-lotr.achievement.enterMirkwoodCorrupted.title=Следите за дорогой!
-lotr.achievement.enterMirkwoodCorrupted.desc=Посетите леса оскверненного Лихолесья
 lotr.achievement.enterMirkwood.title=Гость эльфийского короля
 lotr.achievement.enterMirkwood.desc=Посетите лесное королевство
+lotr.achievement.enterWoodlandRealm.title=
+lotr.achievement.enterWoodlandRealm.desc=
 lotr.achievement.wearFullWoodElven.title=Капитан стражи
 lotr.achievement.wearFullWoodElven.desc=Экипируйте полный комплект брони лесных эльфов
-lotr.achievement.killMirkwoodSpiderMordorSpider.title=Братоубийство
-lotr.achievement.killMirkwoodSpiderMordorSpider.desc=Убейте лихолесского паука при помощи мордорского паука
 lotr.achievement.alignmentGood10_WOOD_ELF.title=Друг лесных эльфов
 lotr.achievement.alignmentGood10_WOOD_ELF.desc=Достигните репутации +10 с лесными эльфами Лихолесья
 lotr.achievement.alignmentGood100_WOOD_ELF.title=Защитник лесных эльфов
@@ -2457,6 +2622,8 @@ lotr.achievement.marryDwarf.title=Вынужденный союз
 lotr.achievement.marryDwarf.desc=Проведите гномью свадьбу среди народа Дарина
 lotr.achievement.doMiniquestDwarf.title=Род Дарина
 lotr.achievement.doMiniquestDwarf.desc=Выполните мини-квест народа Дарина
+lotr.achievement.tradeIronHillsMerchant.title=
+lotr.achievement.tradeIronHillsMerchant.desc=
 
 lotr.achievement.killElf.title=Убийца эльфов
 lotr.achievement.killElf.desc=Убейте галадрима
@@ -2530,6 +2697,8 @@ lotr.achievement.alignmentGood1000_FANGORN.title=Ветвь Фангорна
 lotr.achievement.alignmentGood1000_FANGORN.desc=Достигните репутации +1000 с Энтами
 lotr.achievement.summonHuorn.title=Из маленького желудя
 lotr.achievement.summonHuorn.desc=Призовите гворна сражаться на вашей стороне
+lotr.achievement.killMallornEnt.title=
+lotr.achievement.killMallornEnt.desc=
 
 lotr.achievement.raidUrukCamp.title=Налетчик
 lotr.achievement.raidUrukCamp.desc=Убейте Урук-хая неподалеко от его лагеря
@@ -2784,6 +2953,11 @@ lotr.achievement.enterRhun.desc=Посетите земли Рун
 lotr.achievement.enterRedMountains.title=Восточные горы
 lotr.achievement.enterRedMountains.desc=Посетите Красные горы
 
+lotr.achievement.enterOcean.title=К морю!
+lotr.achievement.enterOcean.desc=Дойдите до побережья океана в Средиземье
+lotr.achievement.enterMeneltarma.title=
+lotr.achievement.enterMeneltarma.desc=
+
 lotr.achievement.enterUtumnoIce.title=Ледяной ад
 lotr.achievement.enterUtumnoIce.desc=Войдите в Утумно
 lotr.achievement.enterUtumnoObsidian.title=Обсидиановый ад
@@ -2808,7 +2982,7 @@ lotr.achievement.craftUtumnoKey.desc=Создайте ключ из частей
 lotr.waypoint.HIMLING=Химлинг
 lotr.waypoint.TOL_FUIN=Тол Фуин
 lotr.waypoint.TOL_MORWEN=Тол Морвен
-lotr.waypoint.MENELTARMA=Менельтарма
+lotr.waypoint.MENELTARMA_SUMMIT=
 
 lotr.waypoint.HOBBITON=Хоббитон
 lotr.waypoint.BRANDYWINE_BRIDGE=Мост Брендидуин

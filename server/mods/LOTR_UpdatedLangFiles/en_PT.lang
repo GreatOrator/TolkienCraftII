@@ -464,6 +464,7 @@ tile.lotr:brick3.8.name=
 tile.lotr:brick3.9.name=
 tile.lotr:brick3.10.name=
 tile.lotr:brick3.11.name=
+tile.lotr:brick3.12.name=
 tile.lotr:wallStone3.0.name=
 tile.lotr:wallStone3.1.name=
 tile.lotr:wallStone3.2.name=
@@ -495,6 +496,34 @@ tile.lotr:slabSingle7.0.name=
 tile.lotr:slabSingle7.1.name=
 tile.lotr:stairsMoredainBrick.name=
 tile.lotr:stairsNearHaradBrickCracked.name=
+tile.lotr:unsmeltery.name=
+tile.lotr:bronzeBars.name=
+tile.lotr:goldBars.name=
+tile.lotr:silverBars.name=
+tile.lotr:mithrilBars.name=
+tile.lotr:urukBars.name=
+tile.lotr:highElfBars.name=
+tile.lotr:galadhrimBars.name=
+tile.lotr:woodElfBars.name=
+tile.lotr:dwarfBars.name=
+tile.lotr:blueDwarfBars.name=
+tile.lotr:highElfWoodBars.name=
+tile.lotr:galadhrimWoodBars.name=
+tile.lotr:woodElfWoodBars.name=
+tile.lotr:corruptMallorn.name=
+
+tile.lotr.fenceVanilla.0.name=
+tile.lotr.fenceVanilla.1.name=
+tile.lotr.fenceVanilla.2.name=
+tile.lotr.fenceVanilla.3.name=
+tile.lotr.fenceVanilla.4.name=
+tile.lotr.fenceVanilla.5.name=
+
+tile.lotr.orcBomb.fire=
+tile.lotr.orcBomb.doubleStrength=
+tile.lotr.orcBomb.tripleStrength=
+
+tile.lotr.fallenLeaves=
 
 item.lotr:goldRing.name=Band o' Gold
 item.lotr:pouch.0.name=Small Sack o' Carryin'
@@ -1023,12 +1052,21 @@ item.lotr:helmetMoredainLion.name=
 item.lotr:bodyMoredainLion.name=
 item.lotr:legsMoredainLion.name=
 item.lotr:bootsMoredainLion.name=
-
-item.lotr.orcBomb.fire=
-item.lotr.orcBomb.doubleStrength=
-item.lotr.orcBomb.tripleStrength=
-
-item.lotr.fallenLeaves=
+item.lotr:helmetHaradRobes.name=
+item.lotr:bodyHaradRobes.name=
+item.lotr:legsHaradRobes.name=
+item.lotr:bootsHaradRobes.name=
+item.lotr:helmetBone.name=
+item.lotr:bodyBone.name=
+item.lotr:legsBone.name=
+item.lotr:bootsBone.name=
+item.lotr:cram.name=
+item.lotr:throwingAxeBronze.name=
+item.lotr:throwingAxeIron.name=
+item.lotr:bossTrophy.mtc.name=
+item.lotr:bossTrophy.mallornEnt.name=
+item.lotr:swordGondolin.name=
+item.lotr:maceMallornCharred.name=
 
 item.lotr.drink.weak=Weak
 item.lotr.drink.light=Light
@@ -1047,6 +1085,9 @@ item.lotr.hat.feathered=
 item.lotr.pouch.slots=
 
 item.lotr.redBook.activeQuests=
+
+item.lotr.haradRobes.dyed=
+item.lotr.haradRobes.ornament=
 
 item.lotr.generic.owner=
 item.lotr.generic.squadron=
@@ -1092,10 +1133,12 @@ container.lotr.armorStand=Armour Stand
 container.lotr.dwarvenForge=Forge o' Durin's Sons
 container.lotr.orcForge=Forge o' the Orcs
 container.lotr.elvenForge=
+container.lotr.unsmeltery=
 
 container.lotr.trade.buy=Buy
 container.lotr.trade.sell=Sell
 container.lotr.trade.sellPrice=x %d
+container.lotr.trade.locked=
 container.lotr.unitTrade.requiresAlignment=
 container.lotr.unitTrade.squadronBox=
 container.lotr.coinExchange=
@@ -1166,20 +1209,22 @@ lotr.gui.map.fastTravel.2=
 lotr.gui.map.fastTravelTimeRemaining=Fast travel will be available in: %s
 lotr.gui.map.tp=Press '%s' to travel here with all speed
 
+lotr.gui.map.widget.addCWP=
+lotr.gui.map.widget.delCWP=
+lotr.gui.map.widget.toggleWPs=
+lotr.gui.map.widget.zoomIn=
+lotr.gui.map.widget.zoomOut=
+lotr.gui.map.widget.fullScreen=
+
 lotr.gui.map.customWaypoint.allUsed.1=All %d points on yer' chart be written
 lotr.gui.map.customWaypoint.allUsed.2=Delete several o' yer' points
-lotr.gui.map.customWaypoint.allUsed.3= if ye wish te continue yer' voyage
 lotr.gui.map.customWaypoint.canCreate.1=%d of %d of yer' custom points be charted
 lotr.gui.map.customWaypoint.canCreate.2=%d points remain for ye te chart
-lotr.gui.map.customWaypoint.canCreate.3=Press %s to add te yer chart
-lotr.gui.map.customWaypoint.canCreate.4=at yer' current spot
 lotr.gui.map.customWaypoint.unlockMore.1=
-lotr.gui.map.customWaypoint.unlockMore.2=
 lotr.gui.map.customWaypoint.create.1=Custom waypoint name:
 lotr.gui.map.customWaypoint.create.2=Press %s to create waypoint
 lotr.gui.map.customWaypoint.delete.1=Be ye sure ye wish te delete this point
 lotr.gui.map.customWaypoint.delete.2=%s?
-lotr.gui.map.customWaypoint.delete.3=Press %s to replot yer course
 lotr.gui.map.customWaypoint.protected.1=
 lotr.gui.map.customWaypoint.protected.2=
 
@@ -1219,37 +1264,128 @@ lotr.title.minstrel=
 lotr.title.bard=
 lotr.title.artisan=
 lotr.title.warrior=
-lotr.title.ranger=
 lotr.title.scourge=
+lotr.title.wanderer=
+lotr.title.peacekeeper=
+lotr.title.warmongerer=
+lotr.title.hunter=
+lotr.title.raider=
+lotr.title.explorer=
+lotr.title.mercenary=
+lotr.title.shipwright=
+lotr.title.marksman=
 
 lotr.title.creator=
 lotr.title.creator2=
 lotr.title.moderator=
 lotr.title.gruk=
+lotr.title.loremaster=
 
-lotr.title.HOBBIT_100=
-lotr.title.RANGER_100=
-lotr.title.BLUE_MOUNTAINS_100=
-lotr.title.HIGH_ELF_100=
-lotr.title.GUNDABAD_100=
-lotr.title.ANGMAR_100=
-lotr.title.WOOD_ELF_100=
-lotr.title.DOL_GULDUR_100=
-lotr.title.DURIN_100=
-lotr.title.LOTHLORIEN_100=
-lotr.title.DUNLAND_100=
-lotr.title.URUK_100=
-lotr.title.FANGORN_100=
-lotr.title.ROHAN_100=
-lotr.title.GONDOR_100=
-lotr.title.GONDOR_100_DOL_AMROTH=
-lotr.title.MORDOR_100=
-lotr.title.NEAR_HARAD_100=
-lotr.title.MOREDAIN_100=
-lotr.title.TAUREDAIN_100=
-lotr.title.HALF_TROLL_100=
+lotr.title.HOBBIT_hobbit=
+lotr.title.HOBBIT_halfling=
+lotr.title.HOBBIT_shire=
+lotr.title.HOBBIT_shirriff=
+lotr.title.HOBBIT_hobbiton=
+lotr.title.HOBBIT_buckland=
+
+lotr.title.RANGER_ranger=
+lotr.title.RANGER_northDunedain=
+lotr.title.RANGER_arnor=
+lotr.title.RANGER_annuminas=
+
+lotr.title.BLUE_MOUNTAINS_blueDwarf=
+lotr.title.BLUE_MOUNTAINS_blueMountains=
+lotr.title.BLUE_MOUNTAINS_firebeard=
+lotr.title.BLUE_MOUNTAINS_broadbeam=
+lotr.title.BLUE_MOUNTAINS_belegost=
+lotr.title.BLUE_MOUNTAINS_nogrod=
+
+lotr.title.HIGH_ELF_highElf=
+lotr.title.HIGH_ELF_lindon=
+lotr.title.HIGH_ELF_mithlond=
+lotr.title.HIGH_ELF_rivendell=
+lotr.title.HIGH_ELF_eregion=
+
+lotr.title.GUNDABAD_gundabad=
+lotr.title.GUNDABAD_gundabadOrc=
+lotr.title.GUNDABAD_moriaOrc=
+
+lotr.title.ANGMAR_angmar=
+lotr.title.ANGMAR_angmarOrc=
+lotr.title.ANGMAR_troll=
+lotr.title.ANGMAR_carnDum=
+lotr.title.ANGMAR_hillman=
+
+lotr.title.WOOD_ELF_woodElf=
+lotr.title.WOOD_ELF_woodlandRealm=
+
+lotr.title.DOL_GULDUR_dolGuldur=
+lotr.title.DOL_GULDUR_dolGuldurOrc=
+lotr.title.DOL_GULDUR_necromancer=
+
+lotr.title.DWARF_durin=
+lotr.title.DWARF_greyDwarf=
+lotr.title.DWARF_ironHills=
+lotr.title.DWARF_erebor=
+lotr.title.DWARF_khazadDum=
+
+lotr.title.GALADHRIM_galadhrim=
+lotr.title.GALADHRIM_lothlorien=
+lotr.title.GALADHRIM_carasGaladhon=
+
+lotr.title.DUNLAND_dunland=
+lotr.title.DUNLAND_dunlending=
+lotr.title.DUNLAND_wildman=
+
+lotr.title.URUK_uruk=
+lotr.title.URUK_isengard=
+
+lotr.title.FANGORN_fangorn=
+lotr.title.FANGORN_ent=
+
+lotr.title.ROHAN_rohan=
+lotr.title.ROHAN_rohirrim=
+lotr.title.ROHAN_eorlingas=
+lotr.title.ROHAN_strawhead=
+lotr.title.ROHAN_edoras=
+lotr.title.ROHAN_helmsDeep=
+
+lotr.title.GONDOR_gondor=
+lotr.title.GONDOR_gondorian=
+lotr.title.GONDOR_southDunedain=
+lotr.title.GONDOR_dolAmroth=
+lotr.title.GONDOR_swanKnight=
+lotr.title.GONDOR_ithilien=
+lotr.title.GONDOR_ithilienRanger=
+lotr.title.GONDOR_minasTirith=
+lotr.title.GONDOR_towerGuard=
+lotr.title.GONDOR_osgiliath=
+lotr.title.GONDOR_lebennin=
+
+lotr.title.MORDOR_mordor=
+lotr.title.MORDOR_mordorOrc=
+lotr.title.MORDOR_blackUruk=
+lotr.title.MORDOR_nurn=
+lotr.title.MORDOR_baradDur=
+lotr.title.MORDOR_morannon=
+lotr.title.MORDOR_minasMorgul=
+lotr.title.MORDOR_cirithUngol=
+
+lotr.title.NEAR_HARAD_nearHarad=
+lotr.title.NEAR_HARAD_nearHaradrim=
+lotr.title.NEAR_HARAD_southron=
+
+lotr.title.MOREDAIN_moredain=
+lotr.title.MOREDAIN_lion=
+
+lotr.title.TAUREDAIN_tauredain=
+
+lotr.title.HALF_TROLL_halfTroll=
+lotr.title.HALF_TROLL_pertorogwaith=
 
 lotr.title.trollSlayer=
+lotr.title.entSlayer=
+
 lotr.title.alcoholic=
 lotr.title.earnCoins=
 lotr.title.explore50Biomes=
@@ -1257,6 +1393,8 @@ lotr.title.fourLeafClover=
 lotr.title.enterUtumno=
 lotr.title.visitOcean=
 lotr.title.killBalrog=
+lotr.title.enterMeneltarma=
+lotr.title.rideBarrel=
 
 lotr.shields.category.ALIGNMENT=
 lotr.shields.category.ACHIEVABLE=
@@ -1307,10 +1445,12 @@ lotr.shields.ACHIEVEMENT_GOLD.name=
 lotr.shields.ACHIEVEMENT_GOLD.desc=
 lotr.shields.ACHIEVEMENT_MITHRIL.name=
 lotr.shields.ACHIEVEMENT_MITHRIL.desc=
-lotr.shields.DEFEAT_MTC.name=
-lotr.shields.DEFEAT_MTC.desc=
 lotr.shields.ALCOHOLIC.name=
 lotr.shields.ALCOHOLIC.desc=
+lotr.shields.DEFEAT_MTC.name=
+lotr.shields.DEFEAT_MTC.desc=
+lotr.shields.DEFEAT_MALLORN_ENT.name=
+lotr.shields.DEFEAT_MALLORN_ENT.desc=
 
 lotr.shields.ELVEN_CONTEST.name=
 lotr.shields.ELVEN_CONTEST.desc=
@@ -1499,7 +1639,6 @@ entity.lotr.RohanMeadhost.name=Rohan Meadhost
 entity.lotr.Butterfly.name=Butterfly
 entity.lotr.Midges.name=Midges
 entity.lotr.AngmarOrcMercenaryCaptain.name=Angmar Orc Chieftain
-entity.lotr.AngmarOrcWarrior.name=Angmar Orc Warrior
 entity.lotr.NurnSlave.name=Slave of Núrn
 entity.lotr.Rabbit.name=Rabbit
 entity.lotr.Boar.name=Wild Boar
@@ -1601,6 +1740,15 @@ entity.lotr.MoredainBannerBearer.name=
 entity.lotr.MoredainChieftain.name=
 entity.lotr.MoredainHuntsman.name=
 entity.lotr.MoredainHutmaker.name=
+entity.lotr.DunlendingBerserker.name=
+entity.lotr.AngmarHillman.name=
+entity.lotr.AngmarHillmanWarrior.name=
+entity.lotr.AngmarHillmanChieftain.name=
+entity.lotr.AngmarHillmanBannerBearer.name=
+entity.lotr.AngmarHillmanAxeThrower.name=
+entity.lotr.DunlendingAxeThrower.name=
+entity.lotr.IronHillsMerchant.name=
+entity.lotr.MallornEnt.name=
 
 entity.lotr.UtumnoOrc.name=
 entity.lotr.UtumnoOrcArcher.name=
@@ -1646,7 +1794,6 @@ lotr.unit.WoodElfWarrior_Elk=
 
 lotr.unit.AngmarOrc_Warg=Warg Rider
 lotr.unit.AngmarOrcArcher_Warg=Warg Archer Rider
-lotr.unit.AngmarOrcWarrior_Warg=Warg Warrior Rider
 
 lotr.unit.MordorOrc_Spider=Spider Rider
 lotr.unit.MordorOrcArcher_Spider=Spider Archer Rider
@@ -1670,6 +1817,10 @@ lotr.unit.HalfTrollWarrior_Rhino=
 lotr.unit.SwanKnight_Horse=
 
 lotr.unit.MoredainWarrior_Zebra=
+
+lotr.unit.AngmarHillman_Warg=
+lotr.unit.AngmarHillmanWarrior_Warg=
+lotr.unit.AngmarHillmanAxeThrower_Warg=
 
 lotr.faction.HOBBIT.name=Hobbits
 lotr.faction.HOBBIT.entity=
@@ -1755,6 +1906,12 @@ lotr.faction.UTUMNO.name=
 lotr.faction.UTUMNO.entity=
 lotr.faction.UTUMNO.subtitle=
 
+lotr.invasion.ANGMAR_hillmen=
+lotr.invasion.GONDOR_ithilien=
+lotr.invasion.GONDOR_dolAmroth=
+lotr.invasion.MORDOR_blackUruk=
+lotr.invasion.MORDOR_nanUngol=
+
 lotr.dimension.MiddleEarth=
 lotr.dimension.MiddleEarth.west=
 lotr.dimension.MiddleEarth.south=
@@ -1776,7 +1933,7 @@ lotr.biome.lothlorien.name=Lothlórien
 lotr.biome.ironHills.name=Iron Hills
 lotr.biome.deadMarshes.name=Dead Marshes
 lotr.biome.trollshaws.name=Trollshaws
-lotr.biome.mirkwood.name=Mirkwood
+lotr.biome.woodlandRealm.name=
 lotr.biome.mirkwoodCorrupted.name=Mirkwood Corrupted
 lotr.biome.rohanUrukHighlands.name=Rohan Uruk Highlands
 lotr.biome.emynMuil.name=Emyn Muil
@@ -1799,6 +1956,7 @@ lotr.biome.midgewater.name=Midgewater
 lotr.biome.brownLands.name=Brown Lands
 lotr.biome.ocean.name=Ocean
 lotr.biome.anduinHills.name=
+lotr.biome.meneltarma.name=
 lotr.biome.gladdenFields.name=Gladden Fields
 lotr.biome.lothlorienEdge.name=Lothlórien Edge
 lotr.biome.forodwaith.name=Forodwaith
@@ -1834,6 +1992,8 @@ lotr.biome.shireOrchard.name=Shire Orchard
 lotr.biome.swanfleet.name=Swanfleet
 lotr.biome.minhiriath.name=Minhiriath
 lotr.biome.erebor.name=
+lotr.biome.mirkwoodNorth.name=
+lotr.biome.woodlandRealmHills.name=
 lotr.biome.nanUngol.name=Nan Ungol
 lotr.biome.gondorHills.name=Gondor Hills
 lotr.biome.island.name=Island
@@ -1917,6 +2077,9 @@ lotr.structure.AngmarShrine.name=Angmar Shrine
 lotr.structure.AngmarWargPit.name=
 lotr.structure.AngmarTent.name=
 lotr.structure.AngmarForgeTent.name=
+
+lotr.structure.AngmarHillmanHouse.name=
+lotr.structure.AngmarHillmanChieftainHouse.name=
 
 lotr.structure.WoodElfLookoutPlatform.name=Wood-elf Lookout Platform
 lotr.structure.WoodElfHouse.name=Wood-elf House
@@ -2006,7 +2169,6 @@ chat.lotr.spawnStructure.disabled=Structure spawning is disabled on this server
 chat.lotr.spawnStructure.banned=You are banned from spawning structures
 chat.lotr.spawnStructure.wait=You must wait %d seconds before spawning another structure
 chat.lotr.mountOwnedByNPC=This mount was owned by an NPC - you cannot interact with it
-chat.lotr.alignmentRewardItem=
 chat.lotr.protectedLand=
 chat.lotr.protectedLandBanner=
 chat.lotr.banditSteal=
@@ -2075,6 +2237,7 @@ lotr.achievement.category.FAR_HARAD_JUNGLE=
 lotr.achievement.category.PERTOROGWAITH=Pertorogwaith
 lotr.achievement.category.RHUN=
 lotr.achievement.category.OROCARNI=
+lotr.achievement.category.OCEAN=
 
 lotr.achievement.category.UTUMNO=
 
@@ -2130,8 +2293,6 @@ lotr.achievement.craftAppleCrumble.title=Traditional Dish
 lotr.achievement.craftAppleCrumble.desc=Make an apple crumble
 lotr.achievement.killButterfly.title=Merciless
 lotr.achievement.killButterfly.desc=Kill a butterfly
-lotr.achievement.enterOcean.title=To the Sea!
-lotr.achievement.enterOcean.desc=Travel to the ocean of Middle-earth
 lotr.achievement.useCrossbow.title=Shots Fired
 lotr.achievement.useCrossbow.desc=Kill a foe with a bolt fired from a crossbow
 lotr.achievement.collectCrossbowBolts.title=Stocking Up
@@ -2334,6 +2495,10 @@ lotr.achievement.doMiniquestAngmar.title=
 lotr.achievement.doMiniquestAngmar.desc=
 lotr.achievement.tradeAngmarTrader.title=
 lotr.achievement.tradeAngmarTrader.desc=
+lotr.achievement.killAngmarHillman.title=
+lotr.achievement.killAngmarHillman.desc=
+lotr.achievement.tradeAngmarHillmanChieftain.title=
+lotr.achievement.tradeAngmarHillmanChieftain.desc=
 
 lotr.achievement.enterEregion.title=Faded Splendour
 lotr.achievement.enterEregion.desc=Enter the land of Eregion
@@ -2345,6 +2510,8 @@ lotr.achievement.climbMistyMountains.title=Mountaineer
 lotr.achievement.climbMistyMountains.desc=Climb above the cloud layer in the Misty Mountains
 lotr.achievement.enterMistyMountains.title=The Mountains Cold
 lotr.achievement.enterMistyMountains.desc=Enter the Misty Mountains
+lotr.achievement.tameGollum.title=
+lotr.achievement.tameGollum.desc=
 
 lotr.achievement.enterForodwaith.title=Everlasting Chill
 lotr.achievement.enterForodwaith.desc=Enter the region of Forodwaith
@@ -2380,14 +2547,12 @@ lotr.achievement.tradeWoodElfCaptain.title=Defender of Mirkwood
 lotr.achievement.tradeWoodElfCaptain.desc=Hire a unit from a Wood-elf Captain
 lotr.achievement.rideBarrelMirkwood.title=Out of Bond
 lotr.achievement.rideBarrelMirkwood.desc=Ride a barrel through the rivers of Mirkwood Corrupted
-lotr.achievement.enterMirkwoodCorrupted.title=Stay on the Path!
-lotr.achievement.enterMirkwoodCorrupted.desc=Enter the forest of Mirkwood Corrupted
 lotr.achievement.enterMirkwood.title=Guest of the Elvenking
 lotr.achievement.enterMirkwood.desc=Enter the Woodland Realm
+lotr.achievement.enterWoodlandRealm.title=
+lotr.achievement.enterWoodlandRealm.desc=
 lotr.achievement.wearFullWoodElven.title=Captain of the Guard
 lotr.achievement.wearFullWoodElven.desc=Equip a full suit of Wood-elven armour
-lotr.achievement.killMirkwoodSpiderMordorSpider.title=Kinslaying
-lotr.achievement.killMirkwoodSpiderMordorSpider.desc=Kill a Mirkwood Spider with a hired Mordor Spider
 lotr.achievement.alignmentGood10_WOOD_ELF.title=Wood-elf Friend
 lotr.achievement.alignmentGood10_WOOD_ELF.desc=Reach +10 alignment with the Wood-elves of Mirkwood
 lotr.achievement.alignmentGood100_WOOD_ELF.title=Wood-elf Champion
@@ -2457,6 +2622,8 @@ lotr.achievement.marryDwarf.title=
 lotr.achievement.marryDwarf.desc=
 lotr.achievement.doMiniquestDwarf.title=
 lotr.achievement.doMiniquestDwarf.desc=
+lotr.achievement.tradeIronHillsMerchant.title=
+lotr.achievement.tradeIronHillsMerchant.desc=
 
 lotr.achievement.killElf.title=Elf Slayer
 lotr.achievement.killElf.desc=Kill a Galadhrim elf
@@ -2530,6 +2697,8 @@ lotr.achievement.alignmentGood1000_FANGORN.title=Fangorn Bough
 lotr.achievement.alignmentGood1000_FANGORN.desc=Reach +1000 alignment with the Ents
 lotr.achievement.summonHuorn.title=
 lotr.achievement.summonHuorn.desc=
+lotr.achievement.killMallornEnt.title=
+lotr.achievement.killMallornEnt.desc=
 
 lotr.achievement.raidUrukCamp.title=Camp Raider
 lotr.achievement.raidUrukCamp.desc=Slay an Uruk-hai near his camp
@@ -2784,6 +2953,11 @@ lotr.achievement.enterRhun.desc=
 lotr.achievement.enterRedMountains.title=
 lotr.achievement.enterRedMountains.desc=
 
+lotr.achievement.enterOcean.title=To the Sea!
+lotr.achievement.enterOcean.desc=Travel to the ocean of Middle-earth
+lotr.achievement.enterMeneltarma.title=
+lotr.achievement.enterMeneltarma.desc=
+
 lotr.achievement.enterUtumnoIce.title=
 lotr.achievement.enterUtumnoIce.desc=
 lotr.achievement.enterUtumnoObsidian.title=
@@ -2808,7 +2982,7 @@ lotr.achievement.craftUtumnoKey.desc=
 lotr.waypoint.HIMLING=Himling
 lotr.waypoint.TOL_FUIN=Tol Fuin
 lotr.waypoint.TOL_MORWEN=Tol Morwen
-lotr.waypoint.MENELTARMA=
+lotr.waypoint.MENELTARMA_SUMMIT=
 
 lotr.waypoint.HOBBITON=Hobbiton
 lotr.waypoint.BRANDYWINE_BRIDGE=Brandywine Bridge

@@ -172,7 +172,7 @@
 		
         "example":
         {
-            "text" : "v2.6.4",
+            "text" : "v2.6.5",
             "posX" : 50,
             "posY" : -20,
             "color" : 13938487,
@@ -184,6 +184,7 @@
     {
         "splash-text":
         {
+			"file" : "textures:tolkiencraft/document/splash/ModpackSplash.txt",
             "posX" : 155,
             "posY" : 50,
             "color" : 13055,
