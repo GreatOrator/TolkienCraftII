@@ -30,14 +30,24 @@
             "width" : 450,
             "height" : 128,
             "alignment" : "top_center"
+        },
+
+        "title4":
+        {
+            "image" : "textures:tolkiencraft/gui/blacktransparent.png",
+            "posX" : -150,
+            "posY" : 35,
+            "width" : 300,
+            "height" : 256,
+            "alignment" : "center"
         }
     },
     
     "buttons":
-    {
-        "singleplayer":
+    {		
+        "mainmenu":
         {
-            "text" : "menu.singleplayer",
+            "text" : "Main Menu",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
             "posX" : -150,
             "posY" : 0,
@@ -51,14 +61,15 @@
             "action" :
             {
                 "type" : "openGui",
-                "gui" : "singleplayer"
+                "gui" : "custom.mainmenu"
             }
-        },
+        },		
 		
-        "multiplayer":
+        "mapdownload":
         {
-            "text" : "menu.multiplayer",
+            "text" : "Map and DLC",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+                        "alignment" : "top_right",
             "posX" : -50,
             "posY" : 0,
             "width" : 100,
@@ -68,17 +79,19 @@
 			"normalTextColor" : 16777215,
 			"hoverTextColor" : 16711680,
 			"alignment" : "center",
+			"tooltip" : "Download the latest map and Extra Content!",
             "action" :
             {
                 "type" : "openGui",
-                "gui" : "multiplayer"
+                "gui" : "custom.mapdownload"
             }
         },
 		
-        "extras":
+        "dlcdownload":
         {
-            "text" : "Extras & DLC",
+            "text" : "Credits",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+                        "alignment" : "top_right",
             "posX" : 50,
             "posY" : 0,
             "width" : 100,
@@ -88,10 +101,11 @@
 			"normalTextColor" : 16777215,
 			"hoverTextColor" : 16711680,
 			"alignment" : "center",
+			"tooltip" : "Thank you to the following:",
             "action" :
             {
                 "type" : "openGui",
-                "gui" : "custom.Content"
+                "gui" : "custom.thankyou"
             }
         },
 		
@@ -176,7 +190,55 @@
             "posY" : -25,
             "color" : 13938487,
             "alignment" : "bottom_right"
-        }
+        },
+	
+	"example2":
+        {
+            "text" : "Map Options:",
+            "posX" : -30,
+            "posY" : 40,
+            "color" : 13938487,
+            "alignment" : "center"
+        },
+	
+	"example3":
+        {
+            "text" : "------------------------------------------------",
+            "posX" : -145,
+            "posY" : 46,
+            "color" : 13938487,
+            "alignment" : "center"
+        },
+		
+	"example4":
+        {
+            "text" : "Draconis Template",
+            "posX" : -145,
+            "posY" : 56,
+            "color" : 13938487,
+            "alignment" : "center",
+			"hoverText" : "Download - Main map to play the pack",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://minecraft.curseforge.com/worlds/226743-tolkiencraft-ii-draconis"
+			}
+        },
+		
+	"example5":
+        {
+            "text" : "Lands of Middle Earth",
+            "posX" : -145,
+            "posY" : 66,
+            "color" : 13938487,
+            "alignment" : "center",
+			"hoverText" : "Download - Extra content to explore!",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://minecraft.curseforge.com/worlds/228884-tolkiencraft-ii-content-packs"
+			}
+        }  
     },
     
     "other":

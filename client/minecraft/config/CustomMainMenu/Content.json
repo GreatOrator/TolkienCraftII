@@ -34,10 +34,10 @@
     },
     
     "buttons":
-    {
-        "singleplayer":
+    {		
+        "mainmenu":
         {
-            "text" : "menu.singleplayer",
+            "text" : "Main Menu",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
             "posX" : -150,
             "posY" : 0,
@@ -51,14 +51,15 @@
             "action" :
             {
                 "type" : "openGui",
-                "gui" : "singleplayer"
+                "gui" : "custom.mainmenu"
             }
-        },
+        },		
 		
-        "multiplayer":
+        "mapdownload":
         {
-            "text" : "menu.multiplayer",
+            "text" : "Map and DLC",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+                        "alignment" : "top_right",
             "posX" : -50,
             "posY" : 0,
             "width" : 100,
@@ -68,17 +69,19 @@
 			"normalTextColor" : 16777215,
 			"hoverTextColor" : 16711680,
 			"alignment" : "center",
+			"tooltip" : "Download the latest map and Extra Content!",
             "action" :
             {
                 "type" : "openGui",
-                "gui" : "multiplayer"
+                "gui" : "custom.mapdownload"
             }
         },
 		
-        "extras":
+        "dlcdownload":
         {
-            "text" : "Extras & DLC",
+            "text" : "Credits",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+                        "alignment" : "top_right",
             "posX" : 50,
             "posY" : 0,
             "width" : 100,
@@ -88,10 +91,11 @@
 			"normalTextColor" : 16777215,
 			"hoverTextColor" : 16711680,
 			"alignment" : "center",
+			"tooltip" : "Thank you to the following:",
             "action" :
             {
                 "type" : "openGui",
-                "gui" : "custom.Content"
+                "gui" : "custom.thankyou"
             }
         },
 		
