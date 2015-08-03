@@ -176,10 +176,28 @@
         "example":
         {
             "text" : "v2.6.7",
-            "posX" : -40,
-            "posY" : -25,
+            "posX" : -35,
+            "posY" : -15,
             "color" : 13938487,
             "alignment" : "bottom_right"
+        },
+       
+        "mods":
+        {
+            "text" : "#modsloaded# total mods with #modsactive# active",
+            "posX" : -75,
+            "posY" : -15,
+            "color" : 13938487,
+            "alignment" : "bottom_center"
+        },
+       
+        "greeting":
+        {
+            "text" : "Welcome to adventure, #username#",
+            "posX" : 5,
+            "posY" : 5,
+            "color" : 13938487,
+            "alignment" : "top_left"
         }
     },
     

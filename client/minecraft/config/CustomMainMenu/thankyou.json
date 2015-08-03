@@ -280,6 +280,23 @@
                 "type" : "openLink",
                                 "link" : "https://www.patreon.com/greatorator?ty=a"
 			}
+        },		
+        "example":
+        {
+            "text" : "v2.6.7",
+            "posX" : -35,
+            "posY" : -15,
+            "color" : 13938487,
+            "alignment" : "bottom_right"
+        },
+       
+        "greeting":
+        {
+            "text" : "Welcome to adventure, #username#",
+            "posX" : 5,
+            "posY" : 5,
+            "color" : 13938487,
+            "alignment" : "top_left"
         }
     },
     
