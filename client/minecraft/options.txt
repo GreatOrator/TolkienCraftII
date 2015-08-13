@@ -123,6 +123,7 @@ key_Camping Inventory Key:34
 key_key.craftingGrid:0
 key_TG.keybind.openInv:71
 key_TG.keybind.activeaAbilities:81
+key_WorldEdit Reference:38
 key_aura.angelJump:200
 key_aura.angelJumpDown:208
 key_key.CastingMode:209
@@ -144,8 +145,8 @@ key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:40
 key_key.journeymap.create_waypoint:43
-soundCategory_master:0.22847682
-soundCategory_music:0.2535211
+soundCategory_master:0.5
+soundCategory_music:0.35915494
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
