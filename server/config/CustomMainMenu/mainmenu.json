@@ -75,9 +75,9 @@
             }
         },
 		
-        "options":
+        "extras":
         {
-            "text" : "menu.options",
+            "text" : "Extras & DLC",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
             "posX" : 50,
             "posY" : 0,
@@ -91,93 +91,111 @@
             "action" :
             {
                 "type" : "openGui",
+                "gui" : "custom.Content"
+            }
+        },
+		
+        "options":
+        {
+            "text" : "",
+						"texture" : "textures:tolkiencraft/buttons/buttontemplate4.png",
+			"posX" : 5,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "bottom_left",
+			"tooltip" : "Choose your Settings",
+             "action" :
+            {
+                "type" : "openGui",
                 "gui" : "options"
             }
-        },		
-		
-        "mapdownload":
+		},
+       
+        "openeye":
         {
-            "text" : "Map Download",
-                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-                        "hoverText" : "Get the map",
-                        "alignment" : "top_right",
-            "posX" : -100,
-            "posY" : 30,
-            "width" : 100,
-            "height" : 30,
+            "text" : "",
+                        "texture" : "textures:tolkiencraft/buttons/buttontemplate5.png",
+            "posX" : 80,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 16711680,
-			"alignment" : "center",
-                        "action" :
-                        {
-                "type" : "openLink",
-                                "link" : "http://minecraft.curseforge.com/worlds/226743-tolkiencraft-ii-draconis"
-            }
+            "alignment" : "bottom_left",
+			"tooltip" : "What happened?",
+			"wrappedButton" : 666
         },
-		
-        "dlcdownload":
-        {
-            "text" : "Additional Content",
-                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-                        "hoverText" : "Expand Exploration",
-                        "alignment" : "top_right",
-            "posX" : 0,
-            "posY" : 30,
-            "width" : 100,
-            "height" : 30,
+       
+        "quit":
+       {
+            "text" : "",
+						"texture" : "textures:tolkiencraft/buttons/buttontemplate1.png",
+            "posX" : 55,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 16711680,
-			"alignment" : "center",
-                        "action" :
-                        {
-                "type" : "openLink",
-                                "link" : "http://minecraft.curseforge.com/worlds/228884-tolkiencraft-ii-content-packs"
-            }
-        },
-
-		"quit":
-        {
-            "text" : "menu.quit",
-                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-            "posX" : -50,
-            "posY" : 60,
-            "width" : 100,
-            "height" : 30,
-			"imageWidth" : 100,
-			"imageHeight" : 50,
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 16711680,
-			"alignment" : "center",
+            "alignment" : "bottom_left",
+			"tooltip" : "Adventure another day.",
             "action" :
             {
                 "type" : "quit"
+            }
+        },
+
+        "language":
+        {
+            "text" : "",
+						"texture" : "textures:tolkiencraft/buttons/buttontemplate2.png",
+            "posX" : 30,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "alignment" : "bottom_left",
+			"tooltip" : "How shall I address thee?",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
             }
         }
     },
     
     "texts":
-    {
-        "mojang":
-        {
-            "text" : "",
-            "posX" : -2,
-            "posY" : -10,
-            "color" : 150,
-            "alignment" : "bottom_right"
-        },
-		
+    {		
         "example":
         {
-            "text" : "v2.6.6",
-            "posX" : 50,
-            "posY" : -20,
+            "text" : "v2.7.0",
+            "posX" : -35,
+            "posY" : -15,
             "color" : 13938487,
-            "alignment" : "bottom_left"
+            "alignment" : "bottom_right"
+        },
+       
+        "mods":
+        {
+            "text" : "#modsloaded# total mods with #modsactive# active",
+            "posX" : -75,
+            "posY" : -15,
+            "color" : 13938487,
+            "alignment" : "bottom_center"
+        },
+       
+        "greeting":
+        {
+            "text" : "Welcome to adventure, #username#",
+            "posX" : 5,
+            "posY" : 5,
+            "color" : 13938487,
+            "alignment" : "top_left"
         }
+		
     },
     
     "other":
