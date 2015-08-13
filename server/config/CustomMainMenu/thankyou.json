@@ -185,7 +185,7 @@
     {		
         "example":
         {
-            "text" : "v2.6.7",
+            "text" : "v2.7.0",
             "posX" : -40,
             "posY" : -25,
             "color" : 13938487,
@@ -280,14 +280,6 @@
                 "type" : "openLink",
                                 "link" : "https://www.patreon.com/greatorator?ty=a"
 			}
-        },		
-        "example":
-        {
-            "text" : "v2.6.7",
-            "posX" : -35,
-            "posY" : -15,
-            "color" : 13938487,
-            "alignment" : "bottom_right"
         },
        
         "greeting":
