@@ -21,6 +21,16 @@ server/whitelist.json
 server/banned-ips.json
 server/banned-players.json
 server/config/JourneyMapServer
+server/mods/AromaBackup*
+server/mods/CustomMainMenu*
+server/mods/InventoryTweaks*
+server/mods/journeymap*
+server/mods/Lockdown*
+server/mods/NotEnoughKeys*
+server/mods/ResourceLoader*
+server/mods/rpghud*
+server/mods/TiCTooltips*
+server/mods/*DamageIndicatorsMod*
 
 # Client only
 
@@ -43,7 +53,7 @@ client/minecraft/config/hqm/editmode.cfg
 
 # Caches
 
-**/mods/carpentersblocks/CarpentersBlocksCachedResources.zip
+**/mods/carpentersblocks
 **/customnpcs/assets/customnpcs/textures/cache
 **/usercache.json
 
