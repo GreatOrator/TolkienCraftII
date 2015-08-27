@@ -123,7 +123,6 @@ key_Camping Inventory Key:34
 key_key.craftingGrid:0
 key_TG.keybind.openInv:71
 key_TG.keybind.activeaAbilities:81
-key_WorldEdit Reference:38
 key_aura.angelJump:200
 key_aura.angelJumpDown:208
 key_key.CastingMode:209

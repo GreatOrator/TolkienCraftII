@@ -1,0 +1,853 @@
+{
+    ReturnToStart: 1b,
+    NpcInv: [
+    ],
+    PotionEffect: 0,
+    Size: 5,
+    stopAndInteract: 0b,
+    Resistances: {
+        Arrow: 1.0f,
+        Explosion: 0.0f,
+        Knockback: 1.0f,
+        Melee: 1.0f
+    },
+    BossBar: 0b,
+    RespawnTime: 20,
+    magicXP: 0.0f,
+    NpcAngrySound: "",
+    igJobInventory: {
+        NpcMiscInv: [
+            {
+                Slot: 0b,
+                id: 339s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 1b,
+                id: 340s,
+                Count: 3b,
+                Damage: 0s
+            },
+            {
+                Slot: 2b,
+                id: 386s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 3b,
+                id: 351s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 4b,
+                id: 7197s,
+                Count: 1b,
+                tag: {
+                    symbol: "Rainbow"
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 5b,
+                id: 7197s,
+                Count: 1b,
+                tag: {
+                    symbol: "Biome47"
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 6b,
+                id: 7197s,
+                Count: 1b,
+                tag: {
+                    symbol: "Biome66"
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 7b,
+                id: 7197s,
+                Count: 1b,
+                tag: {
+                    symbol: "ColorSkyNight"
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 8b,
+                id: 7197s,
+                Count: 1b,
+                tag: {
+                    symbol: "ModNavy"
+                },
+                Damage: 0s
+            }
+        ]
+    },
+    ReactsToFire: 0b,
+    igLines: [
+        {
+            Line: "Knowledge is power {player}."
+        }
+    ],
+    IgnoreCobweb: 0b,
+    PositionOffsetZ: 5.0f,
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    igAvailability: {
+        AvailabilityQuestId: -1,
+        AvailabilityFactionStance: 0,
+        AvailabilityQuest: 0,
+        AvailabilityDialog4: 0,
+        AvailabilityDialog3: 0,
+        AvailabilityQuest2: 0,
+        AvailabilityQuest3: 0,
+        AvailabilityQuest4: 0,
+        ModRev: 16,
+        AvailabilityDialog2: 0,
+        AvailabilityDayTime: 0,
+        AvailabilityFaction2Id: -1,
+        AvailabilityFaction: 0,
+        AvailabilityDialog: 0,
+        AvailabilityFaction2: 0,
+        AvailabilityFactionId: -1,
+        AvailabilityFaction2Stance: 0,
+        AvailabilityDialogId: -1,
+        AvailabilityQuest4Id: -1,
+        AvailabilityQuest3Id: -1,
+        AvailabilityQuest2Id: -1,
+        AvailabilityDialog2Id: -1,
+        AvailabilityDialog3Id: -1,
+        AvailabilityDialog4Id: -1,
+        AvailabilityMinPlayerLevel: 0
+    },
+    TransformHasAI: 0b,
+    AttackStrenght: 5,
+    PersistenceRequired: 0b,
+    id: "CustomNpc",
+    HealF: 50.0f,
+    MovingPatern: 0,
+    NpcLines: {
+        Lines: [
+            {
+                Line: "The School is upstairs adventurer.",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "I could not imagine a life outside of my books.",
+                Song: "",
+                Slot: 1
+            },
+            {
+                Line: "Knowledge, the ultimate in satisfaction, but always in need.",
+                Song: "",
+                Slot: 2
+            }
+        ]
+    },
+    DefendFaction: 0b,
+    FireIndirect: 0,
+    NpcVisible: 0,
+    LinkedNpcName: "",
+    FindShelter: 2,
+    ScriptsContainers: [
+    ],
+    Air: 300s,
+    TacticalVariant: 0,
+    Orientation: 90,
+    ScriptLanguage: "ECMAScript",
+    KnockBack: 0,
+    TransformHasJob: 0b,
+    CustomName: "",
+    CanDespawn: 0b,
+    BurnInSun: 0b,
+    TraderSold: {
+        NpcMiscInv: [
+            {
+                Slot: 0b,
+                id: 403s,
+                Count: 1b,
+                tag: {
+                    StoredEnchantments: [
+                        {
+                            lvl: 1s,
+                            id: 196s
+                        }
+                    ]
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 1b,
+                id: 403s,
+                Count: 1b,
+                tag: {
+                    StoredEnchantments: [
+                        {
+                            lvl: 3s,
+                            id: 5s
+                        }
+                    ]
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 2b,
+                id: 7205s,
+                Count: 1b,
+                tag: {
+                    Pages: {
+                    },
+                    BoundData: {
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 3b,
+                id: 339s,
+                Count: 16b,
+                Damage: 0s
+            },
+            {
+                Slot: 4b,
+                id: 403s,
+                Count: 1b,
+                tag: {
+                    StoredEnchantments: [
+                        {
+                            lvl: 3s,
+                            id: 35s
+                        }
+                    ]
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 5b,
+                id: 2218s,
+                Count: 16b,
+                Damage: 0s
+            },
+            {
+                Slot: 6b,
+                id: 340s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 7b,
+                id: 403s,
+                Count: 1b,
+                tag: {
+                    StoredEnchantments: [
+                        {
+                            lvl: 5s,
+                            id: 32s
+                        }
+                    ]
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 8b,
+                id: 7197s,
+                Count: 1b,
+                tag: {
+                    symbol: "ModZero"
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 9b,
+                id: 351s,
+                Count: 16b,
+                Damage: 0s
+            },
+            {
+                Slot: 10b,
+                id: 403s,
+                Count: 1b,
+                tag: {
+                    StoredEnchantments: [
+                        {
+                            lvl: 4s,
+                            id: 2s
+                        }
+                    ]
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 11b,
+                id: 7197s,
+                Count: 1b,
+                tag: {
+                    symbol: "TerrainNether"
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 12b,
+                id: 7173s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 13b,
+                id: 403s,
+                Count: 1b,
+                tag: {
+                    StoredEnchantments: [
+                        {
+                            lvl: 5s,
+                            id: 8s
+                        }
+                    ]
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 14b,
+                id: 7197s,
+                Count: 1b,
+                tag: {
+                    linkpanel: {
+                        properties: [
+                            "Intra Linking"
+                        ]
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 16b,
+                id: 403s,
+                Count: 1b,
+                tag: {
+                    StoredEnchantments: [
+                        {
+                            lvl: 1s,
+                            id: 33s
+                        }
+                    ]
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 17b,
+                id: 7197s,
+                Count: 1b,
+                tag: {
+                    symbol: "DenseOres"
+                },
+                Damage: 0s
+            }
+        ]
+    },
+    StandingState: 3,
+    AttackInvisible: 0b,
+    HurtTime: 0s,
+    WalkingRange: 2,
+    CustomNameVisible: 0b,
+    ShotCount: 1,
+    pDur: 5,
+    TraderIgnoreDamage: 0b,
+    AttackRange: 2,
+    NpcKillLines: {
+        Lines: [
+        ]
+    },
+    PotionImmune: 0b,
+    AvoidsSun: 0b,
+    Texture: "customnpcs:textures/entity/elfmale/Dark_Elf Librarian.png",
+    NpcJob: 4,
+    BurstCount: 1,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    pSpeed: 10,
+    pArea: 0,
+    DeathTime: 0s,
+    pImpact: 0,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 1,
+    RangeAndMelee: 0,
+    pRender3D: 0b,
+    igCooldown: 10,
+    magicLevel: 0s,
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CombatRegen: 0,
+    pEffect: 0,
+    DistanceToMelee: 4,
+    NpcStepSound: "",
+    curFatigue: 0.0f,
+    FireRate: 5,
+    pEffAmp: 0,
+    OnGround: 1b,
+    Dimension: 0,
+    ImmuneToFire: 0b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    UUIDMost: -2655011130250803652L,
+    TraderMarket: "",
+    igGivingMethod: 0,
+    Fire: -1s,
+    DisablePitch: 0b,
+    pPhysics: 1b,
+    TransformHasInv: 0b,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Line: "Good day @p! You can read? Good, i'm tired of illiterate barbarians.",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "These books contain the knowledge you may need in your quest.",
+                Song: "",
+                Slot: 1
+            }
+        ]
+    },
+    TraderCurrency: {
+        NpcMiscInv: [
+            {
+                Slot: 1b,
+                id: 4185s,
+                Count: 5b,
+                Damage: 0s
+            },
+            {
+                Slot: 4b,
+                id: 4185s,
+                Count: 5b,
+                Damage: 0s
+            },
+            {
+                Slot: 5b,
+                id: 4185s,
+                Count: 6b,
+                Damage: 0s
+            },
+            {
+                Slot: 7b,
+                id: 4185s,
+                Count: 5b,
+                Damage: 0s
+            },
+            {
+                Slot: 10b,
+                id: 4185s,
+                Count: 5b,
+                Damage: 0s
+            },
+            {
+                Slot: 13b,
+                id: 4185s,
+                Count: 2b,
+                Damage: 0s
+            },
+            {
+                Slot: 14b,
+                id: 4185s,
+                Count: 2b,
+                Damage: 1s
+            },
+            {
+                Slot: 16b,
+                id: 4185s,
+                Count: 2b,
+                Damage: 0s
+            },
+            {
+                Slot: 17b,
+                id: 4185s,
+                Count: 2b,
+                Damage: 1s
+            },
+            {
+                Slot: 18b,
+                id: 5315s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 19b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 20b,
+                id: 4185s,
+                Count: 5b,
+                Damage: 0s
+            },
+            {
+                Slot: 21b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 22b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 23b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 24b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 25b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 26b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 27b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 28b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 29b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 30b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 31b,
+                id: 4185s,
+                Count: 3b,
+                Damage: 1s
+            },
+            {
+                Slot: 32b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 2s
+            },
+            {
+                Slot: 34b,
+                id: 4185s,
+                Count: 3b,
+                Damage: 1s
+            },
+            {
+                Slot: 35b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 2s
+            }
+        ]
+    },
+    pSpin: 0b,
+    NpcHurtSound: "minecraft:game.player.hurt",
+    pTrail: 0,
+    isShrunk: 0b,
+    CreatureType: 0,
+    Attributes: [
+        {
+            Base: 0.0d,
+            Name: "am2.maxManaBonus"
+        },
+        {
+            Base: 0.0d,
+            Name: "am2.maxBurnoutBonus"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.xpMultiplier"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.burnoutReduction"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.manaRegenModifier"
+        },
+        {
+            Base: 50.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.30000001192092896d,
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 64.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 5.0d,
+            Name: "generic.attackDamage"
+        }
+    ],
+    Invulnerable: 0b,
+    TransformHasDisplay: 0b,
+    NoFallDamage: 0b,
+    AbsorptionAmount: 0.0f,
+    TransformHasRole: 0b,
+    Name: "La'ak Tur",
+    FallDistance: 0.0f,
+    NpcIdleSound: "",
+    Weapons: [
+        {
+            Slot: 0b,
+            id: 5342s,
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    NPCDialogOptions: [
+        {
+            NPCDialog: {
+                DialogCommand: "",
+                Dialog: 171,
+                Title: "Librarian I",
+                DialogColor: 14737632,
+                OptionType: 2
+            },
+            DialogSlot: 0
+        }
+    ],
+    AggroRange: 16,
+    DirectLOS: 1b,
+    HealthRegen: 5,
+    NpcModelData: {
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        Breasts: 0b,
+        Headwear: 2b,
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        ExtraData: {
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        }
+    },
+    igCooldownType: 2,
+    minDelay: 20,
+    DoorInteract: 1,
+    MoveSpeed: 6,
+    TransformEditingModus: 0b,
+    UsingSkinUrl: 0b,
+    Leashed: 0b,
+    SkinUrl: "",
+    CanSwim: 1b,
+    TraderIgnoreNBT: 0b,
+    armorCooldowns: [0,0,0,0],
+    MaxHealth: 50,
+    HideBodyWhenKilled: 0b,
+    AttackSpeed: 20,
+    PotionDuration: 5,
+    maxDelay: 40,
+    ScriptEnabled: 0b,
+    Role: 1,
+    DropChance: [
+        {
+            Integer: 100,
+            Slot: 0
+        },
+        {
+            Integer: 100,
+            Slot: 1
+        },
+        {
+            Integer: 100,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
+    ],
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    pDamage: 4,
+    KilledTime: 0L,
+    AimWhileShooting: 0b,
+    CanPickUpLoot: 0b,
+    AttackOtherFactions: 0b,
+    CanDrown: 1b,
+    curMana: 500.0f,
+    AttackTime: 0s,
+    pSize: 5,
+    CanSprint: 0b,
+    CanLeap: 0b,
+    TransformIsActive: 0b,
+    ForgeData: {
+        WITCInitialWidth: 0.6f,
+        WITCInitialHeight: 1.9f
+    },
+    MovingState: 0,
+    MovingPos: 0,
+    PotionAmp: 0,
+    OnAttack: 3,
+    TacticalRadius: 8,
+    MaxExp: 0,
+    PortalCooldown: 0,
+    pGlows: 0b,
+    TransformHasAdvanced: 0b,
+    TransformHasStats: 0b,
+    FiringSound: "random.bow",
+    ModRev: 16,
+    Accuracy: 60,
+    MinExp: 0,
+    Armor: [
+        {
+            Slot: 0b,
+            id: 4787s,
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    CloakTexture: "",
+    GlowTexture: "",
+    MaxFiringRange: 15,
+    pXlr8: 0b,
+    ItemGiverId: 0,
+    UUIDLeast: -4787256790930666933L,
+    Health: 50s,
+    pExplode: 0b,
+    pStick: 0b,
+    MovingPause: 1b,
+    NpcDeathSound: "minecraft:game.player.hurt",
+    FactionID: 6,
+    Title: "Librarian",
+    TotalTicksAlive: 49162881L,
+    Rotation: [
+        -293.59796f,
+        0.0f
+    ],
+    ShowName: 0,
+    npcInteracting: 0b,
+    AvoidsWater: 0b,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    NoLivingAnimation: 0b,
+    hasUnlockedAugmented: 1b,
+    isCritical: 0b,
+    SpawnCycle: 0
+}
