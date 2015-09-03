@@ -1,9 +1,17 @@
 {
-  "songs.concerning_hobbits": {
+	"songs.concerning_hobbits": {
     "category": "player",
     "sounds": [{"name": "customsongs/Concerning Hobbits", "stream": true}]
   },
-    "human.female.evil.witch_laugh": {
+    "songs.minastirith": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/minastirith", "stream": true}]
+  },
+	"songs.NewMyMoria": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/NewMyMoria", "stream": true}]
+  },
+	"human.female.evil.witch_laugh": {
     "category": "player",
     "sounds": [{"name": "customsounds/Evil Witch Laugh", "stream": true}]
   },
