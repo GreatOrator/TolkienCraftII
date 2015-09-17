@@ -185,7 +185,7 @@
     {		
         "example":
         {
-            "text" : "v2.7.0",
+            "text" : "v2.7.3",
             "posX" : -40,
             "posY" : -25,
             "color" : 13938487,
@@ -210,7 +210,7 @@
             "alignment" : "center"
         },
 		
-	"example4":
+	"macleod":
         {
             "text" : "Kevin MacLeod",
             "posX" : -145,
@@ -225,7 +225,7 @@
 			}
         },
 		
-	"example9":
+	"clarke":
         {
             "text" : "Christopher Lloyd Clarke",
             "posX" : -145,
@@ -237,6 +237,21 @@
                         {
                 "type" : "openLink",
                                 "link" : "http://www.The-Guided-Meditation-Site.com/"
+			}
+        },
+		
+	"sn0w":
+        {
+            "text" : "Alecia (Sn0w) Shepherd",
+            "posX" : -145,
+            "posY" : 66,
+            "color" : 13938487,
+            "alignment" : "center",
+			"hoverText" : "Download her music!",
+			"action" :
+                        {
+                "type" : "openLink",
+                                "link" : "http://www.aleciashepherd.com/"
 			}
         },
 	
