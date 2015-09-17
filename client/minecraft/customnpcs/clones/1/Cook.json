@@ -3,7 +3,7 @@
     NpcInv: [
     ],
     PotionEffect: 0,
-    Size: 2,
+    Size: 5,
     Resistances: {
         Arrow: 1.0f,
         Melee: 1.0f,
@@ -13,10 +13,88 @@
     RespawnTime: 20,
     magicXP: 0.0f,
     NpcAngrySound: "",
+    igJobInventory: {
+        NpcMiscInv: [
+            {
+                Slot: 0b,
+                id: 5715s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 1b,
+                id: 5945s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 2b,
+                id: 5949s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 3b,
+                id: 5940s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 4b,
+                id: 5970s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 5b,
+                id: 5910s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 6b,
+                id: 5898s,
+                Count: 1b,
+                Damage: 0s
+            }
+        ]
+    },
     ReactsToFire: 0b,
+    igLines: [
+        {
+            Line: "You look hungry {player}"
+        }
+    ],
     IgnoreCobweb: 0b,
     PositionOffsetZ: 5.0f,
     PositionOffsetY: 5.0f,
+    igAvailability: {
+        AvailabilityQuestId: -1,
+        AvailabilityFactionStance: 0,
+        AvailabilityQuest: 0,
+        AvailabilityDialog4: 0,
+        AvailabilityQuest2: 0,
+        AvailabilityDialog3: 0,
+        AvailabilityQuest3: 0,
+        AvailabilityQuest4: 0,
+        ModRev: 15,
+        AvailabilityDialog2: 0,
+        AvailabilityDayTime: 0,
+        AvailabilityFaction2Id: -1,
+        AvailabilityFaction: 0,
+        AvailabilityDialog: 0,
+        AvailabilityFaction2: 0,
+        AvailabilityFactionId: -1,
+        AvailabilityFaction2Stance: 0,
+        AvailabilityDialogId: -1,
+        AvailabilityQuest4Id: -1,
+        AvailabilityQuest3Id: -1,
+        AvailabilityQuest2Id: -1,
+        AvailabilityDialog2Id: -1,
+        AvailabilityDialog3Id: -1,
+        AvailabilityMinPlayerLevel: 0,
+        AvailabilityDialog4Id: -1
+    },
     PositionOffsetX: 5.0f,
     TransformHasAI: 0b,
     AttackStrenght: 5,
@@ -52,8 +130,8 @@
     pDur: 5,
     AttackRange: 2,
     AvoidsSun: 0b,
-    Texture: "customnpcs:textures/entity/humanmale/Steve.png",
-    NpcJob: 0,
+    Texture: "customnpcs:textures/entity/elffemale/ElfMage.png",
+    NpcJob: 4,
     BurstCount: 1,
     NpcAttackLines: {
         Lines: [
@@ -73,11 +151,12 @@
     MoveState: 0,
     RangeAndMelee: 0,
     pRender3D: 0b,
+    igCooldown: 10,
     magicLevel: 0s,
     Motion: [
-        0.0d,
+        0.030337027765002363d,
         -0.0784000015258789d,
-        0.0d
+        0.10027674581965676d
     ],
     CombatRegen: 0,
     DistanceToMelee: 4,
@@ -93,7 +172,8 @@
         Lines: [
         ]
     },
-    UUIDMost: 6279041343592550114L,
+    UUIDMost: -6204528601431850660L,
+    igGivingMethod: 0,
     DisablePitch: 0b,
     Fire: -1s,
     pPhysics: 1b,
@@ -101,9 +181,14 @@
     NpcInteractLines: {
         Lines: [
             {
-                Line: "Greetings @p, I hope you are here to help our kingdom.",
+                Line: "Such picky eaters, the royal family always wants something different.",
                 Song: "",
                 Slot: 0
+            },
+            {
+                Line: "@p could you please move I have a meal to prepare.",
+                Song: "",
+                Slot: 1
             }
         ]
     },
@@ -159,32 +244,48 @@
     NoFallDamage: 0b,
     AbsorptionAmount: 0.0f,
     TransformHasRole: 0b,
-    Name: "Boopsie",
+    Name: "Kineth",
     FallDistance: 0.0f,
-    NpcIdleSound: "customnpcs:misc.ambient.medieval.city.tavern",
+    NpcIdleSound: "",
     Weapons: [
+        {
+            Slot: 0b,
+            id: 5693s,
+            Count: 1b,
+            Damage: 0s
+        }
     ],
     NPCDialogOptions: [
+        {
+            NPCDialog: {
+                DialogCommand: "",
+                Dialog: 1,
+                Title: "Start",
+                DialogColor: 14737632,
+                OptionType: 2
+            },
+            DialogSlot: 0
+        }
     ],
     DirectLOS: 1b,
     AggroRange: 16,
     HealthRegen: 1,
     NpcModelData: {
         LegsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         BodyConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         LegParts: {
             Type: 0b,
@@ -196,26 +297,27 @@
         Breasts: 0b,
         Headwear: 2b,
         ArmsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         ExtraData: {
         },
         HeadConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         }
     },
+    igCooldownType: 2,
     MoveSpeed: 6,
-    minDelay: 20,
+    minDelay: 1,
     DoorInteract: 2,
     TransformEditingModus: 0b,
     UsingSkinUrl: 0b,
@@ -226,8 +328,44 @@
     MaxHealth: 20,
     AttackSpeed: 20,
     PotionDuration: 5,
-    maxDelay: 40,
+    maxDelay: 1,
     DropChance: [
+        {
+            Integer: 100,
+            Slot: 0
+        },
+        {
+            Integer: 100,
+            Slot: 1
+        },
+        {
+            Integer: 100,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
     ],
     ScriptEnabled: 0b,
     Role: 0,
@@ -253,7 +391,7 @@
     TransformIsActive: 0b,
     ForgeData: {
     },
-    MovingState: 0,
+    MovingState: 1,
     MovingPos: 0,
     PotionAmp: 0,
     OnAttack: 0,
@@ -265,7 +403,7 @@
     TransformHasStats: 0b,
     FiringSound: "random.bow",
     ModRev: 15,
-    Accuracy: 60,
+    Accuracy: 90,
     MinExp: 0,
     Armor: [
     ],
@@ -274,19 +412,19 @@
     pXlr8: 0b,
     MaxFiringRange: 15,
     ItemGiverId: 0,
-    UUIDLeast: -5088644751464148099L,
+    UUIDLeast: -4823722139251692832L,
     Health: 20s,
     pExplode: 0b,
     pStick: 0b,
     NpcDeathSound: "minecraft:game.player.hurt",
     MovingPause: 1b,
-    FactionID: 0,
-    Title: "Sound Generator",
+    FactionID: 4,
+    Title: "Cook",
     Rotation: [
-        193.05943f,
-        0.0f
+        342.6888f,
+        -24.244226f
     ],
-    ShowName: 1,
+    ShowName: 0,
     AvoidsWater: 0b,
     Equipment: [
         {

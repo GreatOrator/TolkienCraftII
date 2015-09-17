@@ -3,7 +3,7 @@
     NpcInv: [
     ],
     PotionEffect: 0,
-    Size: 2,
+    Size: 5,
     Resistances: {
         Arrow: 1.0f,
         Melee: 1.0f,
@@ -11,7 +11,6 @@
     },
     BossBar: 0b,
     RespawnTime: 20,
-    magicXP: 0.0f,
     NpcAngrySound: "",
     ReactsToFire: 0b,
     IgnoreCobweb: 0b,
@@ -19,6 +18,7 @@
     PositionOffsetY: 5.0f,
     PositionOffsetX: 5.0f,
     TransformHasAI: 0b,
+    GuardAttackAll: 0b,
     AttackStrenght: 5,
     PersistenceRequired: 0b,
     NpcLines: {
@@ -26,8 +26,8 @@
         ]
     },
     MovingPatern: 0,
-    HealF: 20.0f,
-    DefendFaction: 0b,
+    HealF: 100.0f,
+    DefendFaction: 1b,
     id: "CustomNpc",
     FireIndirect: 0,
     NpcVisible: 0,
@@ -44,7 +44,7 @@
     CustomName: "",
     CanDespawn: 0b,
     BurnInSun: 0b,
-    StandingState: 0,
+    StandingState: 3,
     HurtTime: 0s,
     WalkingRange: 5,
     CustomNameVisible: 0b,
@@ -52,8 +52,9 @@
     pDur: 5,
     AttackRange: 2,
     AvoidsSun: 0b,
-    Texture: "customnpcs:textures/entity/humanmale/Steve.png",
-    NpcJob: 0,
+    GuardAttackCreepers: 0b,
+    Texture: "customnpcs:textures/CustomSkins/Guy/OrenFootman.png",
+    NpcJob: 3,
     BurstCount: 1,
     NpcAttackLines: {
         Lines: [
@@ -62,7 +63,7 @@
     pSpeed: 10,
     pArea: 0,
     DeathTime: 0s,
-    pImpact: 0,
+    pImpact: 2,
     DropChances: [
         0.085f,
         0.085f,
@@ -71,19 +72,17 @@
         0.085f
     ],
     MoveState: 0,
-    RangeAndMelee: 0,
+    RangeAndMelee: 1,
     pRender3D: 0b,
-    magicLevel: 0s,
     Motion: [
         0.0d,
         -0.0784000015258789d,
         0.0d
     ],
-    CombatRegen: 0,
-    DistanceToMelee: 4,
-    pEffect: 0,
+    CombatRegen: 10,
+    DistanceToMelee: 5,
+    pEffect: 1,
     NpcStepSound: "",
-    curFatigue: 0.0f,
     FireRate: 5,
     pEffAmp: 0,
     OnGround: 1b,
@@ -93,15 +92,16 @@
         Lines: [
         ]
     },
-    UUIDMost: 6279041343592550114L,
+    GuardAttackMobs: 1b,
+    UUIDMost: -5071548675607738633L,
     DisablePitch: 0b,
     Fire: -1s,
-    pPhysics: 1b,
+    pPhysics: 0b,
     TransformHasInv: 0b,
     NpcInteractLines: {
         Lines: [
             {
-                Line: "Greetings @p, I hope you are here to help our kingdom.",
+                Line: "Greetings @p, please move along.",
                 Song: "",
                 Slot: 0
             }
@@ -110,31 +110,10 @@
     pSpin: 0b,
     NpcHurtSound: "minecraft:game.player.hurt",
     pTrail: 0,
-    isShrunk: 0b,
     CreatureType: 0,
     Attributes: [
         {
-            Base: 0.0d,
-            Name: "am2.maxManaBonus"
-        },
-        {
-            Base: 0.0d,
-            Name: "am2.maxBurnoutBonus"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.xpMultiplier"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.burnoutReduction"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.manaRegenModifier"
-        },
-        {
-            Base: 20.0d,
+            Base: 100.0d,
             Name: "generic.maxHealth"
         },
         {
@@ -159,32 +138,44 @@
     NoFallDamage: 0b,
     AbsorptionAmount: 0.0f,
     TransformHasRole: 0b,
-    Name: "Boopsie",
+    Name: "Kortzal",
     FallDistance: 0.0f,
-    NpcIdleSound: "customnpcs:misc.ambient.medieval.city.tavern",
+    NpcIdleSound: "",
     Weapons: [
+        {
+            Slot: 0b,
+            id: 261s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: 262s,
+            Count: 64b,
+            Damage: 0s
+        }
     ],
     NPCDialogOptions: [
     ],
     DirectLOS: 1b,
-    AggroRange: 16,
-    HealthRegen: 1,
+    AggroRange: 20,
+    HealthRegen: 5,
     NpcModelData: {
         LegsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         BodyConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         LegParts: {
             Type: 0b,
@@ -196,38 +187,74 @@
         Breasts: 0b,
         Headwear: 2b,
         ArmsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         ExtraData: {
         },
         HeadConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         }
     },
     MoveSpeed: 6,
-    minDelay: 20,
+    minDelay: 1,
     DoorInteract: 2,
     TransformEditingModus: 0b,
     UsingSkinUrl: 0b,
     Leashed: 0b,
     CanSwim: 1b,
-    armorCooldowns: [0,0,0,0],
-    HideBodyWhenKilled: 0b,
-    MaxHealth: 20,
+    GuardAttackAnimals: 0b,
+    HideBodyWhenKilled: 1b,
+    MaxHealth: 100,
     AttackSpeed: 20,
     PotionDuration: 5,
-    maxDelay: 40,
+    maxDelay: 1,
     DropChance: [
+        {
+            Integer: 100,
+            Slot: 0
+        },
+        {
+            Integer: 100,
+            Slot: 1
+        },
+        {
+            Integer: 100,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
     ],
     ScriptEnabled: 0b,
     Role: 0,
@@ -243,9 +270,8 @@
     pDamage: 4,
     KilledTime: 0L,
     CanPickUpLoot: 0b,
-    AttackOtherFactions: 0b,
+    AttackOtherFactions: 1b,
     CanDrown: 1b,
-    curMana: 500.0f,
     AttackTime: 0s,
     CanSprint: 0b,
     pSize: 5,
@@ -265,28 +291,28 @@
     TransformHasStats: 0b,
     FiringSound: "random.bow",
     ModRev: 15,
-    Accuracy: 60,
+    Accuracy: 100,
     MinExp: 0,
     Armor: [
     ],
     CloakTexture: "",
     GlowTexture: "",
     pXlr8: 0b,
-    MaxFiringRange: 15,
+    MaxFiringRange: 20,
     ItemGiverId: 0,
-    UUIDLeast: -5088644751464148099L,
-    Health: 20s,
+    UUIDLeast: -7041458430648091484L,
+    Health: 100s,
     pExplode: 0b,
     pStick: 0b,
     NpcDeathSound: "minecraft:game.player.hurt",
     MovingPause: 1b,
-    FactionID: 0,
-    Title: "Sound Generator",
+    FactionID: 4,
+    Title: "Draconis Archer",
     Rotation: [
-        193.05943f,
+        -331.22644f,
         0.0f
     ],
-    ShowName: 1,
+    ShowName: 0,
     AvoidsWater: 0b,
     Equipment: [
         {
@@ -301,7 +327,5 @@
         }
     ],
     NoLivingAnimation: 0b,
-    hasUnlockedAugmented: 1b,
-    isCritical: 0b,
     SpawnCycle: 0
 }

@@ -2,8 +2,8 @@
     ReturnToStart: 1b,
     NpcInv: [
     ],
-    PotionEffect: 0,
-    Size: 2,
+    PotionEffect: 4,
+    Size: 5,
     Resistances: {
         Arrow: 1.0f,
         Melee: 1.0f,
@@ -11,23 +11,23 @@
     },
     BossBar: 0b,
     RespawnTime: 20,
-    magicXP: 0.0f,
     NpcAngrySound: "",
     ReactsToFire: 0b,
-    IgnoreCobweb: 0b,
+    IgnoreCobweb: 1b,
     PositionOffsetZ: 5.0f,
     PositionOffsetY: 5.0f,
     PositionOffsetX: 5.0f,
     TransformHasAI: 0b,
-    AttackStrenght: 5,
+    GuardAttackAll: 0b,
+    AttackStrenght: 30,
     PersistenceRequired: 0b,
     NpcLines: {
         Lines: [
         ]
     },
     MovingPatern: 0,
-    HealF: 20.0f,
-    DefendFaction: 0b,
+    HealF: 400.0f,
+    DefendFaction: 1b,
     id: "CustomNpc",
     FireIndirect: 0,
     NpcVisible: 0,
@@ -39,12 +39,12 @@
     TacticalVariant: 0,
     Orientation: 0,
     ScriptLanguage: "ECMAScript",
-    KnockBack: 0,
+    KnockBack: 4,
     TransformHasJob: 0b,
     CustomName: "",
     CanDespawn: 0b,
     BurnInSun: 0b,
-    StandingState: 0,
+    StandingState: 3,
     HurtTime: 0s,
     WalkingRange: 5,
     CustomNameVisible: 0b,
@@ -52,8 +52,9 @@
     pDur: 5,
     AttackRange: 2,
     AvoidsSun: 0b,
-    Texture: "customnpcs:textures/entity/humanmale/Steve.png",
-    NpcJob: 0,
+    GuardAttackCreepers: 1b,
+    Texture: "customnpcs:textures/entity/humanmale/White_knight.png",
+    NpcJob: 3,
     BurstCount: 1,
     NpcAttackLines: {
         Lines: [
@@ -73,17 +74,15 @@
     MoveState: 0,
     RangeAndMelee: 0,
     pRender3D: 0b,
-    magicLevel: 0s,
     Motion: [
         0.0d,
         -0.0784000015258789d,
         0.0d
     ],
-    CombatRegen: 0,
+    CombatRegen: 30,
     DistanceToMelee: 4,
     pEffect: 0,
     NpcStepSound: "",
-    curFatigue: 0.0f,
     FireRate: 5,
     pEffAmp: 0,
     OnGround: 1b,
@@ -93,7 +92,8 @@
         Lines: [
         ]
     },
-    UUIDMost: 6279041343592550114L,
+    GuardAttackMobs: 1b,
+    UUIDMost: 1831301047794483219L,
     DisablePitch: 0b,
     Fire: -1s,
     pPhysics: 1b,
@@ -101,40 +101,29 @@
     NpcInteractLines: {
         Lines: [
             {
-                Line: "Greetings @p, I hope you are here to help our kingdom.",
+                Line: "Hello @p, I'm watching you.",
                 Song: "",
                 Slot: 0
+            },
+            {
+                Line: "The king does not seem to be in a very good mood sometimes.",
+                Song: "",
+                Slot: 1
+            },
+            {
+                Line: "The prince sure loves to play.",
+                Song: "",
+                Slot: 2
             }
         ]
     },
     pSpin: 0b,
     NpcHurtSound: "minecraft:game.player.hurt",
     pTrail: 0,
-    isShrunk: 0b,
     CreatureType: 0,
     Attributes: [
         {
-            Base: 0.0d,
-            Name: "am2.maxManaBonus"
-        },
-        {
-            Base: 0.0d,
-            Name: "am2.maxBurnoutBonus"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.xpMultiplier"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.burnoutReduction"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.manaRegenModifier"
-        },
-        {
-            Base: 20.0d,
+            Base: 400.0d,
             Name: "generic.maxHealth"
         },
         {
@@ -150,41 +139,53 @@
             Name: "generic.followRange"
         },
         {
-            Base: 5.0d,
+            Base: 30.0d,
             Name: "generic.attackDamage"
         }
     ],
     Invulnerable: 0b,
     TransformHasDisplay: 0b,
-    NoFallDamage: 0b,
+    NoFallDamage: 1b,
     AbsorptionAmount: 0.0f,
     TransformHasRole: 0b,
-    Name: "Boopsie",
+    Name: "Demytrix",
     FallDistance: 0.0f,
-    NpcIdleSound: "customnpcs:misc.ambient.medieval.city.tavern",
+    NpcIdleSound: "",
     Weapons: [
+        {
+            Slot: 0b,
+            id: 5136s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            Slot: 2b,
+            id: 5147s,
+            Count: 1b,
+            Damage: 0s
+        }
     ],
     NPCDialogOptions: [
     ],
     DirectLOS: 1b,
     AggroRange: 16,
-    HealthRegen: 1,
+    HealthRegen: 15,
     NpcModelData: {
         LegsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         BodyConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         LegParts: {
             Type: 0b,
@@ -196,38 +197,74 @@
         Breasts: 0b,
         Headwear: 2b,
         ArmsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         ExtraData: {
         },
         HeadConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         }
     },
     MoveSpeed: 6,
-    minDelay: 20,
-    DoorInteract: 2,
+    minDelay: 1,
+    DoorInteract: 1,
     TransformEditingModus: 0b,
     UsingSkinUrl: 0b,
     Leashed: 0b,
     CanSwim: 1b,
-    armorCooldowns: [0,0,0,0],
-    HideBodyWhenKilled: 0b,
-    MaxHealth: 20,
+    GuardAttackAnimals: 0b,
+    HideBodyWhenKilled: 1b,
+    MaxHealth: 400,
     AttackSpeed: 20,
     PotionDuration: 5,
-    maxDelay: 40,
+    maxDelay: 1,
     DropChance: [
+        {
+            Integer: 100,
+            Slot: 0
+        },
+        {
+            Integer: 100,
+            Slot: 1
+        },
+        {
+            Integer: 100,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
     ],
     ScriptEnabled: 0b,
     Role: 0,
@@ -243,19 +280,18 @@
     pDamage: 4,
     KilledTime: 0L,
     CanPickUpLoot: 0b,
-    AttackOtherFactions: 0b,
-    CanDrown: 1b,
-    curMana: 500.0f,
+    AttackOtherFactions: 1b,
+    CanDrown: 0b,
     AttackTime: 0s,
-    CanSprint: 0b,
+    CanSprint: 1b,
     pSize: 5,
-    CanLeap: 0b,
+    CanLeap: 1b,
     TransformIsActive: 0b,
     ForgeData: {
     },
     MovingState: 0,
     MovingPos: 0,
-    PotionAmp: 0,
+    PotionAmp: 1,
     OnAttack: 0,
     TacticalRadius: 8,
     MaxExp: 0,
@@ -265,7 +301,7 @@
     TransformHasStats: 0b,
     FiringSound: "random.bow",
     ModRev: 15,
-    Accuracy: 60,
+    Accuracy: 90,
     MinExp: 0,
     Armor: [
     ],
@@ -274,19 +310,19 @@
     pXlr8: 0b,
     MaxFiringRange: 15,
     ItemGiverId: 0,
-    UUIDLeast: -5088644751464148099L,
-    Health: 20s,
+    UUIDLeast: -6391351735448102713L,
+    Health: 400s,
     pExplode: 0b,
     pStick: 0b,
     NpcDeathSound: "minecraft:game.player.hurt",
     MovingPause: 1b,
-    FactionID: 0,
-    Title: "Sound Generator",
+    FactionID: 8,
+    Title: "Royal Guard",
     Rotation: [
-        193.05943f,
+        173.39722f,
         0.0f
     ],
-    ShowName: 1,
+    ShowName: 0,
     AvoidsWater: 0b,
     Equipment: [
         {
@@ -301,7 +337,13 @@
         }
     ],
     NoLivingAnimation: 0b,
-    hasUnlockedAugmented: 1b,
-    isCritical: 0b,
-    SpawnCycle: 0
+    SpawnCycle: 0,
+    ActiveEffects: [
+        {
+            Ambient: 0b,
+            Duration: 5833,
+            Id: 27b,
+            Amplifier: 32b
+        }
+    ]
 }

@@ -3,11 +3,13 @@
     NpcInv: [
     ],
     PotionEffect: 0,
-    Size: 2,
+    Size: 5,
+    stopAndInteract: 1b,
     Resistances: {
         Arrow: 1.0f,
-        Melee: 1.0f,
-        Knockback: 1.0f
+        Explosion: 1.0f,
+        Knockback: 1.0f,
+        Melee: 1.0f
     },
     BossBar: 0b,
     RespawnTime: 20,
@@ -21,18 +23,18 @@
     TransformHasAI: 0b,
     AttackStrenght: 5,
     PersistenceRequired: 0b,
+    id: "CustomNpc",
+    HealF: 20.0f,
+    MovingPatern: 0,
     NpcLines: {
         Lines: [
         ]
     },
-    MovingPatern: 0,
-    HealF: 20.0f,
     DefendFaction: 0b,
-    id: "CustomNpc",
     FireIndirect: 0,
     NpcVisible: 0,
+    LinkedNpcName: "",
     FindShelter: 2,
-    SkinUsername: "",
     ScriptsContainers: [
     ],
     Air: 300s,
@@ -45,14 +47,20 @@
     CanDespawn: 0b,
     BurnInSun: 0b,
     StandingState: 0,
+    AttackInvisible: 0b,
     HurtTime: 0s,
     WalkingRange: 5,
     CustomNameVisible: 0b,
     ShotCount: 1,
     pDur: 5,
     AttackRange: 2,
+    NpcKillLines: {
+        Lines: [
+        ]
+    },
+    PotionImmune: 0b,
     AvoidsSun: 0b,
-    Texture: "customnpcs:textures/entity/humanmale/Steve.png",
+    Texture: "lotr:mob/hobbit/hobbit_female/10.png",
     NpcJob: 0,
     BurstCount: 1,
     NpcAttackLines: {
@@ -73,35 +81,35 @@
     MoveState: 0,
     RangeAndMelee: 0,
     pRender3D: 0b,
-    magicLevel: 0s,
+    magicLevel: 1s,
     Motion: [
         0.0d,
         -0.0784000015258789d,
         0.0d
     ],
     CombatRegen: 0,
-    DistanceToMelee: 4,
     pEffect: 0,
+    DistanceToMelee: 4,
     NpcStepSound: "",
     curFatigue: 0.0f,
     FireRate: 5,
     pEffAmp: 0,
     OnGround: 1b,
+    Dimension: 100,
     ImmuneToFire: 0b,
-    Dimension: 0,
     NpcKilledLines: {
         Lines: [
         ]
     },
-    UUIDMost: 6279041343592550114L,
-    DisablePitch: 0b,
+    UUIDMost: 2959668294999937L,
     Fire: -1s,
+    DisablePitch: 0b,
     pPhysics: 1b,
     TransformHasInv: 0b,
     NpcInteractLines: {
         Lines: [
             {
-                Line: "Greetings @p, I hope you are here to help our kingdom.",
+                Line: "Hobbit holes! Warmth, good food, and comfort.",
                 Song: "",
                 Slot: 0
             }
@@ -142,7 +150,7 @@
             Name: "generic.knockbackResistance"
         },
         {
-            Base: 0.30000001192092896d,
+            Base: 0.25d,
             Name: "generic.movementSpeed"
         },
         {
@@ -159,33 +167,34 @@
     NoFallDamage: 0b,
     AbsorptionAmount: 0.0f,
     TransformHasRole: 0b,
-    Name: "Boopsie",
+    Name: "Opal Hornblower",
     FallDistance: 0.0f,
-    NpcIdleSound: "customnpcs:misc.ambient.medieval.city.tavern",
+    NpcIdleSound: "",
     Weapons: [
     ],
     NPCDialogOptions: [
     ],
-    DirectLOS: 1b,
     AggroRange: 16,
+    DirectLOS: 1b,
     HealthRegen: 1,
     NpcModelData: {
         LegsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         BodyConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
+        EntityClass: "lotr.common.entity.npc.LOTREntityHobbit",
         LegParts: {
             Type: 0b,
             PlayerTexture: 1b,
@@ -196,41 +205,42 @@
         Breasts: 0b,
         Headwear: 2b,
         ArmsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         ExtraData: {
         },
         HeadConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         }
     },
-    MoveSpeed: 6,
     minDelay: 20,
     DoorInteract: 2,
+    MoveSpeed: 5,
     TransformEditingModus: 0b,
     UsingSkinUrl: 0b,
     Leashed: 0b,
+    SkinUrl: "",
     CanSwim: 1b,
     armorCooldowns: [0,0,0,0],
-    HideBodyWhenKilled: 0b,
     MaxHealth: 20,
+    HideBodyWhenKilled: 0b,
     AttackSpeed: 20,
     PotionDuration: 5,
     maxDelay: 40,
-    DropChance: [
-    ],
     ScriptEnabled: 0b,
     Role: 0,
+    DropChance: [
+    ],
     FactionPoints: {
         DecreaseFaction1Points: 0b,
         OptionFaction2Points: 100,
@@ -239,19 +249,21 @@
         OptionFaction1Points: 100,
         DecreaseFaction2Points: 0b
     },
-    TransporterId: -1,
     pDamage: 4,
     KilledTime: 0L,
+    AimWhileShooting: 0b,
     CanPickUpLoot: 0b,
     AttackOtherFactions: 0b,
     CanDrown: 1b,
-    curMana: 500.0f,
+    curMana: 500.85858f,
     AttackTime: 0s,
-    CanSprint: 0b,
     pSize: 5,
+    CanSprint: 0b,
     CanLeap: 0b,
     TransformIsActive: 0b,
     ForgeData: {
+        WITCInitialWidth: 0.45f,
+        WITCInitialHeight: 0.9f
     },
     MovingState: 0,
     MovingPos: 0,
@@ -264,29 +276,30 @@
     TransformHasAdvanced: 0b,
     TransformHasStats: 0b,
     FiringSound: "random.bow",
-    ModRev: 15,
+    ModRev: 16,
     Accuracy: 60,
     MinExp: 0,
     Armor: [
     ],
     CloakTexture: "",
     GlowTexture: "",
-    pXlr8: 0b,
     MaxFiringRange: 15,
-    ItemGiverId: 0,
-    UUIDLeast: -5088644751464148099L,
+    pXlr8: 0b,
+    UUIDLeast: 2220388976197993777L,
     Health: 20s,
     pExplode: 0b,
     pStick: 0b,
-    NpcDeathSound: "minecraft:game.player.hurt",
     MovingPause: 1b,
+    NpcDeathSound: "minecraft:game.player.hurt",
     FactionID: 0,
-    Title: "Sound Generator",
+    Title: "",
+    TotalTicksAlive: 268696L,
     Rotation: [
-        193.05943f,
+        -266.8381f,
         0.0f
     ],
-    ShowName: 1,
+    ShowName: 0,
+    npcInteracting: 1b,
     AvoidsWater: 0b,
     Equipment: [
         {

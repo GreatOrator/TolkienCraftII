@@ -11,7 +11,6 @@
     },
     BossBar: 0b,
     RespawnTime: 20,
-    magicXP: 0.0f,
     NpcAngrySound: "",
     ReactsToFire: 0b,
     IgnoreCobweb: 0b,
@@ -73,7 +72,6 @@
     MoveState: 0,
     RangeAndMelee: 0,
     pRender3D: 0b,
-    magicLevel: 0s,
     Motion: [
         0.0d,
         -0.0784000015258789d,
@@ -83,7 +81,6 @@
     DistanceToMelee: 4,
     pEffect: 0,
     NpcStepSound: "",
-    curFatigue: 0.0f,
     FireRate: 5,
     pEffAmp: 0,
     OnGround: 1b,
@@ -110,29 +107,8 @@
     pSpin: 0b,
     NpcHurtSound: "minecraft:game.player.hurt",
     pTrail: 0,
-    isShrunk: 0b,
     CreatureType: 0,
     Attributes: [
-        {
-            Base: 0.0d,
-            Name: "am2.maxManaBonus"
-        },
-        {
-            Base: 0.0d,
-            Name: "am2.maxBurnoutBonus"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.xpMultiplier"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.burnoutReduction"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.manaRegenModifier"
-        },
         {
             Base: 20.0d,
             Name: "generic.maxHealth"
@@ -161,7 +137,7 @@
     TransformHasRole: 0b,
     Name: "Boopsie",
     FallDistance: 0.0f,
-    NpcIdleSound: "customnpcs:misc.ambient.medieval.city.tavern",
+    NpcIdleSound: "customnpcs:misc.ambient.medieval.city.market",
     Weapons: [
     ],
     NPCDialogOptions: [
@@ -221,7 +197,6 @@
     UsingSkinUrl: 0b,
     Leashed: 0b,
     CanSwim: 1b,
-    armorCooldowns: [0,0,0,0],
     HideBodyWhenKilled: 0b,
     MaxHealth: 20,
     AttackSpeed: 20,
@@ -245,7 +220,6 @@
     CanPickUpLoot: 0b,
     AttackOtherFactions: 0b,
     CanDrown: 1b,
-    curMana: 500.0f,
     AttackTime: 0s,
     CanSprint: 0b,
     pSize: 5,
@@ -301,7 +275,5 @@
         }
     ],
     NoLivingAnimation: 0b,
-    hasUnlockedAugmented: 1b,
-    isCritical: 0b,
     SpawnCycle: 0
 }

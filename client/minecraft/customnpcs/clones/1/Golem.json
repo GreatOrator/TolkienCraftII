@@ -3,15 +3,14 @@
     NpcInv: [
     ],
     PotionEffect: 0,
-    Size: 2,
+    Size: 5,
     Resistances: {
         Arrow: 1.0f,
         Melee: 1.0f,
         Knockback: 1.0f
     },
     BossBar: 0b,
-    RespawnTime: 20,
-    magicXP: 0.0f,
+    RespawnTime: 0,
     NpcAngrySound: "",
     ReactsToFire: 0b,
     IgnoreCobweb: 0b,
@@ -27,13 +26,34 @@
     },
     MovingPatern: 0,
     HealF: 20.0f,
-    DefendFaction: 0b,
+    DefendFaction: 1b,
     id: "CustomNpc",
     FireIndirect: 0,
     NpcVisible: 0,
     FindShelter: 2,
     SkinUsername: "",
     ScriptsContainers: [
+        {
+            Script: "",
+            ScriptConsole: "",
+            Type: 0,
+            ScriptList: [
+            ]
+        },
+        {
+            Script: "",
+            ScriptConsole: "",
+            Type: 1,
+            ScriptList: [
+            ]
+        },
+        {
+            Script: "",
+            ScriptConsole: "",
+            Type: 3,
+            ScriptList: [
+            ]
+        }
     ],
     Air: 300s,
     TacticalVariant: 0,
@@ -44,7 +64,7 @@
     CustomName: "",
     CanDespawn: 0b,
     BurnInSun: 0b,
-    StandingState: 0,
+    StandingState: 3,
     HurtTime: 0s,
     WalkingRange: 5,
     CustomNameVisible: 0b,
@@ -52,7 +72,7 @@
     pDur: 5,
     AttackRange: 2,
     AvoidsSun: 0b,
-    Texture: "customnpcs:textures/entity/humanmale/Steve.png",
+    Texture: "thaumcraft:textures/models/golem_iron.png",
     NpcJob: 0,
     BurstCount: 1,
     NpcAttackLines: {
@@ -73,7 +93,6 @@
     MoveState: 0,
     RangeAndMelee: 0,
     pRender3D: 0b,
-    magicLevel: 0s,
     Motion: [
         0.0d,
         -0.0784000015258789d,
@@ -83,7 +102,6 @@
     DistanceToMelee: 4,
     pEffect: 0,
     NpcStepSound: "",
-    curFatigue: 0.0f,
     FireRate: 5,
     pEffAmp: 0,
     OnGround: 1b,
@@ -93,7 +111,7 @@
         Lines: [
         ]
     },
-    UUIDMost: 6279041343592550114L,
+    UUIDMost: 2031578289729719634L,
     DisablePitch: 0b,
     Fire: -1s,
     pPhysics: 1b,
@@ -110,29 +128,8 @@
     pSpin: 0b,
     NpcHurtSound: "minecraft:game.player.hurt",
     pTrail: 0,
-    isShrunk: 0b,
     CreatureType: 0,
     Attributes: [
-        {
-            Base: 0.0d,
-            Name: "am2.maxManaBonus"
-        },
-        {
-            Base: 0.0d,
-            Name: "am2.maxBurnoutBonus"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.xpMultiplier"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.burnoutReduction"
-        },
-        {
-            Base: 1.0d,
-            Name: "am2.manaRegenModifier"
-        },
         {
             Base: 20.0d,
             Name: "generic.maxHealth"
@@ -159,9 +156,9 @@
     NoFallDamage: 0b,
     AbsorptionAmount: 0.0f,
     TransformHasRole: 0b,
-    Name: "Boopsie",
+    Name: "Golem",
     FallDistance: 0.0f,
-    NpcIdleSound: "customnpcs:misc.ambient.medieval.city.tavern",
+    NpcIdleSound: "",
     Weapons: [
     ],
     NPCDialogOptions: [
@@ -171,47 +168,53 @@
     HealthRegen: 1,
     NpcModelData: {
         LegsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         BodyConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         LegParts: {
             Type: 0b,
             PlayerTexture: 1b,
             Color: 16777215
         },
+        EntityClass: "thaumcraft.common.entities.golems.EntityGolemBase",
         Parts: [
         ],
         Breasts: 0b,
         Headwear: 2b,
         ArmsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         ExtraData: {
+            advanced: 0b,
+            toggles: 1b,
+            GolemType: 1b,
+            HomeFacing: 0b,
+            Core: 1b
         },
         HeadConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         }
     },
     MoveSpeed: 6,
@@ -221,13 +224,48 @@
     UsingSkinUrl: 0b,
     Leashed: 0b,
     CanSwim: 1b,
-    armorCooldowns: [0,0,0,0],
     HideBodyWhenKilled: 0b,
     MaxHealth: 20,
     AttackSpeed: 20,
     PotionDuration: 5,
     maxDelay: 40,
     DropChance: [
+        {
+            Integer: 100,
+            Slot: 0
+        },
+        {
+            Integer: 100,
+            Slot: 1
+        },
+        {
+            Integer: 100,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
     ],
     ScriptEnabled: 0b,
     Role: 0,
@@ -243,9 +281,8 @@
     pDamage: 4,
     KilledTime: 0L,
     CanPickUpLoot: 0b,
-    AttackOtherFactions: 0b,
+    AttackOtherFactions: 1b,
     CanDrown: 1b,
-    curMana: 500.0f,
     AttackTime: 0s,
     CanSprint: 0b,
     pSize: 5,
@@ -274,16 +311,16 @@
     pXlr8: 0b,
     MaxFiringRange: 15,
     ItemGiverId: 0,
-    UUIDLeast: -5088644751464148099L,
+    UUIDLeast: -5568715511552203755L,
     Health: 20s,
     pExplode: 0b,
     pStick: 0b,
     NpcDeathSound: "minecraft:game.player.hurt",
     MovingPause: 1b,
-    FactionID: 0,
-    Title: "Sound Generator",
+    FactionID: 3,
+    Title: "",
     Rotation: [
-        193.05943f,
+        227.55516f,
         0.0f
     ],
     ShowName: 1,
@@ -301,7 +338,5 @@
         }
     ],
     NoLivingAnimation: 0b,
-    hasUnlockedAugmented: 1b,
-    isCritical: 0b,
-    SpawnCycle: 0
+    SpawnCycle: 3
 }

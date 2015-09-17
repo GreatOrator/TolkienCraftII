@@ -3,7 +3,7 @@
     NpcInv: [
     ],
     PotionEffect: 0,
-    Size: 2,
+    Size: 5,
     Resistances: {
         Arrow: 1.0f,
         Melee: 1.0f,
@@ -44,7 +44,7 @@
     CustomName: "",
     CanDespawn: 0b,
     BurnInSun: 0b,
-    StandingState: 0,
+    StandingState: 1,
     HurtTime: 0s,
     WalkingRange: 5,
     CustomNameVisible: 0b,
@@ -52,7 +52,7 @@
     pDur: 5,
     AttackRange: 2,
     AvoidsSun: 0b,
-    Texture: "customnpcs:textures/entity/humanmale/Steve.png",
+    Texture: "lotr:mob/elk/elk_white.png",
     NpcJob: 0,
     BurstCount: 1,
     NpcAttackLines: {
@@ -73,7 +73,7 @@
     MoveState: 0,
     RangeAndMelee: 0,
     pRender3D: 0b,
-    magicLevel: 0s,
+    magicLevel: 1s,
     Motion: [
         0.0d,
         -0.0784000015258789d,
@@ -93,7 +93,7 @@
         Lines: [
         ]
     },
-    UUIDMost: 6279041343592550114L,
+    UUIDMost: 9066183090673L,
     DisablePitch: 0b,
     Fire: -1s,
     pPhysics: 1b,
@@ -159,9 +159,9 @@
     NoFallDamage: 0b,
     AbsorptionAmount: 0.0f,
     TransformHasRole: 0b,
-    Name: "Boopsie",
+    Name: "Dasher",
     FallDistance: 0.0f,
-    NpcIdleSound: "customnpcs:misc.ambient.medieval.city.tavern",
+    NpcIdleSound: "",
     Weapons: [
     ],
     NPCDialogOptions: [
@@ -171,21 +171,22 @@
     HealthRegen: 1,
     NpcModelData: {
         LegsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         BodyConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
+        EntityClass: "lotr.common.entity.animal.LOTREntityElk",
         LegParts: {
             Type: 0b,
             PlayerTexture: 1b,
@@ -196,22 +197,23 @@
         Breasts: 0b,
         Headwear: 2b,
         ArmsConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         },
         ExtraData: {
+            ChestedHorse: 0b
         },
         HeadConfig: {
-            ScaleZ: 0.5f,
+            ScaleZ: 1.0f,
             TransZ: 0.0f,
             TransY: 0.0f,
             TransX: 0.0f,
-            ScaleY: 0.5f,
-            ScaleX: 0.5f
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
         }
     },
     MoveSpeed: 6,
@@ -245,7 +247,7 @@
     CanPickUpLoot: 0b,
     AttackOtherFactions: 0b,
     CanDrown: 1b,
-    curMana: 500.0f,
+    curMana: 250.25754f,
     AttackTime: 0s,
     CanSprint: 0b,
     pSize: 5,
@@ -274,16 +276,16 @@
     pXlr8: 0b,
     MaxFiringRange: 15,
     ItemGiverId: 0,
-    UUIDLeast: -5088644751464148099L,
+    UUIDLeast: 2661610895441036539L,
     Health: 20s,
     pExplode: 0b,
     pStick: 0b,
     NpcDeathSound: "minecraft:game.player.hurt",
     MovingPause: 1b,
     FactionID: 0,
-    Title: "Sound Generator",
+    Title: "",
     Rotation: [
-        193.05943f,
+        0.0f,
         0.0f
     ],
     ShowName: 1,

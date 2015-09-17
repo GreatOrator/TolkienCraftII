@@ -161,7 +161,7 @@
     TransformHasRole: 0b,
     Name: "Boopsie",
     FallDistance: 0.0f,
-    NpcIdleSound: "customnpcs:misc.ambient.medieval.city.tavern",
+    NpcIdleSound: "customnpcs:misc.ambient.medieval.seaport",
     Weapons: [
     ],
     NPCDialogOptions: [
