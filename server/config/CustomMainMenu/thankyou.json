@@ -49,9 +49,9 @@
         {
             "text" : "Main Menu",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-            "posX" : -150,
-            "posY" : 0,
-            "width" : 100,
+            "posX" : -75,
+            "posY" : 10,
+            "width" : 150,
             "height" : 30,
 			"imageWidth" : 100,
 			"imageHeight" : 50,
@@ -62,50 +62,6 @@
             {
                 "type" : "openGui",
                 "gui" : "custom.mainmenu"
-            }
-        },		
-		
-        "mapdownload":
-        {
-            "text" : "Map and DLC",
-                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-                        "alignment" : "top_right",
-            "posX" : -50,
-            "posY" : 0,
-            "width" : 100,
-            "height" : 30,
-			"imageWidth" : 100,
-			"imageHeight" : 50,
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 16711680,
-			"alignment" : "center",
-			"tooltip" : "Download the latest map and Extra Content!",
-            "action" :
-            {
-                "type" : "openGui",
-                "gui" : "custom.mapdownload"
-            }
-        },
-		
-        "dlcdownload":
-        {
-            "text" : "Credits",
-                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
-                        "alignment" : "top_right",
-            "posX" : 50,
-            "posY" : 0,
-            "width" : 100,
-            "height" : 30,
-			"imageWidth" : 100,
-			"imageHeight" : 50,
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 16711680,
-			"alignment" : "center",
-			"tooltip" : "Thank you to the following:",
-            "action" :
-            {
-                "type" : "openGui",
-                "gui" : "custom.thankyou"
             }
         },
 		
@@ -127,21 +83,6 @@
                 "gui" : "options"
             }
 		},
-       
-        "openeye":
-        {
-            "text" : "",
-                        "texture" : "textures:tolkiencraft/buttons/buttontemplate5.png",
-            "posX" : 80,
-            "posY" : -25,
-            "width" : 20,
-            "height" : 20,
-			"imageWidth" : 100,
-			"imageHeight" : 50,
-            "alignment" : "bottom_left",
-			"tooltip" : "What happened?",
-			"wrappedButton" : 666
-        },
        
         "quit":
        {
@@ -183,30 +124,30 @@
     
     "texts":
     {		
-        "example":
+        "version":
         {
             "text" : "v2.7.3",
             "posX" : -40,
             "posY" : -25,
-            "color" : 13938487,
+            "color" : 14329120,
             "alignment" : "bottom_right"
         },
 	
-	"example2":
+	"musicheader":
         {
             "text" : "Music:",
             "posX" : -30,
             "posY" : 40,
-            "color" : 13938487,
+            "color" : 14329120,
             "alignment" : "center"
         },
 	
-	"example3":
+	"separator":
         {
             "text" : "------------------------------------------------",
             "posX" : -145,
             "posY" : 46,
-            "color" : 13938487,
+            "color" : 14329120,
             "alignment" : "center"
         },
 		
@@ -215,7 +156,7 @@
             "text" : "Kevin MacLeod",
             "posX" : -145,
             "posY" : 56,
-            "color" : 13938487,
+            "color" : 14329120,
             "alignment" : "center",
 			"hoverText" : "Download his music!",
 			"action" :
@@ -230,7 +171,7 @@
             "text" : "Christopher Lloyd Clarke",
             "posX" : -145,
             "posY" : 66,
-            "color" : 13938487,
+            "color" : 14329120,
             "alignment" : "center",
 			"hoverText" : "Download his music!",
 			"action" :
@@ -244,8 +185,8 @@
         {
             "text" : "Alecia (Sn0w) Shepherd",
             "posX" : -145,
-            "posY" : 66,
-            "color" : 13938487,
+            "posY" : 76,
+            "color" : 14329120,
             "alignment" : "center",
 			"hoverText" : "Download her music!",
 			"action" :
@@ -255,39 +196,39 @@
 			}
         },
 	
-	"example5":
+	"separator":
         {
             "text" : "------------------------------------------------",
             "posX" : -145,
-            "posY" : 76,
-            "color" : 13938487,
+            "posY" : 86,
+            "color" : 14329120,
             "alignment" : "center"
         },
 	
-	"example6":
+	"thankheader":
         {
             "text" : "Special Thanks To:",
             "posX" : -60,
-            "posY" : 86,
-            "color" : 13938487,
+            "posY" : 96,
+            "color" : 14329120,
             "alignment" : "center"
         },
 	
-	"example7":
+	"separator":
         {
             "text" : "------------------------------------------------",
             "posX" : -145,
-            "posY" : 96,
-            "color" : 13938487,
+            "posY" : 106,
+            "color" : 14329120,
             "alignment" : "center"
         },
 		
-	"example8":
+	"creditlist":
         {
             "text" : "My Patrons, ValsNoisyToys, and you!",
             "posX" : -145,
-            "posY" : 106,
-            "color" : 13938487,
+            "posY" : 116,
+            "color" : 14329120,
             "alignment" : "center",
 			"hoverText" : "Thank you everyone! Please visit my patreon page.",
 			"action" :
@@ -297,12 +238,12 @@
 			}
         },
        
-        "greeting":
+    "greeting":
         {
             "text" : "Welcome to adventure, #username#",
             "posX" : 5,
             "posY" : 5,
-            "color" : 13938487,
+            "color" : 14329120,
             "alignment" : "top_left"
         }
     },
