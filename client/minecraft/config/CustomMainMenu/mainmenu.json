@@ -37,7 +37,7 @@
     {
         "madhelp":
         {
-            "text" : "Map Download & Install",
+            "text" : "gui.mad.download.button",
                         "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
             "posX" : -75,
             "posY" : 10,

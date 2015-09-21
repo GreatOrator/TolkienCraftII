@@ -1,0 +1,38 @@
+[
+  {
+    "displayName": "Land of Draconis",
+    "fileName": "draconis.zip",
+    "description": "Default Modpack Map",
+    "info": [
+      "Default map required",
+      "to play this modpack.",
+      "Make sure to download",
+      "before trying to play",
+      "TolkienCraft II.",
+      "Thank you for playing! -GO"
+    ],
+	"releaseNumber": "1",
+    "downloadURL": "http://minecraft.curseforge.com/worlds/226743-tolkiencraft-ii-draconis/files/2255469/download",
+    "isRegional": false,
+	"regionInputPath": "",
+    "regionOutputPath": ""
+  },
+  {
+    "displayName": "Land of Middle-earth",
+    "fileName": "content.zip",
+    "description": "DLC to expand Middle-earth",
+    "info": [
+      "Extra locations built for",
+      "Middle-earth to increase",
+      "your playing enjoyment.",
+      "These are iconic locations",
+      "from the books and movies",
+      "with quests as well. -GO"
+    ],
+	"releaseNumber": "1",
+    "downloadURL": "http://minecraft.curseforge.com/worlds/228884-tolkiencraft-ii-content-packs/files/2255468/download",
+    "isRegional": true,
+	"regionInputPath": "region",
+    "regionOutputPath": "MiddleEarth/region"
+  }
+]
