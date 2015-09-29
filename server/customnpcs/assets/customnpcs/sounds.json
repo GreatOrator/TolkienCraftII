@@ -15,6 +15,10 @@
     "category": "player",
     "sounds": [{"name": "customsongs/RederBoss", "stream": true}]
   },
+  "songs.ephelbaboss": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/EphelbaBoss", "stream": true}]
+  },
     "human.female.evil.witch_laugh": {
     "category": "player",
     "sounds": [{"name": "customsounds/Evil Witch Laugh", "stream": true}]

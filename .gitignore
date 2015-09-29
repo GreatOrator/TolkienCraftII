@@ -238,3 +238,5 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 .nb-gradle/
+client/minecraft/config/madhelp/MadHelpContentList.json
+client/minecraft/config/madhelp/MadHelpSplashScreen.json
