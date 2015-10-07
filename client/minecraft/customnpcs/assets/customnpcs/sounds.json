@@ -15,6 +15,14 @@
     "category": "player",
     "sounds": [{"name": "customsongs/RederBoss", "stream": true}]
   },
+  "songs.murderfrog": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/MurderFrog", "stream": true}]
+  },
+  "songs.tyltranboss": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/TyltranBoss", "stream": true}]
+  },
   "songs.ephelbaboss": {
     "category": "player",
     "sounds": [{"name": "customsongs/EphelbaBoss", "stream": true}]
