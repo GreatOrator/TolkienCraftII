@@ -1,0 +1,381 @@
+{
+    ReturnToStart: 1b,
+    NpcInv: [
+    ],
+    PotionEffect: 0,
+    Size: 5,
+    stopAndInteract: 1b,
+    Resistances: {
+        Arrow: 1.1549295f,
+        Explosion: 1.1549295f,
+        Knockback: 1.2535211f,
+        Melee: 1.0563381f
+    },
+    BossBar: 0b,
+    RespawnTime: 60,
+    magicXP: 0.0f,
+    NpcAngrySound: "minecraft:mob.chicken.hurt",
+    ReactsToFire: 0b,
+    IgnoreCobweb: 0b,
+    PositionOffsetZ: 5.0f,
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    TransformHasAI: 0b,
+    AttackStrenght: 8,
+    PersistenceRequired: 0b,
+    id: "CustomNpc",
+    HealF: 60.0f,
+    MovingPatern: 0,
+    NpcLines: {
+        Lines: [
+        ]
+    },
+    DefendFaction: 1b,
+    FireIndirect: 0,
+    NpcVisible: 0,
+    LinkedNpcName: "",
+    MercenaryHiredTime: 0L,
+    FindShelter: 2,
+    GuardTargets: [
+    ],
+    ScriptsContainers: [
+    ],
+    Air: 300s,
+    TacticalVariant: 1,
+    Orientation: 0,
+    ScriptLanguage: "ECMAScript",
+    KnockBack: 0,
+    TransformHasJob: 0b,
+    CustomName: "",
+    CanDespawn: 0b,
+    BurnInSun: 0b,
+    StandingState: 0,
+    AttackInvisible: 0b,
+    HurtTime: 0s,
+    WalkingRange: 5,
+    MercenaryInfiniteDays: 1b,
+    CustomNameVisible: 0b,
+    ShotCount: 1,
+    pDur: 5,
+    AttackRange: 2,
+    NpcKillLines: {
+        Lines: [
+        ]
+    },
+    PotionImmune: 0b,
+    AvoidsSun: 0b,
+    MercenaryDisableGui: 0b,
+    GuardAttackCreepers: 1b,
+    Texture: "arsmagica2:textures/mobs/battleChicken.png",
+    NpcJob: 3,
+    BurstCount: 1,
+    NpcAttackLines: {
+        Lines: [
+            {
+                Line: "Super Chicken!",
+                Song: "",
+                Slot: 0
+            }
+        ]
+    },
+    pSpeed: 10,
+    pArea: 0,
+    DeathTime: 0s,
+    pImpact: 0,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 0,
+    RangeAndMelee: 0,
+    pRender3D: 0b,
+    MercenaryDayRates: [
+    ],
+    magicLevel: 1s,
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CombatRegen: 2,
+    pEffect: 5,
+    DistanceToMelee: 4,
+    NpcStepSound: "minecraft:mob.chicken.step",
+    curFatigue: 0.0f,
+    FireRate: 5,
+    pEffAmp: 0,
+    OnGround: 1b,
+    Dimension: 0,
+    ImmuneToFire: 0b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    GuardAttackMobs: 1b,
+    UUIDMost: 5483973825667145L,
+    Fire: -1s,
+    DisablePitch: 0b,
+    pPhysics: 1b,
+    TransformHasInv: 0b,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Line: "Squawk!",
+                Song: "",
+                Slot: 0
+            }
+        ]
+    },
+    pSpin: 0b,
+    NpcHurtSound: "minecraft:mob.chicken.plop",
+    pTrail: 5,
+    isShrunk: 0b,
+    CreatureType: 0,
+    Attributes: [
+        {
+            Base: 0.0d,
+            Name: "am2.maxManaBonus"
+        },
+        {
+            Base: 0.0d,
+            Name: "am2.maxBurnoutBonus"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.xpMultiplier"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.burnoutReduction"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.manaRegenModifier"
+        },
+        {
+            Base: 60.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.25d,
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 64.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 8.0d,
+            Name: "generic.attackDamage"
+        }
+    ],
+    Invulnerable: 0b,
+    TransformHasDisplay: 0b,
+    NoFallDamage: 1b,
+    AbsorptionAmount: 0.0f,
+    TransformHasRole: 0b,
+    Name: "Battle Chicken",
+    GuardSpecific: 0b,
+    FallDistance: 0.0f,
+    NpcIdleSound: "",
+    MercenaryDialogHired: "Thank you for hiring me for {days} Days",
+    Weapons: [
+    ],
+    NPCDialogOptions: [
+    ],
+    AggroRange: 16,
+    DirectLOS: 1b,
+    HealthRegen: 5,
+    MercenaryRefuseSoulstone: 0b,
+    MercenaryDialogFarewell: "My days with you are over. Farewell  {player}",
+    NpcModelData: {
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        EntityClass: "am2.entities.EntityBattleChicken",
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        Breasts: 0b,
+        Headwear: 2b,
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        ExtraData: {
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        }
+    },
+    minDelay: 20,
+    DoorInteract: 1,
+    MoveSpeed: 5,
+    TransformEditingModus: 0b,
+    UsingSkinUrl: 0b,
+    Leashed: 0b,
+    SkinUrl: "",
+    CanSwim: 1b,
+    MercenaryInv: {
+        NpcMiscInv: [
+        ]
+    },
+    armorCooldowns: [0,0,0,0],
+    MaxHealth: 60,
+    HideBodyWhenKilled: 1b,
+    AttackSpeed: 20,
+    GuardAttackAnimals: 0b,
+    PotionDuration: 5,
+    maxDelay: 40,
+    ScriptEnabled: 0b,
+    Role: 2,
+    DropChance: [
+        {
+            Integer: 100,
+            Slot: 0
+        },
+        {
+            Integer: 100,
+            Slot: 1
+        },
+        {
+            Integer: 100,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
+    ],
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    pDamage: 4,
+    KilledTime: 0L,
+    MercenaryDaysHired: 0,
+    AimWhileShooting: 0b,
+    CanPickUpLoot: 0b,
+    AttackOtherFactions: 1b,
+    CanDrown: 0b,
+    curMana: 428.34055f,
+    AttackTime: 0s,
+    pSize: 5,
+    CanSprint: 1b,
+    CanLeap: 1b,
+    TransformIsActive: 0b,
+    ForgeData: {
+        WITCInitialWidth: 0.6f,
+        WITCInitialHeight: 0.7f
+    },
+    MovingState: 0,
+    MovingPos: 0,
+    PotionAmp: 0,
+    OnAttack: 0,
+    TacticalRadius: 8,
+    MaxExp: 0,
+    PortalCooldown: 0,
+    pGlows: 0b,
+    TransformHasAdvanced: 0b,
+    TransformHasStats: 0b,
+    FiringSound: "arsmagica2:spell.cast.nature",
+    ModRev: 16,
+    Accuracy: 60,
+    MinExp: 0,
+    Armor: [
+    ],
+    CloakTexture: "",
+    MercenaryIsFollowing: 1b,
+    GlowTexture: "",
+    MaxFiringRange: 15,
+    pXlr8: 0b,
+    UUIDLeast: 6603749178990981755L,
+    Health: 60s,
+    pExplode: 0b,
+    pStick: 0b,
+    MovingPause: 1b,
+    NpcDeathSound: "minecraft:mob.chicken.say",
+    FactionID: 23,
+    Title: "Pet",
+    TotalTicksAlive: 18883L,
+    Rotation: [
+        -336.13647f,
+        0.0f
+    ],
+    ShowName: 0,
+    npcInteracting: 1b,
+    AvoidsWater: 0b,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    NoLivingAnimation: 0b,
+    hasUnlockedAugmented: 1b,
+    isCritical: 0b,
+    SpawnCycle: 0
+}
