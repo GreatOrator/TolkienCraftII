@@ -3,6 +3,14 @@
     "category": "player",
     "sounds": [{"name": "customsongs/Concerning Hobbits", "stream": true}]
   },
+  "songs.hellsong": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/EphalbaBoss", "stream": true}]
+  },
+  "songs.ephelbaboss": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/Hellsong", "stream": true}]
+  },
   "songs.newmymoria": {
     "category": "player",
     "sounds": [{"name": "customsongs/NewMyMoria", "stream": true}]
@@ -15,9 +23,13 @@
     "category": "player",
     "sounds": [{"name": "customsongs/RederBoss", "stream": true}]
   },
-  "songs.ephelbaboss": {
+  "songs.murderfrog": {
     "category": "player",
-    "sounds": [{"name": "customsongs/EphelbaBoss", "stream": true}]
+    "sounds": [{"name": "customsongs/MurderFrog", "stream": true}]
+  },
+  "songs.tyltranboss": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/TyltranBoss", "stream": true}]
   },
     "human.female.evil.witch_laugh": {
     "category": "player",
