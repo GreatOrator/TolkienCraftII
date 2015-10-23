@@ -1,4 +1,4 @@
-# TolkienCraft 2.8.0
+# TolkienCraft 2.8.1
 Config and mod update tracking
 -----------------------------------------------------------------------------------------------------------
 Mod Permissions: https://goo.gl/wPPboL
