@@ -11,6 +11,7 @@
 **/stats/player.uid
 **/backups
 **/template
+
 client/minecraft/usernamecache.json
 
 # Server Only
@@ -49,7 +50,9 @@ client/minecraft/icon.png
 **/config/IChunUtil.cfg
 **/config/InvTweaks.cfg
 **/config/fastcraft.ini
-client/minecraft/config/hqm/editmode.cfg
+**/config/hqm/editmode.cfg
+**/config/madhelp/MadHelpContentList.json
+**/config/madhelp/MadHelpSplashScreen.json
 
 # Caches
 
@@ -238,5 +241,4 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 .nb-gradle/
-client/minecraft/config/madhelp/MadHelpContentList.json
-client/minecraft/config/madhelp/MadHelpSplashScreen.json
+
