@@ -1,10 +1,12 @@
 
-Loading excluded list from: D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world\MiddleEarth
+Loading excluded list from: D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world
 No exclusions found for this world.
 
-Loading options from: D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world\MiddleEarth
+Loading options from: D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world
 tries_per_chunk_normal = 6
 chance_to_spawn_normal = 10.0
 templateInstancesMinDistance = 256.0
 anyRuinsMinDistance = 64.0
-Ruins mod loaded successfully for world D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world\MiddleEarth, template files: 32
+Ruins mod loaded successfully for world D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world, template files: 32
+12, template files: 32
+ files: 32
