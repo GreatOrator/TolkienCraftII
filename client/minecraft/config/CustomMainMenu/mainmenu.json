@@ -187,7 +187,7 @@
     {		
         "version":
         {
-            "text" : "v2.8.0",
+            "text" : "v2.8.2",
             "posX" : -35,
             "posY" : -15,
             "color" : 14329120,
@@ -218,11 +218,11 @@
     {
         "splash-text":
         {
-			"file" : "textures:tolkiencraft/document/splash/ModpackSplash.txt",
-            "posX" : 155,
+			"posX" : 155,
             "posY" : 50,
             "color" : 13055,
-            "alignment" : "top_center"
+            "alignment" : "top_center",
+			"texts" : "Adventure\nOne ring to build them all\nand in the darkness mine them\nRoads Go Ever On\nHome is behind\nthe world ahead\nDug too deep\nDarker and fouler things\nPipe weed\nelevensies\nsecond breakfast\nRiddle Game\nSo our path is laid\nNo living man am I!\nMany dark places\nCaras Galadhon\nKazad Dum\nBarad Dur\nCirith Ungol\nMinas Tirith\nEdoras\nEsgaroth\nErebor\nWeathertop\nIsengard\nArgonath\nHobbiton\nBrandybuck\nBeorn\nHelm’s Deep\nDale\nWaterworks\nOsgiliath\nRivendell\nThranduil\nLand of Bree\nMinas Morgul\nShelob\nThe Black Gates\nMount Doom"
         },
         "panorama":
         {
