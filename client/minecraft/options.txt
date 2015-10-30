@@ -121,7 +121,7 @@ key_Zoom using monocle:44
 key_ttmisc.toggleArmor:22
 key_invtweaks.key.sort:19
 key_key.aspectMenu:23
-key_Camping Inventory Key:34
+key_Camping Inventory Key:37
 key_key.craftingGrid:0
 key_TG.keybind.openInv:71
 key_TG.keybind.activeaAbilities:81
