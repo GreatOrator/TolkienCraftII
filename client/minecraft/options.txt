@@ -101,6 +101,8 @@ key_Baubles Inventory:72
 key_Change Wand Focus:33
 key_Activate Hover Harness:35
 key_Misc Wand Toggle:34
+key_aura.angelJump:200
+key_aura.angelJumpDown:208
 key_Show force-loaded chunks:67
 key_key.placeItem:25
 key_key.toolConfig:46
@@ -123,8 +125,6 @@ key_Camping Inventory Key:34
 key_key.craftingGrid:0
 key_TG.keybind.openInv:71
 key_TG.keybind.activeaAbilities:81
-key_aura.angelJump:200
-key_aura.angelJumpDown:208
 key_key.CastingMode:209
 key_key.SpellBookNext:181
 key_key.SpellBookPrev:55
