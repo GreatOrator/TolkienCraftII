@@ -1,12 +1,11 @@
 
-Loading excluded list from: D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world\Utumno
+Loading excluded list from: D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world\DIM-47
 No exclusions found for this world.
 
-Loading options from: D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world\Utumno
+Loading options from: D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world\DIM-47
 tries_per_chunk_normal = 6
 chance_to_spawn_normal = 10.0
 templateInstancesMinDistance = 256.0
 anyRuinsMinDistance = 64.0
-Ruins mod loaded successfully for world D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world\Utumno, template files: 32
-2
- files: 32
+Ruins mod loaded successfully for world D:\MultiMC\instances\TolkienCraft II Modpack 1.7.10-Dev\minecraft\saves\world\DIM-47, template files: 32
+ate files: 32

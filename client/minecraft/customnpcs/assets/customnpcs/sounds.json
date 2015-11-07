@@ -7,6 +7,10 @@
     "category": "player",
     "sounds": [{"name": "customsongs/EphalbaBoss", "stream": true}]
   },
+  "songs.ridersofrivendell": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/RidersOfRivendel", "stream": true}]
+  },
   "songs.ephelbaboss": {
     "category": "player",
     "sounds": [{"name": "customsongs/Hellsong", "stream": true}]
