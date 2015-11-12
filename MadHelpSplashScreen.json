@@ -1,9 +1,9 @@
 {
-	"revision": 4,
+	"revision": 5,
 	"infoText": [
 		"[c]Welcome to TolkienCraft II",
-		"Update v2.8.2 is complete and should be on the launcher shortly. Map has been updated again RC3, sorry about that and thanks to everyone who reported the error.",
-		"There is an update to the Main map. This is minor fixes to some of the customNPC quests. For existing maps, you should only need to copy the customNPC folder over to your existing world.",
+		"Update v2.8.3 is complete and should be on the launcher shortly. Map has been updated again RC4, had to update the level.dat and tweak a customNPC quest.",
+		"For existing maps, you should only need to copy the customNPC folder over to your existing world as well as the level.dat.",
 		"Thank you for playing TolkienCraft II and please let me know if you have any questions or issues while playing!"
 	]
 }
