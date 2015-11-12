@@ -606,7 +606,16 @@ tile.lotr:hithlainLadder.name=
 tile.lotr:reeds.name=
 tile.lotr:stairsReed.name=
 tile.lotr:woodBeamV1.0.name=
+tile.lotr:woodBeamV1.1.name=
+tile.lotr:woodBeamV1.2.name=
+tile.lotr:woodBeamV1.3.name=
 tile.lotr:reedBars.name=
+tile.lotr:woodBeamV2.0.name=
+tile.lotr:woodBeamV2.1.name=
+tile.lotr:woodBeam1.0.name=
+tile.lotr:woodBeam1.1.name=
+tile.lotr:woodBeam1.2.name=
+tile.lotr:woodBeam1.3.name=
 
 tile.lotr.fenceVanilla.0.name=Valla de Madera de Roble
 tile.lotr.fenceVanilla.1.name=Valla de Madera de Abeto
@@ -2137,12 +2146,12 @@ lotr.faction.UTUMNO.subtitle=Las mas Viles y Antiguas Creaturas
 
 lotr.invasion.GUNDABAD_warg=
 lotr.invasion.ANGMAR_hillmen=Montañeses de Rhudaur
-lotr.invasion.ANGMAR_wargs=
+lotr.invasion.ANGMAR_warg=
 lotr.invasion.GONDOR_ithilien=Montaráces de Ithilien
 lotr.invasion.GONDOR_dolAmroth=Dol Amroth
 lotr.invasion.MORDOR_blackUruk=Uruks Negros
 lotr.invasion.MORDOR_nanUngol=Nan Ungol
-lotr.invasion.MORDOR_wargs=
+lotr.invasion.MORDOR_warg=
 
 lotr.dimension.MiddleEarth=La Tierra Media
 lotr.dimension.MiddleEarth.west=El Oeste
@@ -2461,6 +2470,8 @@ commands.lotr.lotrDate.outOfBounds=Fecha fuera de límites
 commands.lotr.time.usage=/lotr_time <set|add> <time>
 commands.lotr.time.set=Hora de la Tierra Media establecida a %d
 commands.lotr.time.add=%d Añadido a la hora de la Tierra Media
+commands.lotr.lotrUnlockAllWPs.usage=
+commands.lotr.lotrUnlockAllWPs.unlock=
 
 death.attack.lotr.frost=%1$s sucumbió al Frío
 

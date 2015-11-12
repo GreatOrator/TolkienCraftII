@@ -606,7 +606,16 @@ tile.lotr:hithlainLadder.name=
 tile.lotr:reeds.name=
 tile.lotr:stairsReed.name=
 tile.lotr:woodBeamV1.0.name=
+tile.lotr:woodBeamV1.1.name=
+tile.lotr:woodBeamV1.2.name=
+tile.lotr:woodBeamV1.3.name=
 tile.lotr:reedBars.name=
+tile.lotr:woodBeamV2.0.name=
+tile.lotr:woodBeamV2.1.name=
+tile.lotr:woodBeam1.0.name=
+tile.lotr:woodBeam1.1.name=
+tile.lotr:woodBeam1.2.name=
+tile.lotr:woodBeam1.3.name=
 
 tile.lotr.fenceVanilla.0.name=
 tile.lotr.fenceVanilla.1.name=
@@ -2137,12 +2146,12 @@ lotr.faction.UTUMNO.subtitle=The oldest and foulest creatures
 
 lotr.invasion.GUNDABAD_warg=
 lotr.invasion.ANGMAR_hillmen=
-lotr.invasion.ANGMAR_wargs=
+lotr.invasion.ANGMAR_warg=
 lotr.invasion.GONDOR_ithilien=
 lotr.invasion.GONDOR_dolAmroth=
 lotr.invasion.MORDOR_blackUruk=
 lotr.invasion.MORDOR_nanUngol=
-lotr.invasion.MORDOR_wargs=
+lotr.invasion.MORDOR_warg=
 
 lotr.dimension.MiddleEarth=Endamar
 lotr.dimension.MiddleEarth.west=Númen
@@ -2461,6 +2470,8 @@ commands.lotr.lotrDate.outOfBounds=Date out of bounds
 commands.lotr.time.usage=/lotr_time <set|add> <time>
 commands.lotr.time.set=Set LOTR world time to %d
 commands.lotr.time.add=Added %d to LOTR world time
+commands.lotr.lotrUnlockAllWPs.usage=
+commands.lotr.lotrUnlockAllWPs.unlock=
 
 death.attack.lotr.frost=%1$s fir mí Helcë
 

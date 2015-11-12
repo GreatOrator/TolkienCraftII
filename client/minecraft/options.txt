@@ -90,6 +90,8 @@ key_Map Teleport:83
 key_Fast Travel:47
 key_Alignment Cycle Left:203
 key_Alignment Cycle Right:205
+key_Alignment Group Prev:200
+key_Alignment Group Next:208
 key_key.personalBackpack:48
 key_Cosmetic Inventory:75
 key_Quest Log:38

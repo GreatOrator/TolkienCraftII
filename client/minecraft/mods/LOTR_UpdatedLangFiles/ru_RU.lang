@@ -606,7 +606,16 @@ tile.lotr:hithlainLadder.name=
 tile.lotr:reeds.name=
 tile.lotr:stairsReed.name=
 tile.lotr:woodBeamV1.0.name=
+tile.lotr:woodBeamV1.1.name=
+tile.lotr:woodBeamV1.2.name=
+tile.lotr:woodBeamV1.3.name=
 tile.lotr:reedBars.name=
+tile.lotr:woodBeamV2.0.name=
+tile.lotr:woodBeamV2.1.name=
+tile.lotr:woodBeam1.0.name=
+tile.lotr:woodBeam1.1.name=
+tile.lotr:woodBeam1.2.name=
+tile.lotr:woodBeam1.3.name=
 
 tile.lotr.fenceVanilla.0.name=Дубовый забор
 tile.lotr.fenceVanilla.1.name=Еловый забор
@@ -2137,12 +2146,12 @@ lotr.faction.UTUMNO.subtitle=Древнейшие и грязнейшие сущ
 
 lotr.invasion.GUNDABAD_warg=
 lotr.invasion.ANGMAR_hillmen=Горцы Рудаура
-lotr.invasion.ANGMAR_wargs=
+lotr.invasion.ANGMAR_warg=
 lotr.invasion.GONDOR_ithilien=Следопыты Итилиена
 lotr.invasion.GONDOR_dolAmroth=Дол Амрот
 lotr.invasion.MORDOR_blackUruk=Черный урук
 lotr.invasion.MORDOR_nanUngol=Нан Унгол
-lotr.invasion.MORDOR_wargs=
+lotr.invasion.MORDOR_warg=
 
 lotr.dimension.MiddleEarth=Средиземье
 lotr.dimension.MiddleEarth.west=Запад
@@ -2461,6 +2470,8 @@ commands.lotr.lotrDate.outOfBounds=Дата вне пределов
 commands.lotr.time.usage=/lotr_time <set|add> <время>
 commands.lotr.time.set=Указано мировое время ВК: %d
 commands.lotr.time.add=Добавлено %d к мировому времени ВК
+commands.lotr.lotrUnlockAllWPs.usage=
+commands.lotr.lotrUnlockAllWPs.unlock=
 
 death.attack.lotr.frost=%1$s уступил холоду
 
