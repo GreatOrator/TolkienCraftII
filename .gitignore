@@ -4,7 +4,10 @@
 
 **/logs
 **/asm
-**/journeymap
+**/journeymap/data
+**/journeymap/icon
+**/journeymap/colorpalette*
+**/journeymap/journeymap*
 **/reports
 **/mods/ruins_log.txt
 **/natives
@@ -52,6 +55,7 @@ client/minecraft/icon.png
 **/config/hqm/editmode.cfg
 **/config/madhelp/MadHelpContentList.json
 **/config/madhelp/MadHelpSplashScreen.json
+**/CustomDISkins
 
 # Caches
 
