@@ -5,7 +5,8 @@
 **/logs
 **/asm
 **/journeymap/data
-**/journeymap/icon
+**/journeymap/entity
+**/journeymap/config
 **/journeymap/colorpalette*
 **/journeymap/journeymap*
 **/reports
