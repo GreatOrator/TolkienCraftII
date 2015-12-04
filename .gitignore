@@ -4,14 +4,21 @@
 
 **/logs
 **/asm
-**/journeymap
 **/reports
 **/mods/ruins_log.txt
 **/natives
 **/stats/player.uid
 **/backups
 **/template
-client/minecraft/usernamecache.json
+**/usernamecache.json
+**/journeymap/data
+**/journeymap/config
+**/journeymap/icon/entity
+**/journeymap/icon/theme/Vault
+**/journeymap/icon/theme/Victorian
+**/journeymap/colorpalette*
+**/journeymap/journeymap.log
+**/config/MCA/Worlds
 
 # Server Only
 server/world
