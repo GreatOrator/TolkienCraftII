@@ -19,6 +19,8 @@
 **/journeymap/colorpalette*
 **/journeymap/journeymap.log
 **/config/MCA/Worlds
+**/.packignore
+**/tclogo.png
 
 # Server Only
 server/world
