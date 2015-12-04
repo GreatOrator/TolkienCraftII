@@ -56,10 +56,10 @@ client/minecraft/icon.png
 **/config/hqm/editmode.cfg
 **/config/madhelp/MadHelpContentList.json
 **/config/madhelp/MadHelpSplashScreen.json
+**/config/MCA/Worlds
 **/CustomDISkins
 
 # Caches
-
 **/mods/carpentersblocks
 **/customnpcs/assets/customnpcs/textures/cache
 **/usercache.json
