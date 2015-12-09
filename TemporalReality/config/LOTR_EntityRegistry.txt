@@ -1,0 +1,23 @@
+#Lines starting with '#' will be ignored
+#
+#Use this file to register entities with the LOTR alignment system.
+#
+#An example format for registering an entity is as follows: (do not use spaces)
+#name=LOTR.MordorOrc,faction=MORDOR,targetEnemies=true,bonus=1
+#
+#'name' is the entity name, prefixed with the associated mod ID.
+#The mod ID can be found in the Mod List on the main menu - for example, "LOTR" for the LOTR mod.
+#The entity name is not necessarily the in-game name. It is the name used to register the entity in the code.
+#You may be able to discover the entity name in the mod's language file if there is one - otherwise, contact the mod author.
+#The mod ID and entity name must be separated by a '.' character.
+#Vanilla entities have no mod ID and therefore no prefix.
+#
+#'faction' can be HOBBIT, RANGER_NORTH, BLUE_MOUNTAINS, HIGH_ELF, GUNDABAD, ANGMAR, WOOD_ELF, DOL_GULDUR, DWARF, GALADHRIM, DUNLAND, URUK_HAI, FANGORN, ROHAN, GONDOR, MORDOR, NEAR_HARAD, FAR_HARAD, HALF_TROLL, HOSTILE
+#
+#'targetEnemies' can be true or false.
+#If true, the entity will be equipped with AI modules to target its enemies.
+#Actual combat behaviour may or may not be present, depending on whether the entity is designed with combat AI modules.
+#
+#'bonus' is the alignment bonus awarded to a player who kills the entity.
+#It can be positive, negative, or zero, in which case no bonus will be awarded.
+#

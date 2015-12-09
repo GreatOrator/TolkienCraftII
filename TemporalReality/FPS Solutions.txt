@@ -1,0 +1,9 @@
+For best results try one or more of these options when playing TolkienCraft II:
+
+	1.	JVM - This is added under options and advanced in the FTB launcher
+		a.	-Dforge.forceNoStencil=true -XX:+UseLargePages -XX:+AggressiveOpts -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:+UseBiasedLocking -Xincgc -XX:MaxGCPauseMillis=10 -XX:SoftRefLRUPolicyMSPerMB=10000 -XX:+CMSParallelRemarkEnabled -XX:ParallelGCThreads=10 -Djava.net.preferIPv4Stack=true
+	2.	Optifine - Most users are using the OptiFine 1.7.10 HD U B4, but try other versions if this doesn't work for you.
+		a. https://optifine.net/downloads
+		
+
+No support will be provided for you on these methods other than their respective mod devs (or satanicsanta on the ftb forums) and are only offered as solutions for the FPS issues with Minecraft as tested by numerous players.

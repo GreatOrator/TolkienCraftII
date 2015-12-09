@@ -1,0 +1,487 @@
+{
+    ReturnToStart: 1b,
+    NpcInv: [
+        {
+            Slot: 0b,
+            id: 339s,
+            Count: 1b,
+            tag: {
+                RepairCost: 2,
+                display: {
+                    Name: "Page 1"
+                }
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: 339s,
+            Count: 1b,
+            tag: {
+                RepairCost: 2,
+                display: {
+                    Name: "Page 2"
+                }
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 2b,
+            id: 339s,
+            Count: 1b,
+            tag: {
+                RepairCost: 2,
+                display: {
+                    Name: "Page 3"
+                }
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 3b,
+            id: 4232s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            Slot: 4b,
+            id: 4273s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            Slot: 5b,
+            id: 4185s,
+            Count: 4b,
+            Damage: 1s
+        },
+        {
+            Slot: 6b,
+            id: 4134s,
+            Count: 4b,
+            Damage: 0s
+        },
+        {
+            Slot: 7b,
+            id: 4585s,
+            Count: 1b,
+            Damage: 3s
+        }
+    ],
+    PotionEffect: 0,
+    Size: 5,
+    stopAndInteract: 1b,
+    Resistances: {
+        Arrow: 1.0f,
+        Explosion: 1.0f,
+        Knockback: 1.0f,
+        Melee: 1.0f
+    },
+    BossBar: 0b,
+    RespawnTime: 90,
+    magicXP: 0.0f,
+    NpcAngrySound: "",
+    ReactsToFire: 0b,
+    IgnoreCobweb: 0b,
+    PositionOffsetZ: 5.0f,
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    TransformHasAI: 0b,
+    AttackStrenght: 5,
+    PersistenceRequired: 0b,
+    id: "CustomNpc",
+    HealF: 50.0f,
+    MovingPatern: 0,
+    NpcLines: {
+        Lines: [
+            {
+                Line: "Where there's a whip, there's a way.",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "It is a good day to kill",
+                Song: "",
+                Slot: 1
+            },
+            {
+                Line: "You asking for a skirmish?",
+                Song: "",
+                Slot: 2
+            }
+        ]
+    },
+    DefendFaction: 1b,
+    FireIndirect: 0,
+    NpcVisible: 0,
+    LinkedNpcName: "",
+    FindShelter: 2,
+    ScriptsContainers: [
+    ],
+    Air: 300s,
+    TacticalVariant: 0,
+    Orientation: 0,
+    ScriptLanguage: "ECMAScript",
+    KnockBack: 0,
+    TransformHasJob: 0b,
+    CustomName: "",
+    CanDespawn: 0b,
+    BurnInSun: 0b,
+    StandingState: 0,
+    AttackInvisible: 0b,
+    HurtTime: 0s,
+    WalkingRange: 5,
+    CustomNameVisible: 0b,
+    ShotCount: 1,
+    pDur: 5,
+    AttackRange: 2,
+    NpcKillLines: {
+        Lines: [
+            {
+                Line: "By all the dead!",
+                Song: "",
+                Slot: 0
+            }
+        ]
+    },
+    PotionImmune: 0b,
+    AvoidsSun: 0b,
+    Texture: "lotr:mob/gondor/ranger/0.png",
+    NpcJob: 0,
+    BurstCount: 1,
+    NpcAttackLines: {
+        Lines: [
+            {
+                Line: "Victory or death!",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "By my axe!",
+                Song: "",
+                Slot: 1
+            }
+        ]
+    },
+    pSpeed: 10,
+    pArea: 0,
+    DeathTime: 0s,
+    pImpact: 0,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 0,
+    RangeAndMelee: 0,
+    pRender3D: 0b,
+    magicLevel: 1s,
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CombatRegen: 1,
+    pEffect: 0,
+    DistanceToMelee: 4,
+    NpcStepSound: "",
+    curFatigue: 0.0f,
+    FireRate: 5,
+    pEffAmp: 0,
+    OnGround: 1b,
+    Dimension: 100,
+    ImmuneToFire: 0b,
+    NpcKilledLines: {
+        Lines: [
+            {
+                Line: "Someday I will kill you.",
+                Song: "",
+                Slot: 0
+            }
+        ]
+    },
+    UUIDMost: 5551970872241407L,
+    Fire: -1s,
+    DisablePitch: 0b,
+    pPhysics: 1b,
+    TransformHasInv: 0b,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Line: "By the forge of my soul!",
+                Song: "",
+                Slot: 0
+            }
+        ]
+    },
+    pSpin: 0b,
+    NpcHurtSound: "lotr:orc.hurt",
+    pTrail: 0,
+    isShrunk: 0b,
+    CreatureType: 0,
+    Attributes: [
+        {
+            Base: 0.0d,
+            Name: "am2.maxManaBonus"
+        },
+        {
+            Base: 0.0d,
+            Name: "am2.maxBurnoutBonus"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.xpMultiplier"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.burnoutReduction"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.manaRegenModifier"
+        },
+        {
+            Base: 50.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.25d,
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 64.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 5.0d,
+            Name: "generic.attackDamage"
+        }
+    ],
+    Invulnerable: 0b,
+    TransformHasDisplay: 0b,
+    NoFallDamage: 0b,
+    AbsorptionAmount: 0.0f,
+    TransformHasRole: 0b,
+    Name: "Philip",
+    FallDistance: 0.0f,
+    NpcIdleSound: "lotr:orc.say",
+    Weapons: [
+        {
+            Slot: 0b,
+            id: 4273s,
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    NPCDialogOptions: [
+    ],
+    AggroRange: 16,
+    DirectLOS: 1b,
+    HealthRegen: 3,
+    NpcModelData: {
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        EntityClass: "lotr.common.entity.npc.LOTREntityRangerIthilien",
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        Breasts: 0b,
+        Headwear: 2b,
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        ExtraData: {
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        }
+    },
+    minDelay: 20,
+    DoorInteract: 2,
+    MoveSpeed: 5,
+    TransformEditingModus: 0b,
+    UsingSkinUrl: 0b,
+    Leashed: 0b,
+    SkinUrl: "",
+    CanSwim: 1b,
+    armorCooldowns: [0,0,0,0],
+    MaxHealth: 50,
+    HideBodyWhenKilled: 1b,
+    AttackSpeed: 20,
+    PotionDuration: 5,
+    maxDelay: 40,
+    ScriptEnabled: 0b,
+    Role: 0,
+    DropChance: [
+        {
+            Integer: 25,
+            Slot: 0
+        },
+        {
+            Integer: 25,
+            Slot: 1
+        },
+        {
+            Integer: 25,
+            Slot: 2
+        },
+        {
+            Integer: 35,
+            Slot: 3
+        },
+        {
+            Integer: 50,
+            Slot: 4
+        },
+        {
+            Integer: 40,
+            Slot: 5
+        },
+        {
+            Integer: 65,
+            Slot: 6
+        },
+        {
+            Integer: 85,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
+    ],
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    pDamage: 4,
+    KilledTime: 0L,
+    AimWhileShooting: 0b,
+    CanPickUpLoot: 0b,
+    AttackOtherFactions: 1b,
+    CanDrown: 1b,
+    curMana: 500.85858f,
+    AttackTime: 0s,
+    pSize: 5,
+    CanSprint: 0b,
+    CanLeap: 0b,
+    TransformIsActive: 0b,
+    ForgeData: {
+        WITCInitialWidth: 0.5f,
+        WITCInitialHeight: 1.55f
+    },
+    MovingState: 0,
+    MovingPos: 0,
+    PotionAmp: 0,
+    OnAttack: 0,
+    TacticalRadius: 8,
+    MaxExp: 15,
+    PortalCooldown: 0,
+    pGlows: 0b,
+    TransformHasAdvanced: 0b,
+    TransformHasStats: 0b,
+    FiringSound: "random.bow",
+    ModRev: 16,
+    Accuracy: 60,
+    MinExp: 5,
+    Armor: [
+        {
+            Slot: 0b,
+            id: 4299s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: 4300s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            Slot: 2b,
+            id: 4301s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            Slot: 3b,
+            id: 4302s,
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    CloakTexture: "",
+    GlowTexture: "",
+    MaxFiringRange: 15,
+    pXlr8: 0b,
+    UUIDLeast: -61737351327935386L,
+    Health: 50s,
+    pExplode: 0b,
+    pStick: 0b,
+    MovingPause: 1b,
+    NpcDeathSound: "lotr:orc.death",
+    FactionID: 2,
+    Title: "Ithilian Ranger",
+    TotalTicksAlive: 59696L,
+    Rotation: [
+        272.41864f,
+        0.0f
+    ],
+    ShowName: 0,
+    npcInteracting: 1b,
+    AvoidsWater: 0b,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    NoLivingAnimation: 0b,
+    hasUnlockedAugmented: 1b,
+    isCritical: 0b,
+    SpawnCycle: 0
+}
