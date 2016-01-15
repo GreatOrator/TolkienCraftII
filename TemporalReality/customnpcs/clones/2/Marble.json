@@ -1,0 +1,780 @@
+{
+    ReturnToStart: 1b,
+    NpcInv: [
+    ],
+    PotionEffect: 0,
+    Size: 5,
+    stopAndInteract: 0b,
+    Resistances: {
+        Arrow: 1.0f,
+        Explosion: 0.0f,
+        Knockback: 1.0f,
+        Melee: 1.0f
+    },
+    BossBar: 0b,
+    RespawnTime: 20,
+    magicXP: 0.0f,
+    NpcAngrySound: "",
+    igJobInventory: {
+        NpcMiscInv: [
+            {
+                Slot: 0b,
+                id: 390s,
+                Count: 2b,
+                Damage: 0s
+            },
+            {
+                Slot: 1b,
+                id: 6s,
+                Count: 6b,
+                Damage: 1s
+            },
+            {
+                Slot: 2b,
+                id: 38s,
+                Count: 6b,
+                Damage: 6s
+            },
+            {
+                Slot: 3b,
+                id: 4628s,
+                Count: 6b,
+                Damage: 0s
+            },
+            {
+                Slot: 4b,
+                id: 154s,
+                Count: 4b,
+                Damage: 0s
+            },
+            {
+                Slot: 5b,
+                id: 116s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 6b,
+                id: 123s,
+                Count: 2b,
+                Damage: 0s
+            }
+        ]
+    },
+    ReactsToFire: 0b,
+    igLines: [
+        {
+            Line: "{player} consider these a teaser for what I have!"
+        }
+    ],
+    IgnoreCobweb: 0b,
+    PositionOffsetZ: 5.0f,
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    igAvailability: {
+        AvailabilityQuestId: -1,
+        AvailabilityFactionStance: 0,
+        AvailabilityQuest: 0,
+        AvailabilityDialog4: 0,
+        AvailabilityDialog3: 0,
+        AvailabilityQuest2: 0,
+        AvailabilityQuest3: 0,
+        AvailabilityQuest4: 0,
+        ModRev: 16,
+        AvailabilityDialog2: 0,
+        AvailabilityDayTime: 0,
+        AvailabilityFaction2Id: -1,
+        AvailabilityFaction: 0,
+        AvailabilityDialog: 0,
+        AvailabilityFaction2: 0,
+        AvailabilityFactionId: -1,
+        AvailabilityFaction2Stance: 0,
+        AvailabilityDialogId: -1,
+        AvailabilityQuest4Id: -1,
+        AvailabilityQuest3Id: -1,
+        AvailabilityQuest2Id: -1,
+        AvailabilityDialog2Id: -1,
+        AvailabilityDialog3Id: -1,
+        AvailabilityDialog4Id: -1,
+        AvailabilityMinPlayerLevel: 0
+    },
+    TransformHasAI: 0b,
+    AttackStrenght: 5,
+    PersistenceRequired: 0b,
+    id: "CustomNpc",
+    HealF: 50.0f,
+    MovingPatern: 0,
+    NpcLines: {
+        Lines: [
+            {
+                Line: "Welcome @p! Take a look, I have many interesting things!",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "Come inside have a look, it's all here!",
+                Song: "",
+                Slot: 1
+            },
+            {
+                Line: "If I don't have it, I will try to get it in stock!",
+                Song: "",
+                Slot: 2
+            }
+        ]
+    },
+    DefendFaction: 0b,
+    FireIndirect: 0,
+    NpcVisible: 0,
+    LinkedNpcName: "",
+    FindShelter: 2,
+    ScriptsContainers: [
+    ],
+    Air: 300s,
+    TacticalVariant: 0,
+    Orientation: 0,
+    ScriptLanguage: "ECMAScript",
+    KnockBack: 0,
+    TransformHasJob: 0b,
+    CustomName: "",
+    CanDespawn: 0b,
+    BurnInSun: 0b,
+    TraderSold: {
+        NpcMiscInv: [
+            {
+                Slot: 0b,
+                id: 6351s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 1b,
+                id: 1315s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 2b,
+                id: 2337s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 3b,
+                id: 6353s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 4b,
+                id: 1317s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 5b,
+                id: 2334s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 6b,
+                id: 1465s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 7b,
+                id: 1355s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 8b,
+                id: 2329s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 9b,
+                id: 5572s,
+                Count: 16b,
+                Damage: 2s
+            },
+            {
+                Slot: 10b,
+                id: 7006s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 11b,
+                id: 7353s,
+                Count: 1b,
+                tag: {
+                    Items: [
+                        {
+                            Slot: 0b,
+                            id: 280s,
+                            Count: 1b,
+                            Damage: 0s
+                        },
+                        {
+                            Slot: 1b,
+                            id: 280s,
+                            Count: 1b,
+                            Damage: 0s
+                        },
+                        {
+                            Slot: 2b,
+                            id: 280s,
+                            Count: 1b,
+                            Damage: 0s
+                        },
+                        {
+                            Slot: 3b,
+                            id: 280s,
+                            Count: 1b,
+                            Damage: 0s
+                        },
+                        {
+                            Slot: 4b,
+                            id: 7352s,
+                            Count: 1b,
+                            Damage: 1s
+                        },
+                        {
+                            Slot: 5b,
+                            id: 7352s,
+                            Count: 1b,
+                            Damage: 1s
+                        },
+                        {
+                            Slot: 6b,
+                            id: 101s,
+                            Count: 1b,
+                            Damage: 0s
+                        }
+                    ]
+                },
+                Damage: 2s
+            },
+            {
+                Slot: 12b,
+                id: 899s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 13b,
+                id: 1523s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 14b,
+                id: 7353s,
+                Count: 1b,
+                tag: {
+                    Items: [
+                        {
+                            Slot: 0b,
+                            id: 280s,
+                            Count: 1b,
+                            Damage: 0s
+                        },
+                        {
+                            Slot: 1b,
+                            id: 280s,
+                            Count: 1b,
+                            Damage: 0s
+                        },
+                        {
+                            Slot: 2b,
+                            id: 7352s,
+                            Count: 1b,
+                            Damage: 1s
+                        },
+                        {
+                            Slot: 3b,
+                            id: 7352s,
+                            Count: 1b,
+                            Damage: 2s
+                        },
+                        {
+                            Slot: 4b,
+                            id: 287s,
+                            Count: 1b,
+                            Damage: 0s
+                        }
+                    ]
+                },
+                Damage: 3s
+            },
+            {
+                Slot: 15b,
+                id: 897s,
+                Count: 1b,
+                Damage: 2s
+            },
+            {
+                Slot: 16b,
+                id: 1529s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 17b,
+                id: 7352s,
+                Count: 1b,
+                Damage: 5s
+            }
+        ]
+    },
+    StandingState: 0,
+    AttackInvisible: 0b,
+    HurtTime: 0s,
+    WalkingRange: 2,
+    CustomNameVisible: 0b,
+    ShotCount: 1,
+    pDur: 5,
+    TraderIgnoreDamage: 0b,
+    AttackRange: 2,
+    NpcKillLines: {
+        Lines: [
+        ]
+    },
+    PotionImmune: 0b,
+    AvoidsSun: 0b,
+    Texture: "customnpcs:textures/CustomSkins/Girl/skin20131203232643119663.png",
+    NpcJob: 4,
+    BurstCount: 1,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    pSpeed: 10,
+    pArea: 0,
+    DeathTime: 0s,
+    pImpact: 0,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 0,
+    RangeAndMelee: 0,
+    pRender3D: 0b,
+    igCooldown: 10,
+    magicLevel: 0s,
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CombatRegen: 0,
+    pEffect: 0,
+    DistanceToMelee: 4,
+    NpcStepSound: "",
+    curFatigue: 0.0f,
+    FireRate: 5,
+    pEffAmp: 0,
+    OnGround: 1b,
+    Dimension: 0,
+    ImmuneToFire: 0b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    UUIDMost: -2655011130250803652L,
+    TraderMarket: "",
+    igGivingMethod: 0,
+    Fire: -1s,
+    DisablePitch: 0b,
+    pPhysics: 1b,
+    TransformHasInv: 0b,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Line: "If you have the money, i've got the stuff.",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "My shipments a bit late, something about a giant? Carts eaten?",
+                Song: "",
+                Slot: 1
+            }
+        ]
+    },
+    TraderCurrency: {
+        NpcMiscInv: [
+            {
+                Slot: 32b,
+                id: 4185s,
+                Count: 16b,
+                Damage: 0s
+            },
+            {
+                Slot: 33b,
+                id: 4185s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 34b,
+                id: 4185s,
+                Count: 16b,
+                Damage: 0s
+            },
+            {
+                Slot: 35b,
+                id: 4185s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 18b,
+                id: 4185s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 19b,
+                id: 4185s,
+                Count: 15b,
+                Damage: 0s
+            },
+            {
+                Slot: 20b,
+                id: 4185s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 21b,
+                id: 4185s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 22b,
+                id: 4185s,
+                Count: 15b,
+                Damage: 0s
+            },
+            {
+                Slot: 23b,
+                id: 4185s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 24b,
+                id: 4185s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 25b,
+                id: 4185s,
+                Count: 10b,
+                Damage: 0s
+            },
+            {
+                Slot: 26b,
+                id: 4185s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 27b,
+                id: 4185s,
+                Count: 32b,
+                Damage: 0s
+            },
+            {
+                Slot: 28b,
+                id: 4185s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 29b,
+                id: 4185s,
+                Count: 16b,
+                Damage: 0s
+            },
+            {
+                Slot: 30b,
+                id: 4185s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 31b,
+                id: 4185s,
+                Count: 32b,
+                Damage: 0s
+            }
+        ]
+    },
+    pSpin: 0b,
+    NpcHurtSound: "minecraft:game.player.hurt",
+    pTrail: 0,
+    isShrunk: 0b,
+    CreatureType: 0,
+    Attributes: [
+        {
+            Base: 0.0d,
+            Name: "am2.maxManaBonus"
+        },
+        {
+            Base: 0.0d,
+            Name: "am2.maxBurnoutBonus"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.xpMultiplier"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.burnoutReduction"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.manaRegenModifier"
+        },
+        {
+            Base: 50.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.30000001192092896d,
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 64.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 5.0d,
+            Name: "generic.attackDamage"
+        }
+    ],
+    Invulnerable: 0b,
+    TransformHasDisplay: 0b,
+    NoFallDamage: 0b,
+    AbsorptionAmount: 0.0f,
+    TransformHasRole: 0b,
+    Name: "Marble",
+    FallDistance: 0.0f,
+    NpcIdleSound: "",
+    Weapons: [
+        {
+            Slot: 0b,
+            id: 6544s,
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    NPCDialogOptions: [
+        {
+            NPCDialog: {
+                DialogCommand: "",
+                Dialog: 125,
+                Title: "Welcome Player",
+                DialogColor: 14737632,
+                OptionType: 2
+            },
+            DialogSlot: 0
+        }
+    ],
+    AggroRange: 16,
+    DirectLOS: 1b,
+    HealthRegen: 5,
+    NpcModelData: {
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        Breasts: 0b,
+        Headwear: 2b,
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        ExtraData: {
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        }
+    },
+    igCooldownType: 2,
+    minDelay: 20,
+    DoorInteract: 2,
+    MoveSpeed: 6,
+    TransformEditingModus: 0b,
+    UsingSkinUrl: 0b,
+    Leashed: 0b,
+    SkinUrl: "",
+    CanSwim: 1b,
+    TraderIgnoreNBT: 0b,
+    armorCooldowns: [0,0,0,0],
+    MaxHealth: 50,
+    HideBodyWhenKilled: 0b,
+    AttackSpeed: 20,
+    PotionDuration: 5,
+    maxDelay: 40,
+    ScriptEnabled: 0b,
+    Role: 1,
+    DropChance: [
+        {
+            Integer: 100,
+            Slot: 0
+        },
+        {
+            Integer: 100,
+            Slot: 1
+        },
+        {
+            Integer: 100,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
+    ],
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    pDamage: 4,
+    KilledTime: 0L,
+    AimWhileShooting: 0b,
+    CanPickUpLoot: 0b,
+    AttackOtherFactions: 0b,
+    CanDrown: 1b,
+    curMana: 500.0f,
+    AttackTime: 0s,
+    pSize: 5,
+    CanSprint: 0b,
+    CanLeap: 0b,
+    TransformIsActive: 0b,
+    ForgeData: {
+        WITCInitialWidth: 0.6f,
+        WITCInitialHeight: 1.9f
+    },
+    MovingState: 1,
+    MovingPos: 0,
+    PotionAmp: 0,
+    OnAttack: 3,
+    TacticalRadius: 8,
+    MaxExp: 0,
+    PortalCooldown: 0,
+    pGlows: 0b,
+    TransformHasAdvanced: 0b,
+    TransformHasStats: 0b,
+    FiringSound: "random.bow",
+    ModRev: 16,
+    Accuracy: 60,
+    MinExp: 0,
+    Armor: [
+    ],
+    CloakTexture: "",
+    GlowTexture: "",
+    MaxFiringRange: 15,
+    pXlr8: 0b,
+    ItemGiverId: 0,
+    UUIDLeast: -4787256790930666933L,
+    Health: 50s,
+    pExplode: 0b,
+    pStick: 0b,
+    MovingPause: 1b,
+    NpcDeathSound: "minecraft:game.player.hurt",
+    FactionID: 6,
+    Title: "Grocer",
+    TotalTicksAlive: 92667076L,
+    Rotation: [
+        -972.48413f,
+        0.0f
+    ],
+    ShowName: 0,
+    npcInteracting: 0b,
+    AvoidsWater: 0b,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    NoLivingAnimation: 0b,
+    hasUnlockedAugmented: 1b,
+    isCritical: 0b,
+    SpawnCycle: 0
+}

@@ -1,0 +1,280 @@
+{
+    ReturnToStart: 1b,
+    NpcInv: [
+    ],
+    PotionEffect: 0,
+    Size: 5,
+    Resistances: {
+        Arrow: 1.0f,
+        Melee: 1.0f,
+        Knockback: 1.0f
+    },
+    BossBar: 0b,
+    RespawnTime: 20,
+    NpcAngrySound: "minecraft:mob.cat.hiss",
+    ReactsToFire: 0b,
+    IgnoreCobweb: 0b,
+    PositionOffsetZ: 5.0f,
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    TransformHasAI: 0b,
+    AttackStrenght: 5,
+    PersistenceRequired: 0b,
+    NpcLines: {
+        Lines: [
+        ]
+    },
+    MovingPatern: 0,
+    HealF: 20.0f,
+    DefendFaction: 0b,
+    id: "CustomNpc",
+    FireIndirect: 0,
+    NpcVisible: 0,
+    FindShelter: 2,
+    SkinUsername: "",
+    ScriptsContainers: [
+    ],
+    Air: 300s,
+    TacticalVariant: 0,
+    Orientation: 0,
+    ScriptLanguage: "ECMAScript",
+    KnockBack: 0,
+    TransformHasJob: 0b,
+    CustomName: "",
+    CanDespawn: 0b,
+    BurnInSun: 0b,
+    StandingState: 0,
+    HurtTime: 0s,
+    WalkingRange: 5,
+    CustomNameVisible: 0b,
+    ShotCount: 1,
+    pDur: 5,
+    AttackRange: 2,
+    AvoidsSun: 0b,
+    Texture: "minecraft:textures/entity/cat/ocelot.png",
+    NpcJob: 0,
+    BurstCount: 1,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    pSpeed: 10,
+    pArea: 0,
+    DeathTime: 0s,
+    pImpact: 0,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 0,
+    RangeAndMelee: 0,
+    pRender3D: 0b,
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CombatRegen: 0,
+    DistanceToMelee: 4,
+    pEffect: 0,
+    NpcStepSound: "",
+    FireRate: 5,
+    pEffAmp: 0,
+    OnGround: 1b,
+    ImmuneToFire: 0b,
+    Dimension: 0,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    UUIDMost: -7621557267988922256L,
+    DisablePitch: 0b,
+    Fire: -1s,
+    pPhysics: 1b,
+    TransformHasInv: 0b,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Line: "Greetings @p, I hope you are here to help our kingdom.",
+                Song: "",
+                Slot: 0
+            }
+        ]
+    },
+    pSpin: 0b,
+    NpcHurtSound: "minecraft:mob.cat.hitt",
+    pTrail: 0,
+    CreatureType: 0,
+    Attributes: [
+        {
+            Base: 20.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.30000001192092896d,
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 64.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 5.0d,
+            Name: "generic.attackDamage"
+        }
+    ],
+    Invulnerable: 0b,
+    TransformHasDisplay: 0b,
+    NoFallDamage: 0b,
+    AbsorptionAmount: 0.0f,
+    TransformHasRole: 0b,
+    Name: "Smokey",
+    FallDistance: 0.0f,
+    NpcIdleSound: "minecraft:mob.cat.meow",
+    Weapons: [
+    ],
+    NPCDialogOptions: [
+    ],
+    DirectLOS: 1b,
+    AggroRange: 16,
+    HealthRegen: 1,
+    NpcModelData: {
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        EntityClass: "net.minecraft.entity.passive.EntityOcelot",
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        Breasts: 0b,
+        Headwear: 2b,
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        ExtraData: {
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        }
+    },
+    MoveSpeed: 6,
+    minDelay: 20,
+    DoorInteract: 2,
+    TransformEditingModus: 0b,
+    UsingSkinUrl: 0b,
+    Leashed: 0b,
+    CanSwim: 1b,
+    HideBodyWhenKilled: 0b,
+    MaxHealth: 20,
+    AttackSpeed: 20,
+    PotionDuration: 5,
+    maxDelay: 40,
+    DropChance: [
+    ],
+    ScriptEnabled: 0b,
+    Role: 0,
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    TransporterId: -1,
+    pDamage: 4,
+    KilledTime: 0L,
+    CanPickUpLoot: 0b,
+    AttackOtherFactions: 0b,
+    CanDrown: 1b,
+    AttackTime: 0s,
+    CanSprint: 0b,
+    pSize: 5,
+    CanLeap: 0b,
+    TransformIsActive: 0b,
+    ForgeData: {
+    },
+    MovingState: 1,
+    MovingPos: 0,
+    PotionAmp: 0,
+    OnAttack: 0,
+    TacticalRadius: 8,
+    MaxExp: 0,
+    PortalCooldown: 0,
+    pGlows: 0b,
+    TransformHasAdvanced: 0b,
+    TransformHasStats: 0b,
+    FiringSound: "random.bow",
+    ModRev: 15,
+    Accuracy: 60,
+    MinExp: 0,
+    Armor: [
+    ],
+    CloakTexture: "",
+    GlowTexture: "",
+    pXlr8: 0b,
+    MaxFiringRange: 15,
+    ItemGiverId: 0,
+    UUIDLeast: -8367269019614430573L,
+    Health: 20s,
+    pExplode: 0b,
+    pStick: 0b,
+    NpcDeathSound: "minecraft:mob.cat.hitt",
+    MovingPause: 1b,
+    FactionID: 0,
+    Title: "",
+    Rotation: [
+        720.0399f,
+        0.0f
+    ],
+    ShowName: 1,
+    AvoidsWater: 0b,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    NoLivingAnimation: 0b,
+    SpawnCycle: 0
+}

@@ -1,0 +1,699 @@
+{
+    ReturnToStart: 1b,
+    NpcInv: [
+    ],
+    PotionEffect: 4,
+    Size: 5,
+    stopAndInteract: 0b,
+    Resistances: {
+        Arrow: 1.0f,
+        Explosion: 0.0f,
+        Knockback: 1.0f,
+        Melee: 1.0f
+    },
+    BossBar: 0b,
+    RespawnTime: 20,
+    magicXP: 0.0f,
+    NpcAngrySound: "",
+    ReactsToFire: 0b,
+    IgnoreCobweb: 1b,
+    PositionOffsetZ: 5.0f,
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    TransformHasAI: 0b,
+    AttackStrenght: 30,
+    PersistenceRequired: 0b,
+    id: "CustomNpc",
+    HealF: 400.0f,
+    MovingPatern: 0,
+    NpcLines: {
+        Lines: [
+            {
+                Line: "Looking to turn in your spoils?",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "I will trade tokens for items.",
+                Song: "",
+                Slot: 1
+            }
+        ]
+    },
+    DefendFaction: 1b,
+    FireIndirect: 0,
+    NpcVisible: 0,
+    LinkedNpcName: "",
+    FindShelter: 2,
+    GuardTargets: [
+    ],
+    ScriptsContainers: [
+    ],
+    Air: 300s,
+    TacticalVariant: 0,
+    Orientation: 0,
+    ScriptLanguage: "ECMAScript",
+    KnockBack: 4,
+    TransformHasJob: 0b,
+    CustomName: "",
+    CanDespawn: 0b,
+    BurnInSun: 0b,
+    TraderSold: {
+        NpcMiscInv: [
+            {
+                Slot: 0b,
+                id: 17s,
+                Count: 64b,
+                Damage: 1s
+            },
+            {
+                Slot: 1b,
+                id: 56s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 2b,
+                id: 5458s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 3b,
+                id: 12s,
+                Count: 64b,
+                Damage: 0s
+            },
+            {
+                Slot: 4b,
+                id: 129s,
+                Count: 8b,
+                Damage: 0s
+            },
+            {
+                Slot: 5b,
+                id: 5458s,
+                Count: 1b,
+                Damage: 1s
+            },
+            {
+                Slot: 6b,
+                id: 82s,
+                Count: 64b,
+                Damage: 0s
+            },
+            {
+                Slot: 7b,
+                id: 153s,
+                Count: 16b,
+                Damage: 0s
+            },
+            {
+                Slot: 8b,
+                id: 5458s,
+                Count: 1b,
+                Damage: 2s
+            },
+            {
+                Slot: 9b,
+                id: 15s,
+                Count: 16b,
+                Damage: 0s
+            },
+            {
+                Slot: 10b,
+                id: 1270s,
+                Count: 6b,
+                Damage: 0s
+            },
+            {
+                Slot: 11b,
+                id: 5458s,
+                Count: 1b,
+                Damage: 3s
+            },
+            {
+                Slot: 12b,
+                id: 1893s,
+                Count: 16b,
+                Damage: 1s
+            },
+            {
+                Slot: 13b,
+                id: 1461s,
+                Count: 6b,
+                Damage: 2s
+            },
+            {
+                Slot: 15b,
+                id: 16s,
+                Count: 32b,
+                Damage: 0s
+            },
+            {
+                Slot: 16b,
+                id: 1461s,
+                Count: 6b,
+                Damage: 1s
+            }
+        ]
+    },
+    StandingState: 3,
+    AttackInvisible: 0b,
+    HurtTime: 0s,
+    WalkingRange: 5,
+    CustomNameVisible: 0b,
+    ShotCount: 1,
+    pDur: 5,
+    TraderIgnoreDamage: 0b,
+    AttackRange: 2,
+    NpcKillLines: {
+        Lines: [
+        ]
+    },
+    PotionImmune: 0b,
+    AvoidsSun: 0b,
+    GuardAttackCreepers: 1b,
+    Texture: "customnpcs:textures/CustomSkins/Guy/BountyHunter.png",
+    NpcJob: 3,
+    BurstCount: 1,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    pSpeed: 10,
+    pArea: 0,
+    DeathTime: 0s,
+    pImpact: 0,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 0,
+    RangeAndMelee: 0,
+    pRender3D: 0b,
+    magicLevel: 0s,
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CombatRegen: 30,
+    pEffect: 0,
+    DistanceToMelee: 4,
+    NpcStepSound: "",
+    curFatigue: 0.0f,
+    FireRate: 5,
+    pEffAmp: 0,
+    OnGround: 1b,
+    Dimension: 0,
+    ImmuneToFire: 0b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    GuardAttackMobs: 1b,
+    UUIDMost: 1831301047794483219L,
+    TraderMarket: "",
+    Fire: -1s,
+    DisablePitch: 0b,
+    pPhysics: 1b,
+    TransformHasInv: 0b,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Line: "Hello @p, I'm watching you. Keep your eyes open, maybe we can do business later.",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "The king does not seem to be in a very good mood sometimes.",
+                Song: "",
+                Slot: 1
+            },
+            {
+                Line: "The prince sure loves to play.",
+                Song: "",
+                Slot: 2
+            },
+            {
+                Line: "I've got some very good deals for special people.",
+                Song: "",
+                Slot: 3
+            }
+        ]
+    },
+    TraderCurrency: {
+        NpcMiscInv: [
+            {
+                Slot: 33b,
+                id: 5316s,
+                Count: 4b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 34b,
+                id: 5316s,
+                Count: 16b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 18b,
+                id: 5316s,
+                Count: 1b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 19b,
+                id: 5316s,
+                Count: 8b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 20b,
+                id: 5316s,
+                Count: 2b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 21b,
+                id: 5316s,
+                Count: 1b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 22b,
+                id: 5316s,
+                Count: 8b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 23b,
+                id: 5316s,
+                Count: 8b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 24b,
+                id: 5316s,
+                Count: 1b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 25b,
+                id: 5316s,
+                Count: 8b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 26b,
+                id: 5316s,
+                Count: 16b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 27b,
+                id: 5316s,
+                Count: 4b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 28b,
+                id: 5316s,
+                Count: 16b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 29b,
+                id: 5316s,
+                Count: 32b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 30b,
+                id: 5316s,
+                Count: 4b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 31b,
+                id: 5316s,
+                Count: 16b,
+                tag: {
+                    RepairCost: 2,
+                    display: {
+                        Name: "Dragon Token"
+                    }
+                },
+                Damage: 0s
+            }
+        ]
+    },
+    pSpin: 0b,
+    NpcHurtSound: "minecraft:game.player.hurt",
+    pTrail: 0,
+    isShrunk: 0b,
+    CreatureType: 0,
+    Attributes: [
+        {
+            Base: 0.0d,
+            Name: "am2.maxManaBonus"
+        },
+        {
+            Base: 0.0d,
+            Name: "am2.maxBurnoutBonus"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.xpMultiplier"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.burnoutReduction"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.manaRegenModifier"
+        },
+        {
+            Base: 400.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.30000001192092896d,
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 64.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 30.0d,
+            Name: "generic.attackDamage"
+        }
+    ],
+    Invulnerable: 0b,
+    TransformHasDisplay: 0b,
+    NoFallDamage: 1b,
+    AbsorptionAmount: 0.0f,
+    TransformHasRole: 0b,
+    Name: "Michael",
+    GuardSpecific: 0b,
+    FallDistance: 0.0f,
+    NpcIdleSound: "",
+    Weapons: [
+        {
+            Slot: 0b,
+            id: 276s,
+            Count: 1b,
+            tag: {
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 2b,
+            id: 4386s,
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    NPCDialogOptions: [
+    ],
+    AggroRange: 16,
+    DirectLOS: 1b,
+    HealthRegen: 15,
+    NpcModelData: {
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        Breasts: 0b,
+        Headwear: 2b,
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        ExtraData: {
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        }
+    },
+    minDelay: 1,
+    DoorInteract: 1,
+    MoveSpeed: 6,
+    TransformEditingModus: 0b,
+    UsingSkinUrl: 0b,
+    Leashed: 0b,
+    SkinUrl: "",
+    CanSwim: 1b,
+    TraderIgnoreNBT: 0b,
+    armorCooldowns: [0,0,0,0],
+    MaxHealth: 400,
+    HideBodyWhenKilled: 1b,
+    AttackSpeed: 20,
+    GuardAttackAnimals: 0b,
+    PotionDuration: 5,
+    maxDelay: 1,
+    ScriptEnabled: 0b,
+    Role: 1,
+    DropChance: [
+        {
+            Integer: 100,
+            Slot: 0
+        },
+        {
+            Integer: 100,
+            Slot: 1
+        },
+        {
+            Integer: 100,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
+    ],
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    pDamage: 4,
+    KilledTime: 0L,
+    AimWhileShooting: 0b,
+    CanPickUpLoot: 0b,
+    AttackOtherFactions: 1b,
+    CanDrown: 0b,
+    curMana: 500.0f,
+    AttackTime: 0s,
+    pSize: 5,
+    CanSprint: 1b,
+    CanLeap: 1b,
+    TransformIsActive: 0b,
+    ForgeData: {
+        WITCInitialWidth: 0.6f,
+        WITCInitialHeight: 1.9f
+    },
+    MovingState: 0,
+    MovingPos: 0,
+    PotionAmp: 1,
+    OnAttack: 0,
+    TacticalRadius: 8,
+    MaxExp: 0,
+    PortalCooldown: 0,
+    pGlows: 0b,
+    TransformHasAdvanced: 0b,
+    TransformHasStats: 0b,
+    FiringSound: "random.bow",
+    ModRev: 16,
+    Accuracy: 90,
+    MinExp: 0,
+    Armor: [
+    ],
+    CloakTexture: "",
+    GlowTexture: "",
+    MaxFiringRange: 15,
+    pXlr8: 0b,
+    UUIDLeast: -6391351735448102713L,
+    Health: 400s,
+    pExplode: 0b,
+    pStick: 0b,
+    MovingPause: 1b,
+    NpcDeathSound: "minecraft:game.player.hurt",
+    FactionID: 8,
+    Title: "Bounty Hunter",
+    TotalTicksAlive: 101244435L,
+    Rotation: [
+        103.060616f,
+        0.0f
+    ],
+    ShowName: 0,
+    npcInteracting: 0b,
+    AvoidsWater: 0b,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    NoLivingAnimation: 0b,
+    hasUnlockedAugmented: 1b,
+    isCritical: 0b,
+    SpawnCycle: 0
+}
