@@ -1,9 +1,9 @@
 {
-	"revision": 6,
+	"revision": 7,
 	"infoText": [
 		"[c]Welcome to TolkienCraft II",
-		"Update v2.8.4 is complete and should be on the launcher shortly. Map has been updated again RC5, had to update the level.dat to keep in sync with mod changes, so this should be all you need to update on existing worlds.",
-		"This update includes an overhaul of the GUI for RPGHUD, JourneyMap and Damage Indicators as well as a few config tweaks for the same.",
+		"Update v2.8.6 is complete and should be on the launcher shortly. Map has been updated again RC6, had to update the level.dat to keep in sync with mod changes, also corrected a couple of CustomNPC quests so you will need to update level.dat and the customNPC folder in the save file.",
+		"Changelog at github and thanks to everyone playing TolkienCraft II!",
 		"Thank you for playing TolkienCraft II and please let me know if you have any questions or issues while playing!"
 	]
 }
