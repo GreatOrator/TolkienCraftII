@@ -2,7 +2,7 @@
 	"revision": 8,
 	"infoText": [
 		"[c]Welcome to TolkienCraft II",
-		"Update v2.8.6 is complete and should be on the launcher shortly. Map has been updated again RC7, had to update the level.dat to keep in sync with mod changes, and fix my player data still being included, also corrected a couple of CustomNPC quests so you will need to update level.dat and the customNPC folder in the save file.",
+		"Update v2.8.7 is complete and should be on the launcher shortly. Main fix is the NEI crash that was happening has been resolved.  Full changelog available at github or FTB forums.",
 		"Changelog at github and thanks to everyone playing TolkienCraft II!",
 		"Thank you for playing TolkienCraft II and please let me know if you have any questions or issues while playing!"
 	]
