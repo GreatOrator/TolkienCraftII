@@ -1,8 +1,10 @@
 {
-	"revision": 9,
+	"revision": 10,
 	"infoText": [
 		"[c]Welcome to TolkienCraft II",
 		"Update v2.8.8 is complete and should be on the launcher shortly. Main fix is removal of aquatic abyss due to mob spawns causing crashes.  Full changelog available at github or FTB forums.",
+		" ",
+		"Quick map update to fix issue with entities, this should fix it (default map download only affected)",
 		" ",
 		"There were changes to the default map to fix some bugs that cropped up as well as to finally replace the wanted posters in WyvernHaven. Also added money changers to the markets to make it easier for all of you to swap out those larger denomination coins.  If you do not want the map update, keep in mind the update to botania will have missing items due to changes.  At the very least change out the level.dat for the default map in your save with the one in the new map.",
 		" ",
