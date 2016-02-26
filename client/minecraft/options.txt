@@ -11,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 clouds:false
@@ -127,6 +127,7 @@ key_Camping Inventory Key:37
 key_key.craftingGrid:0
 key_TG.keybind.openInv:71
 key_TG.keybind.activeaAbilities:81
+key_WorldEdit Reference:38
 key_key.CastingMode:209
 key_key.SpellBookNext:181
 key_key.SpellBookPrev:55
@@ -146,7 +147,7 @@ key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:40
 key_key.journeymap.create_waypoint:43
-soundCategory_master:0.5033113
+soundCategory_master:0.0
 soundCategory_music:0.35915494
 soundCategory_record:1.0
 soundCategory_weather:1.0

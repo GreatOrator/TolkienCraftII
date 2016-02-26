@@ -1,4 +1,4 @@
-TheLightOfLothlorien{
+{
   "songs.concerning_hobbits": {
     "category": "player",
     "sounds": [{"name": "customsongs/Concerning Hobbits", "stream": true}]
