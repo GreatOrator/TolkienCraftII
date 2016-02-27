@@ -1,8 +1,10 @@
 {
-	"revision": 10,
+	"revision": 11,
 	"infoText": [
 		"[c]Welcome to TolkienCraft II",
 		"Update v2.8.8 is complete and should be on the launcher shortly. Main fix is removal of aquatic abyss due to mob spawns causing crashes.  Full changelog available at github or FTB forums.",
+		" ",
+		"Quick note, there is an issue with Ars Magica 2 in the newest version that changes all potion effects to bleeding.  Currently working on getting it fixed, but in the meantime just use the older version of AM@ (008) until I push out a fix.",
 		" ",
 		"Quick map update to fix issue with entities, this should fix it (default map download only affected)",
 		" ",
