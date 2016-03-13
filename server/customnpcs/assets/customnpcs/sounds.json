@@ -1,4 +1,4 @@
-TheLightOfLothlorien{
+{
   "songs.concerning_hobbits": {
     "category": "player",
     "sounds": [{"name": "customsongs/Concerning Hobbits", "stream": true}]
@@ -26,6 +26,10 @@ TheLightOfLothlorien{
   "songs.minastirith": {
     "category": "player",
     "sounds": [{"name": "customsongs/minastirith", "stream": true}]
+  },
+  "songs.allthatglittersinerebor": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/AllThatGlittersInErebor", "stream": true}]
   },
   "songs.rederboss": {
     "category": "player",

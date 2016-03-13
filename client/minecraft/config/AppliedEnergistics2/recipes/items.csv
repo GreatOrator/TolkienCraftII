@@ -4680,10 +4680,7 @@ Artifice:tile.artifice.uranium:1, Block of Uranium
 Artifice:tile.artifice.nuclearbattery:0, Nuclear Battery
 Artifice:tile.artifice.heatingcoil:0, Heating Coil
 aura:magicRoad, Traveler's Bricks
-aura:fairyTorch, tile.fairyTorch.name
-aura:storageBookshelf, Storage Bookshelf
 aura:storageBookshelfCoordinator, Bookshelf Coordinator
-aura:monitor, Monitor
 aura:trampoline, Rebounding Enigma
 aura:consumerBlockfurnace, Cascading Smelter
 aura:consumerBlockplant, Cascading Grower
@@ -4699,6 +4696,7 @@ aura:consumerBlockoreAdv, Prismatic Processor
 aura:consumerBlockminer, Cascading Miner
 aura:consumerBlockfish, Cascading Fisher
 aura:consumerBlockend, Ritual of the End
+aura:fairyTorch, tile.fairyTorch.name
 aura:auraNode, Aura Node
 aura:auraNodepump, Burning Aura Pump
 aura:auraNodeblack, Aura Manipulator: Black
@@ -4718,12 +4716,14 @@ aura:auraNodepumpCreative, Creative Pump (Creative Only)
 aura:auraNodepumpLightAlt, Alternating Illumination Aura Pump
 aura:auraNodepumpRedstoneAlt, Alternating Redstone Aura Pump
 aura:auraNodeflux, Fluxing Node
+aura:monitor, Monitor
 aura:fortifiedDirt, Fortified Dirt
 aura:fortifiedWood, Fortified Planks
 aura:fortifiedGlass, Fortified Glass
 aura:fortifiedCobblestone, Fortified Cobblestone
 aura:fortifiedStone, Fortified Stone
 aura:fortifiedObsidian, Fortified Obsidian
+aura:storageBookshelf, Storage Bookshelf
 BiblioCraft:tile.BiblioFramedChest:0, Framed Chest
 BiblioCraft:BiblioPaneler:0, Oak Furniture Paneler
 BiblioCraft:BiblioPaneler:1, Spruce Furniture Paneler
@@ -8320,7 +8320,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Entity Device)
+ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -9211,43 +9211,43 @@ Steamcraft:vacuum, Vacuum
 Steamcraft:engineering, Engineering Table
 RedstoneArsenal:Storage:0, Fluxed Electrum Block
 RedstoneArsenal:Storage:1, Flux Crystal Block
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
 ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:travelStairs, Paving Stair of Travel
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
 ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
 ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:warpGate, Celestial Gateway
 ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
 ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:travelStairs, Paving Stair of Travel
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:spawner, Tablet of Necromancy
 ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
 ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
-ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:interface, Transvector Interface
 ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:repairer, Thaumic Restorer
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:enchanter, Osmotic Enchanter
 MagicBees:magicbees.enchantedEarth, Enchanted Earth
 MagicBees:hive:0, Curious Hive
 MagicBees:hive:1, Unusual Hive
@@ -9281,6 +9281,14 @@ IronChest:BlockIronChest:5, Crystal Chest
 IronChest:BlockIronChest:6, Obsidian Chest
 IronChest:BlockIronChest:7, DirtChest 9000!
 JABBA:barrel, Better Barrel
+LogisticsPipes:logisticsSolidBlock:0, Soldering Station
+LogisticsPipes:logisticsSolidBlock:1, Logistics Power Junction
+LogisticsPipes:logisticsSolidBlock:2, Logistics Security Station
+LogisticsPipes:logisticsSolidBlock:3, Logistics Crafting Table
+LogisticsPipes:logisticsSolidBlock:4, Logistics Fuzzy Crafting Table
+LogisticsPipes:logisticsSolidBlock:5, Logistics Statistics Table
+LogisticsPipes:logisticsSolidBlock:11, Logistics RF Power Provider
+LogisticsPipes:logisticsPipeBlock, LogisticsPipes Pipe Block.name
 radixcore:MCA_BlockTombstone, tile.tombstone.name
 radixcore:MCA_BlockVillagerBedRed, tile.villagerbedred.name
 radixcore:MCA_BlockVillagerBedBlue, tile.villagerbedblue.name
@@ -9575,6 +9583,10 @@ ThermalDynamics:ThermalDynamics_32:6, Fluctuating Itemduct
 ThermalDynamics:ThermalDynamics_32:7, Fluctuating Itemduct (Opaque)
 ThermalDynamics:ThermalDynamics_48:0, Structuralduct (Opaque)
 ThermalDynamics:ThermalDynamics_48:1, Luxduct
+ThermalDynamics:ThermalDynamics_64:0, Viaduct
+ThermalDynamics:ThermalDynamics_64:1, Long Range Viaduct
+ThermalDynamics:ThermalDynamics_64:2, Long Range Linking Viaduct
+ThermalDynamics:ThermalDynamics_64:3, Viaduct (Untreated)
 TMechworks:RedstoneMachine:0, Drawbridge
 TMechworks:RedstoneMachine:1, Igniter
 TMechworks:RedstoneMachine:2, Advanced Drawbridge
@@ -14570,59 +14582,59 @@ Aquaculture:item.Fish:37, Goldfish
 Aquaculture:item.Fish:38, Fish Bones
 Baubles:Ring:0, Miner's Ring
 Artifacts:artifact:0, Artifact
-Artifacts:artifact:0, Musical Diamond Figurine of Excavation
-Artifacts:artifact:0, Aerated Gold Staff of Noms
-Artifacts:artifact:0, Fragmenting Stone Amulet of Hermes
-Artifacts:artifact:0, Guarding Stone Ring
-Artifacts:artifact:0, Digger's Gold Staff of Toughness
-Artifacts:artifact:0, Valuable Gold Staff of Fresh Air
-Artifacts:artifact:0, Stone Amulet of Mining
-Artifacts:artifact:0, Bouncing Iron Figurine of Saturation
+Artifacts:artifact:0, Webbing Wood Trinket of Saturation
+Artifacts:artifact:0, Emerald Studded Iron Amulet of Swiftness
+Artifacts:artifact:0, Sighted Diamond Ring of Wrath
+Artifacts:artifact:0, Oxygenated Stone Ring of Renew
+Artifacts:artifact:0, Shanked Wood Amulet of Tunes
+Artifacts:artifact:0, Efficiency Obscured Diamond Figurine of Prospecting
+Artifacts:artifact:0, Excavator's Diamond Ring
+Artifacts:artifact:0, Mob Slowing Diamond Trinket of Obscurity
 Artifacts:artifact_leather_chestplate:0, Artifact Leather Armor
-Artifacts:artifact_leather_chestplate:0, Obscured Leather Helm of Darkvision
-Artifacts:artifact_leather_chestplate:0, Leather Chestplate of Healing
-Artifacts:artifact_leather_chestplate:0, Leather Pants of Renew
-Artifacts:artifact_leather_chestplate:0, Regenerative Leather Boots of Leaping
-Artifacts:artifact_leather_chestplate:0, Sensing Leather Chestplate of Toughness
-Artifacts:artifact_leather_chestplate:0, Leather Boots of Lightness
-Artifacts:artifact_leather_chestplate:0, Rejuvenating Leather Pants of Finding
-Artifacts:artifact_leather_chestplate:0, Projectile Protection Reinvigorating Leather Chestplate
+Artifacts:artifact_leather_chestplate:0, Leather Helm of Light
+Artifacts:artifact_leather_chestplate:0, Shielding Leather Boots of Lightness
+Artifacts:artifact_leather_chestplate:0, Leather Helm of Stability
+Artifacts:artifact_leather_chestplate:0, Stable Leather Boots of Hermes
+Artifacts:artifact_leather_chestplate:0, Rejuvenating Leather Helm of Repair
+Artifacts:artifact_leather_chestplate:0, Sensitive Leather Helm
+Artifacts:artifact_leather_chestplate:0, Leather Chestplate of Seeing
+Artifacts:artifact_leather_chestplate:0, Obscured Leather Boots
 Artifacts:artifact_chainmail_chestplate:0, Artifact Chainmail Armor
-Artifacts:artifact_chainmail_chestplate:0, Stable Chain Boots of Healing
-Artifacts:artifact_chainmail_chestplate:0, Healing Chain Boots of Stability
+Artifacts:artifact_chainmail_chestplate:0, Oxygenated Chain Chestplate of Renew
+Artifacts:artifact_chainmail_chestplate:0, Fire Protection Chain Helm of Noms
+Artifacts:artifact_chainmail_chestplate:0, Swift Chain Chestplate of Toughness
+Artifacts:artifact_chainmail_chestplate:0, Chain Chestplate of Health
+Artifacts:artifact_chainmail_chestplate:0, Repairing Chain Helm of Finding
+Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Flight
 Artifacts:artifact_chainmail_chestplate:0, Regenerative Chain Boots
-Artifacts:artifact_chainmail_chestplate:0, Protection Shielding Chain Chestplate of Renew
-Artifacts:artifact_chainmail_chestplate:0, Recharging Chain Boots of Lightness
-Artifacts:artifact_chainmail_chestplate:0, Quick Chain Pants
-Artifacts:artifact_chainmail_chestplate:0, Repairing Chain Pants of Stability
-Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Renew
+Artifacts:artifact_chainmail_chestplate:0, Healing Chain Chestplate of Stability
 Artifacts:artifact_iron_chestplate:0, Artifact Iron Armor
-Artifacts:artifact_iron_chestplate:0, Shanked Iron Helm of Light
-Artifacts:artifact_iron_chestplate:0, Hidden Iron Chestplate of Protection
-Artifacts:artifact_iron_chestplate:0, Illuminating Iron Helm of Cloaking
-Artifacts:artifact_iron_chestplate:0, Breathy Iron Boots of Hermes
-Artifacts:artifact_iron_chestplate:0, Well Fed Iron Helm
-Artifacts:artifact_iron_chestplate:0, Swift Iron Pants of Renew
-Artifacts:artifact_iron_chestplate:0, Reinvigorating Iron Helm of Breathing
-Artifacts:artifact_iron_chestplate:0, Illuminating Iron Helm of Lazarus
+Artifacts:artifact_iron_chestplate:0, Regenerative Iron Helm of Cloaking
+Artifacts:artifact_iron_chestplate:0, Regenerative Iron Chestplate of Repair
+Artifacts:artifact_iron_chestplate:0, Projectile Protection Iron Boots of Cloaking
+Artifacts:artifact_iron_chestplate:0, Well Fed Iron Pants of Rejuvenation
+Artifacts:artifact_iron_chestplate:0, Repairing Iron Pants of Repair
+Artifacts:artifact_iron_chestplate:0, Aerated Iron Helm of Toughness
+Artifacts:artifact_iron_chestplate:0, Illuminating Iron Helm of Repair
+Artifacts:artifact_iron_chestplate:0, Hardy Iron Pants of Repair
 Artifacts:artifact_golden_chestplate:0, Artifact Golden Armor
-Artifacts:artifact_golden_chestplate:0, Rejuvenating Gold Pants
-Artifacts:artifact_golden_chestplate:0, Sighted Gold Chestplate
-Artifacts:artifact_golden_chestplate:0, Well Fed Gold Helm of Cloaking
-Artifacts:artifact_golden_chestplate:0, Healing Gold Boots
-Artifacts:artifact_golden_chestplate:0, Sensitive Gold Pants of Obscurity
-Artifacts:artifact_golden_chestplate:0, Jumpy Gold Helm of Noms
-Artifacts:artifact_golden_chestplate:0, Jumpy Gold Boots
-Artifacts:artifact_golden_chestplate:0, Shielding Gold Pants of Health
+Artifacts:artifact_golden_chestplate:0, Regenerative Gold Helm
+Artifacts:artifact_golden_chestplate:0, Gold Chestplate of Finding
+Artifacts:artifact_golden_chestplate:0, Bouncing Gold Pants
+Artifacts:artifact_golden_chestplate:0, Sensitive Gold Chestplate of Hermes
+Artifacts:artifact_golden_chestplate:0, Rejuvenating Gold Boots
+Artifacts:artifact_golden_chestplate:0, Unbreaking Porky Gold Helm
+Artifacts:artifact_golden_chestplate:0, Bright Gold Chestplate of Health
+Artifacts:artifact_golden_chestplate:0, Recharging Gold Chestplate of Noms
 Artifacts:artifact_diamond_chestplate:0, Artifact Diamond Armor
-Artifacts:artifact_diamond_chestplate:0, Diamond Boots of Hermes
-Artifacts:artifact_diamond_chestplate:0, Diamond Pants of Repair
-Artifacts:artifact_diamond_chestplate:0, Refreshing Diamond Pants of Movement
-Artifacts:artifact_diamond_chestplate:0, Bright Diamond Chestplate of Rejuvenation
-Artifacts:artifact_diamond_chestplate:0, Diamond Chestplate of Healing
-Artifacts:artifact_diamond_chestplate:0, Hardy Diamond Chestplate of Fresh Air
-Artifacts:artifact_diamond_chestplate:0, Invisible Repairing Diamond Chestplate of Lazarus
-Artifacts:artifact_diamond_chestplate:0, Light Diamond Boots of Light
+Artifacts:artifact_diamond_chestplate:0, Bouncing Diamond Boots
+Artifacts:artifact_diamond_chestplate:0, Rejuvenating Diamond Boots of Lightness
+Artifacts:artifact_diamond_chestplate:0, Diamond Boots of Rejuvenation
+Artifacts:artifact_diamond_chestplate:0, Regenerative Diamond Chestplate of Noms
+Artifacts:artifact_diamond_chestplate:0, Reinvigorating Diamond Pants
+Artifacts:artifact_diamond_chestplate:0, Protection Regenerative Diamond Pants of Renew
+Artifacts:artifact_diamond_chestplate:0, Diamond Helm of Saturation
+Artifacts:artifact_diamond_chestplate:0, Diamond Pants of Speed
 Artifacts:dust_orichalcum:0, Raw Manaesence
 Artifacts:dust_orichalcum:1, Wood infused Manaesence
 Artifacts:dust_orichalcum:2, Stone infused Manaesence
@@ -18415,7 +18427,8 @@ DraconicEvolution:draconicShovel:0, Draconic Shovel
 DraconicEvolution:draconicShovel:0, Draconic Shovel
 DraconicEvolution:draconicHoe, Draconic Hoe
 DraconicEvolution:draconicSword, Draconic Sword
-DraconicEvolution:draconicBow, Draconic Bow
+DraconicEvolution:draconicBow:0, Draconic Bow
+DraconicEvolution:draconicBow:0, Draconic Bow
 DraconicEvolution:draconicHelm, Draconic Helm
 DraconicEvolution:draconicChest, Draconic Chestplate
 DraconicEvolution:draconicLeggs, Draconic Leggings
@@ -18425,7 +18438,8 @@ DraconicEvolution:wyvernPickaxe:0, Pickaxe of the Wyvern
 DraconicEvolution:wyvernShovel:0, Shovel of the Wyvern
 DraconicEvolution:wyvernShovel:0, Shovel of the Wyvern
 DraconicEvolution:wyvernSword, Sword of the Wyvern
-DraconicEvolution:wyvernBow, Bow of the Wyvern
+DraconicEvolution:wyvernBow:0, Bow of the Wyvern
+DraconicEvolution:wyvernBow:0, Bow of the Wyvern
 DraconicEvolution:wyvernHelm, Wyvern Helm
 DraconicEvolution:wyvernChest, Wyvern Chestplate
 DraconicEvolution:wyvernLeggs, Wyvern Leggings
@@ -18468,6 +18482,8 @@ DraconicEvolution:nugget:1, Awakened Draconium Nugget
 DraconicEvolution:chaosFragment:0, Tiny Chaos Fragment
 DraconicEvolution:chaosFragment:1, Small Chaos Fragment
 DraconicEvolution:chaosFragment:2, Large Chaos Fragment
+DraconicEvolution:magnet:0, Item Dislocator
+DraconicEvolution:magnet:1, Awakened Item Dislocator
 DraconicEvolution:dezilsMarshmallow, Dezil's Marshmallow
 extracells:part.base:0, ME Fluid Export Bus
 extracells:part.base:1, ME Fluid Import Bus
@@ -21162,6 +21178,113 @@ JABBA:hammer:5, Barrel Hammer(Structural)
 JABBA:hammer:6, Barrel Hammer(Void)
 JABBA:hammer:7, Barrel Hammer(Creative)
 JABBA:tuningFork, B-Space tuning fork
+LogisticsPipes:item.logisticsItemCard:0, Logistics Item Card
+LogisticsPipes:item.remoteOrdererItem, item.remoteOrdererItem.name
+LogisticsPipes:item.ItemPipeSignCreator, item.ItemPipeSignCreator.name
+LogisticsPipes:item.logisticsHUDGlasses, item.logisticsHUDGlasses.name
+LogisticsPipes:item.logisticsParts:0, Logistics HUD Bow
+LogisticsPipes:item.logisticsParts:1, Logistics HUD Glass
+LogisticsPipes:item.logisticsParts:2, Logistics HUD Nose Bridge
+LogisticsPipes:item.logisticsParts:3, Nano Hopper
+LogisticsPipes:item.pipeComponents, item.pipeComponents.name
+LogisticsPipes:item.itemModule:0, Blank Module
+LogisticsPipes:item.itemModule:1, ItemSink module
+LogisticsPipes:item.itemModule:2, Passive Supplier module
+LogisticsPipes:item.itemModule:3, Extractor module
+LogisticsPipes:item.itemModule:4, Polymorphic ItemSink module
+LogisticsPipes:item.itemModule:5, QuickSort module
+LogisticsPipes:item.itemModule:6, Terminus module
+LogisticsPipes:item.itemModule:7, Advanced Extractor module
+LogisticsPipes:item.itemModule:103, Extractor MK2 module
+LogisticsPipes:item.itemModule:107, Advanced Extractor MK2
+LogisticsPipes:item.itemModule:203, Extractor MK3 module
+LogisticsPipes:item.itemModule:207, Advanced Extractor MK3
+LogisticsPipes:item.itemModule:500, Provider module
+LogisticsPipes:item.itemModule:501, Provider module MK2
+LogisticsPipes:item.itemModule:300, Electric Manager module
+LogisticsPipes:item.itemModule:301, Electric Buffer module
+LogisticsPipes:item.itemModule:8, Bee Analyzer module
+LogisticsPipes:item.itemModule:9, BeeSink module
+LogisticsPipes:item.itemModule:10, Apiary Refiller module
+LogisticsPipes:item.itemModule:11, Drone Terminus module
+LogisticsPipes:item.itemModule:12, Mod Based ItemSink module
+LogisticsPipes:item.itemModule:13, OreDict ItemSink module
+LogisticsPipes:item.itemModule:30, Thaumic AspectSink module
+LogisticsPipes:item.itemModule:31, Enchantment Sink module
+LogisticsPipes:item.itemModule:131, Enchantment Sink module MK2
+LogisticsPipes:item.itemModule:14, CC Based QuickSort module
+LogisticsPipes:item.itemModule:15, CC Based ItemSink module
+LogisticsPipes:item.itemModule:600, Crafting module
+LogisticsPipes:item.itemModule:601, Crafting module MK2
+LogisticsPipes:item.itemModule:602, Crafting module MK3
+LogisticsPipes:item.itemModule:502, Active Supplier Module
+LogisticsPipes:item.itemModule:16, Creative Tab Based ItemSink module
+LogisticsPipes:item.itemDisk, item.itemDisk.name
+LogisticsPipes:item.itemUpgrade:0, Sneaky Upgrade (UP)
+LogisticsPipes:item.itemUpgrade:1, Sneaky Upgrade (DOWN)
+LogisticsPipes:item.itemUpgrade:2, Sneaky Upgrade (NORTH)
+LogisticsPipes:item.itemUpgrade:3, Sneaky Upgrade (SOUTH)
+LogisticsPipes:item.itemUpgrade:4, Sneaky Upgrade (EAST)
+LogisticsPipes:item.itemUpgrade:5, Sneaky Upgrade (WEST)
+LogisticsPipes:item.itemUpgrade:6, Sneaky Combination Upgrade
+LogisticsPipes:item.itemUpgrade:20, Item Speed Upgrade
+LogisticsPipes:item.itemUpgrade:10, Disconnection Upgrade (UP)
+LogisticsPipes:item.itemUpgrade:11, Disconnection Upgrade (DOWN)
+LogisticsPipes:item.itemUpgrade:12, Disconnection Upgrade (NORTH)
+LogisticsPipes:item.itemUpgrade:13, Disconnection Upgrade (SOUTH)
+LogisticsPipes:item.itemUpgrade:14, Disconnection Upgrade (EAST)
+LogisticsPipes:item.itemUpgrade:15, Disconnection Upgrade (WEST)
+LogisticsPipes:item.itemUpgrade:21, Advanced Satellite Upgrade
+LogisticsPipes:item.itemUpgrade:22, Fluid Crafting Upgrade
+LogisticsPipes:item.itemUpgrade:23, Crafting Byproduct Extraction Upgrade
+LogisticsPipes:item.itemUpgrade:24, Placement Rules Upgrade
+LogisticsPipes:item.itemUpgrade:25, Fuzzy Upgrade
+LogisticsPipes:item.itemUpgrade:30, Power Transportation Upgrade
+LogisticsPipes:item.itemUpgrade:32, TE Power Supplier Upgrade
+LogisticsPipes:item.itemUpgrade:33, IC2 LV Power Supplier Upgrade
+LogisticsPipes:item.itemUpgrade:34, IC2 MV Power Supplier Upgrade
+LogisticsPipes:item.itemUpgrade:35, IC2 HV Power Supplier Upgrade
+LogisticsPipes:item.itemUpgrade:36, IC2 EV Power Supplier Upgrade
+LogisticsPipes:item.itemUpgrade:40, CC Remote Control Upgrade
+LogisticsPipes:item.itemUpgrade:41, Crafting Monitoring Upgrade
+LogisticsPipes:item.itemUpgrade:42, Opaque Upgrade
+LogisticsPipes:item.itemUpgrade:26, Crafting Cleanup Upgrade
+LogisticsPipes:item.itemUpgrade:44, Upgrade Module Upgrade
+LogisticsPipes:item.logisticsFluidContainer, item.logisticsFluidContainer.name
+LogisticsPipes:item.brokenItem, item.brokenItem.name
+LogisticsPipes:item.pipeController, item.pipeController.name
+LogisticsPipes:item.PipeItemsBasicLogistics, item.PipeItemsBasicLogistics.name
+LogisticsPipes:item.PipeItemsRequestLogistics, item.PipeItemsRequestLogistics.name
+LogisticsPipes:item.PipeItemsProviderLogistics, item.PipeItemsProviderLogistics.name
+LogisticsPipes:item.PipeItemsCraftingLogistics, item.PipeItemsCraftingLogistics.name
+LogisticsPipes:item.PipeItemsSatelliteLogistics, item.PipeItemsSatelliteLogistics.name
+LogisticsPipes:item.PipeItemsSupplierLogistics, item.PipeItemsSupplierLogistics.name
+LogisticsPipes:item.PipeLogisticsChassiMk1, item.PipeLogisticsChassiMk1.name
+LogisticsPipes:item.PipeLogisticsChassiMk2, item.PipeLogisticsChassiMk2.name
+LogisticsPipes:item.PipeLogisticsChassiMk3, item.PipeLogisticsChassiMk3.name
+LogisticsPipes:item.PipeLogisticsChassiMk4, item.PipeLogisticsChassiMk4.name
+LogisticsPipes:item.PipeLogisticsChassiMk5, item.PipeLogisticsChassiMk5.name
+LogisticsPipes:item.PipeItemsCraftingLogisticsMk2, item.PipeItemsCraftingLogisticsMk2.name
+LogisticsPipes:item.PipeItemsRequestLogisticsMk2, item.PipeItemsRequestLogisticsMk2.name
+LogisticsPipes:item.PipeItemsRemoteOrdererLogistics, item.PipeItemsRemoteOrdererLogistics.name
+LogisticsPipes:item.PipeItemsProviderLogisticsMk2, item.PipeItemsProviderLogisticsMk2.name
+LogisticsPipes:item.PipeItemsApiaristAnalyser, item.PipeItemsApiaristAnalyser.name
+LogisticsPipes:item.PipeItemsApiaristSink, item.PipeItemsApiaristSink.name
+LogisticsPipes:item.PipeItemsInvSysConnector, item.PipeItemsInvSysConnector.name
+LogisticsPipes:item.PipeItemsSystemEntranceLogistics, item.PipeItemsSystemEntranceLogistics.name
+LogisticsPipes:item.PipeItemsSystemDestinationLogistics, item.PipeItemsSystemDestinationLogistics.name
+LogisticsPipes:item.PipeItemsCraftingLogisticsMk3, item.PipeItemsCraftingLogisticsMk3.name
+LogisticsPipes:item.PipeItemsFirewall, item.PipeItemsFirewall.name
+LogisticsPipes:item.PipeItemsFluidSupplier, item.PipeItemsFluidSupplier.name
+LogisticsPipes:item.PipeFluidBasic, item.PipeFluidBasic.name
+LogisticsPipes:item.PipeFluidInsertion, item.PipeFluidInsertion.name
+LogisticsPipes:item.PipeFluidProvider, item.PipeFluidProvider.name
+LogisticsPipes:item.PipeFluidRequestLogistics, item.PipeFluidRequestLogistics.name
+LogisticsPipes:item.PipeFluidExtractor, item.PipeFluidExtractor.name
+LogisticsPipes:item.PipeFluidSatellite, item.PipeFluidSatellite.name
+LogisticsPipes:item.PipeFluidSupplierMk2, item.PipeFluidSupplierMk2.name
+LogisticsPipes:item.PipeBlockRequestTable, item.PipeBlockRequestTable.name
+LogisticsPipes:item.PipeItemsBasicTransport, item.PipeItemsBasicTransport.name
 radixcore:MCA_EngagementRing, Engagement Ring
 radixcore:MCA_WeddingRing, Wedding Ring
 radixcore:MCA_ArangersRing, Arranger's Ring
