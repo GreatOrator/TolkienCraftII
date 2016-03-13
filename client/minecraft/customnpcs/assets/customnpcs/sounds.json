@@ -27,6 +27,10 @@
     "category": "player",
     "sounds": [{"name": "customsongs/minastirith", "stream": true}]
   },
+  "songs.allthatglittersinerebor": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/AllThatGlittersInErebor", "stream": true}]
+  },
   "songs.rederboss": {
     "category": "player",
     "sounds": [{"name": "customsongs/RederBoss", "stream": true}]
