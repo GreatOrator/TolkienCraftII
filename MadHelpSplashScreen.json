@@ -1,14 +1,12 @@
 {
-	"revision": 11,
+	"revision": 12,
 	"infoText": [
 		"[c]Welcome to TolkienCraft II",
-		"Update v2.8.8 is complete and should be on the launcher shortly. Main fix is removal of aquatic abyss due to mob spawns causing crashes.  Full changelog available at github or FTB forums.",
+		"Update v2.8.9 is complete and should be on the launcher shortly. Main fix is backing up to Ars Magica 2 v008 because of the potion effect issue.  Full changelog available at github or FTB forums.",
 		" ",
-		"Quick note, there is an issue with Ars Magica 2 in the newest version that changes all potion effects to bleeding.  Currently working on getting it fixed, but in the meantime just use the older version of AM@ (008) until I push out a fix.",
+		"Quick note, multiple mods updated finally (why the delay is an update) so make sure to check changelogs for more info.",
 		" ",
-		"Quick map update to fix issue with entities, this should fix it (default map download only affected)",
-		" ",
-		"There were changes to the default map to fix some bugs that cropped up as well as to finally replace the wanted posters in WyvernHaven. Also added money changers to the markets to make it easier for all of you to swap out those larger denomination coins.  If you do not want the map update, keep in mind the update to botania will have missing items due to changes.  At the very least change out the level.dat for the default map in your save with the one in the new map.",
+		"Quick map update to fix mod item changes because of going back to previous version of ars, a few other changes were made to mods that added additional blocks, so please make sure to at least update your level.dat",
 		" ",
 		"Thank you for playing TolkienCraft II and please let me know if you have any questions or issues while playing!"
 	]
