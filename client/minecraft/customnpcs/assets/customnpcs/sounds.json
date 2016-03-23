@@ -3,7 +3,11 @@
     "category": "player",
     "sounds": [{"name": "customsongs/Concerning Hobbits", "stream": true}]
   },
-  "songs.hellsong": {
+  "songs.WakeOfEdoras": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/WakeOfEdoras", "stream": true}]
+  },
+    "songs.hellsong": {
     "category": "player",
     "sounds": [{"name": "customsongs/EphalbaBoss", "stream": true}]
   },
