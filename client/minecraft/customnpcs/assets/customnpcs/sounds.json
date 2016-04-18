@@ -74,5 +74,9 @@
 	"misc.lament": {
     "category": "player",
     "sounds": [{"name": "customsounds/Ghostly Lament", "stream": true}]
+  },  
+	"misc.cathedral_bell": {
+    "category": "player",
+    "sounds": [{"name": "customsounds/cathedral_bell", "stream": true}]
   }
 }
