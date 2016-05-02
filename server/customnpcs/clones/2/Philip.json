@@ -460,7 +460,7 @@
     NpcDeathSound: "lotr:orc.death",
     FactionID: 2,
     Title: "Ithilian Ranger",
-    TotalTicksAlive: 59696L,
+    TotalTicksAlive: 59748L,
     Rotation: [
         272.41864f,
         0.0f

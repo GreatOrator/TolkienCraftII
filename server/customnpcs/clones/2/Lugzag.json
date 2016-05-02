@@ -29,7 +29,7 @@
     NpcLines: {
         Lines: [
             {
-                Line: "Someday I will run my own stable.",
+                Line: "Someday I will run my own pit.",
                 Song: "",
                 Slot: 0
             },
@@ -39,12 +39,12 @@
                 Slot: 1
             },
             {
-                Line: "Naif is one of the best horsemen around!",
+                Line: "Gazthak is one of the best warg msters around!",
                 Song: "",
                 Slot: 2
             },
             {
-                Line: "Safest way to go anywhere, on a horse!",
+                Line: "Safest way to go anywhere, on a warg!",
                 Song: "",
                 Slot: 3
             },
@@ -85,7 +85,7 @@
     },
     PotionImmune: 0b,
     AvoidsSun: 0b,
-    Texture: "customnpcs:textures/CustomSkins/MiddleEarth/StableApprentice.png",
+    Texture: "customnpcs:textures/CustomSkins/MiddleEarth/DaenaLanthalas.png",
     NpcJob: 0,
     BurstCount: 1,
     NpcAttackLines: {
@@ -206,8 +206,8 @@
         {
             NPCDialog: {
                 DialogCommand: "",
-                Dialog: 338,
-                Title: "Fast Travel - Off",
+                Dialog: 559,
+                Title: "Fast Travel - Off - Carn Dum",
                 DialogColor: 14737632,
                 OptionType: 2
             },
@@ -216,8 +216,8 @@
         {
             NPCDialog: {
                 DialogCommand: "",
-                Dialog: 337,
-                Title: "Fast Travel - On",
+                Dialog: 558,
+                Title: "Fast Travel - On - Carn Dum",
                 DialogColor: 14737632,
                 OptionType: 2
             },
@@ -343,7 +343,7 @@
     NpcDeathSound: "minecraft:game.player.hurt",
     FactionID: 18,
     Title: "Warg Hand",
-    TotalTicksAlive: 26465L,
+    TotalTicksAlive: 36950L,
     Rotation: [
         85.813965f,
         0.0f

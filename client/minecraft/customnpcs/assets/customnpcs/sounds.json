@@ -3,11 +3,7 @@
     "category": "player",
     "sounds": [{"name": "customsongs/Concerning Hobbits", "stream": true}]
   },
-  "songs.WakeOfEdoras": {
-    "category": "player",
-    "sounds": [{"name": "customsongs/WakeOfEdoras", "stream": true}]
-  },
-    "songs.hellsong": {
+  "songs.hellsong": {
     "category": "player",
     "sounds": [{"name": "customsongs/EphalbaBoss", "stream": true}]
   },
@@ -74,9 +70,5 @@
 	"misc.lament": {
     "category": "player",
     "sounds": [{"name": "customsounds/Ghostly Lament", "stream": true}]
-  },  
-	"misc.cathedral_bell": {
-    "category": "player",
-    "sounds": [{"name": "customsounds/cathedral_bell", "stream": true}]
   }
 }

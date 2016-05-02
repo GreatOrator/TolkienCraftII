@@ -39,12 +39,12 @@
                 Slot: 1
             },
             {
-                Line: "My horses are the finest around!",
+                Line: "My wargs are the fiercest around!",
                 Song: "",
                 Slot: 2
             },
             {
-                Line: "Safest way to go anywhere, on a horse!",
+                Line: "Safest way to go anywhere, on a warg!",
                 Song: "",
                 Slot: 3
             }
@@ -80,7 +80,7 @@
     },
     PotionImmune: 0b,
     AvoidsSun: 0b,
-    Texture: "customnpcs:textures/CustomSkins/MiddleEarth/StableMaster.png",
+    Texture: "customnpcs:textures/CustomSkins/MiddleEarth/darkElfStableMasterSkinTCII-SS.png",
     NpcJob: 0,
     BurstCount: 1,
     NpcAttackLines: {
@@ -201,8 +201,8 @@
         {
             NPCDialog: {
                 DialogCommand: "",
-                Dialog: 348,
-                Title: "Fast Travel - Off - Lothlorien",
+                Dialog: 559,
+                Title: "Fast Travel - Off - Carn Dum",
                 DialogColor: 14737632,
                 OptionType: 2
             },
@@ -211,8 +211,8 @@
         {
             NPCDialog: {
                 DialogCommand: "",
-                Dialog: 347,
-                Title: "Fast Travel - On - Lothlorien",
+                Dialog: 558,
+                Title: "Fast Travel - On - Carn Dum",
                 DialogColor: 14737632,
                 OptionType: 2
             },
@@ -338,10 +338,10 @@
     NpcDeathSound: "minecraft:game.player.hurt",
     FactionID: 18,
     Title: "Warg Master",
-    TotalTicksAlive: 62228L,
+    TotalTicksAlive: 74515L,
     Rotation: [
         85.813965f,
-        -20.747505f
+        0.0f
     ],
     ShowName: 0,
     npcInteracting: 1b,

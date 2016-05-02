@@ -454,7 +454,7 @@
     NpcDeathSound: "lotr:orc.death",
     FactionID: 5,
     Title: "Mordor Orc",
-    TotalTicksAlive: 58481L,
+    TotalTicksAlive: 58334L,
     Rotation: [
         272.41864f,
         0.0f
