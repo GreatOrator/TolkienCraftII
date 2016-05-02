@@ -55,7 +55,7 @@
             }
         ]
     },
-    DefendFaction: 1b,
+    DefendFaction: 0b,
     FireIndirect: 0,
     NpcVisible: 0,
     LinkedNpcName: "",
@@ -206,8 +206,8 @@
         {
             NPCDialog: {
                 DialogCommand: "",
-                Dialog: 338,
-                Title: "Fast Travel - Off",
+                Dialog: 340,
+                Title: "Fast Travel - Off - Edoras",
                 DialogColor: 14737632,
                 OptionType: 2
             },
@@ -216,8 +216,8 @@
         {
             NPCDialog: {
                 DialogCommand: "",
-                Dialog: 337,
-                Title: "Fast Travel - On",
+                Dialog: 340,
+                Title: "Fast Travel - Off - Edoras",
                 DialogColor: 14737632,
                 OptionType: 2
             },
@@ -303,7 +303,7 @@
     KilledTime: 0L,
     AimWhileShooting: 0b,
     CanPickUpLoot: 0b,
-    AttackOtherFactions: 1b,
+    AttackOtherFactions: 0b,
     CanDrown: 1b,
     curMana: 500.85858f,
     AttackTime: 0s,
@@ -341,9 +341,9 @@
     pStick: 0b,
     MovingPause: 1b,
     NpcDeathSound: "minecraft:game.player.hurt",
-    FactionID: 18,
+    FactionID: 26,
     Title: "Stable Hand",
-    TotalTicksAlive: 23366L,
+    TotalTicksAlive: 107337L,
     Rotation: [
         85.813965f,
         0.0f
