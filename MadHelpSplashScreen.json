@@ -1,12 +1,12 @@
 {
-	"revision": 12,
+	"revision": 13,
 	"infoText": [
 		"[c]Welcome to TolkienCraft II",
-		"Update v2.8.9 is complete and should be on the launcher shortly. Main fix is backing up to Ars Magica 2 v008 because of the potion effect issue.  Full changelog available at github or FTB forums.",
+		"Update v2.8.10 is complete and should be on the launcher shortly. Full changelog available at github or FTB forums.",
 		" ",
-		"Quick note, multiple mods updated finally (why the delay is an update) so make sure to check changelogs for more info.",
+		"Quick note, multiple mods updated finally (why the delay in an update) so make sure to check changelogs for more info.",
 		" ",
-		"Quick map update to fix mod item changes because of going back to previous version of ars, a few other changes were made to mods that added additional blocks, so please make sure to at least update your level.dat",
+		"Quick map update to fix buildings at WyvernHaven players could buy., a few other changes were made to mods that added additional blocks, so please make sure to at least update your level.dat",
 		" ",
 		"Thank you for playing TolkienCraft II and please let me know if you have any questions or issues while playing!"
 	]
