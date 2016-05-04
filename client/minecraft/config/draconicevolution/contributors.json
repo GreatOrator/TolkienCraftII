@@ -1,0 +1,74 @@
+[
+  {
+    "name":"brandon3055",
+    "ign":"brandon3055",
+    "contribution":"Creator",
+    "details":"Hello! I am the creator of Draconic Evolution and i really hope you are enjoying the mod! The following people have all helped draconic evolution in one way or another and i am eternally grateful for their support!",
+    "website":"http://www.brandon3055.com/",
+    "contributionLevel":3
+  },
+  {
+    "name":"GreatOrator",
+    "ign":"GreatOrator",
+    "contribution":"All the things!!!",
+    "details":"GreatOrator has been my BIGGEST supporter from day 1! He has helped with everything from feature ideas and textures to to PR and Web design. Draconic Evolution would not be what it is today without him. Thank You GreatOrator!",
+    "website":"http://www.tolkiencraft.com/",
+    "contributionLevel":3
+  },
+  {
+    "name":"Sn0wShepherd",
+    "ign":"snowshepherd",
+    "contribution":"Texture and Model creator",
+    "details":"Sn0w is responsible fore all of the new 16x textures added in version 1.0.2. As well as all of the new 3D tool and armor models.",
+    "website":"http://www.aleciashepherd.com/",
+    "contributionLevel":3
+  },
+  {
+    "name":"Hachiseiko",
+    "ign":"Hachiseiko",
+    "contribution":"Texture creator",
+    "details":"Hachiseiko created the original textures for the Draconic Evolution tools and weapons.",
+    "website":"",
+    "contributionLevel":0
+  },
+  {
+    "name":"Skeletonpunk",
+    "ign":"Skeletonpunk",
+    "contribution":"Model creator",
+    "details":"Skeletonpunk created the original 3D armor models that were in use for a short period before being replaced by models created by Sn0wShepherd. Although they weren't around long i still appreciate the work that went into them.",
+    "website":"",
+    "contributionLevel":0
+  },
+  {
+    "name":"Conmyster",
+    "ign":"Conmyster",
+    "contribution":"Patreon",
+    "details":"Conmyster is currently supporting me via Patreon for which i am very grateful!",
+    "website":"https://www.youtube.com/user/HNGamingUK",
+    "contributionLevel":1
+  },
+  {
+    "name":"robertwsf",
+    "ign":"robertwsf",
+    "contribution":"Patreon",
+    "details":"robertwsf is currently supporting me via Patreon for which i am very grateful!",
+    "website":"",
+    "contributionLevel":1
+  },
+  {
+    "name":"pxoxd",
+    "ign":"pxoxd",
+    "contribution":"Patreon",
+    "details":"pxoxd is currently supporting me via Patreon for which i am very grateful!",
+    "website":"",
+    "contributionLevel":1
+  },
+  {
+    "name":"Antric83",
+    "ign":"Antric83",
+    "contribution":"Patreon",
+    "details":"Antric83 is currently supporting me via Patreon for which i am very grateful!",
+    "website":"",
+    "contributionLevel":1
+  }
+]
