@@ -1,0 +1,450 @@
+{
+    ReturnToStart: 1b,
+    NpcInv: [
+    ],
+    PotionEffect: 0,
+    Size: 5,
+    stopAndInteract: 1b,
+    Resistances: {
+        Arrow: 2.0f,
+        Explosion: 2.0f,
+        Knockback: 2.0f,
+        Melee: 2.0f
+    },
+    BossBar: 0b,
+    RespawnTime: 20,
+    magicXP: 0.0f,
+    NpcAngrySound: "lotr:dwarf.attack",
+    ReactsToFire: 0b,
+    IgnoreCobweb: 0b,
+    PositionOffsetZ: 5.0f,
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    TransformHasAI: 0b,
+    AttackStrenght: 5,
+    PersistenceRequired: 0b,
+    id: "CustomNpc",
+    HealF: 200.0f,
+    MovingPatern: 0,
+    NpcLines: {
+        Lines: [
+            {
+                Line: "Guard your life, guard your gold, guard your beard. In that order.",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "The Humans have a saying. The nail that sticks out gets hammered. We have a saying too. Shoddy work! Not a single nail should be sticking out.",
+                Song: "",
+                Slot: 1
+            },
+            {
+                Line: "You can kill a dwarf, but you can never vanquish one",
+                Song: "",
+                Slot: 2
+            },
+            {
+                Line: "It is easy to fool a goblin, but even easier to kill one.",
+                Song: "",
+                Slot: 3
+            },
+            {
+                Line: "The stones will sing if you let them",
+                Song: "",
+                Slot: 4
+            },
+            {
+                Line: "Drinking contests with humans are unbearable. They drink, they collapse, and we have to drag them back to their homes. The next day they never remember losing.",
+                Song: "",
+                Slot: 5
+            },
+            {
+                Line: "The first prisoners always killed are the cowards. Only then, the traitors.",
+                Song: "",
+                Slot: 6
+            },
+            {
+                Line: "Dwarven women are like axes. As dangerous from the back as from the front",
+                Song: "",
+                Slot: 7
+            }
+        ]
+    },
+    DefendFaction: 0b,
+    FireIndirect: 0,
+    NpcVisible: 0,
+    LinkedNpcName: "",
+    FindShelter: 2,
+    ScriptsContainers: [
+    ],
+    Air: 300s,
+    TacticalVariant: 0,
+    Orientation: 0,
+    ScriptLanguage: "ECMAScript",
+    KnockBack: 0,
+    TransformHasJob: 0b,
+    CustomName: "",
+    CanDespawn: 0b,
+    BurnInSun: 0b,
+    StandingState: 0,
+    AttackInvisible: 0b,
+    HurtTime: 0s,
+    WalkingRange: 5,
+    CustomNameVisible: 0b,
+    ShotCount: 1,
+    pDur: 5,
+    AttackRange: 2,
+    NpcKillLines: {
+        Lines: [
+        ]
+    },
+    PotionImmune: 0b,
+    AvoidsSun: 0b,
+    Texture: "customnpcs:textures/CustomSkins/MiddleEarth/dwarf.png",
+    NpcJob: 0,
+    BurstCount: 1,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    pSpeed: 10,
+    pArea: 0,
+    DeathTime: 0s,
+    pImpact: 0,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 0,
+    RangeAndMelee: 0,
+    pRender3D: 0b,
+    magicLevel: 1s,
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CombatRegen: 10,
+    pEffect: 0,
+    DistanceToMelee: 4,
+    NpcStepSound: "minecraft:step.stone",
+    curFatigue: 0.0f,
+    FireRate: 5,
+    pEffAmp: 0,
+    OnGround: 1b,
+    Dimension: 100,
+    ImmuneToFire: 0b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    UUIDMost: 7831937211928773L,
+    Fire: -1s,
+    DisablePitch: 0b,
+    pPhysics: 1b,
+    TransformHasInv: 0b,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Line: "Nothing evens a race like an axe to the kneecaps",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "Never turn down an ale, who knows if it may be your last",
+                Song: "",
+                Slot: 1
+            },
+            {
+                Line: "A pebble will stay dry inside, no matter how long it is submerged in a pool of water.",
+                Song: "",
+                Slot: 2
+            },
+            {
+                Line: "Leave iron to rest before you hammer it",
+                Song: "",
+                Slot: 3
+            }
+        ]
+    },
+    pSpin: 0b,
+    NpcHurtSound: "lotr:deer.hurt",
+    pTrail: 0,
+    isShrunk: 0b,
+    CreatureType: 0,
+    Attributes: [
+        {
+            Base: 0.0d,
+            Name: "am2.maxManaBonus"
+        },
+        {
+            Base: 0.0d,
+            Name: "am2.maxBurnoutBonus"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.xpMultiplier"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.burnoutReduction"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.manaRegenModifier"
+        },
+        {
+            Base: 200.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.25d,
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 64.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 5.0d,
+            Name: "generic.attackDamage"
+        }
+    ],
+    Invulnerable: 0b,
+    TransformHasDisplay: 0b,
+    NoFallDamage: 0b,
+    AbsorptionAmount: 0.0f,
+    TransformHasRole: 0b,
+    Name: "Rordan",
+    FallDistance: 0.0f,
+    NpcIdleSound: "",
+    Weapons: [
+    ],
+    NPCDialogOptions: [
+        {
+            NPCDialog: {
+                DialogCommand: "",
+                Dialog: 945,
+                Title: "A Call to Dwarves III",
+                DialogColor: 14737632,
+                OptionType: 2
+            },
+            DialogSlot: 0
+        },
+        {
+            NPCDialog: {
+                DialogCommand: "",
+                Dialog: 947,
+                Title: "A Call to Dwarves V",
+                DialogColor: 14737632,
+                OptionType: 2
+            },
+            DialogSlot: 1
+        },
+        {
+            NPCDialog: {
+                DialogCommand: "",
+                Dialog: 951,
+                Title: "A Call to Dwarves IX",
+                DialogColor: 14737632,
+                OptionType: 2
+            },
+            DialogSlot: 2
+        },
+        {
+            NPCDialog: {
+                DialogCommand: "",
+                Dialog: 952,
+                Title: "A Call to Dwarves X",
+                DialogColor: 14737632,
+                OptionType: 2
+            },
+            DialogSlot: 3
+        }
+    ],
+    AggroRange: 16,
+    DirectLOS: 1b,
+    HealthRegen: 10,
+    NpcModelData: {
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        Breasts: 0b,
+        Headwear: 2b,
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        ExtraData: {
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        }
+    },
+    minDelay: 20,
+    DoorInteract: 2,
+    MoveSpeed: 5,
+    TransformEditingModus: 0b,
+    UsingSkinUrl: 0b,
+    Leashed: 0b,
+    SkinUrl: "",
+    CanSwim: 1b,
+    armorCooldowns: [0,0,0,0],
+    MaxHealth: 200,
+    HideBodyWhenKilled: 0b,
+    AttackSpeed: 20,
+    PotionDuration: 5,
+    maxDelay: 40,
+    ScriptEnabled: 0b,
+    Role: 0,
+    DropChance: [
+        {
+            Integer: 100,
+            Slot: 0
+        },
+        {
+            Integer: 100,
+            Slot: 1
+        },
+        {
+            Integer: 100,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
+    ],
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    pDamage: 4,
+    KilledTime: 0L,
+    AimWhileShooting: 0b,
+    CanPickUpLoot: 0b,
+    AttackOtherFactions: 0b,
+    CanDrown: 1b,
+    curMana: 100.0f,
+    AttackTime: 0s,
+    pSize: 5,
+    CanSprint: 0b,
+    CanLeap: 0b,
+    TransformIsActive: 0b,
+    ForgeData: {
+        WITCInitialWidth: 1.0f,
+        WITCInitialHeight: 1.0f
+    },
+    MovingState: 1,
+    MovingPos: 0,
+    PotionAmp: 0,
+    OnAttack: 0,
+    TacticalRadius: 8,
+    MaxExp: 0,
+    PortalCooldown: 0,
+    pGlows: 0b,
+    TransformHasAdvanced: 0b,
+    TransformHasStats: 0b,
+    FiringSound: "random.bow",
+    ModRev: 16,
+    Accuracy: 60,
+    MinExp: 0,
+    Armor: [
+    ],
+    CloakTexture: "",
+    GlowTexture: "",
+    MaxFiringRange: 15,
+    pXlr8: 0b,
+    UUIDLeast: -2580548639592830871L,
+    Health: 200s,
+    pExplode: 0b,
+    pStick: 0b,
+    MovingPause: 1b,
+    NpcDeathSound: "lotr:dwarf.kill",
+    FactionID: 24,
+    Title: "King under Belegost",
+    TotalTicksAlive: 83471L,
+    Rotation: [
+        -1455.0011f,
+        0.0f
+    ],
+    ShowName: 0,
+    npcInteracting: 1b,
+    AvoidsWater: 0b,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    NoLivingAnimation: 0b,
+    hasUnlockedAugmented: 1b,
+    isCritical: 0b,
+    SpawnCycle: 0
+}

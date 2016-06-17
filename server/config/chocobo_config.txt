@@ -1,5 +1,5 @@
 showChocoboNames = true
-chocoboWingFlutter = false
+chocoboWingFlutter = true
 // hunger not yet active
 hungerEnabled = false
 riderBuffsEnabled = true
