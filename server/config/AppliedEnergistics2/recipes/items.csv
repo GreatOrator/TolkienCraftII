@@ -4016,24 +4016,6 @@ Forestry:ffarm:5, Farm Control
 Forestry:mail:0, Mailbox
 Forestry:mail:1, Trade Station
 Forestry:mail:2, Stamp Collector
-BuildCraft|Builders:machineBlock, Quarry
-BuildCraft|Builders:fillerBlock, Filler
-BuildCraft|Builders:frameBlock, Frame
-BuildCraft|Builders:builderBlock, Builder
-BuildCraft|Builders:architectBlock, Architect Table
-BuildCraft|Builders:libraryBlock, Electronic Library
-BuildCraft|Builders:constructionMarkerBlock, Construction Mark
-BuildCraft|Energy:blockOil, Oil
-BuildCraft|Energy:blockFuel, Fuel
-BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
-BuildCraft|Factory:miningWellBlock, Mining Well
-BuildCraft|Factory:plainPipeBlock, Mining Pipe
-BuildCraft|Factory:autoWorkbenchBlock, Auto Workbench
-BuildCraft|Factory:tankBlock, Tank
-BuildCraft|Factory:pumpBlock, Pump
-BuildCraft|Factory:floodGateBlock, Flood Gate
-BuildCraft|Factory:refineryBlock, Refinery
-BuildCraft|Factory:blockHopper, Chute
 Thaumcraft:blockFluxGoo:0, Flux Goo
 Thaumcraft:blockFluxGas:0, Flux Gas
 Thaumcraft:blockFluidPure, Purifying Fluid
@@ -4350,7 +4332,7 @@ Railcraft:post:1, Stone Post
 Railcraft:post:2, Metal Post
 Railcraft:post:4, Wooden Platform
 Railcraft:post:5, Stone Platform
-Railcraft:post:6, tile.railcraft.post.metal.unpainted.platform.name
+Railcraft:post:6, Metal Platform
 Railcraft:post.metal:0, Black Metal Post
 Railcraft:post.metal:1, Red Metal Post
 Railcraft:post.metal:2, Green Metal Post
@@ -4421,6 +4403,8 @@ Railcraft:machine.gamma:2, Adv. Item Loader
 Railcraft:machine.gamma:3, Adv. Item Unloader
 Railcraft:machine.gamma:4, Fluid Loader
 Railcraft:machine.gamma:5, Fluid Unloader
+Railcraft:machine.gamma:10, Redstone Flux Loader
+Railcraft:machine.gamma:11, Redstone Flux Unloader
 Railcraft:machine.gamma:8, Cart Dispenser
 Railcraft:machine.gamma:9, Train Dispenser
 Railcraft:machine.epsilon:0, Electric Feeder Unit
@@ -4661,6 +4645,8 @@ Artifice:tile.artifice.sulfur:1, Sulfur Block
 Artifice:tile.artifice.enderore:0, Ender Ore
 Artifice:tile.artifice.niter:0, Niter Sand
 Artifice:tile.artifice.niter:1, Niter Block
+Artifice:tile.artifice.fluid.oil:0, Oil
+Artifice:tile.artifice.fluid.fuel:0, Fuel
 Artifice:tile.artifice.fluid.bitumen:0, Bitumen
 Artifice:tile.artifice.glowsand:0, Glowing Sand
 Artifice:tile.artifice.glowsand:1, Glowing Sand
@@ -4781,7 +4767,29 @@ Artifice:tile.artifice.uranium:0, Uranium Ore
 Artifice:tile.artifice.uranium:1, Block of Uranium
 Artifice:tile.artifice.nuclearbattery:0, Nuclear Battery
 Artifice:tile.artifice.heatingcoil:0, Heating Coil
+aura:fairyTorch, tile.fairyTorch.name
+aura:consumerBlockfurnace, Cascading Smelter
+aura:consumerBlockplant, Cascading Grower
+aura:consumerBlockore, Cascading Processor
+aura:consumerBlockloot, Cascading Looter
+aura:consumerBlockmob, Cascading Spawner
+aura:consumerBlockangel, Cascading Synthesizer
+aura:consumerBlocknether, Ritual of the Nether
+aura:consumerBlockenchant, Kaleidoscopic Enchanter
+aura:consumerBlockpotion, Cascading Brewer
+aura:consumerBlockdye, Cascading Colorer
+aura:consumerBlockoreAdv, Prismatic Processor
+aura:consumerBlockminer, Cascading Miner
+aura:consumerBlockfish, Cascading Fisher
+aura:consumerBlockend, Ritual of the End
+aura:storageBookshelfCoordinator, Bookshelf Coordinator
 aura:monitor, Monitor
+aura:fortifiedDirt, Fortified Dirt
+aura:fortifiedWood, Fortified Planks
+aura:fortifiedGlass, Fortified Glass
+aura:fortifiedCobblestone, Fortified Cobblestone
+aura:fortifiedStone, Fortified Stone
+aura:fortifiedObsidian, Fortified Obsidian
 aura:auraNode, Aura Node
 aura:auraNodepump, Burning Aura Pump
 aura:auraNodeblack, Aura Manipulator: Black
@@ -4802,30 +4810,8 @@ aura:auraNodepumpLightAlt, Alternating Illumination Aura Pump
 aura:auraNodepumpRedstoneAlt, Alternating Redstone Aura Pump
 aura:auraNodeflux, Fluxing Node
 aura:storageBookshelf, Storage Bookshelf
-aura:storageBookshelfCoordinator, Bookshelf Coordinator
-aura:magicRoad, Traveler's Bricks
-aura:fairyTorch, tile.fairyTorch.name
-aura:fortifiedDirt, Fortified Dirt
-aura:fortifiedWood, Fortified Planks
-aura:fortifiedGlass, Fortified Glass
-aura:fortifiedCobblestone, Fortified Cobblestone
-aura:fortifiedStone, Fortified Stone
-aura:fortifiedObsidian, Fortified Obsidian
 aura:trampoline, Rebounding Enigma
-aura:consumerBlockfurnace, Cascading Smelter
-aura:consumerBlockplant, Cascading Grower
-aura:consumerBlockore, Cascading Processor
-aura:consumerBlockloot, Cascading Looter
-aura:consumerBlockmob, Cascading Spawner
-aura:consumerBlockangel, Cascading Synthesizer
-aura:consumerBlocknether, Ritual of the Nether
-aura:consumerBlockenchant, Kaleidoscopic Enchanter
-aura:consumerBlockpotion, Cascading Brewer
-aura:consumerBlockdye, Cascading Colorer
-aura:consumerBlockoreAdv, Prismatic Processor
-aura:consumerBlockminer, Cascading Miner
-aura:consumerBlockfish, Cascading Fisher
-aura:consumerBlockend, Ritual of the End
+aura:magicRoad, Traveler's Bricks
 BiblioCraft:tile.BiblioFramedChest:0, Framed Chest
 BiblioCraft:BiblioPaneler:0, Oak Furniture Paneler
 BiblioCraft:BiblioPaneler:1, Spruce Furniture Paneler
@@ -6801,8 +6787,16 @@ redgear_brewcraft:RedGear.Brewcraft.Kegs:11, Silver Keg
 redgear_brewcraft:RedGear.Brewcraft.Kegs:12, Tungsten Keg
 redgear_brewcraft:RedGear.Brewcraft.Kegs:13, Brass Keg
 redgear_brewcraft:RedGear.Brewcraft.Kegs:14, Rubber-Sealed Keg
+BuildCraft|Builders:machineBlock, Quarry
+BuildCraft|Builders:fillerBlock, Filler
+BuildCraft|Builders:frameBlock, Frame
+BuildCraft|Builders:builderBlock, Builder
+BuildCraft|Builders:architectBlock, Architect Table
+BuildCraft|Builders:libraryBlock, Electronic Library
+BuildCraft|Builders:constructionMarkerBlock, Construction Mark
 BuildCraft|Transport:filteredBufferBlock, Filtered Buffer
 BuildCraft|Transport:pipeBlock, tile.pipeBlock.name
+BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
 BuildCraft|Silicon:laserBlock, Laser
 BuildCraft|Silicon:laserTableBlock:0, Assembly Table
 BuildCraft|Silicon:laserTableBlock:1, Advanced Crafting Table
@@ -6813,28 +6807,14 @@ BuildCraft|Silicon:laserTableBlock:5, Stamping Table
 BuildCraft|Silicon:packagerBlock, Recipe Packager
 BuildCraft|Robotics:zonePlan, Zone Planner
 BuildCraft|Robotics:requester, Requester
-CarpentersBlocks:blockCarpentersBlock, Carpenter's Block
-CarpentersBlocks:blockCarpentersBarrier, Carpenter's Barrier
-CarpentersBlocks:blockCarpentersBed, Carpenter's Bed
-CarpentersBlocks:blockCarpentersButton, Carpenter's Button
-CarpentersBlocks:blockCarpentersCollapsibleBlock, Carpenter's Collapsible Block
-CarpentersBlocks:blockCarpentersDaylightSensor, Carpenter's Daylight Sensor
-CarpentersBlocks:blockCarpentersDoor, Carpenter's Door
-CarpentersBlocks:blockCarpentersFlowerPot, Carpenter's Flower Pot
-CarpentersBlocks:blockCarpentersGarageDoor, Carpenter's Garage Door
-CarpentersBlocks:blockCarpentersGate, Carpenter's Gate
-CarpentersBlocks:blockCarpentersHatch, Carpenter's Hatch
-CarpentersBlocks:blockCarpentersLadder, Carpenter's Ladder
-CarpentersBlocks:blockCarpentersLever, Carpenter's Lever
-CarpentersBlocks:blockCarpentersPressurePlate, Carpenter's Pressure Plate
-CarpentersBlocks:blockCarpentersSafe, Carpenter's Safe
-CarpentersBlocks:blockCarpentersSlope:0, Carpenter's Wedge Slope
-CarpentersBlocks:blockCarpentersSlope:1, Carpenter's Oblique Interior Slope
-CarpentersBlocks:blockCarpentersSlope:2, Carpenter's Oblique Exterior Slope
-CarpentersBlocks:blockCarpentersSlope:3, Carpenter's Prism Slope
-CarpentersBlocks:blockCarpentersSlope:4, Carpenter's Prism Wedge Slope
-CarpentersBlocks:blockCarpentersStairs, Carpenter's Stairs
-CarpentersBlocks:blockCarpentersTorch, Carpenter's Torch
+BuildCraft|Factory:miningWellBlock, Mining Well
+BuildCraft|Factory:plainPipeBlock, Mining Pipe
+BuildCraft|Factory:autoWorkbenchBlock, Auto Workbench
+BuildCraft|Factory:tankBlock, Tank
+BuildCraft|Factory:pumpBlock, Pump
+BuildCraft|Factory:floodGateBlock, Flood Gate
+BuildCraft|Factory:refineryBlock, Refinery
+BuildCraft|Factory:blockHopper, Chute
 chisel:aluminumblock:0, Block of Aluminum
 chisel:aluminumblock:1, Block of Aluminum
 chisel:aluminumblock:2, Block of Aluminum
@@ -6894,6 +6874,21 @@ chisel:arcane:10, Arcane Stone Block
 chisel:arcane:11, Arcane Stone Block
 chisel:autoChisel, Auto Chisel
 chisel:beacon:0, Beacon
+chisel:beacon:1, Beacon
+chisel:beacon:2, Beacon
+chisel:beacon:3, Beacon
+chisel:beacon:4, Beacon
+chisel:beacon:5, Beacon
+chisel:beacon:6, Beacon
+chisel:beacon:7, Beacon
+chisel:beacon:8, Beacon
+chisel:beacon:9, Beacon
+chisel:beacon:10, Beacon
+chisel:beacon:11, Beacon
+chisel:beacon:12, Beacon
+chisel:beacon:13, Beacon
+chisel:beacon:14, Beacon
+chisel:beacon:15, Beacon
 chisel:bloodRune:0, Blood Rune
 chisel:bloodRune:1, Blood Rune
 chisel:bloodRune:2, Blood Rune
@@ -7057,6 +7052,12 @@ chisel:end_Stone:4, End Stone
 chisel:end_Stone:5, End Stone
 chisel:end_Stone:6, End Stone
 chisel:end_Stone:7, End Stone
+chisel:end_Stone:8, End Stone
+chisel:end_Stone:9, End Stone
+chisel:end_Stone:10, End Stone
+chisel:end_Stone:11, End Stone
+chisel:end_Stone:12, End Stone
+chisel:end_Stone:13, End Stone
 chisel:factoryblock:0, Factory Block
 chisel:factoryblock:1, Factory Block
 chisel:factoryblock:2, Factory Block
@@ -7155,6 +7156,22 @@ chisel:glass_pane:12, Glass Pane
 chisel:glass_pane:13, Glass Pane
 chisel:glass_pane:14, Glass Pane
 chisel:glass_pane:15, Glass Pane
+chisel:stained_glass_forestry:0, Stained Glass
+chisel:stained_glass_forestry:1, Stained Glass
+chisel:stained_glass_forestry:2, Stained Glass
+chisel:stained_glass_forestry:3, Stained Glass
+chisel:stained_glass_forestry:4, Stained Glass
+chisel:stained_glass_forestry:5, Stained Glass
+chisel:stained_glass_forestry:6, Stained Glass
+chisel:stained_glass_forestry:7, Stained Glass
+chisel:stained_glass_forestry:8, Stained Glass
+chisel:stained_glass_forestry:9, Stained Glass
+chisel:stained_glass_forestry:10, Stained Glass
+chisel:stained_glass_forestry:11, Stained Glass
+chisel:stained_glass_forestry:12, Stained Glass
+chisel:stained_glass_forestry:13, Stained Glass
+chisel:stained_glass_forestry:14, Stained Glass
+chisel:stained_glass_forestry:15, Stained Glass
 chisel:stained_glass_white:0, Stained Glass
 chisel:stained_glass_white:1, Stained Glass
 chisel:stained_glass_white:2, Stained Glass
@@ -7817,14 +7834,17 @@ chisel:pumpkin13:0, Pumpkin
 chisel:pumpkin14:0, Pumpkin
 chisel:pumpkin15:0, Pumpkin
 chisel:pumpkin16:0, Pumpkin
-chisel:purpur:0, Purpur
-chisel:purpur:1, Purpur
-chisel:purpur:2, Purpur
-chisel:purpur:3, Purpur
-chisel:purpur:4, Purpur
-chisel:purpur:5, Purpur
-chisel:purpur:6, Purpur
-chisel:purpur:7, Purpur
+chisel:purpur:0, Purpur Block
+chisel:purpur:1, Purpur Block
+chisel:purpur:2, Purpur Block
+chisel:purpur:3, Purpur Block
+chisel:purpur:4, Purpur Block
+chisel:purpur:5, Purpur Block
+chisel:purpur:6, Purpur Block
+chisel:purpur:7, Purpur Block
+chisel:purpur:8, Purpur Block
+chisel:purpur:9, Purpur Block
+chisel:purpur:10, Purpur Block
 chisel:redstone_block:1, Redstone Block
 chisel:redstone_block:2, Redstone Block
 chisel:redstone_block:3, Redstone Block
@@ -8191,6 +8211,28 @@ chisel:woolen_clay:12, Woolen Clay
 chisel:woolen_clay:13, Woolen Clay
 chisel:woolen_clay:14, Woolen Clay
 chisel:woolen_clay:15, Woolen Clay
+CarpentersBlocks:blockCarpentersBlock, Carpenter's Block
+CarpentersBlocks:blockCarpentersBarrier, Carpenter's Barrier
+CarpentersBlocks:blockCarpentersBed, Carpenter's Bed
+CarpentersBlocks:blockCarpentersButton, Carpenter's Button
+CarpentersBlocks:blockCarpentersCollapsibleBlock, Carpenter's Collapsible Block
+CarpentersBlocks:blockCarpentersDaylightSensor, Carpenter's Daylight Sensor
+CarpentersBlocks:blockCarpentersDoor, Carpenter's Door
+CarpentersBlocks:blockCarpentersFlowerPot, Carpenter's Flower Pot
+CarpentersBlocks:blockCarpentersGarageDoor, Carpenter's Garage Door
+CarpentersBlocks:blockCarpentersGate, Carpenter's Gate
+CarpentersBlocks:blockCarpentersHatch, Carpenter's Hatch
+CarpentersBlocks:blockCarpentersLadder, Carpenter's Ladder
+CarpentersBlocks:blockCarpentersLever, Carpenter's Lever
+CarpentersBlocks:blockCarpentersPressurePlate, Carpenter's Pressure Plate
+CarpentersBlocks:blockCarpentersSafe, Carpenter's Safe
+CarpentersBlocks:blockCarpentersSlope:0, Carpenter's Wedge Slope
+CarpentersBlocks:blockCarpentersSlope:1, Carpenter's Oblique Interior Slope
+CarpentersBlocks:blockCarpentersSlope:2, Carpenter's Oblique Exterior Slope
+CarpentersBlocks:blockCarpentersSlope:3, Carpenter's Prism Slope
+CarpentersBlocks:blockCarpentersSlope:4, Carpenter's Prism Wedge Slope
+CarpentersBlocks:blockCarpentersStairs, Carpenter's Stairs
+CarpentersBlocks:blockCarpentersTorch, Carpenter's Torch
 chococraft:gysahlStemBlock, Gysahl Stem
 chococraft:gysahlGreenBlock, Gysahl Green
 chococraft:strawBlock, Straw
@@ -8422,7 +8464,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Ender Device)
+ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -8430,6 +8472,18 @@ ExtraUtilities:angelBlock, Angel Block
 ExtraUtilities:budoff:0, Block Update Detector
 ExtraUtilities:budoff:3, Block Update Detector (Advanced)
 ExtraUtilities:chandelier, Chandelier
+minecraft:record_13, Music Disc
+minecraft:record_cat, Music Disc
+minecraft:record_blocks, Music Disc
+minecraft:record_chirp, Music Disc
+minecraft:record_far, Music Disc
+minecraft:record_mall, Music Disc
+minecraft:record_mellohi, Music Disc
+minecraft:record_stal, Music Disc
+minecraft:record_strad, Music Disc
+minecraft:record_ward, Music Disc
+minecraft:record_11, Music Disc
+minecraft:record_wait, Music Disc
 ExtraUtilities:decorativeBlock1:0, Edged Stone Bricks
 ExtraUtilities:decorativeBlock1:1, Ender-infused Obsidian
 ExtraUtilities:decorativeBlock1:2, Burnt Quartz
@@ -8445,18 +8499,6 @@ ExtraUtilities:decorativeBlock1:11, Ender Core
 ExtraUtilities:decorativeBlock1:12, Diamond-Etched Computational Matrix
 ExtraUtilities:decorativeBlock1:13, Ender-Sand Alloy
 ExtraUtilities:decorativeBlock1:14, Carved 'Eminence' Stone
-minecraft:record_13, Music Disc
-minecraft:record_cat, Music Disc
-minecraft:record_blocks, Music Disc
-minecraft:record_chirp, Music Disc
-minecraft:record_far, Music Disc
-minecraft:record_mall, Music Disc
-minecraft:record_mellohi, Music Disc
-minecraft:record_stal, Music Disc
-minecraft:record_strad, Music Disc
-minecraft:record_ward, Music Disc
-minecraft:record_11, Music Disc
-minecraft:record_wait, Music Disc
 ExtraUtilities:decorativeBlock2:0, Thickened Glass
 ExtraUtilities:decorativeBlock2:1, Edged Glass
 ExtraUtilities:decorativeBlock2:2, Glass Bricks
@@ -9313,43 +9355,43 @@ Steamcraft:vacuum, Vacuum
 Steamcraft:engineering, Engineering Table
 RedstoneArsenal:Storage:0, Fluxed Electrum Block
 RedstoneArsenal:Storage:1, Flux Crystal Block
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
-ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
-ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
-ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:travelStairs, Paving Stair of Travel
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:dislocator, Transvector Dislocator
 ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
 ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
 ThaumicTinkerer:magnet:0, Kinetic Attractor
 ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:fireAir, Aer Imbued Fire
 ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
 ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:travelStairs, Paving Stair of Travel
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
+ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
+ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
+ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
 ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
 MagicBees:magicbees.enchantedEarth, Enchanted Earth
 MagicBees:hive:0, Curious Hive
 MagicBees:hive:1, Unusual Hive
@@ -9612,6 +9654,12 @@ StorageDrawers:trim:2, Birch Trim
 StorageDrawers:trim:3, Jungle Trim
 StorageDrawers:trim:4, Acacia Trim
 StorageDrawers:trim:5, Dark Oak Trim
+StorageDrawers:framingTable, Framing Table
+StorageDrawers:fullCustom1, Framed Drawer
+StorageDrawers:fullCustom2, Framed Drawers 1x2
+StorageDrawers:fullCustom4, Framed Drawers 2x2
+StorageDrawers:halfCustom2, Framed Drawers 1x2
+StorageDrawers:halfCustom4, Framed Drawers 2x2
 thaumicenergistics:thaumicenergistics.block.essentia.provider, Essentia Provider
 thaumicenergistics:thaumicenergistics.block.infusion.provider, Infusion Provider
 thaumicenergistics:thaumicenergistics.block.gear.box, Iron Gear Box
@@ -9723,6 +9771,7 @@ TolkienTweaks:camoKeystone:0, Camouflaged Key Stone
 TolkienTweaks:camoKeystone:1, Camouflaged Key Stone
 TolkienTweaks:camoKeystone:2, Camouflaged Key Stone
 TolkienTweaks:camoKeystone:3, Camouflaged Key Stone
+TolkienTweaks:milestone, Milestone
 TownBuilder:structureBuilder, Structure Builder
 TravellersGear:armorstand, Armor Stand
 witchery:belladonna, Belladonna
@@ -13382,6 +13431,12 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Factory Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Factory Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Factory Block
@@ -13472,6 +13527,22 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Stained Glass
@@ -13786,14 +13857,17 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Paperwall Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Paperwall Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Paperwall Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Paperwall Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Purpur Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Sandstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Sandstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Sandstone
@@ -14520,11 +14594,11 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Copper
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Carving Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fluxed Electrum Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Flux Crystal Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Curious Hive
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Unusual Hive
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Resonating Hive
@@ -14832,59 +14906,59 @@ Aquaculture:item.Fish:37, Goldfish
 Aquaculture:item.Fish:38, Fish Bones
 Baubles:Ring:0, Miner's Ring
 Artifacts:artifact:0, Artifact
-Artifacts:artifact:0, Harvesting Diamond Staff
-Artifacts:artifact:0, Bulky Gold Staff of Money
-Artifacts:artifact:0, Mob Slowing Gold Dagger of Explosions
-Artifacts:artifact:0, Obscured Iron Ring of Repair
-Artifacts:artifact:0, Bright Gold Ring of Lightning
-Artifacts:artifact:0, Fragmenting Stone Trinket of Prospecting
-Artifacts:artifact:0, Illuminating Stone Sword of Quarrying
-Artifacts:artifact:0, Recharging Iron Dagger of Rejuvenation
+Artifacts:artifact:0, Oxygenated Iron Staff of Renew
+Artifacts:artifact:0, Digger's Gold Staff of Armor
+Artifacts:artifact:0, Iron Trinket of Fresh Air
+Artifacts:artifact:0, Hardy Diamond Ring of Quicksand
+Artifacts:artifact:0, Porky Gold Figurine
+Artifacts:artifact:0, Stone Ring of Protection
+Artifacts:artifact:0, Fragmenting Wood Ring of Emeralds
+Artifacts:artifact:0, Miner's Gold Wand
 Artifacts:artifact_leather_chestplate:0, Artifact Leather Armor
-Artifacts:artifact_leather_chestplate:0, Sensing Leather Pants of Renew
-Artifacts:artifact_leather_chestplate:0, Shanked Leather Helm of Healing
-Artifacts:artifact_leather_chestplate:0, Leather Helm of Breathing
-Artifacts:artifact_leather_chestplate:0, Sighted Leather Helm of Noms
-Artifacts:artifact_leather_chestplate:0, Bright Leather Helm of Healing
-Artifacts:artifact_leather_chestplate:0, Reinvigorating Leather Boots
-Artifacts:artifact_leather_chestplate:0, Heavy Leather Pants
-Artifacts:artifact_leather_chestplate:0, Sensing Leather Pants of Protection
+Artifacts:artifact_leather_chestplate:0, Regenerative Leather Pants of Seeing
+Artifacts:artifact_leather_chestplate:0, Leather Chestplate of Stability
+Artifacts:artifact_leather_chestplate:0, Recharging Leather Helm of Renew
+Artifacts:artifact_leather_chestplate:0, Swift Leather Chestplate of Flight
+Artifacts:artifact_leather_chestplate:0, Light Leather Pants of Stability
+Artifacts:artifact_leather_chestplate:0, Stable Leather Pants of Regeneration
+Artifacts:artifact_leather_chestplate:0, Recharging Leather Helm of Fresh Air
+Artifacts:artifact_leather_chestplate:0, Regenerative Leather Helm of Saturation
 Artifacts:artifact_chainmail_chestplate:0, Artifact Chainmail Armor
-Artifacts:artifact_chainmail_chestplate:0, Obscured Chain Chestplate of Armor
-Artifacts:artifact_chainmail_chestplate:0, Sensing Chain Pants of Obscurity
-Artifacts:artifact_chainmail_chestplate:0, Shanked Chain Chestplate of Protection
-Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Repair
-Artifacts:artifact_chainmail_chestplate:0, Refreshing Chain Pants of the Sun
-Artifacts:artifact_chainmail_chestplate:0, Fire Protection Sensing Chain Chestplate of Lazarus
-Artifacts:artifact_chainmail_chestplate:0, Thorns Regenerative Chain Boots of Renew
-Artifacts:artifact_chainmail_chestplate:0, Stable Chain Helm of Seeing
+Artifacts:artifact_chainmail_chestplate:0, Rejuvenating Chain Chestplate of Stability
+Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Lazarus
+Artifacts:artifact_chainmail_chestplate:0, Protection Bright Chain Boots of Healing
+Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Health
+Artifacts:artifact_chainmail_chestplate:0, Last Stand Oxygenated Chain Helm of the Sun
+Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Leaping
+Artifacts:artifact_chainmail_chestplate:0, Sighted Chain Helm of Rejuvenation
+Artifacts:artifact_chainmail_chestplate:0, Hidden Chain Boots of Leaping
 Artifacts:artifact_iron_chestplate:0, Artifact Iron Armor
-Artifacts:artifact_iron_chestplate:0, Healing Iron Pants of Lightness
-Artifacts:artifact_iron_chestplate:0, Unbreaking Sighted Iron Chestplate
-Artifacts:artifact_iron_chestplate:0, Guarding Iron Pants of Regeneration
-Artifacts:artifact_iron_chestplate:0, Sensing Iron Pants
-Artifacts:artifact_iron_chestplate:0, Swift Iron Boots of Renew
-Artifacts:artifact_iron_chestplate:0, Porky Iron Boots of Hermes
-Artifacts:artifact_iron_chestplate:0, Iron Chestplate of Renew
-Artifacts:artifact_iron_chestplate:0, Sensitive Iron Boots
+Artifacts:artifact_iron_chestplate:0, Recharging Iron Chestplate of Toughness
+Artifacts:artifact_iron_chestplate:0, Iron Helm of Armor
+Artifacts:artifact_iron_chestplate:0, Armored Iron Chestplate of Noms
+Artifacts:artifact_iron_chestplate:0, enchantment.magicresist Iron Pants of Lightness
+Artifacts:artifact_iron_chestplate:0, Fire Protection Aerated Iron Chestplate
+Artifacts:artifact_iron_chestplate:0, Unbreaking Bulky Iron Pants of Leaping
+Artifacts:artifact_iron_chestplate:0, Stable Iron Pants of Regeneration
+Artifacts:artifact_iron_chestplate:0, Protection Iron Boots of Flight
 Artifacts:artifact_golden_chestplate:0, Artifact Golden Armor
-Artifacts:artifact_golden_chestplate:0, Reinvigorating Gold Pants of Swiftness
-Artifacts:artifact_golden_chestplate:0, Regenerative Gold Chestplate of Seeing
-Artifacts:artifact_golden_chestplate:0, Swift Gold Chestplate
-Artifacts:artifact_golden_chestplate:0, Shanked Gold Helm of Finding
-Artifacts:artifact_golden_chestplate:0, Repairing Gold Pants of Rejuvenation
-Artifacts:artifact_golden_chestplate:0, Unbreaking Healing Gold Boots of Saturation
-Artifacts:artifact_golden_chestplate:0, Refreshing Gold Pants of Seeing
-Artifacts:artifact_golden_chestplate:0, Repairing Gold Chestplate of Stability
+Artifacts:artifact_golden_chestplate:0, Invisible Healing Gold Helm
+Artifacts:artifact_golden_chestplate:0, Bulky Gold Pants of Breathing
+Artifacts:artifact_golden_chestplate:0, Swift Gold Pants
+Artifacts:artifact_golden_chestplate:0, Gold Boots of Health
+Artifacts:artifact_golden_chestplate:0, Healing Gold Boots of Healing
+Artifacts:artifact_golden_chestplate:0, Sturdy Gold Chestplate
+Artifacts:artifact_golden_chestplate:0, Protection Gold Helm of Fresh Air
+Artifacts:artifact_golden_chestplate:0, Illuminating Gold Helm of Regeneration
 Artifacts:artifact_diamond_chestplate:0, Artifact Diamond Armor
-Artifacts:artifact_diamond_chestplate:0, Last Stand Diamond Boots of Rejuvenation
-Artifacts:artifact_diamond_chestplate:0, Diamond Boots of Lightness
-Artifacts:artifact_diamond_chestplate:0, Jumpy Diamond Boots of Health
-Artifacts:artifact_diamond_chestplate:0, Refreshing Diamond Pants of Darkvision
-Artifacts:artifact_diamond_chestplate:0, Diamond Helm of Breathing
-Artifacts:artifact_diamond_chestplate:0, Diamond Chestplate of Healing
-Artifacts:artifact_diamond_chestplate:0, Sensitive Diamond Helm of Darkvision
-Artifacts:artifact_diamond_chestplate:0, Blast Protection Refreshing Diamond Pants of Lazarus
+Artifacts:artifact_diamond_chestplate:0, Fire Protection Rejuvenating Diamond Chestplate of Finding
+Artifacts:artifact_diamond_chestplate:0, Hidden Diamond Pants of Stability
+Artifacts:artifact_diamond_chestplate:0, Sensing Diamond Chestplate of Toughness
+Artifacts:artifact_diamond_chestplate:0, Regenerative Diamond Chestplate
+Artifacts:artifact_diamond_chestplate:0, Diamond Boots of Lazarus
+Artifacts:artifact_diamond_chestplate:0, Diamond Pants of Rejuvenation
+Artifacts:artifact_diamond_chestplate:0, Shielding Diamond Pants of Lightness
+Artifacts:artifact_diamond_chestplate:0, Oxygenated Diamond Helm of the Sun
 Artifacts:dust_orichalcum:0, Raw Manaesence
 Artifacts:dust_orichalcum:1, Wood infused Manaesence
 Artifacts:dust_orichalcum:2, Stone infused Manaesence
@@ -15370,10 +15444,6 @@ Forestry:cratedNaturaLogDarkwood, item.cratedNaturaLogDarkwood.name
 Forestry:cratedNaturaLogFusewood, item.cratedNaturaLogFusewood.name
 Forestry:cratedNaturaBlockHeatsand, item.cratedNaturaBlockHeatsand.name
 Forestry:cratedNaturaBlockTainted, item.cratedNaturaBlockTainted.name
-BuildCraft|Builders:templateItem, Template
-BuildCraft|Builders:blueprintItem, Blueprint
-BuildCraft|Energy:bucketOil, Oil Bucket
-BuildCraft|Energy:bucketFuel, Fuel Bucket
 Thaumcraft:WandCasting:0, Iron Capped Wooden Wand
 Thaumcraft:WandCasting:9, Gold Banded Greatwood Wand
 Thaumcraft:WandCasting:54, Thaumium Bossed Silverwood Wand
@@ -15733,6 +15803,7 @@ Railcraft:part.plate:0, Iron Plate
 Railcraft:part.plate:1, Steel Plate
 Railcraft:part.plate:2, Tin Plate
 Railcraft:part.plate:3, Copper Plate
+Railcraft:part.plate:4, item.railcraft.part.plate.lead.name
 Railcraft:dust:0, Obsidian Dust
 Railcraft:dust:1, Sulfur
 Railcraft:dust:2, Saltpeter
@@ -15745,6 +15816,7 @@ Railcraft:cart.tnt.wood:0, Wooden TNT Cart
 Railcraft:cart.work:0, Work Cart
 Railcraft:tool.surveyor:0, Signal Block Surveyor
 Railcraft:tool.signal.tuner:0, Signal Tuner
+Railcraft:tool.signal.label, Signal Label
 Railcraft:part.signal.lamp, Signal Lamp
 Railcraft:part.bleached.clay, Bleached Clay
 Railcraft:cart.bore:0, Tunnel Bore
@@ -15776,6 +15848,7 @@ Railcraft:tool.electric.meter, Electric Meter
 Railcraft:part.turbine.rotor, Turbine Rotor
 Railcraft:part.turbine.disk, Turbine Disk
 Railcraft:part.turbine.blade, Turbine Blade
+Railcraft:cart.redstone.flux:0, Redstone Flux Cart
 Artifice:item.artifice.sledge.wood, Wooden Sledge
 Artifice:item.artifice.sledge.stone, Stone Sledge
 Artifice:item.artifice.sledge.iron, Iron Sledge
@@ -17256,6 +17329,8 @@ redgear_brewcraft:RedGear.Brewcraft.Tears:1, Pure Tear
 redgear_brewcraft:RedGear.Brewcraft.Hearts:0, Heart
 redgear_brewcraft:RedGear.Brewcraft.Hearts:1, Heart Medallion
 redgear_brewcraft:RedGear.Brewcraft.Hearts:2, Blazing Heart
+BuildCraft|Builders:templateItem, Template
+BuildCraft|Builders:blueprintItem, Blueprint
 BuildCraft|Transport:pipeWaterproof, Pipe Sealant
 BuildCraft|Transport:item.buildcraftPipe.pipeitemswood:0, Wooden Transport Pipe
 BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald:0, Emerald Transport Pipe
@@ -17336,6 +17411,8 @@ BuildCraft|Transport:pipeLens:32, Lens (Clear)
 BuildCraft|Transport:pipeLens:33, Filter (Clear)
 BuildCraft|Transport:pipePowerAdapter, item.pipePowerAdapter.name
 BuildCraft|Transport:gateCopier, Gate Copier
+BuildCraft|Energy:bucketOil, Oil Bucket
+BuildCraft|Energy:bucketFuel, Fuel Bucket
 BuildCraft|Silicon:redstoneChipset:0, Redstone Chipset
 BuildCraft|Silicon:redstoneChipset:1, Iron Chipset
 BuildCraft|Silicon:redstoneChipset:2, Golden Chipset
@@ -17349,21 +17426,21 @@ BuildCraft|Silicon:redstoneCrystal, Redstone Crystal
 BuildCraft|Robotics:robot, Robot
 BuildCraft|Robotics:robotStation, item.robotStation.name
 BuildCraft|Robotics:redstone_board, Redstone Board
-CarpentersBlocks:itemCarpentersHammer, Carpenter's Hammer
-CarpentersBlocks:itemCarpentersChisel, Carpenter's Chisel
-CarpentersBlocks:itemCarpentersTile, Carpenter's Tile
-CarpentersBlocks:itemCarpentersDoor, Carpenter's Door
-CarpentersBlocks:itemCarpentersBed, Carpenter's Bed
-chisel:upgrade:0, Speed Upgrade
-chisel:upgrade:1, Automation Upgrade
-chisel:upgrade:2, Stack Upgrade
-chisel:upgrade:3, Reversion Upgrade
+chisel:upgrade:0, Speed Upgrade.name
+chisel:upgrade:1, Automation Upgrade.name
+chisel:upgrade:2, Stack Upgrade.name
+chisel:upgrade:3, Reversion Upgrade.name
 chisel:ballomoss, Ball O' Moss
 chisel:chisel, item.null.name
 chisel:diamondChisel, item.null.name
 chisel:obsidianChisel, item.null.name
 chisel:cloudinabottle, Cloud In A Bottle
 chisel:smashingrock, Smashing Rock
+CarpentersBlocks:itemCarpentersHammer, Carpenter's Hammer
+CarpentersBlocks:itemCarpentersChisel, Carpenter's Chisel
+CarpentersBlocks:itemCarpentersTile, Carpenter's Tile
+CarpentersBlocks:itemCarpentersDoor, Carpenter's Door
+CarpentersBlocks:itemCarpentersBed, Carpenter's Bed
 chococraft:Chocopedia, Chocopedia
 chococraft:Chocobo_Feather, Chocobo Feather
 chococraft:Chocobo_Saddle, Chocobo Saddle
@@ -18713,6 +18790,23 @@ ThermalFoundation:material:1026, Blitz Rod
 ThermalFoundation:material:1027, Blitz Powder
 ThermalFoundation:material:1028, Basalz Rod
 ThermalFoundation:material:1029, Basalz Powder
+ThermalFoundation:tool.shearsWood, Wood Shears
+ThermalFoundation:tool.sickleWood, Wood Sickle
+ThermalFoundation:tool.shearsStone, Stone Shears
+ThermalFoundation:tool.fishingRodStone, Stone Fishing Rod
+ThermalFoundation:tool.sickleStone, Stone Sickle
+ThermalFoundation:tool.bowStone, Stone Reinforced Bow
+ThermalFoundation:tool.fishingRodIron, Iron Fishing Rod
+ThermalFoundation:tool.sickleIron, Iron Sickle
+ThermalFoundation:tool.bowIron, Iron Reinforced Bow
+ThermalFoundation:tool.shearsDiamond, Diamond Shears
+ThermalFoundation:tool.fishingRodDiamond, Diamond Fishing Rod
+ThermalFoundation:tool.sickleDiamond, Diamond Sickle
+ThermalFoundation:tool.bowDiamond, Diamond Reinforced Bow
+ThermalFoundation:tool.shearsGold, Gold Shears
+ThermalFoundation:tool.fishingRodGold, Gold Fishing Rod
+ThermalFoundation:tool.sickleGold, Gold Sickle
+ThermalFoundation:tool.bowGold, Gold Reinforced Bow
 ThermalFoundation:armor.helmetCopper, Copper Helmet
 ThermalFoundation:armor.plateCopper, Copper Chestplate
 ThermalFoundation:armor.legsCopper, Copper Leggings
@@ -21305,6 +21399,9 @@ Steamcraft:spyglass, Spyglass
 Steamcraft:astrolabe, Astrolabe
 Steamcraft:canister, Item Canister
 Steamcraft:survivalist, Survivalist's Toolkit
+Steamcraft:steamcellEmpty, Empty Steam Cell
+Steamcraft:steamcellFull, Full Steam Cell
+Steamcraft:steamcellFiller, Steam Cell Filler
 Steamcraft:wrench, Pipe Wrench
 Steamcraft:smashedOre:0, Smashed Iron Ore
 Steamcraft:smashedOre:1, Smashed Gold Ore
@@ -21329,6 +21426,16 @@ Steamcraft:steamcraftCrafting:2, Iron Barrel
 Steamcraft:steamcraftCrafting:3, Blunderbuss Barrel
 Steamcraft:steamcraftCrafting:4, Flintlock
 Steamcraft:steamcraftCrafting:5, Brass Turbine
+Steamcraft:musketCartridge, Musket Cartridge
+Steamcraft:musket, Flintlock Musket
+Steamcraft:pistol, Flintlock Pistol
+Steamcraft:blunderbuss, Flintlock Blunderbuss
+Steamcraft:enhancementRevolver, Revolver Chamber
+Steamcraft:enhancementAblaze, Blaze Barrel
+Steamcraft:enhancementSpeedloader, Bolt Action
+Steamcraft:enhancementSilencer, Makeshift Suppressor
+Steamcraft:enhancementRecoil, Recoil Pad
+Steamcraft:enhancementSpeedy, Breech
 Steamcraft:rocketLauncher, Rocket Launcher
 Steamcraft:enhancementFastRockets, Streamlined Barrel
 Steamcraft:enhancementAirStrike, Air Strike Conversion Kit
@@ -21355,14 +21462,43 @@ Steamcraft:stealthUpgrade, Acoustic Dampener
 Steamcraft:enderShroud, Ender Shroud
 Steamcraft:reinforcedTank, Reinforced Exosuit Tank
 Steamcraft:uberReinforcedTank, Heavily Reinforced Exosuit Tank
+Steamcraft:rebreather, Rebreather
+Steamcraft:coatingsHydrophobic, Hydrophobic Coatings
+Steamcraft:coatingsPyrophobic, Pyrophobic Coatings
+Steamcraft:anchorHeels, Anchor Heels
+Steamcraft:pistonPush, Piston Push
+Steamcraft:reloadingHolsters, Reloading Holsters
+Steamcraft:frequencyShifter, Frequency Shifter
+Steamcraft:dragonRoar, Dragon Roar
 Steamcraft:steamDrill, Steam Drill
 Steamcraft:steamAxe, Steam Saw
 Steamcraft:steamShovel, Steam Shovel
+Steamcraft:theVoid, The Void
+Steamcraft:autosmelting, Exothermic Projector
+Steamcraft:overclocker, Overclocker
+Steamcraft:bigDrill, Big Drill
+Steamcraft:battleDrill, Battle Drill
+Steamcraft:stoneGrinder, Stone Grinder
+Steamcraft:preciseCuttingHead, Precise Cutting Head
+Steamcraft:thermalDrill, Thermal Drill
+Steamcraft:drillFortune, Multiplicative Resonator
+Steamcraft:chargePlacer, Calamity Injector
+Steamcraft:drillHead, Steam Drill Head
+Steamcraft:internalProcessor, Internal Processing Unit
+Steamcraft:leafBlower, Leaf Blower
+Steamcraft:feller, Timber Chain
+Steamcraft:chainsaw, Chainsaw
+Steamcraft:forestFire, Forest Fire
+Steamcraft:cultivator, Cultivator
+Steamcraft:rotaryBlades, Rotary Blades
+Steamcraft:sifter, Sifter
+Steamcraft:backhoe, Backhoe
 Steamcraft:ingotMold, Ingot Mold
 Steamcraft:nuggetMold, Nugget Mold
 Steamcraft:plateMold, Plate Mold
 Steamcraft:blankMold, Blank Mold
 Steamcraft:steamedFish, Steamed Fish
+Steamcraft:steamedSalmon, Steamed Salmon
 Steamcraft:steamedChicken, Steamed Chicken
 Steamcraft:steamedBeef, Steamed Beef
 Steamcraft:steamedPorkchop, Steamed Porkchop
@@ -21388,10 +21524,13 @@ Steamcraft:steamcraftPlate:6, Terrasteel Plate
 Steamcraft:steamcraftPlate:7, Elementium Plate
 Steamcraft:steamcraftPlate:9, Lead Plate
 Steamcraft:steamcraftPlate:11, Enderium Plate
+Steamcraft:steamcraftPlate:12, Gilded Iron Plate
 Steamcraft:exosuitPlate:0, Copper Exosuit Plate
+Steamcraft:exosuitPlate:1, Zinc Exosuit Plate
 Steamcraft:exosuitPlate:2, Iron Exosuit Plate
 Steamcraft:exosuitPlate:3, Gold Exosuit Plate
 Steamcraft:exosuitPlate:4, Brass Exosuit Plate
+Steamcraft:exosuitPlate:14, Gilded Iron Exosuit Plate
 Steamcraft:exosuitPlate:5, Thaumium Exosuit Plate
 Steamcraft:exosuitPlate:6, Terrasteel Exosuit Plate
 Steamcraft:exosuitPlate:7, Elementium Exosuit Plate
@@ -21972,8 +22111,13 @@ StorageDrawers:upgradeStatus:2, Status Upgrade (II)
 StorageDrawers:upgradeVoid, Void Upgrade
 StorageDrawers:upgradeCreative:0, Creative Storage Upgrade
 StorageDrawers:upgradeCreative:1, Creative Vending Upgrade
+StorageDrawers:upgradeRedstone:0, Redstone Upgrade
+StorageDrawers:upgradeRedstone:1, Redstone Max Upgrade
+StorageDrawers:upgradeRedstone:2, Redstone Min Upgrade
 StorageDrawers:upgradeLock, Drawer Key
 StorageDrawers:shroudKey, Concealment Key
+StorageDrawers:personalKey:0, Personal Key
+StorageDrawers:personalKey:1, Personal Key (CoFH)
 StorageDrawers:tape, Packing Tape
 thaumicenergistics:part.base:0, Essentia Import Bus
 thaumicenergistics:part.base:1, Essentia Level Emitter

@@ -16,7 +16,7 @@ fancyGraphics:true
 ao:2
 clouds:false
 resourcePacks:["Invictus.zip"]
-lastServer:dev.tolkiencraft.com
+lastServer:192.168.1.2
 lang:en_US
 chatVisibility:0
 chatColors:true
@@ -121,7 +121,7 @@ key_key.tarmor:73
 key_key.tgoggles:45
 key_key.tbelt:23
 key_key.tzoom:37
-key_Zoom using monocle:44
+key_key.monocle.desc:44
 key_ttmisc.toggleArmor:22
 key_invtweaks.key.sort:19
 key_key.aspectMenu:23
@@ -129,7 +129,6 @@ key_Camping Inventory Key:37
 key_key.craftingGrid:0
 key_TG.keybind.openInv:71
 key_TG.keybind.activeaAbilities:81
-key_WorldEdit Reference:38
 key_key.CastingMode:209
 key_key.SpellBookNext:181
 key_key.SpellBookPrev:55
@@ -149,7 +148,7 @@ key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:40
 key_key.journeymap.create_waypoint:43
-soundCategory_master:0.5
+soundCategory_master:0.0
 soundCategory_music:0.35915494
 soundCategory_record:1.0
 soundCategory_weather:1.0

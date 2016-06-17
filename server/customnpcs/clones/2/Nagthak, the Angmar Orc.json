@@ -1,0 +1,188 @@
+{
+    isShrunk: 0b,
+    Attributes: [
+        {
+            Base: 0.0d,
+            Name: "am2.maxManaBonus"
+        },
+        {
+            Base: 0.0d,
+            Name: "am2.maxBurnoutBonus"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.xpMultiplier"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.burnoutReduction"
+        },
+        {
+            Base: 1.0d,
+            Name: "am2.manaRegenModifier"
+        },
+        {
+            Base: 18.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.2d,
+            Modifiers: [
+                {
+                    UUIDMost: 8144722948526719024L,
+                    UUIDLeast: -7778190119041365872L,
+                    Amount: -0.15000000596046448d,
+                    Operation: 2,
+                    Name: "potion.moveSlowdown 0"
+                }
+            ],
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 16.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 2.0d,
+            Name: "lotr.npcAttackDamage"
+        },
+        {
+            Base: 0.0d,
+            Name: "lotr.npcAttackDamageExtra"
+        },
+        {
+            Base: 1.0d,
+            Name: "lotr.npcRangedAccuracy"
+        },
+        {
+            Base: 1.7d,
+            Name: "lotr.horseAttackSpeed"
+        }
+    ],
+    Invulnerable: 0b,
+    magicXP: 0.0f,
+    AbsorptionAmount: 0.0f,
+    NPCMale: 0b,
+    FallDistance: 0.0f,
+    NPCName: "Nagthak",
+    NPCPassive: 0b,
+    NPCHomeY: 0,
+    MaxChildren: 0,
+    NPCHomeX: 0,
+    NPCHomeZ: 0,
+    PersistenceRequired: 0b,
+    id: "lotr.AngmarOrc",
+    HealF: 18.0f,
+    NPCPersistent: 1b,
+    Leashed: 0b,
+    SpecificLocationName: 0b,
+    armorCooldowns: [0,0,0,0],
+    Air: 300s,
+    TimeSinceTrade: 0,
+    HurtOnlyByPlates: 1b,
+    CustomName: "",
+    NPCHomeRadius: -1,
+    CanPickUpLoot: 0b,
+    HurtTime: 0s,
+    curMana: 100.0f,
+    AttackTime: 0s,
+    CustomNameVisible: 0b,
+    ForgeData: {
+        WITCInitialWidth: 0.5f,
+        WITCInitialHeight: 1.55f
+    },
+    PortalCooldown: 0,
+    NPCItemsInv: [
+    ],
+    ModRev: 1,
+    DeathTime: 0s,
+    HiredNPCInfo: {
+        Task: 0,
+        IsActive: 0b,
+        GuardMode: 0b,
+        TeleportAutomatically: 1b,
+        CanMove: 1b,
+        GuardRange: 8,
+        AlignmentRequired: 0,
+        MobKills: 0
+    },
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    RidingHorse: 0b,
+    Children: 0,
+    magicLevel: 1s,
+    NPCAge: 0,
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    UUIDLeast: 4552623072213212607L,
+    Health: 18s,
+    TraderEscort: 0b,
+    curFatigue: 0.0f,
+    OnGround: 1b,
+    Dimension: 100,
+    Rotation: [
+        -70.97865f,
+        -1.2426927f
+    ],
+    NPCEating: 0b,
+    OrcSkirmish: 0,
+    UUIDMost: 7190386060809370L,
+    Equipment: [
+        {
+            id: 8541s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            id: 4365s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            id: 4364s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            id: 4363s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            id: 4362s,
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    Fire: -1s,
+    hasUnlockedAugmented: 1b,
+    isCritical: 0b,
+    ActiveEffects: [
+        {
+            Ambient: 0b,
+            ExtendedID: 2s,
+            Duration: 186,
+            Id: 0b,
+            Amplifier: 0b
+        },
+        {
+            Ambient: 0b,
+            ExtendedID: 11s,
+            Duration: 186,
+            Id: 0b,
+            Amplifier: -1b
+        }
+    ]
+}

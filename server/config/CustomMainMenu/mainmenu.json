@@ -111,6 +111,26 @@
             }
         },
 		
+        "server":
+        {
+            "text" : "Server Download",
+                        "texture" : "textures:tolkiencraft/buttons/buttontemplate3.png",
+            "posX" : -75,
+            "posY" : 85,
+            "width" : 150,
+            "height" : 30,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"normalTextColor" : 16777215,
+			"hoverTextColor" : 16711680,
+			"alignment" : "center",
+            "action" :
+                        {
+                "type" : "openLink",
+                                "link" : "https://github.com/GreatOrator/TolkienCraftII/releases"
+			}
+        },
+		
         "options":
         {
             "text" : "",
@@ -187,7 +207,7 @@
     {		
         "version":
         {
-            "text" : "v2.8.9",
+            "text" : "v2.8.10",
             "posX" : -35,
             "posY" : -15,
             "color" : 14329120,

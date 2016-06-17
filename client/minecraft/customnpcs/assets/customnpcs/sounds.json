@@ -74,5 +74,9 @@
 	"misc.lament": {
     "category": "player",
     "sounds": [{"name": "customsounds/Ghostly Lament", "stream": true}]
+  },
+  "songs.willowsong": {
+    "category": "player",
+    "sounds": [{"name": "customsongs/ForATouchOfShade", "stream": true}]
   }
 }
