@@ -1,10 +1,8 @@
 {
-	"revision": 17,
+	"revision": 18,
 	"infoText": [
-		"[c]Welcome to TolkienCraft II",
-		"Update v2.9.2 is complete and should be on the launcher shortly. Full changelog available at github or FTB forums.",
-		" ",
-		"§c§lTwo critical updates fixing server crashes from Draconic Evolution and Extra Cells.§r",
+		"[c]Welcome to TolkienCraft II - v2.9.2 - Mirkwood and the Rise of Angmar",
+		"§c§lUpdated main template to fix protection issues and broken blood altar. Update your map at your earliest convenience.§r",
 		" ",
 		"Loads of new content to explore and quests to complete! It is important to note there are now 4 parts to the complete map!",
 		" ",
