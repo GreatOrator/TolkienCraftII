@@ -1,7 +1,6 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-snooperEnabled:false
 gamma:0.8380282
 saturation:0.0
 renderDistance:16
@@ -12,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:3
 fancyGraphics:true
 ao:2
 clouds:false
@@ -24,6 +23,7 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
+snooperEnabled:false
 fullscreen:false
 enableVsync:true
 hideServerAddress:false
