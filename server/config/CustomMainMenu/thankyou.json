@@ -126,9 +126,9 @@
     {		
         "version":
         {
-            "text" : "v2.8.10",
-            "posX" : -40,
-            "posY" : -25,
+            "text" : "v2.9.4 - Mirkwood and the Rise of Angmar",
+            "posX" : -210,
+            "posY" : -15,
             "color" : 14329120,
             "alignment" : "bottom_right"
         },

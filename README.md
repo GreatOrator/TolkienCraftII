@@ -1,4 +1,4 @@
-# TolkienCraft 2.9.2 - Mirkwood and the Rise of Angmar
+# TolkienCraft 2.9.4 - Mirkwood and the Rise of Angmar
 Config and mod update tracking
 -----------------------------------------------------------------------------------------------------------
 Mod Permissions: https://goo.gl/wPPboL

@@ -8464,7 +8464,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Device)
+ExtraUtilities:endConstructor:0, QED (Quite Elegant Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -9355,43 +9355,43 @@ Steamcraft:vacuum, Vacuum
 Steamcraft:engineering, Engineering Table
 RedstoneArsenal:Storage:0, Fluxed Electrum Block
 RedstoneArsenal:Storage:1, Flux Crystal Block
-ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
-ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:platform, Ethereal Platform
 ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:interface, Transvector Interface
 ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:forcefield, Forcefield
 ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
 ThaumicTinkerer:travelStairs, Paving Stair of Travel
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
+ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
 ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
 ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
 ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
-ThaumicTinkerer:platform, Ethereal Platform
 ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
 ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:animationTablet, Dynamism Tablet
 ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
 ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:warpGate, Celestial Gateway
 MagicBees:magicbees.enchantedEarth, Enchanted Earth
 MagicBees:hive:0, Curious Hive
 MagicBees:hive:1, Unusual Hive
@@ -14594,11 +14594,11 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Copper
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Carving Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fluxed Electrum Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Flux Crystal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Curious Hive
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Unusual Hive
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Resonating Hive
@@ -14906,59 +14906,59 @@ Aquaculture:item.Fish:37, Goldfish
 Aquaculture:item.Fish:38, Fish Bones
 Baubles:Ring:0, Miner's Ring
 Artifacts:artifact:0, Artifact
-Artifacts:artifact:0, Oxygenated Iron Staff of Renew
-Artifacts:artifact:0, Digger's Gold Staff of Armor
-Artifacts:artifact:0, Iron Trinket of Fresh Air
-Artifacts:artifact:0, Hardy Diamond Ring of Quicksand
-Artifacts:artifact:0, Porky Gold Figurine
-Artifacts:artifact:0, Stone Ring of Protection
-Artifacts:artifact:0, Fragmenting Wood Ring of Emeralds
-Artifacts:artifact:0, Miner's Gold Wand
+Artifacts:artifact:0, Bouncing Gold Wand of Fireworks
+Artifacts:artifact:0, Rejuvenating Gold Amulet of Flight
+Artifacts:artifact:0, Webbing Gold Figurine of Repair
+Artifacts:artifact:0, Sturdy Wood Wand of Renew
+Artifacts:artifact:0, Digger's Gold Ring of Repair
+Artifacts:artifact:0, Refreshing Diamond Amulet of Excavation
+Artifacts:artifact:0, Repairing Stone Staff of Hermes
+Artifacts:artifact:0, Swift Gold Figurine of Cloaking
 Artifacts:artifact_leather_chestplate:0, Artifact Leather Armor
-Artifacts:artifact_leather_chestplate:0, Regenerative Leather Pants of Seeing
-Artifacts:artifact_leather_chestplate:0, Leather Chestplate of Stability
-Artifacts:artifact_leather_chestplate:0, Recharging Leather Helm of Renew
-Artifacts:artifact_leather_chestplate:0, Swift Leather Chestplate of Flight
-Artifacts:artifact_leather_chestplate:0, Light Leather Pants of Stability
-Artifacts:artifact_leather_chestplate:0, Stable Leather Pants of Regeneration
-Artifacts:artifact_leather_chestplate:0, Recharging Leather Helm of Fresh Air
-Artifacts:artifact_leather_chestplate:0, Regenerative Leather Helm of Saturation
+Artifacts:artifact_leather_chestplate:0, Blast Protection Leather Helm of Obscurity
+Artifacts:artifact_leather_chestplate:0, Regenerative Leather Helm of Leaping
+Artifacts:artifact_leather_chestplate:0, Leather Helm of Noms
+Artifacts:artifact_leather_chestplate:0, Invisible Sensing Leather Helm of Health
+Artifacts:artifact_leather_chestplate:0, Recharging Leather Pants of Toughness
+Artifacts:artifact_leather_chestplate:0, Breathy Leather Pants of Toughness
+Artifacts:artifact_leather_chestplate:0, Recharging Leather Chestplate of Healing
+Artifacts:artifact_leather_chestplate:0, Healing Leather Chestplate of Noms
 Artifacts:artifact_chainmail_chestplate:0, Artifact Chainmail Armor
-Artifacts:artifact_chainmail_chestplate:0, Rejuvenating Chain Chestplate of Stability
-Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Lazarus
-Artifacts:artifact_chainmail_chestplate:0, Protection Bright Chain Boots of Healing
-Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Health
-Artifacts:artifact_chainmail_chestplate:0, Last Stand Oxygenated Chain Helm of the Sun
-Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Leaping
-Artifacts:artifact_chainmail_chestplate:0, Sighted Chain Helm of Rejuvenation
-Artifacts:artifact_chainmail_chestplate:0, Hidden Chain Boots of Leaping
+Artifacts:artifact_chainmail_chestplate:0, Hidden Chain Pants
+Artifacts:artifact_chainmail_chestplate:0, Hidden Chain Helm of Repair
+Artifacts:artifact_chainmail_chestplate:0, Shielding Chain Helm of Saturation
+Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Rejuvenation
+Artifacts:artifact_chainmail_chestplate:0, Jumpy Chain Pants of Stability
+Artifacts:artifact_chainmail_chestplate:0, Floating Chain Chestplate
+Artifacts:artifact_chainmail_chestplate:0, Swift Chain Boots of Breathing
+Artifacts:artifact_chainmail_chestplate:0, Healing Chain Pants of Speed
 Artifacts:artifact_iron_chestplate:0, Artifact Iron Armor
-Artifacts:artifact_iron_chestplate:0, Recharging Iron Chestplate of Toughness
-Artifacts:artifact_iron_chestplate:0, Iron Helm of Armor
-Artifacts:artifact_iron_chestplate:0, Armored Iron Chestplate of Noms
-Artifacts:artifact_iron_chestplate:0, enchantment.magicresist Iron Pants of Lightness
-Artifacts:artifact_iron_chestplate:0, Fire Protection Aerated Iron Chestplate
-Artifacts:artifact_iron_chestplate:0, Unbreaking Bulky Iron Pants of Leaping
-Artifacts:artifact_iron_chestplate:0, Stable Iron Pants of Regeneration
-Artifacts:artifact_iron_chestplate:0, Protection Iron Boots of Flight
+Artifacts:artifact_iron_chestplate:0, Iron Helm of Protection
+Artifacts:artifact_iron_chestplate:0, Guarding Iron Boots
+Artifacts:artifact_iron_chestplate:0, Refreshing Iron Chestplate of Repair
+Artifacts:artifact_iron_chestplate:0, Regenerative Iron Chestplate of Breathing
+Artifacts:artifact_iron_chestplate:0, Quick Iron Boots of Cloaking
+Artifacts:artifact_iron_chestplate:0, Floating Iron Helm of Rejuvenation
+Artifacts:artifact_iron_chestplate:0, Rejuvenating Iron Helm of Saturation
+Artifacts:artifact_iron_chestplate:0, Iron Pants of Armor
 Artifacts:artifact_golden_chestplate:0, Artifact Golden Armor
-Artifacts:artifact_golden_chestplate:0, Invisible Healing Gold Helm
-Artifacts:artifact_golden_chestplate:0, Bulky Gold Pants of Breathing
-Artifacts:artifact_golden_chestplate:0, Swift Gold Pants
-Artifacts:artifact_golden_chestplate:0, Gold Boots of Health
-Artifacts:artifact_golden_chestplate:0, Healing Gold Boots of Healing
-Artifacts:artifact_golden_chestplate:0, Sturdy Gold Chestplate
-Artifacts:artifact_golden_chestplate:0, Protection Gold Helm of Fresh Air
-Artifacts:artifact_golden_chestplate:0, Illuminating Gold Helm of Regeneration
+Artifacts:artifact_golden_chestplate:0, Light Gold Pants of Repair
+Artifacts:artifact_golden_chestplate:0, Stable Gold Pants of Rejuvenation
+Artifacts:artifact_golden_chestplate:0, Reinvigorating Gold Pants of Saturation
+Artifacts:artifact_golden_chestplate:0, Refreshing Gold Chestplate of Darkvision
+Artifacts:artifact_golden_chestplate:0, Thorns Hidden Gold Chestplate
+Artifacts:artifact_golden_chestplate:0, Healing Gold Pants of Repair
+Artifacts:artifact_golden_chestplate:0, Swift Gold Pants of Seeing
+Artifacts:artifact_golden_chestplate:0, Unbreaking Gold Chestplate of Regeneration
 Artifacts:artifact_diamond_chestplate:0, Artifact Diamond Armor
-Artifacts:artifact_diamond_chestplate:0, Fire Protection Rejuvenating Diamond Chestplate of Finding
-Artifacts:artifact_diamond_chestplate:0, Hidden Diamond Pants of Stability
-Artifacts:artifact_diamond_chestplate:0, Sensing Diamond Chestplate of Toughness
-Artifacts:artifact_diamond_chestplate:0, Regenerative Diamond Chestplate
-Artifacts:artifact_diamond_chestplate:0, Diamond Boots of Lazarus
-Artifacts:artifact_diamond_chestplate:0, Diamond Pants of Rejuvenation
-Artifacts:artifact_diamond_chestplate:0, Shielding Diamond Pants of Lightness
-Artifacts:artifact_diamond_chestplate:0, Oxygenated Diamond Helm of the Sun
+Artifacts:artifact_diamond_chestplate:0, Floating Diamond Pants of Healing
+Artifacts:artifact_diamond_chestplate:0, Sensitive Diamond Pants
+Artifacts:artifact_diamond_chestplate:0, Shielding Diamond Helm
+Artifacts:artifact_diamond_chestplate:0, Stable Diamond Boots of the Sun
+Artifacts:artifact_diamond_chestplate:0, Regenerative Diamond Pants of Speed
+Artifacts:artifact_diamond_chestplate:0, Swift Diamond Pants of Health
+Artifacts:artifact_diamond_chestplate:0, Floating Diamond Boots
+Artifacts:artifact_diamond_chestplate:0, Guarding Diamond Chestplate of Lightness
 Artifacts:dust_orichalcum:0, Raw Manaesence
 Artifacts:dust_orichalcum:1, Wood infused Manaesence
 Artifacts:dust_orichalcum:2, Stone infused Manaesence
