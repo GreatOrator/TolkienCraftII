@@ -301,7 +301,7 @@ lotr:tile.lotr:wood:3, Charred Wood
 lotr:tile.lotr:leaves:0, Shire Pine Leaves
 lotr:tile.lotr:leaves:1, Mallorn Leaves
 lotr:tile.lotr:leaves:2, Mirk-oak Leaves
-lotr:tile.lotr:leaves:3, Red Mirk-oak Leaves
+lotr:tile.lotr:leaves:3, Red-oak Leaves
 lotr:tile.lotr:planks:0, Shire Pine Wood Planks
 lotr:tile.lotr:planks:1, Mallorn Wood Planks
 lotr:tile.lotr:planks:2, Mirk-oak Wood Planks
@@ -321,7 +321,7 @@ lotr:tile.lotr:planks:15, Mangrove Wood Planks
 lotr:tile.lotr:sapling:0, Shire Pine Sapling
 lotr:tile.lotr:sapling:1, Mallorn Sapling
 lotr:tile.lotr:sapling:2, Mirk-oak Sapling
-lotr:tile.lotr:sapling:3, Red Mirk-oak Sapling
+lotr:tile.lotr:sapling:3, Red-oak Sapling
 lotr:tile.lotr:woodSlabSingle:0, Shire Pine Wood Slab
 lotr:tile.lotr:woodSlabSingle:1, Mallorn Wood Slab
 lotr:tile.lotr:woodSlabSingle:2, Mirk-oak Wood Slab
@@ -375,7 +375,7 @@ lotr:tile.lotr:chandelier:1, Iron Chandelier
 lotr:tile.lotr:chandelier:2, Silver Chandelier
 lotr:tile.lotr:chandelier:3, Gold Chandelier
 lotr:tile.lotr:chandelier:4, Mithril Chandelier
-lotr:tile.lotr:chandelier:5, Galadhrim Chandelier
+lotr:tile.lotr:chandelier:5, Silver Mallorn Chandelier
 lotr:tile.lotr:chandelier:6, Wood-elven Chandelier
 lotr:tile.lotr:chandelier:7, Orc Chandelier
 lotr:tile.lotr:chandelier:8, Dwarven Chandelier
@@ -383,6 +383,9 @@ lotr:tile.lotr:chandelier:9, Uruk Chandelier
 lotr:tile.lotr:chandelier:10, High Elven Chandelier
 lotr:tile.lotr:chandelier:11, Blue Dwarven Chandelier
 lotr:tile.lotr:chandelier:12, Morgul Chandelier
+lotr:tile.lotr:chandelier:13, Blue Mallorn Chandelier
+lotr:tile.lotr:chandelier:14, Golden Mallorn Chandelier
+lotr:tile.lotr:chandelier:15, Green Mallorn Chandelier
 lotr:tile.lotr:pipeweedPlant, Pipeweed Plant
 lotr:tile.lotr:pipeweed, tile.lotr:pipeweed.name
 lotr:tile.lotr:slabSingle:0, Mordor Rock Slab
@@ -430,9 +433,9 @@ lotr:tile.lotr:mobSpawner:3, Mob Spawner
 lotr:tile.lotr:mobSpawner:4, Mob Spawner
 lotr:tile.lotr:mobSpawner:5, Mob Spawner
 lotr:tile.lotr:mobSpawner:6, Mob Spawner
+lotr:tile.lotr:mobSpawner:7, Mob Spawner
 lotr:tile.lotr:mobSpawner:8, Mob Spawner
 lotr:tile.lotr:mobSpawner:9, Mob Spawner
-lotr:tile.lotr:mobSpawner:10, Mob Spawner
 lotr:tile.lotr:mobSpawner:11, Mob Spawner
 lotr:tile.lotr:mobSpawner:12, Mob Spawner
 lotr:tile.lotr:mobSpawner:13, Mob Spawner
@@ -476,7 +479,6 @@ lotr:tile.lotr:mobSpawner:50, Mob Spawner
 lotr:tile.lotr:mobSpawner:51, Mob Spawner
 lotr:tile.lotr:mobSpawner:52, Mob Spawner
 lotr:tile.lotr:mobSpawner:53, Mob Spawner
-lotr:tile.lotr:mobSpawner:54, Mob Spawner
 lotr:tile.lotr:mobSpawner:55, Mob Spawner
 lotr:tile.lotr:mobSpawner:56, Mob Spawner
 lotr:tile.lotr:mobSpawner:58, Mob Spawner
@@ -640,6 +642,44 @@ lotr:tile.lotr:mobSpawner:217, Mob Spawner
 lotr:tile.lotr:mobSpawner:218, Mob Spawner
 lotr:tile.lotr:mobSpawner:219, Mob Spawner
 lotr:tile.lotr:mobSpawner:220, Mob Spawner
+lotr:tile.lotr:mobSpawner:221, Mob Spawner
+lotr:tile.lotr:mobSpawner:222, Mob Spawner
+lotr:tile.lotr:mobSpawner:223, Mob Spawner
+lotr:tile.lotr:mobSpawner:224, Mob Spawner
+lotr:tile.lotr:mobSpawner:225, Mob Spawner
+lotr:tile.lotr:mobSpawner:226, Mob Spawner
+lotr:tile.lotr:mobSpawner:227, Mob Spawner
+lotr:tile.lotr:mobSpawner:228, Mob Spawner
+lotr:tile.lotr:mobSpawner:229, Mob Spawner
+lotr:tile.lotr:mobSpawner:230, Mob Spawner
+lotr:tile.lotr:mobSpawner:231, Mob Spawner
+lotr:tile.lotr:mobSpawner:232, Mob Spawner
+lotr:tile.lotr:mobSpawner:233, Mob Spawner
+lotr:tile.lotr:mobSpawner:234, Mob Spawner
+lotr:tile.lotr:mobSpawner:235, Mob Spawner
+lotr:tile.lotr:mobSpawner:236, Mob Spawner
+lotr:tile.lotr:mobSpawner:237, Mob Spawner
+lotr:tile.lotr:mobSpawner:238, Mob Spawner
+lotr:tile.lotr:mobSpawner:239, Mob Spawner
+lotr:tile.lotr:mobSpawner:240, Mob Spawner
+lotr:tile.lotr:mobSpawner:241, Mob Spawner
+lotr:tile.lotr:mobSpawner:242, Mob Spawner
+lotr:tile.lotr:mobSpawner:243, Mob Spawner
+lotr:tile.lotr:mobSpawner:244, Mob Spawner
+lotr:tile.lotr:mobSpawner:245, Mob Spawner
+lotr:tile.lotr:mobSpawner:246, Mob Spawner
+lotr:tile.lotr:mobSpawner:247, Mob Spawner
+lotr:tile.lotr:mobSpawner:248, Mob Spawner
+lotr:tile.lotr:mobSpawner:249, Mob Spawner
+lotr:tile.lotr:mobSpawner:250, Mob Spawner
+lotr:tile.lotr:mobSpawner:251, Mob Spawner
+lotr:tile.lotr:mobSpawner:252, Mob Spawner
+lotr:tile.lotr:mobSpawner:253, Mob Spawner
+lotr:tile.lotr:mobSpawner:254, Mob Spawner
+lotr:tile.lotr:mobSpawner:255, Mob Spawner
+lotr:tile.lotr:mobSpawner:256, Mob Spawner
+lotr:tile.lotr:mobSpawner:257, Mob Spawner
+lotr:tile.lotr:mobSpawner:258, Mob Spawner
 lotr:tile.lotr:mobSpawner:800, Mob Spawner
 lotr:tile.lotr:mobSpawner:801, Mob Spawner
 lotr:tile.lotr:mobSpawner:802, Mob Spawner
@@ -662,7 +702,7 @@ lotr:tile.lotr:stalactite:0, Stalactite
 lotr:tile.lotr:stalactite:1, Stalagmite
 lotr:tile.lotr:stairsRohanBrick, Rohan Brick Stairs
 lotr:tile.lotr:oreQuendite, Quendite Ore
-lotr:tile.lotr:mallornTorch, Mallorn Torch
+lotr:tile.lotr:mallornTorch, Silver Mallorn Torch
 lotr:tile.lotr:spawnerChest, tile.lotr:spawnerChest.name
 lotr:tile.lotr:quenditeGrass, Quendite Grass
 lotr:tile.lotr:pressurePlateMordorRock, Pressure Plate
@@ -1120,6 +1160,7 @@ lotr:tile.lotr:fence:12, Maple Wood Fence
 lotr:tile.lotr:fence:13, Larch Wood Fence
 lotr:tile.lotr:fence:14, Date Palm Wood Fence
 lotr:tile.lotr:fence:15, Mangrove Wood Fence
+lotr:tile.lotr:doubleFlower:0, Black Iris
 lotr:tile.lotr:doubleFlower:1, Yellow Iris
 lotr:tile.lotr:doubleFlower:2, Hibiscus
 lotr:tile.lotr:doubleFlower:3, Flame of Harad
@@ -1231,7 +1272,7 @@ lotr:tile.lotr:fallenLeaves:5, Fallen Dark Oak Leaves
 lotr:tile.lotr:fallenLeavesLOTR:0, Fallen Shire Pine Leaves
 lotr:tile.lotr:fallenLeavesLOTR:1, Fallen Mallorn Leaves
 lotr:tile.lotr:fallenLeavesLOTR:2, Fallen Mirk-oak Leaves
-lotr:tile.lotr:fallenLeavesLOTR:3, Fallen Red Mirk-oak Leaves
+lotr:tile.lotr:fallenLeavesLOTR:3, Fallen Red-oak Leaves
 lotr:tile.lotr:fallenLeavesLOTR:4, Fallen Apple Leaves
 lotr:tile.lotr:fallenLeavesLOTR:5, Fallen Pear Leaves
 lotr:tile.lotr:fallenLeavesLOTR:6, Fallen Cherry Leaves
@@ -1273,6 +1314,7 @@ lotr:tile.lotr:tallGrass:0, Short Grass
 lotr:tile.lotr:tallGrass:1, Flowery Grass
 lotr:tile.lotr:tallGrass:2, Wheatgrass
 lotr:tile.lotr:tallGrass:3, Thistle
+lotr:tile.lotr:tallGrass:4, Nettles
 lotr:tile.lotr:haradFlower:0, Red Sand Gem
 lotr:tile.lotr:haradFlower:1, Yellow Sand Gem
 lotr:tile.lotr:haradFlower:2, Harad Daisy
@@ -1289,6 +1331,8 @@ lotr:tile.lotr:berryBush:11, Cranberry Bush
 lotr:tile.lotr:berryBush:3, Bare Cranberry Bush
 lotr:tile.lotr:berryBush:12, Elderberry Bush
 lotr:tile.lotr:berryBush:4, Bare Elderberry Bush
+lotr:tile.lotr:berryBush:13, Wildberry Bush
+lotr:tile.lotr:berryBush:5, Bare Wildberry Bush
 lotr:tile.lotr:planks2:0, Chestnut Wood Planks
 lotr:tile.lotr:planks2:1, Baobab Wood Planks
 lotr:tile.lotr:planks2:2, Cedar Wood Planks
@@ -1301,6 +1345,10 @@ lotr:tile.lotr:planks2:8, Mahogany Wood Planks
 lotr:tile.lotr:planks2:9, Willow Wood Planks
 lotr:tile.lotr:planks2:10, Cypress Wood Planks
 lotr:tile.lotr:planks2:11, Olive Wood Planks
+lotr:tile.lotr:planks2:12, Aspen Wood Planks
+lotr:tile.lotr:planks2:13, Green-oak Wood Planks
+lotr:tile.lotr:planks2:14, Lairelossë Wood Planks
+lotr:tile.lotr:planks2:15, Almond Wood Planks
 lotr:tile.lotr:fence2:0, Chestnut Wood Fence
 lotr:tile.lotr:fence2:1, Baobab Wood Fence
 lotr:tile.lotr:fence2:2, Cedar Wood Fence
@@ -1313,6 +1361,10 @@ lotr:tile.lotr:fence2:8, Mahogany Wood Fence
 lotr:tile.lotr:fence2:9, Willow Wood Fence
 lotr:tile.lotr:fence2:10, Cypress Wood Fence
 lotr:tile.lotr:fence2:11, Olive Wood Fence
+lotr:tile.lotr:fence2:12, Aspen Wood Fence
+lotr:tile.lotr:fence2:13, Green-oak Wood Fence
+lotr:tile.lotr:fence2:14, Lairelossë Wood Fence
+lotr:tile.lotr:fence2:15, Almond Wood Fence
 lotr:tile.lotr:woodSlabSingle3:0, Chestnut Wood Slab
 lotr:tile.lotr:woodSlabSingle3:1, Baobab Wood Slab
 lotr:tile.lotr:woodSlabSingle3:2, Cedar Wood Slab
@@ -1347,6 +1399,10 @@ lotr:tile.lotr:fallenLeavesLOTR2:8, Fallen Mahogany Leaves
 lotr:tile.lotr:fallenLeavesLOTR2:9, Fallen Willow Leaves
 lotr:tile.lotr:fallenLeavesLOTR2:10, Fallen Cypress Leaves
 lotr:tile.lotr:fallenLeavesLOTR2:11, Fallen Olive Leaves
+lotr:tile.lotr:fallenLeavesLOTR2:12, Fallen Aspen Leaves
+lotr:tile.lotr:fallenLeavesLOTR2:13, Fallen Green-oak Leaves
+lotr:tile.lotr:fallenLeavesLOTR2:14, Fallen Lairelossë Leaves
+lotr:tile.lotr:fallenLeavesLOTR2:15, Fallen Almond Leaves
 lotr:tile.lotr:stairsCedar, Cedar Wood Stairs
 lotr:tile.lotr:rottenLog:0, Rotten Wood
 lotr:tile.lotr:oreStorage2:0, Block of Black Uruk Steel
@@ -1389,6 +1445,10 @@ lotr:tile.lotr:wallStone3:7, Chalk Brick Wall
 lotr:tile.lotr:wallStone3:8, Mud Brick Wall
 lotr:tile.lotr:wallStone3:9, Dalish Brick Wall
 lotr:tile.lotr:wallStone3:10, Dorwinion Brick Wall
+lotr:tile.lotr:wallStone3:11, Mossy Dorwinion Brick Wall
+lotr:tile.lotr:wallStone3:12, Cracked Dorwinion Brick Wall
+lotr:tile.lotr:wallStone3:13, Flowery Dorwinion Brick Wall
+lotr:tile.lotr:wallStone3:14, White Sandstone Wall
 lotr:tile.lotr:slabSingle6:0, High Elven Pillar Slab
 lotr:tile.lotr:slabSingle6:1, Cracked High Elven Pillar Slab
 lotr:tile.lotr:slabSingle6:2, Wood-elven Brick Slab
@@ -1483,6 +1543,9 @@ lotr:tile.lotr:wallStone4:3, Golden Tauredain Brick Wall
 lotr:tile.lotr:wallStone4:4, Obsidian Tauredain Brick Wall
 lotr:tile.lotr:wallStone4:5, Cracked Dwarven Brick Wall
 lotr:tile.lotr:wallStone4:6, Obsidian Dwarven Brick Wall
+lotr:tile.lotr:wallStone4:7, Gondor Cobblebrick Wall
+lotr:tile.lotr:wallStone4:8, Mossy Gondor Cobblebrick Wall
+lotr:tile.lotr:wallStone4:9, Cracked Gondor Cobblebrick Wall
 lotr:tile.lotr:slabSingle8:0, Tauredain Brick Slab
 lotr:tile.lotr:slabSingle8:1, Mossy Tauredain Brick Slab
 lotr:tile.lotr:slabSingle8:2, Cracked Tauredain Brick Slab
@@ -1514,6 +1577,10 @@ lotr:tile.lotr:woodSlabSingle4:0, Mahogany Wood Slab
 lotr:tile.lotr:woodSlabSingle4:1, Willow Wood Slab
 lotr:tile.lotr:woodSlabSingle4:2, Cypress Wood Slab
 lotr:tile.lotr:woodSlabSingle4:3, Olive Wood Slab
+lotr:tile.lotr:woodSlabSingle4:4, Aspen Wood Slab
+lotr:tile.lotr:woodSlabSingle4:5, Green-oak Wood Slab
+lotr:tile.lotr:woodSlabSingle4:6, Lairelossë Wood Slab
+lotr:tile.lotr:woodSlabSingle4:7, Almond Wood Slab
 lotr:tile.lotr:stairsMahogany, Mahogany Wood Stairs
 lotr:tile.lotr:mud, Jungle Mud
 lotr:tile.lotr:mudGrass, Jungle Grass
@@ -1531,6 +1598,8 @@ lotr:tile.lotr:pillar2:2, Stone Pillar
 lotr:tile.lotr:pillar2:3, Brick Pillar
 lotr:tile.lotr:pillar2:4, Angmar Pillar
 lotr:tile.lotr:pillar2:5, Dalish Pillar
+lotr:tile.lotr:pillar2:6, Dorwinion Pillar
+lotr:tile.lotr:pillar2:7, Mossy Dorwinion Pillar
 lotr:tile.lotr:hithlainLadder, Hithlain Ladder
 lotr:tile.lotr:reeds, Reeds
 lotr:tile.lotr:stairsReed, Reed Stairs
@@ -1580,9 +1649,9 @@ lotr:tile.lotr:woodBeam6:2, Cypress Wood Beam
 lotr:tile.lotr:woodBeam6:3, Olive Wood Beam
 lotr:tile.lotr:woodBeamRotten:0, Rotten Wood Beam
 lotr:tile.lotr:gateWooden, Wooden Gate
-lotr:tile.lotr:gateIronBars, Iron Bar Gate
-lotr:tile.lotr:gateBronzeBars, Bronze Bar Gate
-lotr:tile.lotr:gateWoodenCross, Wooden Cross Gate
+lotr:tile.lotr:gateIronBars, Iron Portcullis
+lotr:tile.lotr:gateBronzeBars, Bronze Portcullis
+lotr:tile.lotr:gateWoodenCross, Wooden Portcullis
 lotr:tile.lotr:gateOrc, Orc Gate
 lotr:tile.lotr:stairsChalkBrick, Chalk Brick Stairs
 lotr:tile.lotr:slabSingle9:0, Chalk Brick Slab
@@ -1613,6 +1682,7 @@ lotr:tile.lotr:slabSingleV:0, Mossy Stone Brick Slab
 lotr:tile.lotr:slabSingleV:1, Cracked Stone Brick Slab
 lotr:tile.lotr:slabSingleV:2, Mossy Bricks Slab
 lotr:tile.lotr:slabSingleV:3, Cracked Bricks Slab
+lotr:tile.lotr:slabSingleV:4, Mossy Cobblestone Slab
 lotr:tile.lotr:stairsStone, Stone Stairs
 lotr:tile.lotr:stairsMordorRock, Mordor Rock Stairs
 lotr:tile.lotr:stairsGondorRock, Gondor Rock Stairs
@@ -1699,6 +1769,13 @@ lotr:tile.lotr:brick5:0, Mud Brick
 lotr:tile.lotr:brick5:1, Dalish Brick
 lotr:tile.lotr:brick5:2, Dorwinion Brick
 lotr:tile.lotr:brick5:3, Carved Rohan Brick
+lotr:tile.lotr:brick5:4, Mossy Dorwinion Brick
+lotr:tile.lotr:brick5:5, Cracked Dorwinion Brick
+lotr:tile.lotr:brick5:6, Carved Dorwinion Brick
+lotr:tile.lotr:brick5:7, Flowery Dorwinion Brick
+lotr:tile.lotr:brick5:8, Gondor Cobblebrick
+lotr:tile.lotr:brick5:9, Mossy Gondor Cobblebrick
+lotr:tile.lotr:brick5:10, Cracked Gondor Cobblebrick
 lotr:tile.lotr:stairsMudBrick, Mud Brick Stairs
 lotr:tile.lotr:leek, tile.lotr:leek.name
 lotr:tile.lotr:turnip, tile.lotr:turnip.name
@@ -1709,6 +1786,12 @@ lotr:tile.lotr:dorwinionCraftingTable, Dorwinion Crafting Table
 lotr:tile.lotr:stairsCypress, Cypress Wood Stairs
 lotr:tile.lotr:stairsOlive, Olive Wood Stairs
 lotr:tile.lotr:slabSingle10:0, Dalish Pillar Slab
+lotr:tile.lotr:slabSingle10:1, Mossy Dorwinion Brick Slab
+lotr:tile.lotr:slabSingle10:2, Cracked Dorwinion Brick Slab
+lotr:tile.lotr:slabSingle10:3, Flowery Dorwinion Brick Slab
+lotr:tile.lotr:slabSingle10:4, Dorwinion Pillar Slab
+lotr:tile.lotr:slabSingle10:5, Mossy Dorwinion Pillar Slab
+lotr:tile.lotr:slabSingle10:6, White Sandstone Slab
 lotr:tile.lotr:hobbitCraftingTable, Hobbit Crafting Table
 lotr:tile.lotr:gateHobbitGreen, Green Hobbit Gate
 lotr:tile.lotr:gateHobbitBlue, Blue Hobbit Gate
@@ -1722,6 +1805,107 @@ lotr:tile.lotr:stairsBrickCracked, Cracked Brick Stairs
 lotr:tile.lotr:grapevine, Grapevine Post
 lotr:tile.lotr:grapevineRed, tile.lotr:grapevineRed.name
 lotr:tile.lotr:grapevineWhite, tile.lotr:grapevineWhite.name
+lotr:tile.lotr:stairsDorwinionBrickMossy, Mossy Dorwinion Brick Stairs
+lotr:tile.lotr:stairsDorwinionBrickCracked, Cracked Dorwinion Brick Stairs
+lotr:tile.lotr:stairsDorwinionBrickFlowers, Flowery Dorwinion Brick Stairs
+lotr:tile.lotr:wood7:0, Aspen Wood
+lotr:tile.lotr:wood7:1, Green-oak Wood
+lotr:tile.lotr:wood7:2, Lairelossë Wood
+lotr:tile.lotr:wood7:3, Almond Wood
+lotr:tile.lotr:leaves7:0, Aspen Leaves
+lotr:tile.lotr:leaves7:1, Green-oak Leaves
+lotr:tile.lotr:leaves7:2, Lairelossë Leaves
+lotr:tile.lotr:leaves7:3, Almond Leaves
+lotr:tile.lotr:sapling7:0, Aspen Sapling
+lotr:tile.lotr:sapling7:1, Green-oak Sapling
+lotr:tile.lotr:sapling7:2, Lairelossë Sapling
+lotr:tile.lotr:sapling7:3, Almond Sapling
+lotr:tile.lotr:woodBeam7:0, Aspen Wood Beam
+lotr:tile.lotr:woodBeam7:1, Green-oak Wood Beam
+lotr:tile.lotr:woodBeam7:2, Lairelossë Wood Beam
+lotr:tile.lotr:woodBeam7:3, Almond Wood Beam
+lotr:tile.lotr:stairsAspen, Aspen Wood Stairs
+lotr:tile.lotr:mirkVines, Mirkwood Vines
+lotr:tile.lotr:stairsGreenOak, Green-oak Wood Stairs
+lotr:tile.lotr:stairsLairelosse, Lairelossë Wood Stairs
+lotr:tile.lotr:stairsAlmond, Almond Wood Stairs
+lotr:tile.lotr:slabSingleDirt:0, Dirt Slab
+lotr:tile.lotr:slabSingleDirt:1, Dirt Path Slab
+lotr:tile.lotr:slabSingleDirt:2, Jungle Mud Slab
+lotr:tile.lotr:slabSingleDirt:3, Mordor Dirt Slab
+lotr:tile.lotr:slabSingleSand:0, Sand Slab
+lotr:tile.lotr:slabSingleSand:1, Red Sand Slab
+lotr:tile.lotr:slabSingleSand:2, White Sand Slab
+lotr:tile.lotr:slabSingleGravel:0, Gravel Slab
+lotr:tile.lotr:slabSingleGravel:1, Mordor Gravel Slab
+lotr:tile.lotr:slabSingleGravel:2, Obsidian Gravel Slab
+lotr:tile.lotr:morgulFlower, Morgul-flowers
+lotr:tile.lotr:blackroot, Blackroot
+lotr:tile.lotr:wood8:0, Plum Wood
+lotr:tile.lotr:leaves8:0, Plum Leaves
+lotr:tile.lotr:sapling8:0, Plum Sapling
+lotr:tile.lotr:planks3:0, Plum Wood Planks
+lotr:tile.lotr:fence3:0, Plum Wood Fence
+lotr:tile.lotr:woodSlabSingle5:0, Plum Wood Slab
+lotr:tile.lotr:woodBeam8:0, Plum Wood Beam
+lotr:tile.lotr:stairsPlum, Plum Wood Stairs
+lotr:tile.lotr:fallenLeavesLOTR3:0, Fallen Plum Leaves
+lotr:tile.lotr:stairsGondorBrickRustic, Gondor Cobblebrick Stairs
+lotr:tile.lotr:stairsGondorBrickRusticMossy, Mossy Gondor Cobblebrick Stairs
+lotr:tile.lotr:stairsGondorBrickRusticCracked, Cracked Gondor Cobblebrick Stairs
+lotr:tile.lotr:slabSingle11:0, Gondor Cobblebrick Slab
+lotr:tile.lotr:slabSingle11:1, Mossy Gondor Cobblebrick Slab
+lotr:tile.lotr:slabSingle11:2, Cracked Gondor Cobblebrick Slab
+lotr:tile.lotr:whiteSand, White Sand
+lotr:tile.lotr:whiteSandstone, White Sandstone
+lotr:tile.lotr:stairsWhiteSandstone, White Sandstone Stairs
+lotr:tile.lotr:treasureCopper:0, Copper Treasure Pile
+lotr:tile.lotr:treasureCopper:7, Copper Treasure Pile
+lotr:tile.lotr:treasureSilver:0, Silver Treasure Pile
+lotr:tile.lotr:treasureSilver:7, Silver Treasure Pile
+lotr:tile.lotr:treasureGold:0, Gold Treasure Pile
+lotr:tile.lotr:treasureGold:7, Gold Treasure Pile
+lotr:tile.lotr:chestLebethron, Lebethron Casket
+lotr:tile.lotr:chestBasket, Reed Basket
+lotr:tile.lotr:marigold, Marigold
+lotr:tile.lotr:rhunFlower:0, Blue Chrysanthemum
+lotr:tile.lotr:rhunFlower:1, Orange Chrysanthemum
+lotr:tile.lotr:rhunFlower:2, Pink Chrysanthemum
+lotr:tile.lotr:rhunFlower:3, Yellow Chrysanthemum
+lotr:tile.lotr:rhunFlower:4, White Chrysanthemum
+lotr:tile.lotr:chestMallorn, Mallorn Box
+lotr:tile.lotr:stairsCobblestoneMossy, Mossy Cobblestone Stairs
+lotr:tile.lotr:marzipanBlock, Marchpane Block
+lotr:tile.lotr:mallornTorchBlue, Blue Mallorn Torch
+lotr:tile.lotr:mallornTorchGold, Golden Mallorn Torch
+lotr:tile.lotr:mallornTorchGreen, Green Mallorn Torch
+lotr:tile.lotr:wallClayTile:0, Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:0, White Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:1, Orange Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:2, Magenta Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:3, Light Blue Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:4, Yellow Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:5, Lime Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:6, Pink Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:7, Gray Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:8, Light Gray Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:9, Cyan Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:10, Purple Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:11, Blue Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:12, Brown Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:13, Green Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:14, Red Clay Tiling Wall
+lotr:tile.lotr:wallClayTileDyed:15, Black Clay Tiling Wall
+lotr:tile.lotr:ceramicMug, tile.lotr:ceramicMug.name
+lotr:tile.lotr:gobletGold, tile.lotr:gobletGold.name
+lotr:tile.lotr:gobletSilver, tile.lotr:gobletSilver.name
+lotr:tile.lotr:gobletCopper, tile.lotr:gobletCopper.name
+lotr:tile.lotr:gobletWood, tile.lotr:gobletWood.name
+lotr:tile.lotr:skullCup, tile.lotr:skullCup.name
+lotr:tile.lotr:wineGlass, tile.lotr:wineGlass.name
+lotr:tile.lotr:glassBottle, tile.lotr:glassBottle.name
+lotr:tile.lotr:aleHorn, tile.lotr:aleHorn.name
+lotr:tile.lotr:aleHornGold, tile.lotr:aleHornGold.name
 AgriCraft:crops, Crop Sticks
 AgriCraft:seedAnalyzer, Seed Analyzer
 AgriCraft:waterPad, Water Pad
@@ -1887,6 +2071,11 @@ AgriCraft:waterTank:0, Wooden Water Tank
 AgriCraft:waterTank:0, Wooden Water Tank
 AgriCraft:waterTank:0, Wooden Water Tank
 AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
+AgriCraft:waterTank:0, Wooden Water Tank
 AgriCraft:waterChannel:0, Wooden Irrigation Channel
 AgriCraft:waterChannel:0, Wooden Irrigation Channel
 AgriCraft:waterChannel:0, Wooden Irrigation Channel
@@ -2048,6 +2237,16 @@ AgriCraft:waterChannel:0, Wooden Irrigation Channel
 AgriCraft:waterChannel:0, Wooden Irrigation Channel
 AgriCraft:waterChannel:0, Wooden Irrigation Channel
 AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannel:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
@@ -2209,6 +2408,11 @@ AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:channelValve:0, Wooden Channel Valve
+AgriCraft:channelValve:0, Wooden Channel Valve
 AgriCraft:channelValve:0, Wooden Channel Valve
 AgriCraft:channelValve:0, Wooden Channel Valve
 AgriCraft:channelValve:0, Wooden Channel Valve
@@ -2532,6 +2736,11 @@ AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
@@ -2693,6 +2902,16 @@ AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
@@ -2854,6 +3073,11 @@ AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
@@ -4767,7 +4991,29 @@ Artifice:tile.artifice.uranium:0, Uranium Ore
 Artifice:tile.artifice.uranium:1, Block of Uranium
 Artifice:tile.artifice.nuclearbattery:0, Nuclear Battery
 Artifice:tile.artifice.heatingcoil:0, Heating Coil
+aura:auraNode, Aura Node
+aura:auraNodepump, Burning Aura Pump
+aura:auraNodeblack, Aura Manipulator: Black
+aura:auraNodeconserve, Conserving Aura Node
+aura:auraNodecapacitor, Aura Capacitor
+aura:auraNodecraftingCenter, Vortex Controller
+aura:auraNodecraftingPedestal, Vortex Pedestal
+aura:auraNodeorange, Aura Manipulator: Orange
+aura:auraNodepumpAlt, Alternating Burning Aura Pump
+aura:auraNodepumpProjectile, Projectile Aura Pump
+aura:auraNodepumpFall, Momentum Aura Pump
+aura:auraNodepumpLight, Illumination Aura Pump
+aura:auraNodepumpRedstone, Redstone Aura Pump
+aura:auraNodepumpProjectileAlt, Alternating Projectile Aura Pump
+aura:auraNodepumpFallAlt, Alternating Momentum Aura Pump
+aura:auraNodepumpCreative, Creative Pump (Creative Only)
+aura:auraNodepumpLightAlt, Alternating Illumination Aura Pump
+aura:auraNodepumpRedstoneAlt, Alternating Redstone Aura Pump
+aura:auraNodeflux, Fluxing Node
+aura:storageBookshelf, Storage Bookshelf
 aura:fairyTorch, tile.fairyTorch.name
+aura:magicRoad, Traveler's Bricks
+aura:trampoline, Rebounding Enigma
 aura:consumerBlockfurnace, Cascading Smelter
 aura:consumerBlockplant, Cascading Grower
 aura:consumerBlockore, Cascading Processor
@@ -4790,28 +5036,6 @@ aura:fortifiedGlass, Fortified Glass
 aura:fortifiedCobblestone, Fortified Cobblestone
 aura:fortifiedStone, Fortified Stone
 aura:fortifiedObsidian, Fortified Obsidian
-aura:auraNode, Aura Node
-aura:auraNodepump, Burning Aura Pump
-aura:auraNodeblack, Aura Manipulator: Black
-aura:auraNodeconserve, Conserving Aura Node
-aura:auraNodecapacitor, Aura Capacitor
-aura:auraNodecraftingCenter, Vortex Controller
-aura:auraNodecraftingPedestal, Vortex Pedestal
-aura:auraNodeorange, Aura Manipulator: Orange
-aura:auraNodepumpAlt, Alternating Burning Aura Pump
-aura:auraNodepumpProjectile, Projectile Aura Pump
-aura:auraNodepumpFall, Momentum Aura Pump
-aura:auraNodepumpLight, Illumination Aura Pump
-aura:auraNodepumpRedstone, Redstone Aura Pump
-aura:auraNodepumpProjectileAlt, Alternating Projectile Aura Pump
-aura:auraNodepumpFallAlt, Alternating Momentum Aura Pump
-aura:auraNodepumpCreative, Creative Pump (Creative Only)
-aura:auraNodepumpLightAlt, Alternating Illumination Aura Pump
-aura:auraNodepumpRedstoneAlt, Alternating Redstone Aura Pump
-aura:auraNodeflux, Fluxing Node
-aura:storageBookshelf, Storage Bookshelf
-aura:trampoline, Rebounding Enigma
-aura:magicRoad, Traveler's Bricks
 BiblioCraft:tile.BiblioFramedChest:0, Framed Chest
 BiblioCraft:BiblioPaneler:0, Oak Furniture Paneler
 BiblioCraft:BiblioPaneler:1, Spruce Furniture Paneler
@@ -8377,6 +8601,18 @@ customnpcs:npcCandleUnlit, Lamp
 props:blockProps, Unnamed Block, report to mod author.
 props:blockFake, Unnamed Block, report to mod author.
 DimensionalAnchors:chunkloader, Dimensional Anchor
+minecraft:record_13, Music Disc
+minecraft:record_cat, Music Disc
+minecraft:record_blocks, Music Disc
+minecraft:record_chirp, Music Disc
+minecraft:record_far, Music Disc
+minecraft:record_mall, Music Disc
+minecraft:record_mellohi, Music Disc
+minecraft:record_stal, Music Disc
+minecraft:record_strad, Music Disc
+minecraft:record_ward, Music Disc
+minecraft:record_11, Music Disc
+minecraft:record_wait, Music Disc
 ThermalFoundation:Ore:0, Copper Ore
 ThermalFoundation:Ore:1, Tin Ore
 ThermalFoundation:Ore:2, Silver Ore
@@ -8464,7 +8700,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quite Elegant Device)
+ExtraUtilities:endConstructor:0, QED (Quacky Ender Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -8472,18 +8708,6 @@ ExtraUtilities:angelBlock, Angel Block
 ExtraUtilities:budoff:0, Block Update Detector
 ExtraUtilities:budoff:3, Block Update Detector (Advanced)
 ExtraUtilities:chandelier, Chandelier
-minecraft:record_13, Music Disc
-minecraft:record_cat, Music Disc
-minecraft:record_blocks, Music Disc
-minecraft:record_chirp, Music Disc
-minecraft:record_far, Music Disc
-minecraft:record_mall, Music Disc
-minecraft:record_mellohi, Music Disc
-minecraft:record_stal, Music Disc
-minecraft:record_strad, Music Disc
-minecraft:record_ward, Music Disc
-minecraft:record_11, Music Disc
-minecraft:record_wait, Music Disc
 ExtraUtilities:decorativeBlock1:0, Edged Stone Bricks
 ExtraUtilities:decorativeBlock1:1, Ender-infused Obsidian
 ExtraUtilities:decorativeBlock1:2, Burnt Quartz
@@ -9355,43 +9579,43 @@ Steamcraft:vacuum, Vacuum
 Steamcraft:engineering, Engineering Table
 RedstoneArsenal:Storage:0, Fluxed Electrum Block
 RedstoneArsenal:Storage:1, Flux Crystal Block
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
 ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:spawner, Tablet of Necromancy
 ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:dislocator, Transvector Dislocator
 ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
 ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:warpGate, Celestial Gateway
 ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:travelStairs, Paving Stair of Travel
 ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
+ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:travelStairs, Paving Stair of Travel
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
-ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
 ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:enchanter, Osmotic Enchanter
 ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
 ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
 ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:funnel, Essentia Funnel
 MagicBees:magicbees.enchantedEarth, Enchanted Earth
 MagicBees:hive:0, Curious Hive
 MagicBees:hive:1, Unusual Hive
@@ -10256,14 +10480,14 @@ lotr:item.lotr:hobbitPipe, Hobbit Pipe
 lotr:item.lotr:pipeweed, Pipeweed
 lotr:item.lotr:clayMug, Clay Mug
 lotr:item.lotr:mug, Mug
-lotr:item.lotr:mugWater, Mug of Water
-lotr:item.lotr:mugMilk, Mug of Milk
+lotr:item.lotr:mugWater:0, Water
+lotr:item.lotr:mugMilk:0, Milk
 lotr:item.lotr:mugAle:0, Ale
 lotr:item.lotr:mugAle:1, Ale
 lotr:item.lotr:mugAle:2, Ale
 lotr:item.lotr:mugAle:3, Ale
 lotr:item.lotr:mugAle:4, Ale
-lotr:item.lotr:mugChocolate, Mug of Chocolate
+lotr:item.lotr:mugChocolate:0, Chocolate
 lotr:item.lotr:appleCrumble, Apple Crumble
 lotr:item.lotr:mugMiruvor:0, Miruvor
 lotr:item.lotr:mugMiruvor:1, Miruvor
@@ -10293,29 +10517,29 @@ lotr:item.lotr:spawnEgg:3, Spawn Mordor Orc
 lotr:item.lotr:spawnEgg:4, Spawn Shire Pony
 lotr:item.lotr:spawnEgg:5, Spawn Mordor Warg
 lotr:item.lotr:spawnEgg:6, Spawn Gondor Soldier
+lotr:item.lotr:spawnEgg:7, Spawn Gondorian
 lotr:item.lotr:spawnEgg:8, Spawn Galadhrim Elf
 lotr:item.lotr:spawnEgg:9, Spawn Hobbit Bartender
-lotr:item.lotr:spawnEgg:10, Spawn Hobbit Drunkard
 lotr:item.lotr:spawnEgg:11, Spawn Galadhrim Warrior
 lotr:item.lotr:spawnEgg:12, Spawn Mordor Orc Bombardier
 lotr:item.lotr:spawnEgg:13, Spawn Mordor Orc Trader
 lotr:item.lotr:spawnEgg:14, Spawn Mordor Orc Archer
 lotr:item.lotr:spawnEgg:15, Spawn Gondor Ruins Wraith
-lotr:item.lotr:spawnEgg:16, Spawn Blacksmith of Gondor
+lotr:item.lotr:spawnEgg:16, Spawn Gondor Blacksmith
 lotr:item.lotr:spawnEgg:17, Spawn Galadhrim Wanderer
 lotr:item.lotr:spawnEgg:18, Spawn Dwarf
 lotr:item.lotr:spawnEgg:19, Spawn Dwarf Warrior
 lotr:item.lotr:spawnEgg:20, Spawn Dwarf Miner
 lotr:item.lotr:spawnEgg:21, Spawn Marsh Wraith
 lotr:item.lotr:spawnEgg:22, Spawn Mordor Warg Bombardier
-lotr:item.lotr:spawnEgg:23, Spawn Mordor Orc Chieftain
+lotr:item.lotr:spawnEgg:23, Spawn Mordor Orc Commander
 lotr:item.lotr:spawnEgg:24, Spawn Gondorian Captain
 lotr:item.lotr:spawnEgg:25, Spawn Dwarf Commander
 lotr:item.lotr:spawnEgg:26, Spawn Dwarf Axe-thrower
 lotr:item.lotr:spawnEgg:27, Spawn Gondor Archer
 lotr:item.lotr:spawnEgg:28, Spawn Uruk-hai
 lotr:item.lotr:spawnEgg:29, Spawn Uruk-hai Crossbower
-lotr:item.lotr:spawnEgg:30, Spawn Uruk-hai Beserker
+lotr:item.lotr:spawnEgg:30, Spawn Uruk-hai Berserker
 lotr:item.lotr:spawnEgg:31, Spawn Uruk-hai Trader
 lotr:item.lotr:spawnEgg:32, Spawn Uruk-hai Chieftain
 lotr:item.lotr:spawnEgg:33, Spawn Troll
@@ -10331,7 +10555,7 @@ lotr:item.lotr:spawnEgg:42, Spawn Rohirrim Archer
 lotr:item.lotr:spawnEgg:43, Spawn Rohirrim Marshal
 lotr:item.lotr:spawnEgg:44, Spawn Hobbit Shirriff
 lotr:item.lotr:spawnEgg:45, Spawn Hobbit Shirriff Chief
-lotr:item.lotr:spawnEgg:46, Spawn Blacksmith of Rohan
+lotr:item.lotr:spawnEgg:46, Spawn Rohan Blacksmith
 lotr:item.lotr:spawnEgg:47, Spawn Ranger of the North
 lotr:item.lotr:spawnEgg:48, Spawn Ranger of Ithilien
 lotr:item.lotr:spawnEgg:49, Spawn Dunlending Warrior
@@ -10339,9 +10563,8 @@ lotr:item.lotr:spawnEgg:50, Spawn Dunlending Archer
 lotr:item.lotr:spawnEgg:51, Spawn Dunlending Warlord
 lotr:item.lotr:spawnEgg:52, Spawn Dunlending
 lotr:item.lotr:spawnEgg:53, Spawn Dunlending Bartender
-lotr:item.lotr:spawnEgg:54, Spawn Dunlending Drunkard
 lotr:item.lotr:spawnEgg:55, Spawn Ent
-lotr:item.lotr:spawnEgg:56, Spawn Mountain Troll
+lotr:item.lotr:spawnEgg:56, Spawn Hill-troll
 lotr:item.lotr:spawnEgg:58, Spawn Huorn
 lotr:item.lotr:spawnEgg:59, Spawn Dark Huorn
 lotr:item.lotr:spawnEgg:60, Spawn Wood-elf Warrior
@@ -10354,9 +10577,9 @@ lotr:item.lotr:spawnEgg:67, Spawn Slave of Núrn
 lotr:item.lotr:spawnEgg:68, Spawn Rabbit
 lotr:item.lotr:spawnEgg:69, Spawn Wild Boar
 lotr:item.lotr:spawnEgg:70, Spawn Hobbit Orcharder
-lotr:item.lotr:spawnEgg:71, Spawn Mordor Orc Slaver
+lotr:item.lotr:spawnEgg:71, Spawn Mordor Slaver
 lotr:item.lotr:spawnEgg:72, Spawn Mordor Spider
-lotr:item.lotr:spawnEgg:73, Spawn Mordor Orc Spider Keeper
+lotr:item.lotr:spawnEgg:73, Spawn Mordor Spider Keeper
 lotr:item.lotr:spawnEgg:74, Spawn Angmar Orc
 lotr:item.lotr:spawnEgg:75, Spawn Angmar Orc Archer
 lotr:item.lotr:spawnEgg:76, Spawn Angmar Orc Bombardier
@@ -10417,7 +10640,7 @@ lotr:item.lotr:spawnEgg:130, Spawn Bandit
 lotr:item.lotr:spawnEgg:131, Spawn Ranger Banner Bearer
 lotr:item.lotr:spawnEgg:132, Spawn Elk
 lotr:item.lotr:spawnEgg:133, Spawn Gondor Tower Guard
-lotr:item.lotr:spawnEgg:134, Spawn Merchant of Near Harad
+lotr:item.lotr:spawnEgg:134, Spawn Merchant of Harad
 lotr:item.lotr:spawnEgg:135, Spawn Harad Pyramid Wraith
 lotr:item.lotr:spawnEgg:136, Spawn Dol Guldur Orc
 lotr:item.lotr:spawnEgg:137, Spawn Dol Guldur Orc Archer
@@ -10485,7 +10708,7 @@ lotr:item.lotr:spawnEgg:199, Spawn Dalish Soldier
 lotr:item.lotr:spawnEgg:200, Spawn Dalish Longbowman
 lotr:item.lotr:spawnEgg:201, Spawn Dalish Banner Bearer
 lotr:item.lotr:spawnEgg:202, Spawn Dalish Captain
-lotr:item.lotr:spawnEgg:203, Spawn Blacksmith of Dale
+lotr:item.lotr:spawnEgg:203, Spawn Dalish Blacksmith
 lotr:item.lotr:spawnEgg:204, Spawn Dorwinrim
 lotr:item.lotr:spawnEgg:205, Spawn Vintner Guard
 lotr:item.lotr:spawnEgg:206, Spawn Vintner Guard Captain
@@ -10503,6 +10726,44 @@ lotr:item.lotr:spawnEgg:217, Spawn Dalish Merchant
 lotr:item.lotr:spawnEgg:218, Spawn Aurochs
 lotr:item.lotr:spawnEgg:219, Spawn Kine of Araw
 lotr:item.lotr:spawnEgg:220, Spawn Vintner Guard Crossbower
+lotr:item.lotr:spawnEgg:221, Spawn Lossarnach Axeman
+lotr:item.lotr:spawnEgg:222, Spawn Lossarnach Banner Bearer
+lotr:item.lotr:spawnEgg:223, Spawn Black Uruk Banner Bearer
+lotr:item.lotr:spawnEgg:224, Spawn Pelargir Marine
+lotr:item.lotr:spawnEgg:225, Spawn Pelargir Banner Bearer
+lotr:item.lotr:spawnEgg:226, Spawn Pinnath Gelin Soldier
+lotr:item.lotr:spawnEgg:227, Spawn Pinnath Gelin Banner Bearer
+lotr:item.lotr:spawnEgg:228, Spawn Blackroot Vale Soldier
+lotr:item.lotr:spawnEgg:229, Spawn Blackroot Vale Banner Bearer
+lotr:item.lotr:spawnEgg:230, Spawn Blackroot Vale Bowman
+lotr:item.lotr:spawnEgg:231, Spawn Gondor Levyman
+lotr:item.lotr:spawnEgg:232, Spawn Nan Ungol Banner Bearer
+lotr:item.lotr:spawnEgg:233, Spawn Minas Morgul Banner Bearer
+lotr:item.lotr:spawnEgg:234, Spawn Dol Amroth Man-at-arms
+lotr:item.lotr:spawnEgg:235, Spawn Dol Amroth Archer
+lotr:item.lotr:spawnEgg:236, Spawn Gondor Farmer
+lotr:item.lotr:spawnEgg:237, Spawn Gondor Farmhand
+lotr:item.lotr:spawnEgg:238, Spawn Lebennin Levyman
+lotr:item.lotr:spawnEgg:239, Spawn Lebennin Banner Bearer
+lotr:item.lotr:spawnEgg:240, Spawn Gondor Bartender
+lotr:item.lotr:spawnEgg:241, Spawn Gondor Greengrocer
+lotr:item.lotr:spawnEgg:242, Spawn Gondor Lumberman
+lotr:item.lotr:spawnEgg:243, Spawn Gondor Stonemason
+lotr:item.lotr:spawnEgg:244, Spawn Gondor Brewer
+lotr:item.lotr:spawnEgg:245, Spawn Gondor Florist
+lotr:item.lotr:spawnEgg:246, Spawn Gondor Butcher
+lotr:item.lotr:spawnEgg:247, Spawn Gondor Fishmonger
+lotr:item.lotr:spawnEgg:248, Spawn Gondor Baker
+lotr:item.lotr:spawnEgg:249, Spawn Lossarnach Captain
+lotr:item.lotr:spawnEgg:250, Spawn Pelargir Commander
+lotr:item.lotr:spawnEgg:251, Spawn Pinnath Gelin Captain
+lotr:item.lotr:spawnEgg:252, Spawn Blackroot Vale Bowlord
+lotr:item.lotr:spawnEgg:253, Spawn Lebennin Levymaster
+lotr:item.lotr:spawnEgg:254, Spawn Lamedon Warrior
+lotr:item.lotr:spawnEgg:255, Spawn Lamedon Archer
+lotr:item.lotr:spawnEgg:256, Spawn Lamedon Banner Bearer
+lotr:item.lotr:spawnEgg:257, Spawn Lamedon Captain
+lotr:item.lotr:spawnEgg:258, Spawn Lamedon Hillman
 lotr:item.lotr:spawnEgg:800, Spawn Utumno Orc
 lotr:item.lotr:spawnEgg:801, Spawn Utumno Orc Archer
 lotr:item.lotr:spawnEgg:802, Spawn Utumno Warg
@@ -10522,6 +10783,7 @@ lotr:item.lotr:structureSpawner:2, Build Hobbit Tavern
 lotr:item.lotr:structureSpawner:3, Build Hobbit Picnic Bench
 lotr:item.lotr:structureSpawner:4, Build Hobbit Windmill
 lotr:item.lotr:structureSpawner:5, Build Hobbit Farm
+lotr:item.lotr:structureSpawner:6, Build Hay Bales
 lotr:item.lotr:structureSpawner:20, Build Blue Mountains House
 lotr:item.lotr:structureSpawner:21, Build Blue Mountains Stronghold
 lotr:item.lotr:structureSpawner:22, Build Blue Mountains Smithy
@@ -10589,28 +10851,78 @@ lotr:item.lotr:structureSpawner:381, Build Dunlending Tavern
 lotr:item.lotr:structureSpawner:382, Build Dunlending Campfire
 lotr:item.lotr:structureSpawner:383, Build Dunlending Hill Fort
 lotr:item.lotr:structureSpawner:400, Build Gondor Beacon Tower
-lotr:item.lotr:structureSpawner:401, Build Gondor Fortress
+lotr:item.lotr:structureSpawner:401, Build Gondor Watchfort
 lotr:item.lotr:structureSpawner:402, Build Gondor Smithy
 lotr:item.lotr:structureSpawner:403, Build Gondor Turret
 lotr:item.lotr:structureSpawner:404, Build Ithilien Hideout
-lotr:item.lotr:structureSpawner:420, Build Ruined Gondor Beacon Tower
-lotr:item.lotr:structureSpawner:421, Build Ruined Gondor Watchtower
-lotr:item.lotr:structureSpawner:422, Build Gondor Obelisk
-lotr:item.lotr:structureSpawner:423, Build Gondor Ruin
-lotr:item.lotr:structureSpawner:440, Build Dol Amroth Stables
-lotr:item.lotr:structureSpawner:500, Build Mordor Tower
-lotr:item.lotr:structureSpawner:501, Build Mordor Tent
-lotr:item.lotr:structureSpawner:502, Build Mordor Forge Tent
-lotr:item.lotr:structureSpawner:503, Build Mordor Warg Pit
-lotr:item.lotr:structureSpawner:550, Build Núrn Wheat Farm
-lotr:item.lotr:structureSpawner:551, Build Núrn Slaver Tower
-lotr:item.lotr:structureSpawner:570, Build Mordor Spider Pit
+lotr:item.lotr:structureSpawner:405, Build Gondor Hut
+lotr:item.lotr:structureSpawner:406, Build Gondor Cottage
+lotr:item.lotr:structureSpawner:407, Build Gondor House
+lotr:item.lotr:structureSpawner:408, Build Gondor Watchtower
+lotr:item.lotr:structureSpawner:409, Build Gondor Stables
+lotr:item.lotr:structureSpawner:410, Build Gondor Barn
+lotr:item.lotr:structureSpawner:411, Build Gondor Fortress
+lotr:item.lotr:structureSpawner:412, Build Gondor Tavern
+lotr:item.lotr:structureSpawner:413, Build Gondor Well
+lotr:item.lotr:structureSpawner:414, Build Gondor Village Farm
+lotr:item.lotr:structureSpawner:415, Build Gondor Village Pasture
+lotr:item.lotr:structureSpawner:416, Build Gondor Village Garden
+lotr:item.lotr:structureSpawner:417, Build Gondor Greengrocer's Stall
+lotr:item.lotr:structureSpawner:418, Build Gondor Lumberman's Stall
+lotr:item.lotr:structureSpawner:419, Build Gondor Stonemason's Stall
+lotr:item.lotr:structureSpawner:420, Build Gondor Brewer's Stall
+lotr:item.lotr:structureSpawner:421, Build Gondor Florist's Stall
+lotr:item.lotr:structureSpawner:422, Build Gondor Butcher's Stall
+lotr:item.lotr:structureSpawner:423, Build Gondor Fishmonger's Stall
+lotr:item.lotr:structureSpawner:424, Build Gondor Farmer's Stall
+lotr:item.lotr:structureSpawner:425, Build Gondor Blacksmith's Stall
+lotr:item.lotr:structureSpawner:426, Build Gondor Baker's Stall
+lotr:item.lotr:structureSpawner:427, Build Gondor Village Signpost
+lotr:item.lotr:structureSpawner:428, Build Gondor Bathhouse
+lotr:item.lotr:structureSpawner:429, Build Gondor Gatehouse
+lotr:item.lotr:structureSpawner:430, Build Gondor Lamp-post
+lotr:item.lotr:structureSpawner:431, Build Gondor Town Garden
+lotr:item.lotr:structureSpawner:432, Build Gondor Town Treerow
+lotr:item.lotr:structureSpawner:433, Build Gondor Town Bench
+lotr:item.lotr:structureSpawner:450, Build Ruined Gondor Beacon Tower
+lotr:item.lotr:structureSpawner:451, Build Ruined Gondor Watchtower
+lotr:item.lotr:structureSpawner:452, Build Gondor Obelisk
+lotr:item.lotr:structureSpawner:453, Build Gondor Ruin
+lotr:item.lotr:structureSpawner:500, Build Dol Amroth Stables
+lotr:item.lotr:structureSpawner:501, Build Dol Amroth Watchtower
+lotr:item.lotr:structureSpawner:502, Build Dol Amroth Watchfort
+lotr:item.lotr:structureSpawner:510, Build Lossarnach Fortress
+lotr:item.lotr:structureSpawner:511, Build Lossarnach Watchtower
+lotr:item.lotr:structureSpawner:512, Build Lossarnach Watchfort
+lotr:item.lotr:structureSpawner:520, Build Lebennin Fortress
+lotr:item.lotr:structureSpawner:521, Build Lebennin Watchtower
+lotr:item.lotr:structureSpawner:522, Build Lebennin Watchfort
+lotr:item.lotr:structureSpawner:530, Build Pelargir Fortress
+lotr:item.lotr:structureSpawner:531, Build Pelargir Watchtower
+lotr:item.lotr:structureSpawner:532, Build Pelargir Watchfort
+lotr:item.lotr:structureSpawner:540, Build Pinnath Gelin Fortress
+lotr:item.lotr:structureSpawner:541, Build Pinnath Gelin Watchtower
+lotr:item.lotr:structureSpawner:542, Build Pinnath Gelin Watchfort
+lotr:item.lotr:structureSpawner:550, Build Blackroot Vale Fortress
+lotr:item.lotr:structureSpawner:551, Build Blackroot Vale Watchtower
+lotr:item.lotr:structureSpawner:552, Build Blackroot Vale Watchfort
+lotr:item.lotr:structureSpawner:560, Build Lamedon Fortress
+lotr:item.lotr:structureSpawner:561, Build Lamedon Watchtower
+lotr:item.lotr:structureSpawner:562, Build Lamedon Watchfort
+lotr:item.lotr:structureSpawner:600, Build Mordor Tower
+lotr:item.lotr:structureSpawner:601, Build Mordor Tent
+lotr:item.lotr:structureSpawner:602, Build Mordor Forge Tent
+lotr:item.lotr:structureSpawner:603, Build Mordor Warg Pit
+lotr:item.lotr:structureSpawner:650, Build Núrn Wheat Farm
+lotr:item.lotr:structureSpawner:651, Build Núrn Slaver Tower
+lotr:item.lotr:structureSpawner:670, Build Mordor Spider Pit
 lotr:item.lotr:structureSpawner:700, Build Dorwinion Garden
 lotr:item.lotr:structureSpawner:701, Build Vintner Guard Tent
 lotr:item.lotr:structureSpawner:702, Build Vintner Guard Captain Tent
 lotr:item.lotr:structureSpawner:703, Build Dorwinion House
 lotr:item.lotr:structureSpawner:704, Build Dorwinion Brewery
 lotr:item.lotr:structureSpawner:705, Build Dorwinion Elf House
+lotr:item.lotr:structureSpawner:706, Build Dorwinion Bathhouse
 lotr:item.lotr:structureSpawner:1000, Build Harad Obelisk
 lotr:item.lotr:structureSpawner:1001, Build Near Harad House
 lotr:item.lotr:structureSpawner:1002, Build Near Harad Large House
@@ -10935,6 +11247,19 @@ lotr:item.lotr:banner:18, Banner of the Tauredain
 lotr:item.lotr:banner:19, Banner of Dale
 lotr:item.lotr:banner:20, Banner of Dorwinion
 lotr:item.lotr:banner:21, Banner of the Hobbits
+lotr:item.lotr:banner:22, Banner of Anórien
+lotr:item.lotr:banner:23, Banner of Ithilien
+lotr:item.lotr:banner:24, Banner of Lossarnach
+lotr:item.lotr:banner:25, Banner of Lebennin
+lotr:item.lotr:banner:26, Banner of Pelargir
+lotr:item.lotr:banner:27, Banner of Blackroot Vale
+lotr:item.lotr:banner:28, Banner of Pinnath Gelin
+lotr:item.lotr:banner:29, Banner of Minas Morgul
+lotr:item.lotr:banner:30, Banner of the Black Uruks
+lotr:item.lotr:banner:31, Banner of the Stewards of Gondor
+lotr:item.lotr:banner:32, Banner of Nan Ungol
+lotr:item.lotr:banner:33, Banner of the Rhudaur Hillmen
+lotr:item.lotr:banner:34, Banner of Lamedon
 lotr:item.lotr:sulfurMatch, Sulfur Match
 lotr:item.lotr:swordAngmar, Angmar Sword
 lotr:item.lotr:daggerAngmar, Angmar Dagger
@@ -10951,7 +11276,7 @@ lotr:item.lotr:bodyAngmar, Angmar Chestplate
 lotr:item.lotr:legsAngmar, Angmar Leggings
 lotr:item.lotr:bootsAngmar, Angmar Boots
 lotr:item.lotr:mango, Mango
-lotr:item.lotr:mugMangoJuice, Mango Juice
+lotr:item.lotr:mugMangoJuice:0, Mango Juice
 lotr:item.lotr:banana, Banana
 lotr:item.lotr:bananaBread, Banana Bread
 lotr:item.lotr:bananaCake, Banana Cake
@@ -11143,11 +11468,11 @@ lotr:item.lotr:mugTorogDraught:2, Torog Draught
 lotr:item.lotr:mugTorogDraught:3, Torog Draught
 lotr:item.lotr:mugTorogDraught:4, Torog Draught
 lotr:item.lotr:berryPie, Berry Pie
-lotr:item.lotr:mugBlueberryJuice, Blueberry Juice
-lotr:item.lotr:mugBlackberryJuice, Blackberry Juice
-lotr:item.lotr:mugRaspberryJuice, Raspberry Juice
-lotr:item.lotr:mugCranberryJuice, Cranberry Juice
-lotr:item.lotr:mugElderberryJuice, Elderberry Juice
+lotr:item.lotr:mugBlueberryJuice:0, Blueberry Juice
+lotr:item.lotr:mugBlackberryJuice:0, Blackberry Juice
+lotr:item.lotr:mugRaspberryJuice:0, Raspberry Juice
+lotr:item.lotr:mugCranberryJuice:0, Cranberry Juice
+lotr:item.lotr:mugElderberryJuice:0, Elderberry Juice
 lotr:item.lotr:rhinoArmorHalfTroll, Half-troll Rhino Armor
 lotr:item.lotr:helmetDwarvenSilver, Silver-trimmed Dwarven Helmet
 lotr:item.lotr:bodyDwarvenSilver, Silver-trimmed Dwarven Chestplate
@@ -11193,20 +11518,20 @@ lotr:item.lotr:bootsBone, Bone Boots
 lotr:item.lotr:cram, Cram
 lotr:item.lotr:throwingAxeBronze, Bronze Throwing Axe
 lotr:item.lotr:throwingAxeIron, Iron Throwing Axe
-lotr:item.lotr:bossTrophy:0, Mountain Troll Chieftain Skull
+lotr:item.lotr:bossTrophy:0, Hill-troll Chieftain Skull
 lotr:item.lotr:bossTrophy:1, Mallorn Ent Trunk
 lotr:item.lotr:swordGondolin, Gondolinian Sword
 lotr:item.lotr:maceMallornCharred, Charred Mallorn Mace
 lotr:item.lotr:lemon, Lemon
 lotr:item.lotr:lemonCake, Lemon Cake
 lotr:item.lotr:orange, Orange
-lotr:item.lotr:mugOrangeJuice, Orange Juice
+lotr:item.lotr:mugOrangeJuice:0, Orange Juice
 lotr:item.lotr:mugLemonLiqueur:0, Lemon Liqueur
 lotr:item.lotr:mugLemonLiqueur:1, Lemon Liqueur
 lotr:item.lotr:mugLemonLiqueur:2, Lemon Liqueur
 lotr:item.lotr:mugLemonLiqueur:3, Lemon Liqueur
 lotr:item.lotr:mugLemonLiqueur:4, Lemon Liqueur
-lotr:item.lotr:mugLemonade, Lemonade
+lotr:item.lotr:mugLemonade:0, Lemonade
 lotr:item.lotr:helmetGondolin, Gondolinian Helmet
 lotr:item.lotr:bodyGondolin, Gondolinian Chestplate
 lotr:item.lotr:legsGondolin, Gondolinian Leggings
@@ -11270,7 +11595,7 @@ lotr:item.lotr:helmetTauredainGold, Golden Tauredain Helmet
 lotr:item.lotr:bodyTauredainGold, Golden Tauredain Chestplate
 lotr:item.lotr:legsTauredainGold, Golden Tauredain Leggings
 lotr:item.lotr:bootsTauredainGold, Golden Tauredain Boots
-lotr:item.lotr:mugTauredainCure, Jungle Remedy
+lotr:item.lotr:mugTauredainCure:0, Jungle Remedy
 lotr:item.lotr:tauredainAmulet, Tauredain Amulet
 lotr:item.lotr:pikeDwarven, Dwarven Pike
 lotr:item.lotr:pikeBlueDwarven, Blue Dwarven Pike
@@ -11330,7 +11655,7 @@ lotr:item.lotr:bootsDorwinionElf, Dorwinion Elven Boots
 lotr:item.lotr:spearBladorthin, Spear of Bladorthin
 lotr:item.lotr:olive, Olives
 lotr:item.lotr:daleBow, Dalish Longbow
-lotr:item.lotr:mugAppleJuice, Apple Juice
+lotr:item.lotr:mugAppleJuice:0, Apple Juice
 lotr:item.lotr:horseArmorDale, Dalish Horse Armor
 lotr:item.lotr:npcRespawner, NPC Respawner
 lotr:item.lotr:helmetRangerIthilien, Ithilien Ranger Hood
@@ -11361,12 +11686,82 @@ lotr:item.lotr:mugWhiteWine:1, White Wine
 lotr:item.lotr:mugWhiteWine:2, White Wine
 lotr:item.lotr:mugWhiteWine:3, White Wine
 lotr:item.lotr:mugWhiteWine:4, White Wine
-lotr:item.lotr:mugRedGrapeJuice, Red Grape Juice
-lotr:item.lotr:mugWhiteGrapeJuice, Green Grape Juice
+lotr:item.lotr:mugRedGrapeJuice:0, Red Grape Juice
+lotr:item.lotr:mugWhiteGrapeJuice:0, Green Grape Juice
 lotr:item.lotr:polearmAngmar, Angmar Poleaxe
 lotr:item.lotr:pikeDolGuldur, Dol Guldur Spike
 lotr:item.lotr:turnipCooked, Roast Turnip
 lotr:item.lotr:kineArawHorn, Kine of Araw Horn
+lotr:item.lotr:melonSoup, Melon Soup
+lotr:item.lotr:ceramicMug, Ceramic Mug
+lotr:item.lotr:pikeNearHarad, Near Harad Pike
+lotr:item.lotr:almond, Almond
+lotr:item.lotr:wildberry, Wildberries
+lotr:item.lotr:blackrootStick, Blackroot Stick
+lotr:item.lotr:plum, Plum
+lotr:item.lotr:helmetLossarnach, Lossarnach Helmet
+lotr:item.lotr:bodyLossarnach, Lossarnach Chestplate
+lotr:item.lotr:legsLossarnach, Lossarnach Leggings
+lotr:item.lotr:bootsLossarnach, Lossarnach Boots
+lotr:item.lotr:helmetPelargir, Pelargir Helmet
+lotr:item.lotr:bodyPelargir, Pelargir Chestplate
+lotr:item.lotr:legsPelargir, Pelargir Leggings
+lotr:item.lotr:bootsPelargir, Pelargir Boots
+lotr:item.lotr:helmetPinnathGelin, Pinnath Gelin Helmet
+lotr:item.lotr:bodyPinnathGelin, Pinnath Gelin Chestplate
+lotr:item.lotr:legsPinnathGelin, Pinnath Gelin Leggings
+lotr:item.lotr:bootsPinnathGelin, Pinnath Gelin Boots
+lotr:item.lotr:battleaxeLossarnach, Lossarnach Battleaxe
+lotr:item.lotr:throwingAxeLossarnach, Lossarnach Throwing Axe
+lotr:item.lotr:swordPelargir, Pelargir Eket
+lotr:item.lotr:tridentPelargir, Pelargir Trident
+lotr:item.lotr:mugMorgulDraught:0, Morgul-draught
+lotr:item.lotr:mugMorgulDraught:1, Morgul-draught
+lotr:item.lotr:mugMorgulDraught:2, Morgul-draught
+lotr:item.lotr:mugMorgulDraught:3, Morgul-draught
+lotr:item.lotr:mugMorgulDraught:4, Morgul-draught
+lotr:item.lotr:helmetBlackroot, Blackroot Vale Helmet
+lotr:item.lotr:bodyBlackroot, Blackroot Vale Chestplate
+lotr:item.lotr:legsBlackroot, Blackroot Vale Leggings
+lotr:item.lotr:bootsBlackroot, Blackroot Vale Boots
+lotr:item.lotr:blackrootBow, Blackroot Bow
+lotr:item.lotr:pikeGondor, Gondorian Pike
+lotr:item.lotr:bodyDolAmrothGambeson, Dol Amroth Gambeson
+lotr:item.lotr:legsDolAmrothGambeson, Dol Amroth Chaps
+lotr:item.lotr:longspearDolAmroth, Dol Amroth Longspear
+lotr:item.lotr:mugPlumKvass:0, Plum Kvass
+lotr:item.lotr:mugPlumKvass:1, Plum Kvass
+lotr:item.lotr:mugPlumKvass:2, Plum Kvass
+lotr:item.lotr:mugPlumKvass:3, Plum Kvass
+lotr:item.lotr:mugPlumKvass:4, Plum Kvass
+lotr:item.lotr:bodyGondorGambeson, Gondorian Gambeson
+lotr:item.lotr:bodyLebenninGambeson, Lebennin Gambeson
+lotr:item.lotr:spearStone, Stone Spear
+lotr:item.lotr:marzipan, Marchpane
+lotr:item.lotr:marzipanChocolate, Chocolate Marchpane
+lotr:item.lotr:daleCracker:0, Dalish Cracker
+lotr:item.lotr:daleCracker:1, Dalish Cracker
+lotr:item.lotr:daleCracker:2, Dalish Cracker
+lotr:item.lotr:daleCracker:3, Dalish Cracker
+lotr:item.lotr:daleCracker:4, Dalish Cracker
+lotr:item.lotr:partyHat, Party Hat
+lotr:item.lotr:helmetLamedon, Lamedon Helmet
+lotr:item.lotr:bodyLamedon, Lamedon Chestplate
+lotr:item.lotr:legsLamedon, Lamedon Leggings
+lotr:item.lotr:bootsLamedon, Lamedon Boots
+lotr:item.lotr:horseArmorLamedon, Lamedon Horse Armor
+lotr:item.lotr:bodyLamedonJacket, Lamedon Jacket
+lotr:item.lotr:gobletGold, Golden Goblet
+lotr:item.lotr:gobletSilver, Silver Goblet
+lotr:item.lotr:gobletCopper, Copper Goblet
+lotr:item.lotr:gobletWood, Wooden Cup
+lotr:item.lotr:skullCup, Skull Cup
+lotr:item.lotr:wineGlass, Wine Glass
+lotr:item.lotr:bodyDaleGambeson, Dalish Gambeson
+lotr:item.lotr:waterskin, Waterskin
+lotr:item.lotr:aleHorn, Ale Horn
+lotr:item.lotr:aleHornGold, Golden Ale Horn
+lotr:item.lotr:horn, Horn
 AgriCraft:seedPotato, Potato Seeds
 AgriCraft:seedCarrot, Carrot Seeds
 AgriCraft:seedSugarcane, Sugarcane Seeds
@@ -11632,6 +12027,132 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Hay Bale
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Hardened Clay
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Coal
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Packed Ice
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
+appliedenergistics2:item.ItemFacade:0, Cable Facade
 appliedenergistics2:item.ItemFacade:0, Cable Facade
 appliedenergistics2:item.ItemFacade:0, Cable Facade
 appliedenergistics2:item.ItemFacade:0, Cable Facade
@@ -14594,11 +15115,11 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Copper
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Carving Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fluxed Electrum Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Flux Crystal Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Curious Hive
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Unusual Hive
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Resonating Hive
@@ -14906,59 +15427,59 @@ Aquaculture:item.Fish:37, Goldfish
 Aquaculture:item.Fish:38, Fish Bones
 Baubles:Ring:0, Miner's Ring
 Artifacts:artifact:0, Artifact
-Artifacts:artifact:0, Bouncing Gold Wand of Fireworks
-Artifacts:artifact:0, Rejuvenating Gold Amulet of Flight
-Artifacts:artifact:0, Webbing Gold Figurine of Repair
-Artifacts:artifact:0, Sturdy Wood Wand of Renew
-Artifacts:artifact:0, Digger's Gold Ring of Repair
-Artifacts:artifact:0, Refreshing Diamond Amulet of Excavation
-Artifacts:artifact:0, Repairing Stone Staff of Hermes
-Artifacts:artifact:0, Swift Gold Figurine of Cloaking
+Artifacts:artifact:0, Digging Gold Figurine of Armor
+Artifacts:artifact:0, Incinerating Wood Figurine of Fireworks
+Artifacts:artifact:0, Killing Gold Amulet of Protection
+Artifacts:artifact:0, Stone Staff of Excavation
+Artifacts:artifact:0, Jumpy Iron Ring
+Artifacts:artifact:0, Webbing Diamond Figurine of Health
+Artifacts:artifact:0, Recharging Stone Staff of Leaping
+Artifacts:artifact:0, Illuminating Iron Wand of Healing
 Artifacts:artifact_leather_chestplate:0, Artifact Leather Armor
-Artifacts:artifact_leather_chestplate:0, Blast Protection Leather Helm of Obscurity
-Artifacts:artifact_leather_chestplate:0, Regenerative Leather Helm of Leaping
-Artifacts:artifact_leather_chestplate:0, Leather Helm of Noms
-Artifacts:artifact_leather_chestplate:0, Invisible Sensing Leather Helm of Health
-Artifacts:artifact_leather_chestplate:0, Recharging Leather Pants of Toughness
-Artifacts:artifact_leather_chestplate:0, Breathy Leather Pants of Toughness
-Artifacts:artifact_leather_chestplate:0, Recharging Leather Chestplate of Healing
-Artifacts:artifact_leather_chestplate:0, Healing Leather Chestplate of Noms
+Artifacts:artifact_leather_chestplate:0, Sensing Leather Helm of Saturation
+Artifacts:artifact_leather_chestplate:0, Fire Protection Healing Leather Pants of Finding
+Artifacts:artifact_leather_chestplate:0, Protection Sensitive Leather Pants of Darkvision
+Artifacts:artifact_leather_chestplate:0, Leather Chestplate of Swiftness
+Artifacts:artifact_leather_chestplate:0, Refreshing Leather Chestplate
+Artifacts:artifact_leather_chestplate:0, Leather Helm of Fresh Air
+Artifacts:artifact_leather_chestplate:0, Guarding Leather Pants of Repair
+Artifacts:artifact_leather_chestplate:0, Sensitive Leather Helm of Lightness
 Artifacts:artifact_chainmail_chestplate:0, Artifact Chainmail Armor
-Artifacts:artifact_chainmail_chestplate:0, Hidden Chain Pants
-Artifacts:artifact_chainmail_chestplate:0, Hidden Chain Helm of Repair
-Artifacts:artifact_chainmail_chestplate:0, Shielding Chain Helm of Saturation
-Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Rejuvenation
-Artifacts:artifact_chainmail_chestplate:0, Jumpy Chain Pants of Stability
-Artifacts:artifact_chainmail_chestplate:0, Floating Chain Chestplate
-Artifacts:artifact_chainmail_chestplate:0, Swift Chain Boots of Breathing
-Artifacts:artifact_chainmail_chestplate:0, Healing Chain Pants of Speed
+Artifacts:artifact_chainmail_chestplate:0, Sensing Chain Helm of Finding
+Artifacts:artifact_chainmail_chestplate:0, Quick Chain Boots of Stability
+Artifacts:artifact_chainmail_chestplate:0, Chain Pants of Movement
+Artifacts:artifact_chainmail_chestplate:0, Invisible Recharging Chain Pants of Healing
+Artifacts:artifact_chainmail_chestplate:0, Chain Boots of Rejuvenation
+Artifacts:artifact_chainmail_chestplate:0, Stable Chain Chestplate of Movement
+Artifacts:artifact_chainmail_chestplate:0, Sensitive Chain Helm of Rejuvenation
+Artifacts:artifact_chainmail_chestplate:0, Repairing Chain Chestplate of Saturation
 Artifacts:artifact_iron_chestplate:0, Artifact Iron Armor
-Artifacts:artifact_iron_chestplate:0, Iron Helm of Protection
-Artifacts:artifact_iron_chestplate:0, Guarding Iron Boots
-Artifacts:artifact_iron_chestplate:0, Refreshing Iron Chestplate of Repair
-Artifacts:artifact_iron_chestplate:0, Regenerative Iron Chestplate of Breathing
-Artifacts:artifact_iron_chestplate:0, Quick Iron Boots of Cloaking
-Artifacts:artifact_iron_chestplate:0, Floating Iron Helm of Rejuvenation
-Artifacts:artifact_iron_chestplate:0, Rejuvenating Iron Helm of Saturation
-Artifacts:artifact_iron_chestplate:0, Iron Pants of Armor
+Artifacts:artifact_iron_chestplate:0, Refreshing Iron Helm of Rejuvenation
+Artifacts:artifact_iron_chestplate:0, Regenerative Iron Chestplate of Stability
+Artifacts:artifact_iron_chestplate:0, Bouncing Iron Pants
+Artifacts:artifact_iron_chestplate:0, Bulky Iron Pants of Darkvision
+Artifacts:artifact_iron_chestplate:0, Healing Iron Chestplate of Seeing
+Artifacts:artifact_iron_chestplate:0, Resistance Recharging Iron Pants of Finding
+Artifacts:artifact_iron_chestplate:0, Recharging Iron Chestplate of Finding
+Artifacts:artifact_iron_chestplate:0, Swift Iron Pants of Finding
 Artifacts:artifact_golden_chestplate:0, Artifact Golden Armor
-Artifacts:artifact_golden_chestplate:0, Light Gold Pants of Repair
-Artifacts:artifact_golden_chestplate:0, Stable Gold Pants of Rejuvenation
-Artifacts:artifact_golden_chestplate:0, Reinvigorating Gold Pants of Saturation
-Artifacts:artifact_golden_chestplate:0, Refreshing Gold Chestplate of Darkvision
-Artifacts:artifact_golden_chestplate:0, Thorns Hidden Gold Chestplate
-Artifacts:artifact_golden_chestplate:0, Healing Gold Pants of Repair
-Artifacts:artifact_golden_chestplate:0, Swift Gold Pants of Seeing
-Artifacts:artifact_golden_chestplate:0, Unbreaking Gold Chestplate of Regeneration
+Artifacts:artifact_golden_chestplate:0, Aerated Gold Helm of the Sun
+Artifacts:artifact_golden_chestplate:0, Well Fed Gold Helm of Lightness
+Artifacts:artifact_golden_chestplate:0, Gold Chestplate of Seeing
+Artifacts:artifact_golden_chestplate:0, Gold Boots of Toughness
+Artifacts:artifact_golden_chestplate:0, Regenerative Gold Boots of Noms
+Artifacts:artifact_golden_chestplate:0, Refreshing Gold Helm of Rejuvenation
+Artifacts:artifact_golden_chestplate:0, Quick Gold Boots of Toughness
+Artifacts:artifact_golden_chestplate:0, Gold Chestplate of Toughness
 Artifacts:artifact_diamond_chestplate:0, Artifact Diamond Armor
-Artifacts:artifact_diamond_chestplate:0, Floating Diamond Pants of Healing
-Artifacts:artifact_diamond_chestplate:0, Sensitive Diamond Pants
-Artifacts:artifact_diamond_chestplate:0, Shielding Diamond Helm
-Artifacts:artifact_diamond_chestplate:0, Stable Diamond Boots of the Sun
-Artifacts:artifact_diamond_chestplate:0, Regenerative Diamond Pants of Speed
-Artifacts:artifact_diamond_chestplate:0, Swift Diamond Pants of Health
-Artifacts:artifact_diamond_chestplate:0, Floating Diamond Boots
-Artifacts:artifact_diamond_chestplate:0, Guarding Diamond Chestplate of Lightness
+Artifacts:artifact_diamond_chestplate:0, Diamond Pants of Lightness
+Artifacts:artifact_diamond_chestplate:0, Diamond Pants of Seeing
+Artifacts:artifact_diamond_chestplate:0, Stable Diamond Pants of Leaping
+Artifacts:artifact_diamond_chestplate:0, Healing Diamond Helm of Seeing
+Artifacts:artifact_diamond_chestplate:0, Regenerative Diamond Pants of Cloaking
+Artifacts:artifact_diamond_chestplate:0, Diamond Pants of Movement
+Artifacts:artifact_diamond_chestplate:0, Sensitive Diamond Pants of Obscurity
+Artifacts:artifact_diamond_chestplate:0, Floating Diamond Helm of Noms
 Artifacts:dust_orichalcum:0, Raw Manaesence
 Artifacts:dust_orichalcum:1, Wood infused Manaesence
 Artifacts:dust_orichalcum:2, Stone infused Manaesence
